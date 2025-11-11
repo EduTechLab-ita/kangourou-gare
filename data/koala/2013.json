@@ -14,7 +14,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Quali cifre sono state dimenticate?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_1.png",
       "opzioni": {
         "A": "3 e 5",
         "B": "4 e 8",
@@ -29,7 +29,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Vi sono 12 libri sullo scaffale e quattro ragazzi nella stanza.  Quanti libri rimangono sullo scaffale se ogni ragazzo prende un libro?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_1.png",
       "opzioni": {
         "A": "12",
         "B": "8",
@@ -44,7 +44,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Quale dei seguenti abiti ha meno di 7 bottoni, ma più di 5 bottoni?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_1.png",
       "opzioni": {
         "A": "B)",
         "B": "C)",
@@ -58,7 +58,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Nelle immagini seguenti vi sono canguri bianchi, grigi e neri. Quale di esse ha più canguri neri che canguri bianchi?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_1.png",
       "opzioni": {
         "A": "B)",
         "B": "C)",
@@ -72,7 +72,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Il muro a sinistra è formato da 4 file di mattoni. Con lo stesso \ncriterio è stato costruito il muro a destra formato da 5 file di mattoni. Quanti mattoni dovranno essere aggiunti al muro a destra per ottenere un muro formato da 6 file di mattoni?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_1.png",
       "opzioni": {
         "A": "4",
         "B": "5",
@@ -87,7 +87,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "La pavimentazione in figura è stata effettuata con piastrelle quadrate. Si deve completare il lavoro piastrellando la parte bianca (croce interna) con piastrelle dello stesso tipo. Quante piastrelle si devono utilizzare?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_1.png",
       "opzioni": {
         "A": "5",
         "B": "6",
@@ -102,7 +102,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Nella figura a destra si vede una torta intera e quello che è rimasto dopo che Carlotta ne ha ritagliato una parte. Qual è questa parte?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_2.png",
       "opzioni": {
         "A": "B)",
         "B": "C)",
@@ -116,7 +116,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Anna ha gli orecchini. Barbara ha dato a Eva la collana rossa. Giovanni ha il cappello e Roberto ha gli occhiali. Chi è Barbara?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_2.png",
       "opzioni": {
         "A": "B)",
         "B": "C)",
@@ -131,7 +131,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Il babbo dà 5 mele a ciascuno dei suoi 3 figli. Anna dà 3 mele a Sonia e poi Sonia dà metà delle sue mele a Michele. Quante mele ha ora Michele?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_2.png",
       "opzioni": {
         "A": "4",
         "B": "5",
@@ -146,7 +146,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Osserva la figura. Giorgio ha 2 gatti dello stesso peso. Qual è il peso di un gatto se sappiamo che Giorgio pesa 30 chili?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_2.png",
       "opzioni": {
         "A": "1 chilo",
         "B": "2 chili",
@@ -161,7 +161,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Nella striscia, quale quadrato appare più volte di tutti gli altri?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_2.png",
       "opzioni": {
         "A": "B)",
         "B": "C)",
@@ -176,7 +176,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Percorrendo liberamente questo labirinto, il coniglio mangia tutte le carote che può incontrare. Quante carote avrà mangiato alla fine ?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_2.png",
       "opzioni": {
         "A": "7",
         "B": "8",
@@ -191,7 +191,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Il gatto e il topo seguono il percorso da sinistra verso destra. Ogni volta che il topo passa da una casella alla successiva, il gatto ne percorre \ndue. In quale casella il gatto raggiungerà il topo?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_3.png",
       "opzioni": {
         "A": "1",
         "B": "2",
@@ -206,7 +206,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Pietro costruisce il podio illustrato in figura. Quanti cubi ha usato?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_3.png",
       "opzioni": {
         "A": "12",
         "B": "18",
@@ -221,7 +221,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "In una famiglia vi sono cinque figli. Daniela è 2 anni più vecchia di Betta, ma 2 anni più giovane di Caterina. Edoardo è 3 anni più vecchio di \nAnna. Betta e Anna sono gemelle. Chi è il più vecchio fra tutti i 5 figli?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_3.png",
       "opzioni": {
         "A": "Anna",
         "B": "Betta",
@@ -236,7 +236,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Osservate la figura che rappresenta una sequenza di posizioni della lettera A. Qual è la successiva?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_3.png",
       "opzioni": {
         "A": "B)",
         "B": "C)",
@@ -251,7 +251,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Isabella ha 3 fratelli e 3 sorelle. Quanti fratelli e quante sorelle ha suo fratello Matteo?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_3.png",
       "opzioni": {
         "A": "3 fratelli e 3 sorelle.",
         "B": "3 fratelli e 4 sorelle.",
@@ -266,7 +266,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Giocando con pere, mele, fragole e prugne sono possibili gli scambi illustrati in figura. Ada ha 6 pere. Quante fragole potrà avere Ada se scambiatutte le sue pere per ottenere solo fragole?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_3.png",
       "opzioni": {
         "A": "12",
         "B": "36",
@@ -281,7 +281,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Anna dispone di un foglio di carta quadrato come il seguente. Da esso ritaglia alcuni pezzi come quello illustrato nella seconda figura.  Quanti pezzi può ottenere al massimo ?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_4.png",
       "opzioni": {
         "A": "1",
         "B": "2",
@@ -296,7 +296,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Sofia ha costruito una riga di 10 casette usando i fiammiferi. Nella figura puoi vedere l’inizio della riga. Quanti fiammiferi ha usato Sofia in totale?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_4.png",
       "opzioni": {
         "A": "50",
         "B": "51",
@@ -311,7 +311,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "La figura mostra un muretto da cui è caduta una piastrella.Carolina ha le tre piastrelle di riserva che vedi sotto.\n       \npiastrella X              piastrella Y                    piastrella Z\nQuali piastrelle può utilizzare per ricomporre il muro?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_4.png",
       "opzioni": {
         "A": "X e Z , ma non Y .",
         "B": "X e Y , ma non Z.",
@@ -326,7 +326,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Anna ha una moneta da 5 centesimi, una moneta da 10 centesimi, una moneta da 20 centesimi ed una moneta da 50 centesimi. \nQuante diverse somme di denaro può realizzare con queste monete?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_4.png",
       "opzioni": {
         "A": "4",
         "B": "7",
@@ -341,7 +341,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Angela costruisce un grande cubo incollando fra loro 27 cubetti bianchi. Poi dipinge tutte le facce del grande cubo con la vernice verde. Quindi Angela rimuove un cubetto da quattro degli otto vertici del cubo, ottenendo l’oggetto mostrato nella figura.Quando la vernice è ancora fresca, “timbra” ognuna delle nuove facce su un foglio di carta.Quanti dei seguenti “timbri” possono essere stati fatti da Angela?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_4.png",
       "opzioni": {
         "A": "1",
         "B": "2",
@@ -356,7 +356,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Una scatola quadrata è riempita da due strati di quadratini di cioccolato tutti uguali fra loro. Isabella ha mangiato tutti i 20 qua-\ndratini dello strato superiore che si trovavano lungo il bordo della scatola. Quanti quadratini di cioccolato sono rimasti nella scatola?",
-      "immagine": null,
+      "immagine": "images/koala-2013/page_4.png",
       "opzioni": {
         "A": "16",
         "B": "30",

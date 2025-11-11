@@ -14,7 +14,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Rita paga 7 euro per comperare tre articoli di cartoleria, di prezzi tutti diversi fra \nloro. Il prezzo in euro di ogni articolo è un numero intero. Quanti euro costa il più caro?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_1.png",
       "opzioni": {
         "A": "2",
         "B": "3",
@@ -29,7 +29,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Quanti di questi quadrati sono scomposti dalla linea tracciata al loro interno in due \nforme non sovrapponibili?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_1.png",
       "opzioni": {
         "A": "Nessuno.",
         "B": "1",
@@ -44,7 +44,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Osserva la figura. L’incendio è scoppiato a un piano molto \nalto: il vigile del fuoco è arrivato quattro piani sotto, nel pun -\nto indicato, ma non può compiere alcun tipo di salto. Qual è il \nminimo numero di scale che userà per raggiungere l’incendio?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_1.png",
       "opzioni": {
         "A": "4",
         "B": "5",
@@ -59,7 +59,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Osserva la figura: un gatto ha fatto cadere un cubetto della \ncostruzione di Felice. Prima di questo incidente, quale dei se -\nguenti aspetti avrebbe potuto avere la costruzione di Felice?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_1.png",
       "opzioni": {
         "A": "B)",
         "B": "C)",
@@ -72,7 +72,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Michele aveva scritto 3 numeri consecutivi di 4 cifre su una stessa riga. Ora che sua \nsorella ha cancellato alcune cifre, questo è quanto si vede: _ _ _ 7, _ 898, 48 _ _\nQuali sono le cifre mancanti, da sinistra a destra? \nNota: un esempio di 3 numeri consecutivi di 4 cifre è dato da 2023, 2024, 2025 .",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_1.png",
       "opzioni": {
         "A": "389, 3, 99",
         "B": "489, 3, 96",
@@ -86,7 +86,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "I giocatori di una squadra di calcio sono disposti in cer -\nchio in modo da rispettare l’ordine delle loro maglie, come \nsuggerisce la figura. Ogni giocatore, a partire dal numero 1, \nlancia la palla al terzo giocatore alla sua sinistra. Questa serie \ndi lanci termina nel momento in cui il giocatore che riceve la \npalla dovrebbe lanciarla per la seconda volta. Qual è il nume -\nro dell’ultimo giocatore che ha lanciato la palla?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_1.png",
       "opzioni": {
         "A": "7",
         "B": "8",
@@ -101,7 +101,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "La parete della cucina di Alex è rivestita di pia -\nstrelle bianche e grigie a scacchiera. Ora Alex ha \nappeso sulla parete il poster che vedi in figura. \nQuante piastrelle grigie sono nascoste dal poster?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_2.png",
       "opzioni": {
         "A": "15",
         "B": "21",
@@ -116,7 +116,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "La mamma porta in tavola cinque differenti frutti: una mela, una pera, una arancia, \nun kiwi e una banana. Ciascuno dei cinque figli prende un frutto che gli piace.\n Ad Anna piacciono le arance.\n A Bianca piacciono tutti questi frutti. \n A Carlo piacciono arance, kiwi e banane.\n A Daniele piacciono arance e banane.\n A Emma piacciono pere e kiwi.\nQuale frutto prende Bianca?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_2.png",
       "opzioni": {
         "A": "Arancia.",
         "B": "Banana.",
@@ -130,7 +130,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Lisa vuole sostituire a ciascuna delle cinque lettere in figura \nuno dei numeri 1, 2, 4, 5 e 6, senza ripeterli. Vuole inoltre che \nvalgano 11 tutte e tre le seguenti somme: la somma dei numeri  \nsostituiti ad A, E, e C, quella dei numeri sostituiti a B, E e D e \nquella dei numeri sostituiti a C e D. Che numero dovrà inserire \nLisa nella casella E?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_2.png",
       "opzioni": {
         "A": "1",
         "B": "2",
@@ -145,7 +145,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Quante volte in tutto \nè uscita la faccia “coda”?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_2.png",
       "opzioni": {
         "A": "1",
         "B": "2",
@@ -160,7 +160,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Il rubinetto in figura perde acqua. Sotto di \nesso vedi alcuni vasi numerati, tutti delle stesse \ndimensioni: tre di essi hanno dei tubi di scarico. \nOsserva attentamente la figura: quale vaso si ri -\nempirà per primo?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_2.png",
       "opzioni": {
         "A": "3",
         "B": "4",
@@ -175,7 +175,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Gino il pinguino va a pesca ogni giorno e ogni giorno porta a casa 9 pesci per i suoi \ndue pulcini: 5 pesci li dà al primo pulcino che vede, 4 pesci al secondo; essi mangia -\nno tutti i pesci. Negli ultimi giorni un pulcino ha mangiato 26 pesci. Quanti pesci ha \nmangiato l’altro pulcino negli stessi giorni?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_2.png",
       "opzioni": {
         "A": "19",
         "B": "22",
@@ -190,7 +190,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Quale numero si trova sulla \ncarta indicata col punto di domanda?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_2.png",
       "opzioni": {
         "A": "1",
         "B": "2",
@@ -205,7 +205,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Luca vuole costruire un bruco che ab -\nbia la testa, la coda e 1 o 2 o 3 pezzi a dop -\npio incastro tra la testa e la coda. I pezzi \ndevono incastrarsi bene, senza buchi o sovrapposizioni. In quanti modi può farlo?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_3.png",
       "opzioni": {
         "A": "3",
         "B": "4",
@@ -220,7 +220,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "Giovanni ha un cartoncino con una faccia scura e una chiara. \nEgli scrive i numeri da 1 a 4 sulla faccia scura del cartoncino; poi \nlo ribalta e sul retro scrive i numeri da 5 a 8, nell’ordine indicato \ndalla prima figura. Infine ritaglia il cartoncino in 4 carte rettango -\nlari e le mette in fila come suggerisce la seconda figura. Quanto \nvale la somma dei numeri che dovrebbero essere scritti al posto \ndei punti di domanda?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_3.png",
       "opzioni": {
         "A": "3",
         "B": "4",
@@ -234,7 +234,7 @@
       "punti": 4,
       "difficolta": "media",
       "testo": "La figura a lato mostra una parte di un pavimento. \nEsso è ottenuto con due tipi di piastrelle: rettangoli \ngrigi             e quadrati neri      . La piastrella rettango -\nlare ha lati lunghi 23 cm e 11 cm. Quanti centimetri è \nlungo il lato della piastrella quadrata?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_3.png",
       "opzioni": {
         "A": "3",
         "B": "4",
@@ -248,7 +248,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Come suggerisce la figura, Ada ha costruito una torre con 8 dischi dello \nstesso formato.\n Poi ha rimosso il secondo disco dal fondo di questa torre.\n Poi ha rimosso il terzo disco dal fondo della torre così ottenuta.\n Poi ha rimosso il quarto disco dal fondo della nuova torre.\n Infine ha rimosso il quinto disco dal fondo dell’ultima torre ottenuta.\nQuale delle seguenti è la torre che Ada vede alla fine?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_3.png",
       "opzioni": {
         "A": "B)",
         "B": "C)",
@@ -262,7 +262,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Come vedi in figura, da \nogni numero è stata rimossa una cifra. \nQual è la somma delle tre cifre mancanti?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_131.png",
       "opzioni": {
         "A": "8",
         "B": "9",
@@ -277,7 +277,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Lucia ha un cilindro, un cono e una palla. Pesa a coppie questi oggetti: qui sotto \nvedi il risultato delle pesate.\nQuanto pesa il cilindro?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_4.png",
       "opzioni": {
         "A": "90",
         "B": "100",
@@ -292,7 +292,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Nelle operazioni figurate qui a destra, figure \nuguali rappresentano cifre uguali e figure diverse \nrappresentano cifre diverse:\nQuanto vale                                        ?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_4.png",
       "opzioni": {
         "A": "0",
         "B": "15",
@@ -306,7 +306,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Guarda la figura: ci sono esattamente due rane in ogni riga e \nin ogni colonna. Due rane saltano nello stesso istante e ognuna \natterra in una casella vuota vicina a quella da cui è saltata, cioè \nuna casella che ha con essa un lato in comune. Dopo di ciò ci \nsono ancora due rane in ogni riga e in ogni colonna. In quanti \nmodi ciò può succedere?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_4.png",
       "opzioni": {
         "A": "1",
         "B": "2",
@@ -321,7 +321,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "La figura rappresenta un alveare con 9 celle. Diciamo \nche due celle sono vicine se hanno un lato in comune. In \nalcune celle c’è del miele: il numero in ogni cella indica \nquante celle vicine contengono miele. Quante celle con -\ntengono miele?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_4.png",
       "opzioni": {
         "A": "4",
         "B": "5",
@@ -336,7 +336,7 @@
       "punti": 3,
       "difficolta": "facile",
       "testo": "Quale dei seguenti insiemi di dolcetti è stato preso da una delle ragazze?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_2.png",
       "opzioni": {
         "A": "B)",
         "B": "C)",
@@ -350,7 +350,7 @@
       "punti": 5,
       "difficolta": "difficile",
       "testo": "Ci sono 2 tipi di blocchi: bianchi                e grigi                 . \nUn cubetto può essere composto accostando 4 blocchi bianchi oppure 1 blocco bianco \ne 1 grigio. \nIl cubo grande in figura è fatto di cubetti. \nQual è il più piccolo numero di blocchi bianchi che \npermette di comporre il cubo grande?",
-      "immagine": null,
+      "immagine": "images/kangourou-2024/page_4.png",
       "opzioni": {
         "A": "811",
         "B": "11",
