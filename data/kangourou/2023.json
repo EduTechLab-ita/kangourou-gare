@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "anno": 2023,
+    "tipo": "kangourou",
+    "categoria": "Ecolier",
+    "classi": "4ª e 5ª Primaria",
+    "tempo_minuti": 75,
+    "totale_domande": 24,
+    "punteggio_massimo": 96
+  },
+  "domande": [
+    {
+      "numero": 1,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Aldo ha acceso 5 candele identiche, tutte allo stesso istante. \nOgnuna di esse si è spenta in momenti differenti: il loro aspetto \nattuale è mostrato dalla figura. \nQuale candela si è spenta per prima?",
+      "immagine": null,
+      "opzioni": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 7,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Fra quanti anni saremo per la prima volta in un \nanno la somma delle cui cifre sia ancora 7?",
+      "immagine": null,
+      "opzioni": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10",
+        "E": "11"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 3,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "La figura mostra il quadrante di un orologio e ciò \nche vede Sara dopo avergli sovrapposto un cerchio \nscuro con due buchi. Ora Sara ruota il cerchio intor -\nno al suo centro. Quale di queste coppie di numeri \nè possibile che veda nei buchi dopo la rotazione?",
+      "immagine": null,
+      "opzioni": {
+        "A": "4 e 9",
+        "B": "5 e 9",
+        "C": "5 e 10",
+        "D": "6 e 9",
+        "E": "7 e 12"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 4,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Alice ha i quattro pezzi di cartone che vedi in figura: \nCon due di essi può formare il quadrato qui a lato.\nQuali sono?",
+      "immagine": null,
+      "opzioni": {
+        "A": "1 e 2",
+        "B": "1 e 3",
+        "C": "1 e 4",
+        "D": "3 e 4",
+        "E": "2 e 4"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 5,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "In teatro, un tecnico delle luci accende e spegne luci colorate seguendo questo piano:\nPer quanti minuti in tutto ci sono esattamente due luci accese contemporaneamente?",
+      "immagine": null,
+      "opzioni": {
+        "A": "2",
+        "B": "6",
+        "C": "8",
+        "D": "9"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 6,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Carlo ha fatto dei disegni su un foglio trasparente e poi l’ha \npiegato lungo la linea tratteggiata come mostra la figura.\nQuale di queste immagini ha visto dopo la piegatura?",
+      "immagine": null,
+      "opzioni": {
+        "A": "B)",
+        "B": "C)",
+        "C": "D)",
+        "D": "E)"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 7,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Anna ha 4 dischi di misure differenti. Vuole co -\nstruire una torre sovrapponendo 3 dischi in modo che \nogni disco sia più piccolo del disco su cui appoggia.\nIn quanti modi può farlo?",
+      "immagine": null,
+      "opzioni": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "E": "I quesiti dal N. 9 al N. 16 valgono 4 punti ciascuno"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 9,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Piera vuole ricoprire la forma disegnata qui a lato con le \n5 forme che compaiono nelle risposte. Quale forma andrà a \ncoprire il puntino indicato dalla freccia?",
+      "immagine": null,
+      "opzioni": {
+        "A": "B)",
+        "B": "C)",
+        "C": "D)",
+        "D": "E)"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 10,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Robi ha una bilancia a due bracci e sei pesi: \nda 1, 2, 3, 4, 5 e 6 kg. Robi mette cinque dei sei \npesi sulla bilancia come suggerisce la figura e mette da parte quello rimasto. La bilan -\ncia sta in equilibrio. Quale peso ha messo da parte?",
+      "immagine": null,
+      "opzioni": {
+        "A": "Quello da 1 kg.",
+        "B": "Quello da 2 kg.",
+        "C": "Quello da 3 kg.",
+        "D": "Quello da 4 kg."
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 11,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Ada ha una riga numerata lunga 60 cm; su di essa manca la maggior parte delle \ntacche che indicano i millimetri e i centimetri. Però Ada riesce a misurare con una \nsola misurazione segmenti lunghi 10, 20, 30, 40, 50 o 60 cm. Quale delle seguenti può \nessere la sua riga?",
+      "immagine": null,
+      "opzioni": {
+        "A": "B)",
+        "B": "C)",
+        "C": "D)",
+        "D": "E)"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 12,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Ci sono 7 case a Nord della Via A, 8 case a Est \ndella Via B e 5 case a Sud della Via A. \nQuante sono le case a Ovest della Via B?",
+      "immagine": null,
+      "opzioni": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 19,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Quante automobili contengono \nesattamente 2 persone?",
+      "immagine": null,
+      "opzioni": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 14,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Una linea della metropolitana ha 6 sta -\nzioni A, B, C, D, E, F. Il treno ferma ad ogni \nstazione e quando arriva a una delle due sta -\nzioni terminali inverte il verso di marcia. Un macchinista ha iniziato il suo turno di \nservizio alla stazione B e la sua prima fermata è stata nella stazione C. In quale stazio -\nne sarà la sua 96-esima fermata?",
+      "immagine": null,
+      "opzioni": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 15,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Luisa vuole colorare i cerchi in figura in modo che, ogni volta \nche due cerchi sono collegati da un segmento, i due cerchi abbiano \ncolori diversi. Qual è il più piccolo numero di colori che le basta?",
+      "immagine": null,
+      "opzioni": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 16,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Sandra attraversa dall’entrata all’uscita un labirinto su due piani, senza mai torna -\nre sui suoi passi. In quale ordine vedrà i dipinti alle pareti?",
+      "immagine": null,
+      "opzioni": {
+        "A": "B)",
+        "B": "C)",
+        "C": "D)",
+        "D": ""
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 17,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Sei koala e due canguri sono in fila e ciascuno di \nloro ha ricevuto un numero, come si vede in figura. \nOgni tre animali che hanno numeri consecutivi, esattamente uno è un canguro. Quale \ndei seguenti è il numero di uno dei due canguri?",
+      "immagine": null,
+      "opzioni": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "7"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 18,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Rebecca piega due volte un foglio \nquadrato di carta, come mostrato in figu -\nra, dove i segmenti tratteggiati indicano la \nlinea di piegatura. Poi taglia l’angolo lungo il segmento indicato nel quadrato che ha \nottenuto. Infine apre il foglio di carta. Quale figura apparirà?",
+      "immagine": null,
+      "opzioni": {
+        "A": "B)",
+        "B": "C)",
+        "C": "D)",
+        "D": "E)"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 19,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Elisa, Mario e Nicola entrano sempre uno alla volta in sala mensa. Elisa non è \nmai la prima, Mario non è mai il secondo e Nicola non è mai il terzo. In quanti ordini \ndifferenti possono entrare?",
+      "immagine": null,
+      "opzioni": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "6"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 20,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Sulla parete ci sono cinque orologi. \nUn orologio è un’ora avanti, un orologio è un’ora indietro, un orologio mostra l’ora \ncorretta e due orologi sono fermi. \nQuale orologio mostra l’ora corretta?",
+      "immagine": null,
+      "opzioni": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 8,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Eva ha un numero di biglie blu che è doppio del \nnumero delle sue biglie rosse. Quante biglie blu ha Adamo?",
+      "immagine": null,
+      "opzioni": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 22,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Elsa ha due “macchine”. In ciascuna può far entrare un foglio di carta quadrato: \ndalla macchina R esce il foglio ruotato di 90° in senso orario, come mostra la prima fi -\ngura; invece la macchina S stampa sul foglio questa immagine:       , per cui il foglio \nquando esce ha l’aspetto mostrato nella seconda figura\nIn quale ordine Elsa deve azionare le due macchine per ottenere il risultato riportato \nqui sotto?",
+      "immagine": null,
+      "opzioni": {
+        "A": "SRR",
+        "B": "RSR",
+        "C": "RSS",
+        "D": "RRS",
+        "E": "SRS"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 23,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "In ciascuno dei cerchietti in figura Elena ha scritto un nu -\nmero intero scelto fra quelli da 1 a 7, usandoli tutti. Ha fatto \nin modo che, ogni volta che due cerchietti sono agli estremi \ndi una sbarretta, la somma dei numeri in essi contenuti sia il \nnumero scritto vicino alla sbarretta. \nQuale numero ha scritto nel cerchietto ombreggiato?",
+      "immagine": null,
+      "opzioni": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "risposta_corretta": null
+    },
+    {
+      "numero": 4,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Poi ha sfidato 5 suoi \namici a indovinare quali caselle ha annerito. Le loro risposte sono quelle indicate sot -\nto. Dopo aver visto i loro disegni Maria dice: “Uno di voi ha indovinato tutte le caselle \ne ciascuno degli altri solo 4 caselle”. Qual è la risposta corretta?",
+      "immagine": null,
+      "opzioni": {
+        "A": "B)",
+        "B": "C)",
+        "C": "D)",
+        "D": ""
+      },
+      "risposta_corretta": null
+    }
+  ]
+}

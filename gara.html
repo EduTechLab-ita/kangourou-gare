@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦘 Kangourou Trainer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .header-info {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .header-info span {
+            font-size: 16px;
+        }
+
+        .timer {
+            font-size: 24px;
+            font-weight: bold;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .timer.warning {
+            color: #fbbf24;
+        }
+
+        .timer.danger {
+            color: #ef4444;
+        }
+
+        .progress-bar {
+            background: rgba(255,255,255,0.3);
+            height: 8px;
+            border-radius: 10px;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: white;
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .question-text {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .question-image {
+            width: 100%;
+            max-height: 400px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            padding: 40px;
+            text-align: center;
+            color: #666;
+            font-size: 16px;
+        }
+
+        .question-image img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 10px;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .option-btn {
+            background: white;
+            border: 3px solid #e0e0e0;
+            border-radius: 15px;
+            padding: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .option-letter {
+            background: #667eea;
+            color: white;
+            min-width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .option-btn.selected {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .option-btn.selected .option-letter {
+            background: #4f46e5;
+        }
+
+        .option-btn.correct {
+            background: #4ade80;
+            border-color: #22c55e;
+            color: white;
+        }
+
+        .option-btn.correct .option-letter {
+            background: #16a34a;
+        }
+
+        .option-btn.wrong {
+            background: #f87171;
+            border-color: #ef4444;
+            color: white;
+        }
+
+        .option-btn.wrong .option-letter {
+            background: #dc2626;
+        }
+
+        .option-btn:disabled {
+            cursor: not-allowed;
+            opacity: 0.8;
+        }
+
+        .feedback {
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            display: none;
+        }
+
+        .feedback.correct {
+            background: #dcfce7;
+            border: 2px solid #4ade80;
+            color: #166534;
+            display: block;
+        }
+
+        .feedback.wrong {
+            background: #fee2e2;
+            border: 2px solid #f87171;
+            color: #991b1b;
+            display: block;
+        }
+
+        .next-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 18px;
+            border-radius: 15px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .next-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .points-info {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 20px;
+            background: #f8fafc;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .points-info div {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .points-info .label {
+            color: #64748b;
+            font-weight: normal;
+            margin-right: 8px;
+        }
+
+        .final-screen {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .final-screen.show {
+            display: block;
+        }
+
+        .final-screen h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+
+        .final-score {
+            font-size: 72px;
+            font-weight: bold;
+            color: #f5576c;
+            margin: 30px 0;
+        }
+
+        .final-message {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .restart-btn {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 18px;
+            border-radius: 15px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+
+        .restart-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(245, 87, 108, 0.4);
+        }
+
+        .error-screen {
+            text-align: center;
+            padding: 60px 40px;
+        }
+
+        .error-screen h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .error-screen p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="title">🦘 Kangourou Trainer</h1>
+            <div class="header-info">
+                <span id="question-counter">Domanda 1 / 24</span>
+                <span id="timer-display" style="display: none;"></span>
+                <span id="score">Punteggio: 0 / 96</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress" style="width: 0%"></div>
+            </div>
+        </div>
+
+        <div class="content" id="quiz-content">
+            <div class="points-info">
+                <div>
+                    <span class="label">Domanda:</span>
+                    <span id="question-number">1</span>
+                </div>
+                <div>
+                    <span class="label">Punti:</span>
+                    <span id="question-points">3</span>
+                </div>
+                <div>
+                    <span class="label">Difficoltà:</span>
+                    <span id="question-difficulty">Facile</span>
+                </div>
+            </div>
+
+            <div class="question-image" id="question-image-container">
+                <div id="question-image-placeholder">
+                    📐 L'immagine della domanda apparirà qui
+                </div>
+            </div>
+
+            <div class="question-text" id="question-text">
+                Caricamento domanda...
+            </div>
+
+            <div class="feedback" id="feedback"></div>
+
+            <div class="options" id="options"></div>
+
+            <button class="next-btn" id="next-btn" onclick="nextQuestion()">
+                Prossima domanda →
+            </button>
+        </div>
+
+        <div class="final-screen" id="final-screen">
+            <h2>🎉 Gara Completata!</h2>
+            <div class="final-score" id="final-score">0 / 96</div>
+            <div class="final-message" id="final-message"></div>
+            <button class="restart-btn" onclick="location.reload()">
+                🔄 Ricomincia
+            </button>
+            <button class="restart-btn" onclick="window.close()">
+                🏠 Chiudi
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Parametri URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const tipo = urlParams.get('tipo') || 'kangourou';
+        const anno = urlParams.get('anno') || '2024';
+        const modalita = urlParams.get('modalita') || 'allenamento';
+
+        // Stato app
+        let garaData = null;
+        let currentQuestion = 0;
+        let totalScore = 0;
+        let userAnswers = []; // Per modalità simulazione
+        let timerInterval = null;
+        let timeRemaining = 75 * 60; // 75 minuti in secondi
+
+        // Carica dati gara
+        async function loadGara() {
+            try {
+                const response = await fetch(`data/${tipo}/${anno}.json`);
+
+                if (!response.ok) {
+                    throw new Error('Gara non trovata');
+                }
+
+                garaData = await response.json();
+
+                // Aggiorna titolo
+                const tipoNome = tipo === 'koala' ? '🐨 Koala' : '🦘 Kangourou';
+                document.getElementById('title').textContent = `${tipoNome} ${anno}`;
+
+                // Inizializza timer se modalità simulazione
+                if (modalita === 'simulazione') {
+                    initTimer();
+                }
+
+                displayQuestion();
+            } catch (error) {
+                console.error('Errore caricamento gara:', error);
+                showError();
+            }
+        }
+
+        // Mostra errore
+        function showError() {
+            document.getElementById('quiz-content').innerHTML = `
+                <div class="error-screen">
+                    <h2>😕</h2>
+                    <p><strong>Ops! Gara non trovata</strong></p>
+                    <p>La gara <strong>${tipo.toUpperCase()} ${anno}</strong> non è disponibile.</p>
+                    <p>Contatta il tuo insegnante per verificare il link.</p>
+                </div>
+            `;
+        }
+
+        // Inizializza timer (modalità simulazione)
+        function initTimer() {
+            const timerDisplay = document.getElementById('timer-display');
+            timerDisplay.style.display = 'block';
+
+            timerInterval = setInterval(() => {
+                timeRemaining--;
+
+                const minutes = Math.floor(timeRemaining / 60);
+                const seconds = timeRemaining % 60;
+
+                timerDisplay.innerHTML = `<span class="timer ${minutes < 10 ? 'danger' : minutes < 20 ? 'warning' : ''}">⏱️ ${minutes}:${seconds.toString().padStart(2, '0')}</span>`;
+
+                if (timeRemaining <= 0) {
+                    clearInterval(timerInterval);
+                    finishGara();
+                }
+            }, 1000);
+        }
+
+        // Mostra domanda
+        function displayQuestion() {
+            if (!garaData) return;
+
+            const domanda = garaData.domande[currentQuestion];
+
+            // Aggiorna header
+            document.getElementById('question-counter').textContent =
+                `Domanda ${currentQuestion + 1} / ${garaData.domande.length}`;
+
+            if (modalita === 'allenamento') {
+                document.getElementById('score').textContent =
+                    `Punteggio: ${totalScore} / ${garaData.meta.punteggio_massimo}`;
+            } else {
+                document.getElementById('score').textContent =
+                    `Modalità Simulazione`;
+            }
+
+            document.getElementById('progress').style.width =
+                `${((currentQuestion) / garaData.domande.length) * 100}%`;
+
+            // Info domanda
+            document.getElementById('question-number').textContent = domanda.numero;
+            document.getElementById('question-points').textContent = domanda.punti;
+            document.getElementById('question-difficulty').textContent =
+                domanda.difficolta.charAt(0).toUpperCase() + domanda.difficolta.slice(1);
+
+            // Testo domanda
+            document.getElementById('question-text').textContent = domanda.testo;
+
+            // Immagine (se presente)
+            const imgContainer = document.getElementById('question-image-container');
+            if (domanda.immagine) {
+                imgContainer.innerHTML = `<img src="${domanda.immagine}" alt="Domanda ${domanda.numero}">`;
+            } else {
+                imgContainer.innerHTML = `
+                    <div id="question-image-placeholder">
+                        📐 Immagine domanda ${domanda.numero}
+                    </div>
+                `;
+            }
+
+            // Nascondi feedback e pulsante
+            document.getElementById('feedback').style.display = 'none';
+            document.getElementById('next-btn').style.display = 'none';
+
+            // Crea opzioni
+            const optionsContainer = document.getElementById('options');
+            optionsContainer.innerHTML = '';
+
+            Object.entries(domanda.opzioni).forEach(([lettera, testo]) => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.innerHTML = `
+                    <div class="option-letter">${lettera}</div>
+                    <div>${testo}</div>
+                `;
+
+                if (modalita === 'allenamento') {
+                    btn.onclick = () => checkAnswer(lettera, domanda.risposta_corretta, domanda.punti);
+                } else {
+                    btn.onclick = () => selectAnswer(lettera, btn);
+                }
+
+                optionsContainer.appendChild(btn);
+            });
+
+            // In modalità simulazione, mostra subito pulsante avanti
+            if (modalita === 'simulazione') {
+                document.getElementById('next-btn').style.display = 'block';
+            }
+        }
+
+        // Modalità allenamento: controlla risposta
+        function checkAnswer(selected, correct, points) {
+            const buttons = document.querySelectorAll('.option-btn');
+            const feedback = document.getElementById('feedback');
+
+            buttons.forEach(btn => btn.disabled = true);
+
+            buttons.forEach(btn => {
+                const letter = btn.querySelector('.option-letter').textContent;
+                if (letter === correct) {
+                    btn.classList.add('correct');
+                }
+                if (letter === selected && selected !== correct) {
+                    btn.classList.add('wrong');
+                }
+            });
+
+            if (selected === correct) {
+                totalScore += points;
+                feedback.className = 'feedback correct';
+                feedback.innerHTML = `✅ <strong>Corretto!</strong> Hai guadagnato ${points} punti!`;
+            } else {
+                feedback.className = 'feedback wrong';
+                feedback.innerHTML = `❌ <strong>Sbagliato!</strong> La risposta corretta era <strong>${correct}</strong>`;
+            }
+
+            document.getElementById('score').textContent =
+                `Punteggio: ${totalScore} / ${garaData.meta.punteggio_massimo}`;
+
+            document.getElementById('next-btn').style.display = 'block';
+        }
+
+        // Modalità simulazione: seleziona risposta
+        function selectAnswer(letter, btn) {
+            // Deseleziona altre risposte
+            document.querySelectorAll('.option-btn').forEach(b => {
+                b.classList.remove('selected');
+            });
+
+            // Seleziona questa
+            btn.classList.add('selected');
+
+            // Salva risposta
+            userAnswers[currentQuestion] = letter;
+        }
+
+        // Prossima domanda
+        function nextQuestion() {
+            currentQuestion++;
+
+            if (currentQuestion < garaData.domande.length) {
+                displayQuestion();
+            } else {
+                finishGara();
+            }
+        }
+
+        // Termina gara
+        function finishGara() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+            }
+
+            // Calcola punteggio se modalità simulazione
+            if (modalita === 'simulazione') {
+                totalScore = 0;
+                garaData.domande.forEach((domanda, idx) => {
+                    if (userAnswers[idx] === domanda.risposta_corretta) {
+                        totalScore += domanda.punti;
+                    }
+                });
+            }
+
+            showFinalScreen();
+        }
+
+        // Schermata finale
+        function showFinalScreen() {
+            document.getElementById('quiz-content').style.display = 'none';
+            document.getElementById('final-screen').classList.add('show');
+            document.getElementById('final-score').textContent =
+                `${totalScore} / ${garaData.meta.punteggio_massimo}`;
+
+            const percentage = (totalScore / garaData.meta.punteggio_massimo) * 100;
+            let message = '';
+
+            if (percentage >= 90) {
+                message = '🏆 Eccellente! Sei un campione di matematica!';
+            } else if (percentage >= 70) {
+                message = '🌟 Ottimo lavoro! Continua così!';
+            } else if (percentage >= 50) {
+                message = '👍 Buon risultato! Con un po\' di pratica migliorerai ancora!';
+            } else {
+                message = '💪 Non mollare! Riprova e vedrai che andrà meglio!';
+            }
+
+            document.getElementById('final-message').textContent = message;
+        }
+
+        // Avvia app
+        loadGara();
+    </script>
+</body>
+</html>

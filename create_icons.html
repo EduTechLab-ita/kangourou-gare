@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Genera Icone PWA</title>
+</head>
+<body>
+    <canvas id="canvas192" width="192" height="192"></canvas>
+    <canvas id="canvas512" width="512" height="512"></canvas>
+    <button onclick="downloadIcons()">Scarica Icone</button>
+
+    <script>
+        function createIcon(canvas, size) {
+            const ctx = canvas.getContext('2d');
+
+            // Gradiente sfondo
+            const gradient = ctx.createLinearGradient(0, 0, size, size);
+            gradient.addColorStop(0, '#667eea');
+            gradient.addColorStop(1, '#764ba2');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, size, size);
+
+            // Emoji canguro
+            ctx.font = `${size * 0.6}px Arial`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('🦘', size / 2, size / 2);
+        }
+
+        // Crea icone
+        createIcon(document.getElementById('canvas192'), 192);
+        createIcon(document.getElementById('canvas512'), 512);
+
+        function downloadIcons() {
+            // Download 192x192
+            const canvas192 = document.getElementById('canvas192');
+            canvas192.toBlob(blob => {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'icon-192.png';
+                a.click();
+            });
+
+            // Download 512x512
+            setTimeout(() => {
+                const canvas512 = document.getElementById('canvas512');
+                canvas512.toBlob(blob => {
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'icon-512.png';
+                    a.click();
+                });
+            }, 500);
+        }
+
+        // Auto-download
+        setTimeout(() => downloadIcons(), 1000);
+    </script>
+</body>
+</html>
