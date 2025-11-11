@@ -1,13 +1,13 @@
 // Service Worker per PWA Kangourou Trainer
 const CACHE_NAME = 'kangourou-trainer-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/admin.html',
-  '/gara.html',
-  '/demo.html',
-  '/manifest.json',
-  '/index.json'
+  './',
+  './index.html',
+  './admin.html',
+  './gara.html',
+  './demo.html',
+  './manifest.json',
+  './index.json'
 ];
 
 // Installazione

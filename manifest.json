@@ -2,7 +2,7 @@
   "name": "Kangourou Trainer",
   "short_name": "Kangourou",
   "description": "Allenati alle gare Kangourou e Koala di matematica per la scuola primaria",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#667eea",
   "theme_color": "#667eea",
