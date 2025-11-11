@@ -219,6 +219,35 @@
             background: #ddd6fe;
             color: #5b21b6;
         }
+
+        .footer {
+            background: #f8fafc;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .btn-home {
+            background: linear-gradient(135deg, #ec4899 0%, #f43f5e 100%);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-home:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(236, 72, 153, 0.4);
+        }
     </style>
 </head>
 <body>
@@ -229,6 +258,9 @@
         </div>
 
         <div class="content">
+            <!-- Pulsante Home -->
+            <a href="index.html" class="btn-home">🏠 Torna alla Home</a>
+
             <!-- Sezione Genera Link -->
             <div class="section">
                 <h2>🔗 Genera Link Gara</h2>
@@ -405,5 +437,11 @@
         // Avvia app
         loadCatalogo();
     </script>
+
+    <!-- Footer Copyright -->
+    <div class="footer">
+        © 2025 <strong>EduTechLab</strong> - by <strong>Fabio Rizzotto</strong><br>
+        Tutti i diritti riservati.
+    </div>
 </body>
 </html>
