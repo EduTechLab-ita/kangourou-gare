@@ -1,0 +1,32 @@
+{
+  "gare": [
+    {
+      "id": "koala-2013",
+      "tipo": "koala",
+      "anno": 2013,
+      "categoria": "Pre-Ecolier",
+      "classi": "2ª e 3ª Primaria",
+      "tempo_minuti": 75,
+      "totale_domande": 24,
+      "punteggio_massimo": 96,
+      "pdf_url": "pdf/koala/2013.pdf",
+      "json_url": "data/koala/2013.json",
+      "disponibile": true
+    },
+    {
+      "id": "kangourou-2024",
+      "tipo": "kangourou",
+      "anno": 2024,
+      "categoria": "Ecolier",
+      "classi": "4ª e 5ª Primaria",
+      "tempo_minuti": 75,
+      "totale_domande": 24,
+      "punteggio_massimo": 96,
+      "pdf_url": "pdf/kangourou/2024.pdf",
+      "json_url": "data/kangourou/2024.json",
+      "disponibile": true
+    }
+  ],
+  "ultimo_aggiornamento": "2025-11-11",
+  "versione": "1.0.0"
+}
