@@ -232,6 +232,20 @@
             box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
         }
 
+        #navigation-buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        #navigation-buttons button {
+            display: inline-block !important;
+            margin: 5px;
+            width: auto;
+            min-width: 200px;
+        }
+
         .points-info {
             display: flex;
             justify-content: space-between;
@@ -370,7 +384,21 @@
 
             <div class="options" id="options"></div>
 
-            <button class="next-btn" id="next-btn" onclick="nextQuestion()">
+            <!-- Navigazione modalità simulazione/a tempo -->
+            <div id="navigation-buttons" style="display: none; margin-top: 20px; gap: 15px;">
+                <button class="next-btn" id="prev-btn" onclick="previousQuestion()" style="background: #6c757d;">
+                    ← Domanda precedente
+                </button>
+                <button class="next-btn" id="next-btn-sim" onclick="nextQuestion()">
+                    Prossima domanda →
+                </button>
+                <button class="next-btn" id="finish-btn" onclick="finishQuiz()" style="background: #f5576c; display: none;">
+                    🏁 Termina Gara
+                </button>
+            </div>
+
+            <!-- Pulsante avanti modalità allenamento -->
+            <button class="next-btn" id="next-btn" onclick="nextQuestion()" style="display: none;">
                 Prossima domanda →
             </button>
         </div>
@@ -414,12 +442,16 @@
 
                 garaData = await response.json();
 
+                // Inizializza array risposte con la lunghezza corretta
+                userAnswers = new Array(garaData.domande.length).fill(null);
+                console.log(`Array risposte inizializzato: ${userAnswers.length} domande`);
+
                 // Aggiorna titolo
                 const tipoNome = tipo === 'koala' ? '🐨 Koala' : '🦘 Kangourou';
                 document.getElementById('title').textContent = `${tipoNome} ${anno}`;
 
-                // Inizializza timer se modalità simulazione
-                if (modalita === 'simulazione') {
+                // Inizializza timer se modalità a tempo
+                if (modalita === 'tempo') {
                     initTimer();
                 }
 
@@ -467,14 +499,18 @@
             if (!garaData) return;
 
             const domanda = garaData.domande[currentQuestion];
+            const isScreenshotMode = garaData.screenshot_mode === true;
 
             // Aggiorna header
             document.getElementById('question-counter').textContent =
                 `Domanda ${currentQuestion + 1} / ${garaData.domande.length}`;
 
+            // Calcola punteggio massimo
+            const punteggioMassimo = garaData.domande.reduce((sum, d) => sum + d.punteggio, 0);
+
             if (modalita === 'allenamento') {
                 document.getElementById('score').textContent =
-                    `Punteggio: ${totalScore} / ${garaData.meta.punteggio_massimo}`;
+                    `Punteggio: ${totalScore} / ${punteggioMassimo}`;
             } else {
                 document.getElementById('score').textContent =
                     `Modalità Simulazione`;
@@ -484,54 +520,190 @@
                 `${((currentQuestion) / garaData.domande.length) * 100}%`;
 
             // Info domanda
-            document.getElementById('question-number').textContent = domanda.numero;
-            document.getElementById('question-points').textContent = domanda.punti;
+            document.getElementById('question-number').textContent = domanda.id;
+            document.getElementById('question-points').textContent = domanda.punteggio;
             document.getElementById('question-difficulty').textContent =
-                domanda.difficolta.charAt(0).toUpperCase() + domanda.difficolta.slice(1);
+                domanda.punteggio === 3 ? 'Facile' : domanda.punteggio === 4 ? 'Media' : 'Difficile';
 
-            // Testo domanda
-            document.getElementById('question-text').textContent = domanda.testo;
+            // MODALITÀ SCREENSHOT: lo screenshot contiene tutto (testo + immagine + opzioni)
+            if (isScreenshotMode) {
+                // Nascondi testo (è nello screenshot)
+                document.getElementById('question-text').style.display = 'none';
 
-            // Immagine (se presente)
-            const imgContainer = document.getElementById('question-image-container');
-            if (domanda.immagine) {
-                imgContainer.innerHTML = `<img src="${domanda.immagine}" alt="Domanda ${domanda.numero}">`;
-            } else {
-                imgContainer.innerHTML = `
-                    <div id="question-image-placeholder">
-                        📐 Immagine domanda ${domanda.numero}
-                    </div>
-                `;
+                // Mostra solo screenshot
+                const imgContainer = document.getElementById('question-image-container');
+                imgContainer.style.maxHeight = 'none';
+                imgContainer.style.padding = '0';
+                imgContainer.style.background = 'transparent';
+                imgContainer.innerHTML = `<img src="${domanda.immagine}" alt="Domanda ${domanda.numero}" style="width: 100%; height: auto; border-radius: 10px;">`;
+
+                // Crea opzioni CLICCABILI (solo lettere A-E)
+                const optionsContainer = document.getElementById('options');
+                optionsContainer.innerHTML = '';
+                optionsContainer.style.gridTemplateColumns = 'repeat(5, 1fr)'; // 5 colonne per A-E
+
+                domanda.opzioni.forEach((opzione) => {
+                    const btn = document.createElement('button');
+                    btn.className = 'option-btn';
+                    btn.style.padding = '15px';
+                    btn.style.justifyContent = 'center';
+                    btn.innerHTML = `
+                        <div class="option-letter" style="margin: 0;">${opzione.id}</div>
+                    `;
+
+                    if (modalita === 'allenamento') {
+                        btn.onclick = () => checkAnswer(opzione.id, domanda.risposta_corretta, domanda.punteggio);
+                    } else {
+                        btn.onclick = () => selectAnswer(opzione.id, btn);
+                    }
+
+                    optionsContainer.appendChild(btn);
+                });
             }
+            // MODALITÀ NORMALE: testo + immagine separati + opzioni con testo
+            else {
+                // Mostra testo
+                document.getElementById('question-text').style.display = 'block';
+                document.getElementById('question-text').textContent = domanda.testo;
 
-            // Nascondi feedback e pulsante
-            document.getElementById('feedback').style.display = 'none';
-            document.getElementById('next-btn').style.display = 'none';
+                // Immagine (se presente) - supporta sia singola che array
+                const imgContainer = document.getElementById('question-image-container');
 
-            // Crea opzioni
-            const optionsContainer = document.getElementById('options');
-            optionsContainer.innerHTML = '';
+                // Controlla se la domanda è annullata
+                if (domanda.stato === 'annullata') {
+                    imgContainer.style.display = 'none';
+                    imgContainer.innerHTML = '';
+                } else if (domanda.immagine) {
+                    // Array di immagini o singola immagine
+                    const immagini = Array.isArray(domanda.immagine) ? domanda.immagine : [domanda.immagine];
 
-            Object.entries(domanda.opzioni).forEach(([lettera, testo]) => {
-                const btn = document.createElement('button');
-                btn.className = 'option-btn';
-                btn.innerHTML = `
-                    <div class="option-letter">${lettera}</div>
-                    <div>${testo}</div>
-                `;
+                    // Filtra immagini vuote
+                    const immaginiValide = immagini.filter(img => img && img.trim() !== '');
 
-                if (modalita === 'allenamento') {
-                    btn.onclick = () => checkAnswer(lettera, domanda.risposta_corretta, domanda.punti);
+                    if (immaginiValide.length > 0) {
+                        imgContainer.style.display = 'block';
+                        imgContainer.style.maxHeight = 'none';
+                        imgContainer.style.padding = '20px';
+                        imgContainer.style.background = 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)';
+
+                        // Mostra tutte le immagini in riga
+                        imgContainer.innerHTML = immaginiValide.map(img =>
+                            `<img src="${img}" alt="Domanda ${domanda.id}" style="max-width: ${100/immaginiValide.length}%; height: auto; margin: 5px; border-radius: 10px;">`
+                        ).join('');
+                    } else {
+                        imgContainer.style.display = 'none';
+                        imgContainer.innerHTML = '';
+                    }
                 } else {
-                    btn.onclick = () => selectAnswer(lettera, btn);
+                    // Nascondi completamente il container se non c'è immagine
+                    imgContainer.style.display = 'none';
+                    imgContainer.innerHTML = '';
                 }
 
-                optionsContainer.appendChild(btn);
-            });
+                // Crea opzioni CON TESTO
+                const optionsContainer = document.getElementById('options');
+                optionsContainer.innerHTML = '';
 
-            // In modalità simulazione, mostra subito pulsante avanti
-            if (modalita === 'simulazione') {
-                document.getElementById('next-btn').style.display = 'block';
+                // Se la domanda è annullata, mostra messaggio speciale
+                if (domanda.stato === 'annullata') {
+                    optionsContainer.style.gridTemplateColumns = '1fr';
+                    optionsContainer.innerHTML = `
+                        <div style="background: #fef3c7; border: 2px solid #f59e0b; border-radius: 15px; padding: 30px; text-align: center;">
+                            <div style="font-size: 48px; margin-bottom: 15px;">⚠️</div>
+                            <div style="font-size: 20px; font-weight: bold; color: #92400e; margin-bottom: 10px;">
+                                Domanda ${domanda.id} annullata dall'organizzazione
+                            </div>
+                            <div style="font-size: 16px; color: #78350f;">
+                                Questa domanda non viene conteggiata nel punteggio finale.<br>
+                                Clicca "Avanti" per continuare.
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    optionsContainer.style.gridTemplateColumns = 'repeat(auto-fit, minmax(200px, 1fr))';
+
+                    domanda.opzioni.forEach((opzione) => {
+                        const btn = document.createElement('button');
+                        btn.className = 'option-btn';
+
+                        // Se il testo è vuoto, mostra solo la lettera
+                        if (opzione.testo && opzione.testo.trim() !== '') {
+                            btn.innerHTML = `
+                                <div class="option-letter">${opzione.id}</div>
+                                <div>${opzione.testo}</div>
+                            `;
+                        } else {
+                            btn.innerHTML = `
+                                <div class="option-letter">${opzione.id}</div>
+                            `;
+                            btn.style.padding = '20px';
+                            btn.style.justifyContent = 'center';
+                        }
+
+                        if (modalita === 'allenamento') {
+                            btn.onclick = () => checkAnswer(opzione.id, domanda.risposta_corretta, domanda.punteggio);
+                        } else {
+                            btn.onclick = () => selectAnswer(opzione.id, btn);
+                        }
+
+                        optionsContainer.appendChild(btn);
+                    });
+                }
+            }
+
+            // Nascondi feedback
+            document.getElementById('feedback').style.display = 'none';
+
+            // Gestione pulsanti in base alla modalità
+            const nextBtn = document.getElementById('next-btn');
+            const navButtons = document.getElementById('navigation-buttons');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtnSim = document.getElementById('next-btn-sim');
+            const finishBtn = document.getElementById('finish-btn');
+
+            if (modalita === 'allenamento') {
+                // Modalità allenamento: pulsante singolo (mostrato dopo risposta)
+                nextBtn.style.display = 'none';
+                navButtons.style.display = 'none';
+
+                // Mostra subito se domanda annullata
+                if (domanda.stato === 'annullata') {
+                    nextBtn.style.display = 'block';
+                }
+            } else {
+                // Modalità simulazione/a tempo: pulsanti navigazione
+                nextBtn.style.display = 'none';
+                navButtons.style.display = 'flex';
+
+                // Pulsante indietro (disabilitato se prima domanda)
+                prevBtn.disabled = (currentQuestion === 0);
+                prevBtn.style.opacity = (currentQuestion === 0) ? '0.5' : '1';
+
+                // Pulsante avanti/termina
+                // All'ultima domanda: nascondi "Avanti", mostra solo "Indietro" e "Termina"
+                if (currentQuestion === garaData.domande.length - 1) {
+                    nextBtnSim.style.display = 'none !important';
+                    nextBtnSim.style.visibility = 'hidden';
+                    finishBtn.style.display = 'inline-block';
+                    finishBtn.style.visibility = 'visible';
+                } else {
+                    nextBtnSim.style.display = 'inline-block';
+                    nextBtnSim.style.visibility = 'visible';
+                    finishBtn.style.display = 'none';
+                    finishBtn.style.visibility = 'hidden';
+                }
+
+                // Ripristina risposta se già data
+                const savedAnswer = userAnswers[currentQuestion];
+                if (savedAnswer) {
+                    const buttons = document.querySelectorAll('.option-btn');
+                    buttons.forEach(btn => {
+                        const letter = btn.querySelector('.option-letter').textContent;
+                        if (letter === savedAnswer) {
+                            btn.classList.add('selected');
+                        }
+                    });
+                }
             }
         }
 
@@ -561,14 +733,19 @@
                 feedback.innerHTML = `❌ <strong>Sbagliato!</strong> La risposta corretta era <strong>${correct}</strong>`;
             }
 
+            // Calcola punteggio massimo
+            const punteggioMassimo = garaData.domande.reduce((sum, d) => sum + d.punteggio, 0);
+
             document.getElementById('score').textContent =
-                `Punteggio: ${totalScore} / ${garaData.meta.punteggio_massimo}`;
+                `Punteggio: ${totalScore} / ${punteggioMassimo}`;
 
             document.getElementById('next-btn').style.display = 'block';
         }
 
         // Modalità simulazione: seleziona risposta
         function selectAnswer(letter, btn) {
+            console.log(`selectAnswer chiamata: Q${currentQuestion+1}, lettera=${letter}`);
+
             // Deseleziona altre risposte
             document.querySelectorAll('.option-btn').forEach(b => {
                 b.classList.remove('selected');
@@ -579,17 +756,82 @@
 
             // Salva risposta
             userAnswers[currentQuestion] = letter;
+            console.log(`Risposta salvata: userAnswers[${currentQuestion}] = ${letter}`);
+            console.log('Array completo risposte:', userAnswers);
+        }
+
+        // Domanda precedente (solo modalità simulazione/a tempo)
+        function previousQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                displayQuestion();
+            }
         }
 
         // Prossima domanda
         function nextQuestion() {
-            currentQuestion++;
-
-            if (currentQuestion < garaData.domande.length) {
-                displayQuestion();
+            if (modalita === 'allenamento') {
+                currentQuestion++;
+                if (currentQuestion < garaData.domande.length) {
+                    displayQuestion();
+                } else {
+                    finishGara();
+                }
             } else {
-                finishGara();
+                // Modalità simulazione/a tempo: vai avanti senza controllare
+                currentQuestion++;
+                if (currentQuestion < garaData.domande.length) {
+                    displayQuestion();
+                }
             }
+        }
+
+        // Termina quiz (solo modalità simulazione/a tempo)
+        function finishQuiz() {
+            console.log('=== INIZIO CALCOLO PUNTEGGIO ===');
+            console.log('Array userAnswers:', userAnswers);
+            console.log('Totale domande:', garaData.domande.length);
+
+            // Calcola punteggio finale
+            totalScore = 0;
+            let corrette = 0;
+            let sbagliate = 0;
+            let nonRisposte = 0;
+
+            garaData.domande.forEach((domanda, index) => {
+                if (domanda.stato === 'annullata') {
+                    console.log(`Q${domanda.id}: ANNULLATA - skippo`);
+                    return;
+                }
+
+                const userAnswer = userAnswers[index];
+                const isNull = (userAnswer === null || userAnswer === undefined);
+                const isCorrect = !isNull && (userAnswer === domanda.risposta_corretta);
+
+                console.log(`Q${domanda.id}: risposta="${userAnswer}" (null=${isNull}), corretta="${domanda.risposta_corretta}", match=${isCorrect}, punti=${domanda.punteggio}`);
+
+                if (isNull) {
+                    // Domanda non risposta = 0 punti
+                    nonRisposte++;
+                    console.log(`  → Non risposta (totale: ${nonRisposte})`);
+                } else if (isCorrect) {
+                    // Risposta corretta
+                    totalScore += domanda.punteggio;
+                    corrette++;
+                    console.log(`  → CORRETTA! +${domanda.punteggio} punti (totale: ${totalScore})`);
+                } else {
+                    // Risposta sbagliata = 0 punti
+                    sbagliate++;
+                    console.log(`  → Sbagliata (totale: ${sbagliate})`);
+                }
+            });
+
+            console.log('=== RISULTATO FINALE ===');
+            console.log(`Punteggio: ${totalScore}`);
+            console.log(`Corrette: ${corrette}, Sbagliate: ${sbagliate}, Non risposte: ${nonRisposte}`);
+            console.log(`totalScore type: ${typeof totalScore}, value: ${totalScore}`);
+
+            finishGara();
         }
 
         // Termina gara
@@ -598,15 +840,8 @@
                 clearInterval(timerInterval);
             }
 
-            // Calcola punteggio se modalità simulazione
-            if (modalita === 'simulazione') {
-                totalScore = 0;
-                garaData.domande.forEach((domanda, idx) => {
-                    if (userAnswers[idx] === domanda.risposta_corretta) {
-                        totalScore += domanda.punti;
-                    }
-                });
-            }
+            // NON ricalcolare il punteggio qui - è già stato calcolato in finishQuiz()
+            // Il punteggio è già presente nella variabile globale totalScore
 
             showFinalScreen();
         }
@@ -615,23 +850,78 @@
         function showFinalScreen() {
             document.getElementById('quiz-content').style.display = 'none';
             document.getElementById('final-screen').classList.add('show');
+
+            // Calcola punteggio massimo escludendo domande annullate
+            const punteggioMassimo = garaData.domande
+                .filter(d => d.stato !== 'annullata')
+                .reduce((sum, d) => sum + d.punteggio, 0);
+
             document.getElementById('final-score').textContent =
-                `${totalScore} / ${garaData.meta.punteggio_massimo}`;
+                `${totalScore} / ${punteggioMassimo}`;
 
-            const percentage = (totalScore / garaData.meta.punteggio_massimo) * 100;
+            const percentage = punteggioMassimo > 0 ? (totalScore / punteggioMassimo) * 100 : 0;
             let message = '';
+            let emoji = '';
 
-            if (percentage >= 90) {
-                message = '🏆 Eccellente! Sei un campione di matematica!';
+            console.log(`Schermata finale: ${totalScore}/${punteggioMassimo} = ${percentage}%`);
+
+            if (percentage === 100) {
+                emoji = '🏆🎉';
+                message = 'PERFETTO! Hai risposto correttamente a tutte le domande! Sei un vero campione di matematica!';
+            } else if (percentage >= 90) {
+                emoji = '🌟✨';
+                message = 'ECCELLENTE! Risultato straordinario! Continua a allenarti, sei sulla strada giusta!';
+            } else if (percentage >= 80) {
+                emoji = '🎯👏';
+                message = 'OTTIMO! Hai dimostrato di avere ottime capacità matematiche! Bravo!';
             } else if (percentage >= 70) {
-                message = '🌟 Ottimo lavoro! Continua così!';
+                emoji = '👍😊';
+                message = 'MOLTO BENE! Buon risultato! Con un po\' più di pratica diventerai ancora più bravo!';
+            } else if (percentage >= 60) {
+                emoji = '💪🌱';
+                message = 'BUON LAVORO! Sei sulla buona strada! Continua ad esercitarti e migliorerai!';
             } else if (percentage >= 50) {
-                message = '👍 Buon risultato! Con un po\' di pratica migliorerai ancora!';
+                emoji = '🎓📚';
+                message = 'BEN FATTO! Hai dato il massimo! Ripassa gli argomenti e riprova, vedrai che andrà meglio!';
             } else {
-                message = '💪 Non mollare! Riprova e vedrai che andrà meglio!';
+                emoji = '🚀💡';
+                message = 'BRAVO per aver provato! La matematica è come un gioco: più ti alleni, più diventi forte! Riprova!';
             }
 
-            document.getElementById('final-message').textContent = message;
+            // Crea griglia risposte (solo per modalità simulazione/a tempo)
+            let grigliaHTML = '';
+            if (modalita !== 'allenamento') {
+                grigliaHTML = '<div style="margin-top: 30px;"><h3 style="margin-bottom: 15px;">📊 Le tue risposte:</h3>';
+                grigliaHTML += '<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); gap: 10px; max-width: 600px; margin: 0 auto;">';
+
+                garaData.domande.forEach((domanda, index) => {
+                    if (domanda.stato === 'annullata') {
+                        grigliaHTML += `<div style="padding: 10px; background: #fef3c7; border-radius: 8px; text-align: center; font-weight: bold;">Q${domanda.id}<br>⚠️</div>`;
+                    } else {
+                        const userAnswer = userAnswers[index];
+                        const isCorrect = userAnswer === domanda.risposta_corretta;
+                        const icon = userAnswer === null ? '⚪' : (isCorrect ? '🟢' : '🔴');
+                        const bgColor = userAnswer === null ? '#f3f4f6' : (isCorrect ? '#dcfce7' : '#fee2e2');
+
+                        grigliaHTML += `<div style="padding: 10px; background: ${bgColor}; border-radius: 8px; text-align: center; font-weight: bold;">Q${domanda.id}<br>${icon}</div>`;
+                    }
+                });
+
+                grigliaHTML += '</div>';
+                grigliaHTML += '<div style="margin-top: 15px; font-size: 14px; color: #6b7280;">🟢 Corretta | 🔴 Sbagliata | ⚪ Non risposta</div>';
+                grigliaHTML += '</div>';
+            }
+
+            document.getElementById('final-message').innerHTML = `
+                <div style="font-size: 48px; margin-bottom: 20px;">${emoji}</div>
+                <div style="font-size: 22px; font-weight: bold; margin-bottom: 15px;">
+                    ${percentage.toFixed(0)}% di risposte corrette
+                </div>
+                <div style="font-size: 18px; line-height: 1.6;">
+                    ${message}
+                </div>
+                ${grigliaHTML}
+            `;
         }
 
         // Avvia app

@@ -1,0 +1,27 @@
+# Python scripts di sviluppo
+*.py
+__pycache__/
+*.pyc
+
+# Cartelle temporanee e di test
+output/
+images/*-fixed/
+images/*-screenshots/
+images/*-screenshots-OLD/
+images/*-new/
+
+# File di test e debug
+test-*.html
+debug-*.html
+nul
+*.json.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

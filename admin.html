@@ -285,22 +285,42 @@
                     <label>Modalità</label>
                     <select id="modalita">
                         <option value="allenamento">🎮 Allenamento (feedback immediato)</option>
-                        <option value="simulazione">⏱️ Simulazione (timer 75 min)</option>
+                        <option value="simulazione">📝 Simulazione (navigazione libera)</option>
+                        <option value="tempo">⏱️ A Tempo (75 min + simulazione)</option>
                     </select>
                 </div>
 
-                <button class="btn btn-primary" onclick="generaLink()">
-                    🚀 Genera Link
-                </button>
+                <div style="display: flex; gap: 15px; margin-top: 20px;">
+                    <button class="btn btn-primary" onclick="anteprimaGara()">
+                        👁️ Anteprima Gara
+                    </button>
+                    <button class="btn btn-primary" onclick="generaLink()">
+                        🚀 Genera Link
+                    </button>
+                </div>
+
+                <!-- Anteprima Gara -->
+                <div class="link-container" id="preview-container">
+                    <h3 style="margin-bottom: 15px; color: #333;">👁️ Anteprima Gara</h3>
+                    <div id="preview-content"></div>
+                    <button class="btn btn-primary" onclick="document.getElementById('preview-container').classList.remove('show')" style="margin-top: 15px;">
+                        ✖️ Chiudi Anteprima
+                    </button>
+                </div>
 
                 <div class="link-container" id="link-container">
                     <h3 style="margin-bottom: 15px; color: #333;">✅ Link Generato!</h3>
                     <div class="link-display" id="link-display"></div>
-                    <button class="btn btn-success" onclick="copiaLink()">
-                        📋 Copia Link per Classroom
-                    </button>
+                    <div style="display: flex; gap: 10px; margin-top: 15px;">
+                        <button class="btn btn-success" onclick="copiaLink(event)">
+                            📋 Copia Link per Classroom
+                        </button>
+                        <button class="btn btn-primary" onclick="provaDemo()">
+                            🎮 Prova Demo
+                        </button>
+                    </div>
                     <p style="margin-top: 15px; color: #666; font-size: 14px;">
-                        💡 Incolla questo link su Google Classroom o invialo agli studenti via email
+                        💡 Usa "Prova Demo" per testare la gara prima di condividerla. Usa "Copia Link" per condividere su Classroom.
                     </p>
                 </div>
             </div>
@@ -310,7 +330,10 @@
                 <h3>ℹ️ Come funziona</h3>
                 <p>
                     <strong>1.</strong> Seleziona la categoria (Koala o Kangourou) e l'anno<br>
-                    <strong>2.</strong> Scegli la modalità: allenamento per esercitarsi, simulazione per testare<br>
+                    <strong>2.</strong> Scegli la modalità:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;• <strong>Allenamento</strong>: risposta corretta mostrata subito dopo ogni domanda<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;• <strong>Simulazione</strong>: navigazione libera, risultati solo alla fine<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;• <strong>A Tempo</strong>: come simulazione ma con timer di 75 minuti<br>
                     <strong>3.</strong> Genera il link e condividilo con i tuoi studenti<br>
                     <strong>4.</strong> Gli studenti cliccano sul link e iniziano la gara!
                 </p>
@@ -329,15 +352,115 @@
     <script>
         let catalogoGare = [];
 
+        // Anteprima gara
+        async function anteprimaGara() {
+            const tipo = document.getElementById('tipo-gara').value;
+            const anno = document.getElementById('anno-gara').value;
+            const modalita = document.getElementById('modalita').value;
+
+            if (!tipo || !anno) {
+                alert('⚠️ Seleziona categoria e anno prima di vedere l\'anteprima!');
+                return;
+            }
+
+            try {
+                // Carica dati gara
+                const response = await fetch(`data/${tipo}/${anno}.json`);
+                if (!response.ok) throw new Error('Gara non trovata');
+
+                const garaData = await response.json();
+
+                // Calcola statistiche
+                const totaleDomande = garaData.domande.length;
+                const domandeValide = garaData.domande.filter(d => d.stato !== 'annullata').length;
+                const punteggioMax = garaData.domande
+                    .filter(d => d.stato !== 'annullata')
+                    .reduce((sum, d) => sum + d.punteggio, 0);
+
+                const primaDomanda = garaData.domande[0];
+
+                // Nomi modalità
+                const nomiModalita = {
+                    'allenamento': '🎮 Allenamento',
+                    'simulazione': '📝 Simulazione',
+                    'tempo': '⏱️ A Tempo'
+                };
+
+                // Mostra anteprima
+                const preview = document.getElementById('preview-content');
+                preview.innerHTML = `
+                    <div style="background: white; border-radius: 10px; padding: 20px;">
+                        <h2 style="color: #667eea; margin-bottom: 20px;">
+                            ${tipo === 'koala' ? '🐨 Koala' : '🦘 Kangourou'} ${anno}
+                        </h2>
+
+                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 20px;">
+                            <div style="background: #f0f9ff; padding: 15px; border-radius: 8px;">
+                                <div style="font-size: 14px; color: #666; margin-bottom: 5px;">📊 Domande Totali</div>
+                                <div style="font-size: 24px; font-weight: bold; color: #0369a1;">${totaleDomande}</div>
+                            </div>
+                            <div style="background: #ecfdf5; padding: 15px; border-radius: 8px;">
+                                <div style="font-size: 14px; color: #666; margin-bottom: 5px;">✅ Domande Valide</div>
+                                <div style="font-size: 24px; font-weight: bold; color: #059669;">${domandeValide}</div>
+                            </div>
+                            <div style="background: #fef3c7; padding: 15px; border-radius: 8px;">
+                                <div style="font-size: 14px; color: #666; margin-bottom: 5px;">🎯 Punteggio Massimo</div>
+                                <div style="font-size: 24px; font-weight: bold; color: #d97706;">${punteggioMax}</div>
+                            </div>
+                            <div style="background: #fce7f3; padding: 15px; border-radius: 8px;">
+                                <div style="font-size: 14px; color: #666; margin-bottom: 5px;">🎮 Modalità</div>
+                                <div style="font-size: 18px; font-weight: bold; color: #be185d;">${nomiModalita[modalita]}</div>
+                            </div>
+                        </div>
+
+                        <div style="background: #f8fafc; padding: 20px; border-radius: 10px; border-left: 4px solid #667eea;">
+                            <h3 style="color: #333; margin-bottom: 10px;">📝 Esempio Prima Domanda:</h3>
+                            <div style="color: #555; line-height: 1.6; margin-bottom: 15px;">
+                                ${primaDomanda.testo.substring(0, 200)}${primaDomanda.testo.length > 200 ? '...' : ''}
+                            </div>
+                            <div style="font-size: 14px; color: #666;">
+                                <strong>Punteggio:</strong> ${primaDomanda.punteggio} punti
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                document.getElementById('preview-container').classList.add('show');
+
+            } catch (error) {
+                alert('❌ Errore caricamento anteprima: ' + error.message);
+                console.error('Errore anteprima:', error);
+            }
+        }
+
         // Carica catalogo gare all'avvio
         async function loadCatalogo() {
             try {
+                console.log('Caricamento catalogo gare...');
                 const response = await fetch('index.json');
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
                 const data = await response.json();
                 catalogoGare = data.gare;
+                console.log(`✅ Caricate ${catalogoGare.length} gare`);
                 displayCatalogo();
             } catch (error) {
-                console.error('Errore caricamento catalogo:', error);
+                console.error('❌ Errore caricamento catalogo:', error);
+                document.getElementById('catalog').innerHTML = `
+                    <div style="background: #fee; border: 2px solid #f66; padding: 20px; border-radius: 10px; color: #900;">
+                        <h3>⚠️ Errore Caricamento Catalogo</h3>
+                        <p>Impossibile caricare il file index.json</p>
+                        <p style="font-size: 14px; margin-top: 10px;">
+                            <strong>Soluzione:</strong> Avvia un server locale (es: Live Server in VS Code) o apri direttamente:
+                            <a href="gara.html?tipo=koala&anno=2013&modalita=allenamento" target="_blank">
+                                Koala 2013 - Modalità Allenamento
+                            </a>
+                        </p>
+                    </div>
+                `;
             }
         }
 
@@ -416,10 +539,15 @@
         }
 
         // Copia link negli appunti
-        function copiaLink() {
-            if (!window.currentLink) return;
+        async function copiaLink(event) {
+            if (!window.currentLink) {
+                alert('⚠️ Nessun link generato! Clicca prima su "Genera Link"');
+                return;
+            }
 
-            navigator.clipboard.writeText(window.currentLink).then(() => {
+            try {
+                await navigator.clipboard.writeText(window.currentLink);
+
                 const btn = event.target;
                 const originalText = btn.innerHTML;
                 btn.innerHTML = '✅ Link Copiato!';
@@ -429,9 +557,38 @@
                     btn.innerHTML = originalText;
                     btn.style.background = '';
                 }, 2000);
-            }).catch(err => {
-                alert('Errore nella copia: ' + err);
-            });
+            } catch (err) {
+                // Fallback per browser che non supportano clipboard API
+                const textArea = document.createElement('textarea');
+                textArea.value = window.currentLink;
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                    alert('✅ Link copiato negli appunti!');
+                } catch (err2) {
+                    alert('❌ Impossibile copiare automaticamente. Copia manualmente: ' + window.currentLink);
+                }
+                document.body.removeChild(textArea);
+            }
+        }
+
+        // Prova demo gara
+        function provaDemo() {
+            if (!window.currentLink) {
+                alert('⚠️ Nessun link generato! Clicca prima su "Genera Link"');
+                return;
+            }
+
+            // Converte link online in link locale per test
+            const tipo = document.getElementById('tipo-gara').value;
+            const anno = document.getElementById('anno-gara').value;
+            const modalita = document.getElementById('modalita').value;
+
+            const localUrl = `gara.html?tipo=${tipo}&anno=${anno}&modalita=${modalita}`;
+
+            // Apri in nuova finestra
+            window.open(localUrl, '_blank');
         }
 
         // Avvia app

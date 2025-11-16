@@ -1,370 +1,716 @@
 {
-  "meta": {
-    "anno": 2013,
-    "tipo": "koala",
-    "categoria": "Pre-Ecolier",
-    "classi": "2ª e 3ª Primaria",
-    "tempo_minuti": 75,
-    "totale_domande": 24,
-    "punteggio_massimo": 96
-  },
+  "id": "koala-2013",
+  "titolo": "Koala 2013",
+  "anno": "2013",
+  "categoria": "Koala (Classi 3a-4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
   "domande": [
     {
-      "numero": 1,
-      "punti": 3,
-      "difficolta": "facile",
+      "id": 1,
       "testo": "Quali cifre sono state dimenticate?",
-      "immagine": "images/koala-2013/page_1.png",
-      "opzioni": {
-        "A": "3 e 5",
-        "B": "4 e 8",
-        "C": "2 e 0",
-        "D": "6 e 9",
-        "E": "7 e 1"
-      },
-      "risposta_corretta": null
+      "immagine": "images/koala-2013/q1.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3 e 5"
+        },
+        {
+          "id": "B",
+          "testo": "4 e 8"
+        },
+        {
+          "id": "C",
+          "testo": "2 e 0"
+        },
+        {
+          "id": "D",
+          "testo": "6 e 9"
+        },
+        {
+          "id": "E",
+          "testo": "7 e 1"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
     },
     {
-      "numero": 2,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Vi sono 12 libri sullo scaffale e quattro ragazzi nella stanza.  Quanti libri rimangono sullo scaffale se ogni ragazzo prende un libro?",
-      "immagine": "images/koala-2013/page_1.png",
-      "opzioni": {
-        "A": "12",
-        "B": "8",
-        "C": "4",
-        "D": "2",
-        "E": "0"
-      },
-      "risposta_corretta": null
+      "id": 2,
+      "testo": "Vi sono 12 libri sullo scaffale e quattro ragazzi nella stanza. Quanti libri rimangono sullo scaffale se ogni ragazzo prende un libro?",
+      "immagine": "",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "12"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "2"
+        },
+        {
+          "id": "E",
+          "testo": "0"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
     },
     {
-      "numero": 3,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Quale dei seguenti abiti ha meno di 7 bottoni, ma più di 5 bottoni?",
-      "immagine": "images/koala-2013/page_1.png",
-      "opzioni": {
-        "A": "B)",
-        "B": "C)",
-        "C": "D)",
-        "D": "E)"
-      },
-      "risposta_corretta": null
+      "id": 3,
+      "testo": "3. Quale dei seguenti abiti ha meno di 7 bottoni, ma più di 5 bottoni?",
+      "immagine": "images/koala-2013/q3.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
     },
     {
-      "numero": 4,
-      "punti": 3,
-      "difficolta": "facile",
+      "id": 4,
       "testo": "Nelle immagini seguenti vi sono canguri bianchi, grigi e neri. Quale di esse ha più canguri neri che canguri bianchi?",
-      "immagine": "images/koala-2013/page_1.png",
-      "opzioni": {
-        "A": "B)",
-        "B": "C)",
-        "C": "D)",
-        "D": "E)"
-      },
-      "risposta_corretta": null
+      "immagine": "images/koala-2013/q4.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
     },
     {
-      "numero": 5,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Il muro a sinistra è formato da 4 file di mattoni. Con lo stesso \ncriterio è stato costruito il muro a destra formato da 5 file di mattoni. Quanti mattoni dovranno essere aggiunti al muro a destra per ottenere un muro formato da 6 file di mattoni?",
-      "immagine": "images/koala-2013/page_1.png",
-      "opzioni": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "7",
-        "E": "10"
-      },
-      "risposta_corretta": null
+      "id": 5,
+      "testo": "Il muro a sinistra è formato da 4 file di mattoni. Con lo stesso criterio è stato costruito il muro a destra formato da 5 file di mattoni. Quanti mattoni dovranno essere aggiunti al muro a destra per ottenere un muro formato da 6 file di mattoni?",
+      "immagine": "images/koala-2013/q5.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "5"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "7"
+        },
+        {
+          "id": "E",
+          "testo": "10"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
     },
     {
-      "numero": 6,
-      "punti": 3,
-      "difficolta": "facile",
+      "id": 6,
       "testo": "La pavimentazione in figura è stata effettuata con piastrelle quadrate. Si deve completare il lavoro piastrellando la parte bianca (croce interna) con piastrelle dello stesso tipo. Quante piastrelle si devono utilizzare?",
-      "immagine": "images/koala-2013/page_1.png",
-      "opzioni": {
-        "A": "5",
-        "B": "6",
-        "C": "7",
-        "D": "8",
-        "E": "9"
-      },
-      "risposta_corretta": null
+      "immagine": "images/koala-2013/q6.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
     },
     {
-      "numero": 7,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Nella figura a destra si vede una torta intera e quello che è rimasto dopo che Carlotta ne ha ritagliato una parte. Qual è questa parte?",
-      "immagine": "images/koala-2013/page_2.png",
-      "opzioni": {
-        "A": "B)",
-        "B": "C)",
-        "C": "D)",
-        "D": "E)"
-      },
-      "risposta_corretta": null
+      "id": 7,
+      "testo": "7. Nella figura a destra si vede una torta intera e quello che è rimasto dopo che Carlotta ne ha ritagliato una parte. Qual è questa parte?",
+      "immagine": [
+        "images/koala-2013/q7a.png",
+        "images/koala-2013/q7b.png"
+      ],
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
     },
     {
-      "numero": 8,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Anna ha gli orecchini. Barbara ha dato a Eva la collana rossa. Giovanni ha il cappello e Roberto ha gli occhiali. Chi è Barbara?",
-      "immagine": "images/koala-2013/page_2.png",
-      "opzioni": {
-        "A": "B)",
-        "B": "C)",
-        "C": "D)",
-        "D": "",
-        "E": "I problemi dal N. 9 al N. 16 valgono 4 punti"
-      },
-      "risposta_corretta": null
+      "id": 8,
+      "testo": "8. Anna ha gli orecchini. Barbara ha dato a Eva la collana rossa. Giovanni ha il cappello e Roberto ha gli occhiali. Chi è Barbara?",
+      "immagine": "images/koala-2013/q8.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
     },
     {
-      "numero": 9,
-      "punti": 4,
-      "difficolta": "media",
+      "id": 9,
       "testo": "Il babbo dà 5 mele a ciascuno dei suoi 3 figli. Anna dà 3 mele a Sonia e poi Sonia dà metà delle sue mele a Michele. Quante mele ha ora Michele?",
-      "immagine": "images/koala-2013/page_2.png",
-      "opzioni": {
-        "A": "4",
-        "B": "5",
-        "C": "7",
-        "D": "8",
-        "E": "9"
-      },
-      "risposta_corretta": null
+      "immagine": "",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "5"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
     },
     {
-      "numero": 10,
-      "punti": 4,
-      "difficolta": "media",
+      "id": 10,
       "testo": "Osserva la figura. Giorgio ha 2 gatti dello stesso peso. Qual è il peso di un gatto se sappiamo che Giorgio pesa 30 chili?",
-      "immagine": "images/koala-2013/page_2.png",
-      "opzioni": {
-        "A": "1 chilo",
-        "B": "2 chili",
-        "C": "3 chili",
-        "D": "4 chili",
-        "E": "5 chili"
-      },
-      "risposta_corretta": null
+      "immagine": "images/koala-2013/q10.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1 chilo"
+        },
+        {
+          "id": "B",
+          "testo": "2 chili"
+        },
+        {
+          "id": "C",
+          "testo": "3 chili"
+        },
+        {
+          "id": "D",
+          "testo": "4 chili"
+        },
+        {
+          "id": "E",
+          "testo": "5 chili"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
     },
     {
-      "numero": 11,
-      "punti": 4,
-      "difficolta": "media",
+      "id": 11,
       "testo": "Nella striscia, quale quadrato appare più volte di tutti gli altri?",
-      "immagine": "images/koala-2013/page_2.png",
-      "opzioni": {
-        "A": "B)",
-        "B": "C)",
-        "C": "D)",
-        "D": "E) Tutti appaiono lo stesso numero di volte.",
-        "E": "Tutti appaiono lo stesso numero di volte."
-      },
-      "risposta_corretta": null
+      "immagine": [
+        "images/koala-2013/q11a.png",
+        "images/koala-2013/q11b.png"
+      ],
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
     },
     {
-      "numero": 12,
-      "punti": 4,
-      "difficolta": "media",
+      "id": 12,
       "testo": "Percorrendo liberamente questo labirinto, il coniglio mangia tutte le carote che può incontrare. Quante carote avrà mangiato alla fine ?",
-      "immagine": "images/koala-2013/page_2.png",
-      "opzioni": {
-        "A": "7",
-        "B": "8",
-        "C": "9",
-        "D": "15",
-        "E": "16"
-      },
-      "risposta_corretta": null
+      "immagine": "images/koala-2013/q12.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "7"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "9"
+        },
+        {
+          "id": "D",
+          "testo": "15"
+        },
+        {
+          "id": "E",
+          "testo": "16"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
     },
     {
-      "numero": 13,
-      "punti": 4,
-      "difficolta": "media",
-      "testo": "Il gatto e il topo seguono il percorso da sinistra verso destra. Ogni volta che il topo passa da una casella alla successiva, il gatto ne percorre \ndue. In quale casella il gatto raggiungerà il topo?",
-      "immagine": "images/koala-2013/page_3.png",
-      "opzioni": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4",
-        "E": "5"
-      },
-      "risposta_corretta": null
+      "id": 13,
+      "testo": "Il gatto e il topo seguono il percorso da sinistra verso destra. Ogni volta che il topo passa da una casella alla successiva, il gatto ne percorre due. In quale casella il gatto raggiungerà il topo?",
+      "immagine": "images/koala-2013/q13.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
     },
     {
-      "numero": 14,
-      "punti": 4,
-      "difficolta": "media",
+      "id": 14,
       "testo": "Pietro costruisce il podio illustrato in figura. Quanti cubi ha usato?",
-      "immagine": "images/koala-2013/page_3.png",
-      "opzioni": {
-        "A": "12",
-        "B": "18",
-        "C": "19",
-        "D": "22",
-        "E": "24"
-      },
-      "risposta_corretta": null
+      "immagine": "images/koala-2013/q14.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "12"
+        },
+        {
+          "id": "B",
+          "testo": "18"
+        },
+        {
+          "id": "C",
+          "testo": "19"
+        },
+        {
+          "id": "D",
+          "testo": "22"
+        },
+        {
+          "id": "E",
+          "testo": "24"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
     },
     {
-      "numero": 15,
-      "punti": 4,
-      "difficolta": "media",
-      "testo": "In una famiglia vi sono cinque figli. Daniela è 2 anni più vecchia di Betta, ma 2 anni più giovane di Caterina. Edoardo è 3 anni più vecchio di \nAnna. Betta e Anna sono gemelle. Chi è il più vecchio fra tutti i 5 figli?",
-      "immagine": "images/koala-2013/page_3.png",
-      "opzioni": {
-        "A": "Anna",
-        "B": "Betta",
-        "C": "Caterina",
-        "D": "Daniela",
-        "E": "Edoardo"
-      },
-      "risposta_corretta": null
+      "id": 15,
+      "testo": "In una famiglia vi sono cinque figli. Daniela è 2 anni più vecchia di Betta, ma 2 anni più giovane di Caterina. Edoardo è 3 anni più vecchio di Anna. Betta e Anna sono gemelle. Chi è il più vecchio fra tutti i 5 figli?",
+      "immagine": "",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Anna"
+        },
+        {
+          "id": "B",
+          "testo": "Betta"
+        },
+        {
+          "id": "C",
+          "testo": "Caterina"
+        },
+        {
+          "id": "D",
+          "testo": "Daniela"
+        },
+        {
+          "id": "E",
+          "testo": "Edoardo"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
     },
     {
-      "numero": 16,
-      "punti": 4,
-      "difficolta": "media",
+      "id": 16,
       "testo": "Osservate la figura che rappresenta una sequenza di posizioni della lettera A. Qual è la successiva?",
-      "immagine": "images/koala-2013/page_3.png",
-      "opzioni": {
-        "A": "B)",
-        "B": "C)",
-        "C": "D)",
-        "D": "",
-        "E": "I problemi dal N. 17 al N. 24 valgono 5 punti"
-      },
-      "risposta_corretta": null
+      "immagine": "images/koala-2013/q16.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
     },
     {
-      "numero": 17,
-      "punti": 5,
-      "difficolta": "difficile",
+      "id": 17,
       "testo": "Isabella ha 3 fratelli e 3 sorelle. Quanti fratelli e quante sorelle ha suo fratello Matteo?",
-      "immagine": "images/koala-2013/page_3.png",
-      "opzioni": {
-        "A": "3 fratelli e 3 sorelle.",
-        "B": "3 fratelli e 4 sorelle.",
-        "C": "2 fratelli e 3 sorelle.",
-        "D": "3 fratelli e 2 sorelle.",
-        "E": "2 fratelli e 4 sorelle."
-      },
-      "risposta_corretta": null
+      "immagine": "",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3 fratelli e 3 sorelle."
+        },
+        {
+          "id": "B",
+          "testo": "3 fratelli e 4 sorelle."
+        },
+        {
+          "id": "C",
+          "testo": "2 fratelli e 3 sorelle."
+        },
+        {
+          "id": "D",
+          "testo": "3 fratelli e 2 sorelle."
+        },
+        {
+          "id": "E",
+          "testo": "2 fratelli e 4 sorelle."
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
     },
     {
-      "numero": 18,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Giocando con pere, mele, fragole e prugne sono possibili gli scambi illustrati in figura. Ada ha 6 pere. Quante fragole potrà avere Ada se scambiatutte le sue pere per ottenere solo fragole?",
-      "immagine": "images/koala-2013/page_3.png",
-      "opzioni": {
-        "A": "12",
-        "B": "36",
-        "C": "18",
-        "D": "24",
-        "E": "6"
-      },
-      "risposta_corretta": null
+      "id": 18,
+      "testo": "18. Giocando con pere, mele, fragole e prugne sono possibili gli scambi illustrati in figura. Ada ha 6 pere. Quante fragole potrà avere Ada se scambia tutte le sue pere per ottenere solo fragole?",
+      "immagine": "images/koala-2013/q18.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "12"
+        },
+        {
+          "id": "B",
+          "testo": "36"
+        },
+        {
+          "id": "C",
+          "testo": "18"
+        },
+        {
+          "id": "D",
+          "testo": "24"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
     },
     {
-      "numero": 19,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Anna dispone di un foglio di carta quadrato come il seguente. Da esso ritaglia alcuni pezzi come quello illustrato nella seconda figura.  Quanti pezzi può ottenere al massimo ?",
-      "immagine": "images/koala-2013/page_4.png",
-      "opzioni": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4",
-        "E": "5"
-      },
-      "risposta_corretta": null
+      "id": 19,
+      "testo": "Anna dispone di un foglio di carta quadrato come il seguente. Da esso ritaglia alcuni pezzi come quello illustrato nella seconda figura. Quanti pezzi può ottenere al massimo ?",
+      "immagine": "images/koala-2013/q19.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
     },
     {
-      "numero": 20,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Sofia ha costruito una riga di 10 casette usando i fiammiferi. Nella figura puoi vedere l’inizio della riga. Quanti fiammiferi ha usato Sofia in totale?",
-      "immagine": "images/koala-2013/page_4.png",
-      "opzioni": {
-        "A": "50",
-        "B": "51",
-        "C": "55",
-        "D": "60",
-        "E": "62"
-      },
-      "risposta_corretta": null
+      "id": 20,
+      "testo": "Sofia ha costruito una riga di 10 casette usando i fiammiferi. Nella figura puoi vedere l'inizio della riga. Quanti fiammiferi ha usato Sofia in totale?",
+      "immagine": "images/koala-2013/q20.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "50"
+        },
+        {
+          "id": "B",
+          "testo": "51"
+        },
+        {
+          "id": "C",
+          "testo": "55"
+        },
+        {
+          "id": "D",
+          "testo": "60"
+        },
+        {
+          "id": "E",
+          "testo": "62"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
     },
     {
-      "numero": 21,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "La figura mostra un muretto da cui è caduta una piastrella.Carolina ha le tre piastrelle di riserva che vedi sotto.\n       \npiastrella X              piastrella Y                    piastrella Z\nQuali piastrelle può utilizzare per ricomporre il muro?",
-      "immagine": "images/koala-2013/page_4.png",
-      "opzioni": {
-        "A": "X e Z , ma non Y .",
-        "B": "X e Y , ma non Z.",
-        "C": "Y e Z, ma non X.",
-        "D": "Solo Y .",
-        "E": "Può utilizzarle tutte e tre"
-      },
-      "risposta_corretta": null
+      "id": 21,
+      "stato": "annullata",
+      "testo": "La figura mostra un muretto da cui è caduta una piastrella. Carolina ha le tre piastrelle di riserva che vedi sotto. Quali piastrelle può utilizzare per ricomporre il muro?",
+      "immagine": "images/koala-2013/q21.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "X e Z, ma non Y."
+        },
+        {
+          "id": "B",
+          "testo": "X e Y, ma non Z."
+        },
+        {
+          "id": "C",
+          "testo": "Y e Z, ma non X."
+        },
+        {
+          "id": "D",
+          "testo": "Solo Y."
+        },
+        {
+          "id": "E",
+          "testo": "Può utilizzarle tutte e tre"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
     },
     {
-      "numero": 22,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Anna ha una moneta da 5 centesimi, una moneta da 10 centesimi, una moneta da 20 centesimi ed una moneta da 50 centesimi. \nQuante diverse somme di denaro può realizzare con queste monete?",
-      "immagine": "images/koala-2013/page_4.png",
-      "opzioni": {
-        "A": "4",
-        "B": "7",
-        "C": "10",
-        "D": "15",
-        "E": "20"
-      },
-      "risposta_corretta": null
+      "id": 22,
+      "testo": "Anna ha una moneta da 5 centesimi, una moneta da 10 centesimi, una moneta da 20 centesimi ed una moneta da 50 centesimi. Quante diverse somme di denaro può realizzare con queste monete?",
+      "immagine": "",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "7"
+        },
+        {
+          "id": "C",
+          "testo": "10"
+        },
+        {
+          "id": "D",
+          "testo": "15"
+        },
+        {
+          "id": "E",
+          "testo": "20"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
     },
     {
-      "numero": 23,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Angela costruisce un grande cubo incollando fra loro 27 cubetti bianchi. Poi dipinge tutte le facce del grande cubo con la vernice verde. Quindi Angela rimuove un cubetto da quattro degli otto vertici del cubo, ottenendo l’oggetto mostrato nella figura.Quando la vernice è ancora fresca, “timbra” ognuna delle nuove facce su un foglio di carta.Quanti dei seguenti “timbri” possono essere stati fatti da Angela?",
-      "immagine": "images/koala-2013/page_4.png",
-      "opzioni": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4",
-        "E": "5"
-      },
-      "risposta_corretta": null
+      "id": 23,
+      "testo": "Angela costruisce un grande cubo incollando fra loro 27 cubetti bianchi. Poi dipinge tutte le facce del grande cubo con la vernice verde. Quindi Angela rimuove un cubetto da quattro degli otto vertici del cubo, ottenendo l'oggetto mostrato nella figura. Quando la vernice è ancora fresca, \"timbra\" ognuna delle nuove facce su un foglio di carta. Quanti dei seguenti \"timbri\" possono essere stati fatti da Angela?",
+      "immagine": [
+        "images/koala-2013/q23a.png",
+        "images/koala-2013/q23b.png"
+      ],
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
     },
     {
-      "numero": 24,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Una scatola quadrata è riempita da due strati di quadratini di cioccolato tutti uguali fra loro. Isabella ha mangiato tutti i 20 qua-\ndratini dello strato superiore che si trovavano lungo il bordo della scatola. Quanti quadratini di cioccolato sono rimasti nella scatola?",
-      "immagine": "images/koala-2013/page_4.png",
-      "opzioni": {
-        "A": "16",
-        "B": "30",
-        "C": "50",
-        "D": "52",
-        "E": "70"
-      },
-      "risposta_corretta": null
+      "id": 24,
+      "testo": "Una scatola quadrata è riempita da due strati di quadratini di cioccolato tutti uguali fra loro. Isabella ha mangiato tutti i 20 quadratini dello strato superiore che si trovavano lungo il bordo della scatola. Quanti quadratini di cioccolato sono rimasti nella scatola?",
+      "immagine": "",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "16"
+        },
+        {
+          "id": "B",
+          "testo": "30"
+        },
+        {
+          "id": "C",
+          "testo": "50"
+        },
+        {
+          "id": "D",
+          "testo": "52"
+        },
+        {
+          "id": "E",
+          "testo": "70"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
     }
   ]
 }
