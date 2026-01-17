@@ -6,7 +6,6 @@ __pycache__/
 # Cartelle temporanee e di test
 output/
 images/*-fixed/
-images/*-screenshots/
 images/*-screenshots-OLD/
 images/*-new/
 

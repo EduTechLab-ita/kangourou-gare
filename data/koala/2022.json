@@ -1,0 +1,706 @@
+{
+  "id": "koala-2022",
+  "titolo": "Koala 2022",
+  "anno": "2022",
+  "categoria": "Koala (Classi 3a-4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": true,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Quale di queste 5 scatole contiene più triangoli di tutte le altre?",
+      "immagine": "images/koala-2022-screenshots/q01.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Immagine scatola A"
+        },
+        {
+          "id": "B",
+          "testo": "Immagine scatola B"
+        },
+        {
+          "id": "C",
+          "testo": "Immagine scatola C"
+        },
+        {
+          "id": "D",
+          "testo": "Immagine scatola D"
+        },
+        {
+          "id": "E",
+          "testo": "Immagine scatola E"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Voglio che su ogni riga e ogni colonna di questa scacchiera ci siano 2 gettoni e non più di 2. Ho già messo 3 gettoni sulla scacchiera. In quale casella devo mettere l'ultimo gettone?",
+      "immagine": "images/koala-2022-screenshots/q02.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Casella in riga 1, colonna 1"
+        },
+        {
+          "id": "B",
+          "testo": "Casella in riga 1, colonna 2"
+        },
+        {
+          "id": "C",
+          "testo": "Casella in riga 2, colonna 1"
+        },
+        {
+          "id": "D",
+          "testo": "Casella in riga 3, colonna 1"
+        },
+        {
+          "id": "E",
+          "testo": "Casella in riga 3, colonna 3"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Simone taglia esattamente a metà il disegno rappresentato in figura e accosta i due rettangoli ottenuti. Quale delle seguenti immagini può rappresentare il risultato di questa operazione?!",
+      "immagine": "images/koala-2022-screenshots/q03.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Illustrazione delle due metà verticali del fungo. La metà sinistra è posizionata leggermente sopra e a sinistra della metà destra, come se la sinistra fosse appoggiata sopra la destra. Entrambe le parti del cappello sono rivolte verso l'alto e la superficie di taglio della metà destra è visibile."
+        },
+        {
+          "id": "B",
+          "testo": "Illustrazione delle due metà verticali del fungo. La metà destra è posizionata leggermente sopra e a sinistra della metà sinistra, come se la destra fosse appoggiata sopra la sinistra. Entrambe le parti del cappello sono rivolte verso l'alto e la superficie di taglio della metà sinistra è visibile."
+        },
+        {
+          "id": "C",
+          "testo": "Illustrazione delle due metà orizzontali del fungo. La metà inferiore (la parte del gambo) è posizionata sopra la metà superiore (la parte del cappello). Il cappello è orientato verso il basso e la superficie di taglio della parte del cappello è visibile."
+        },
+        {
+          "id": "D",
+          "testo": "Illustrazione delle due metà orizzontali del fungo. La metà superiore (la parte del cappello) è posizionata sopra la metà inferiore (la parte del gambo). Il cappello è orientato verso l'alto e la superficie di taglio della parte del gambo è visibile."
+        },
+        {
+          "id": "E",
+          "testo": "Illustrazione delle due metà orizzontali del fungo posizionate affiancate. La parte superiore (il cappello) è a sinistra e la parte inferiore (il gambo) è a destra. Entrambe le parti sono orientate verticalmente come crescerebbero naturalmente, con le rispettive superfici di taglio rivolte l'una verso l'altra al centro."
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "La figura mostra cinque mattoni identici. Quanti mattoni sono accostati ad altri tre mattoni e non più di tre mattoni?",
+      "immagine": "images/koala-2022-screenshots/q04.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Quale dei seguenti può essere il pezzo che è stato strappato da questa mappa del tesoro?",
+      "immagine": "images/koala-2022-screenshots/q05.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Un piccolo pezzo di mappa con un bordo irregolare che corrisponde alla forma dello strappo. Il pezzo contiene un segmento di linea curva scura."
+        },
+        {
+          "id": "B",
+          "testo": "Un piccolo pezzo di mappa con un bordo irregolare che corrisponde alla forma dello strappo. Il pezzo contiene un segmento di linea curva scura e un segno distintivo a forma di 'X' (incrocio)."
+        },
+        {
+          "id": "C",
+          "testo": "Un piccolo pezzo di mappa con un bordo irregolare che corrisponde alla forma dello strappo. Il pezzo contiene un segmento di linea curva scura differente dagli altri."
+        },
+        {
+          "id": "D",
+          "testo": "Un piccolo pezzo di mappa con un bordo irregolare che corrisponde alla forma dello strappo. Il pezzo contiene una linea curva scura chiusa che forma una piccola isola."
+        },
+        {
+          "id": "E",
+          "testo": "Un piccolo pezzo di mappa con un bordo irregolare che corrisponde alla forma dello strappo. Il pezzo contiene un segmento di linea curva scura con una configurazione differente."
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Piero accosta queste quattro tessere in modo da formare un quadrato. Quale delle seguenti figure può ottenere?",
+      "immagine": "images/koala-2022-screenshots/q06.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Una figura quadrata formata da quattro tessere a mezzaluna, di cui due azzurre e due gialle. Le tessere azzurre si trovano in alto a sinistra e in basso a destra (con il lato convesso rivolto verso l'angolo opposto della diagonale), mentre quelle gialle sono in alto a destra e in basso a sinistra (con il lato convesso rivolto verso l'angolo opposto della diagonale). L'arrangiamento crea una croce bianca al centro del quadrato."
+        },
+        {
+          "id": "B",
+          "testo": "Una tessera a mezzaluna azzurra posizionata accanto a una tessera a mezzaluna gialla."
+        },
+        {
+          "id": "C",
+          "testo": "Una tessera a mezzaluna azzurra posizionata accanto a una tessera a mezzaluna gialla (simile all'opzione B, ma con una leggera rotazione delle tessere individuali)."
+        },
+        {
+          "id": "D",
+          "testo": "Una tessera a mezzaluna azzurra posizionata accanto a una tessera a mezzaluna gialla (simile all'opzione B e C)."
+        },
+        {
+          "id": "E",
+          "testo": "Una tessera a mezzaluna azzurra posizionata accanto a una tessera a mezzaluna gialla (simile all'opzione B, C e D)."
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Una goccia di inchiostro è caduta su un pezzo di carta a quadretti, come vedi in figura. Quanti quadretti sono macchiati?",
+      "immagine": "images/koala-2022-screenshots/q07.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "16"
+        },
+        {
+          "id": "B",
+          "testo": "17"
+        },
+        {
+          "id": "C",
+          "testo": "18"
+        },
+        {
+          "id": "D",
+          "testo": "19"
+        },
+        {
+          "id": "E",
+          "testo": "20"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Alice ed Emma sono al bar. Alice paga 12 euro per un tramezzino e un succo di frutta. Emma paga 14 euro per un tramezzino e due succhi di frutta. Quanto costa un tramezzino?",
+      "immagine": "images/koala-2022-screenshots/q08.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "7"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "9"
+        },
+        {
+          "id": "D",
+          "testo": "10"
+        },
+        {
+          "id": "E",
+          "testo": "11"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "Gloria ha scritto un numero sulla sabbia e poi ha coperto ogni cifra con una formina: il risultato è quello che vedi in figura.\nHa coperto cifre diverse con formine diverse e cifre uguali con formine uguali.\nQuale dei seguenti può essere il numero scritto da Gloria?",
+      "immagine": "images/koala-2022-screenshots/q09.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "34426"
+        },
+        {
+          "id": "B",
+          "testo": "34526"
+        },
+        {
+          "id": "C",
+          "testo": "34423"
+        },
+        {
+          "id": "D",
+          "testo": "34424"
+        },
+        {
+          "id": "E",
+          "testo": "32442"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Il canguro che vedi nel disegno può muoversi:\n• solo in orizzontale o in verticale\n• solo di un quadretto alla volta\n• solo senza attraversare quadretti con le macchie azzurre.\nSe vuole raggiungere il koala, quale dei seguenti percorsi può seguire? Le frecce nelle risposte indicano la direzione del passo del canguro.",
+      "immagine": "images/koala-2022-screenshots/q10.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Percorso: Destra, Su, Destra, Su, Destra, Destra, Su, Su, Destra, Destra, Su, Su, Destra, Destra, Destra"
+        },
+        {
+          "id": "B",
+          "testo": "Percorso: Su, Destra, Su, Destra, Su, Su, Destra, Destra, Su, Su, Destra, Destra, Destra, Destra"
+        },
+        {
+          "id": "C",
+          "testo": "Percorso: Destra, Su, Su, Destra, Destra, Su, Su, Destra, Destra, Su, Su, Destra, Destra"
+        },
+        {
+          "id": "D",
+          "testo": "Percorso: Su, Su, Destra, Destra, Su, Su, Destra, Destra, Su, Su, Destra, Destra, Destra"
+        },
+        {
+          "id": "E",
+          "testo": "Percorso: Destra, Destra, Su, Su, Destra, Destra, Su, Su, Destra, Destra, Su, Su, Destra"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "In una delle immagini che vedi qui sotto c'è una forma geometrica che non è presente nelle altre quattro. In quale? Considera uguali forme geometriche di dimensioni diverse.",
+      "immagine": "images/koala-2022-screenshots/q11.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Una collezione di quattro forme geometriche di colore azzurro chiaro: un quadrato grande, un triangolo isoscele medio, un rettangolo piccolo e un trapezio isoscele medio."
+        },
+        {
+          "id": "B",
+          "testo": "Una collezione di quattro forme geometriche di colore giallo: un quadrato medio, un triangolo equilatero piccolo, un rettangolo grande e un trapezio isoscele medio."
+        },
+        {
+          "id": "C",
+          "testo": "Una collezione di quattro forme geometriche di colore verde: un quadrato piccolo, un triangolo isoscele grande, un rettangolo medio e un trapezio isoscele medio."
+        },
+        {
+          "id": "D",
+          "testo": "Una collezione di quattro forme geometriche di colore viola: un quadrato medio, un triangolo isoscele medio, un rettangolo piccolo e un trapezio isoscele grande."
+        },
+        {
+          "id": "E",
+          "testo": "Una collezione di tre forme geometriche di colore rosso: un quadrato grande, un triangolo isoscele piccolo e un rettangolo medio."
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Se guardi dall'alto questa pila di dischi, quale delle cinque figure vedi?",
+      "immagine": "images/koala-2022-screenshots/q12.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Due cerchi concentrici: esterno blu, interno giallo."
+        },
+        {
+          "id": "B",
+          "testo": "Tre cerchi concentrici: esterno blu, centrale giallo, interno rosso."
+        },
+        {
+          "id": "C",
+          "testo": "Quattro cerchi concentrici: esterno blu, secondo giallo, terzo rosso, interno blu."
+        },
+        {
+          "id": "D",
+          "testo": "Tre cerchi concentrici: esterno blu, centrale rosso, interno giallo."
+        },
+        {
+          "id": "E",
+          "testo": "Cinque cerchi concentrici: esterno blu, secondo giallo, terzo rosso, quarto blu, interno giallo."
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "In figura vedi un timbro. Quando lo usi, quale delle seguenti immagini ottieni?",
+      "immagine": "images/koala-2022-screenshots/q13.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Due impronte identiche del timbro originale, disposte orizzontalmente, con l'apertura a destra e l'ovale a destra."
+        },
+        {
+          "id": "B",
+          "testo": "Due impronte identiche del timbro originale, disposte orizzontalmente, con l'apertura a destra e l'ovale a destra."
+        },
+        {
+          "id": "C",
+          "testo": "Due impronte identiche del timbro originale, disposte orizzontalmente, con l'apertura a destra e l'ovale a destra."
+        },
+        {
+          "id": "D",
+          "testo": "Due impronte identiche del timbro originale, disposte orizzontalmente, con l'apertura a destra e l'ovale a destra."
+        },
+        {
+          "id": "E",
+          "testo": "Due impronte identiche del timbro originale, disposte orizzontalmente, con l'apertura a destra e l'ovale a destra."
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Caterina ha disegnato 3 quadrati e ora li orla con cornici fatte accostando tante tessere come questa Quante tessere usa per orlare il quadrato di lato 5?",
+      "immagine": "images/koala-2022-screenshots/q14.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "10"
+        },
+        {
+          "id": "B",
+          "testo": "11"
+        },
+        {
+          "id": "C",
+          "testo": "12"
+        },
+        {
+          "id": "D",
+          "testo": "14"
+        },
+        {
+          "id": "E",
+          "testo": "16"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Anna ha attaccato questi quattro adesivi:\nHa attaccato la stella dopo aver attaccato il quadrato, ma prima di aver attaccato il triangolo. Quale delle seguenti può essere la figura che si vede dopo che Anna ha completato il suo gioco?",
+      "immagine": "images/koala-2022-screenshots/q15.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Vedi Immagine A"
+        },
+        {
+          "id": "B",
+          "testo": "Vedi Immagine B"
+        },
+        {
+          "id": "C",
+          "testo": "Vedi Immagine C"
+        },
+        {
+          "id": "D",
+          "testo": "Vedi Immagine D"
+        },
+        {
+          "id": "E",
+          "testo": "Vedi Immagine E"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "A destra vedi un foglio a quadretti. Alcuni quadretti ospitano una figura. Se pieghi il foglio su se stesso lungo la linea verticale a metà del foglio, le figure nella parte a destra della riga verticale vanno a sovrapporsi esattamente alle analoghe figure della parte a sinistra?",
+      "immagine": "images/koala-2022-screenshots/q16.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Nessuna"
+        },
+        {
+          "id": "B",
+          "testo": "Una"
+        },
+        {
+          "id": "C",
+          "testo": "Due"
+        },
+        {
+          "id": "D",
+          "testo": "Tre"
+        },
+        {
+          "id": "E",
+          "testo": "Quattro"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Luca vuole inserire un numero in ciascuno dei cerchi disegnati sulle caselle e vuole che la somma dei cinque numeri della casella a sinistra sia uguale alla somma di quelli della casella a destra. Quale dei seguenti numeri deve mettere al posto del punto interrogativo?",
+      "immagine": "images/koala-2022-screenshots/q17.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "9"
+        },
+        {
+          "id": "E",
+          "testo": "14"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Le figure verdi rappresentano delle aiuole. I cerchietti neri rappresentano dei punti: la distanza di ognuno di essi è da ciascuno dei punti ad esso più vicini è sempre la stessa. Qual è l'aiuola con la superficie più piccola?",
+      "immagine": "images/koala-2022-screenshots/q18.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Un koala accanto a una figura verde composta da 3 esagoni disposti in linea orizzontale, con un totale di 8 cerchietti neri."
+        },
+        {
+          "id": "B",
+          "testo": "Un koala accanto a una figura verde composta da 4 esagoni disposti a T (3 in linea orizzontale e 1 sopra quello centrale), con un totale di 12 cerchietti neri."
+        },
+        {
+          "id": "C",
+          "testo": "Un koala accanto a una figura verde composta da 5 esagoni disposti a croce (1 centrale e 4 attorno ad esso), con un totale di 16 cerchietti neri."
+        },
+        {
+          "id": "D",
+          "testo": "Un koala accanto a una figura verde composta da 4 esagoni disposti a rettangolo 2x2, con un totale di 16 cerchietti neri."
+        },
+        {
+          "id": "E",
+          "testo": "Un koala accanto a una figura verde composta da 3 esagoni disposti a L (2 orizzontali e 1 sotto il secondo), con un totale di 10 cerchietti neri."
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "A ogni compleanno Maria ha ricevuto in regalo degli orsacchiotti; un orsacchiotto al primo compleanno, due al secondo e così via. A ogni compleanno ha ricevuto un orsacchiotto più dell'anno precedente. Li ha tenuti tutti. Dopo la festa per il suo sesto compleanno quanti orsacchiotti ha in tutto?",
+      "immagine": "images/koala-2022-screenshots/q19.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "19"
+        },
+        {
+          "id": "B",
+          "testo": "20"
+        },
+        {
+          "id": "C",
+          "testo": "21"
+        },
+        {
+          "id": "D",
+          "testo": "22"
+        },
+        {
+          "id": "E",
+          "testo": "23"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Dino si muove dall'entrata all'uscita di questa casa attraversando le stanze e non può attraversare una stanza più di una volta.\nDino somma tutti i numeri che trova nelle stanze per le quali passa. Qual è la somma più alta che Dino può ottenere?",
+      "immagine": "images/koala-2022-screenshots/q20.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "27"
+        },
+        {
+          "id": "B",
+          "testo": "29"
+        },
+        {
+          "id": "C",
+          "testo": "32"
+        },
+        {
+          "id": "D",
+          "testo": "34"
+        },
+        {
+          "id": "E",
+          "testo": "36"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Nel disegno figure uguali coprono numeri uguali, figure diverse coprono numeri diversi. Quale numero si deve scrivere al posto del punto interrogativo?",
+      "immagine": "images/koala-2022-screenshots/q21.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "10"
+        },
+        {
+          "id": "B",
+          "testo": "12"
+        },
+        {
+          "id": "C",
+          "testo": "14"
+        },
+        {
+          "id": "D",
+          "testo": "16"
+        },
+        {
+          "id": "E",
+          "testo": "18"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "L'auto di Kanga può svoltare solo a destra; non può mai girare a sinistra. Quale delle seguenti strade può percorrere, se sceglie il punto di partenza in modo opportuno?",
+      "immagine": "images/koala-2022-screenshots/q22.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Percorso A"
+        },
+        {
+          "id": "B",
+          "testo": "Percorso B"
+        },
+        {
+          "id": "C",
+          "testo": "Percorso C"
+        },
+        {
+          "id": "D",
+          "testo": "Percorso D"
+        },
+        {
+          "id": "E",
+          "testo": "Percorso E"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "In una classe ci sono 30 scolari, tra bambini e bambine. Ogni banco ha due posti e ogni bambino ha una bambina come compagna di banco mentre solo metà delle bambine hanno un bambino come compagno di banco. Quanti bambini ci sono in quella classe?",
+      "immagine": "images/koala-2022-screenshots/q23.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "10"
+        },
+        {
+          "id": "B",
+          "testo": "15"
+        },
+        {
+          "id": "C",
+          "testo": "17"
+        },
+        {
+          "id": "D",
+          "testo": "20"
+        },
+        {
+          "id": "E",
+          "testo": "22"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Sul banco ci sono cinque carte numerate, come mostrato in figura. Devi metterle in ordine crescente: per far questo, a ogni passo, puoi solo scambiare di posto due carte. Qual è il minor numero di passi che ti permette di avere le carte in ordine crescente?",
+      "immagine": "images/koala-2022-screenshots/q24.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    }
+  ]
+}
