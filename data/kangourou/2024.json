@@ -1,397 +1,346 @@
 {
-  "meta": {
-    "anno": 2024,
-    "tipo": "kangourou",
-    "categoria": "Ecolier",
-    "classi": "4ª e 5ª Primaria",
-    "tempo_minuti": 75,
-    "totale_domande": 24,
-    "punteggio_massimo": 120
-  },
+  "id": "kangourou-2024",
+  "titolo": "Kangourou - Ecolier 2024",
+  "anno": "2024",
+  "categoria": "Ecolier (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
   "domande": [
     {
-      "numero": 1,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Domanda 1",
-      "immagine": "images/kangourou-2024-screenshots/q01.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "id": 1,
+      "testo": "Rita paga 7 euro per comperare tre articoli di cartoleria, di prezzi tutti diversi fra loro. Il prezzo in euro di ogni articolo è un numero intero. Quanti euro costa il più caro?",
+      "immagine": null,
+      "opzioni": [
+        {"id": "A", "testo": "2"},
+        {"id": "B", "testo": "3"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "5"},
+        {"id": "E", "testo": "6"}
+      ],
       "risposta_corretta": "C",
-      "screenshot_mode": true
+      "punteggio": 3
     },
     {
-      "numero": 2,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Domanda 2",
+      "id": 2,
+      "testo": "Quanti di questi quadrati sono scomposti dalla linea tracciata al loro interno in due forme non sovrapponibili?",
       "immagine": "images/kangourou-2024-screenshots/q02.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "opzioni": [
+        {"id": "A", "testo": "Nessuno"},
+        {"id": "B", "testo": "1"},
+        {"id": "C", "testo": "2"},
+        {"id": "D", "testo": "3"},
+        {"id": "E", "testo": "4"}
+      ],
       "risposta_corretta": "B",
-      "screenshot_mode": true
+      "punteggio": 3
     },
     {
-      "numero": 3,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Domanda 3",
+      "id": 3,
+      "testo": "Osserva la figura. L'incendio è scoppiato a un piano molto alto: il vigile del fuoco è arrivato quattro piani sotto, nel punto indicato, ma non può compiere alcun tipo di salto. Qual è il minimo numero di scale che userà per raggiungere l'incendio?",
       "immagine": "images/kangourou-2024-screenshots/q03.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "opzioni": [
+        {"id": "A", "testo": "4"},
+        {"id": "B", "testo": "5"},
+        {"id": "C", "testo": "6"},
+        {"id": "D", "testo": "7"},
+        {"id": "E", "testo": "8"}
+      ],
       "risposta_corretta": "C",
-      "screenshot_mode": true
+      "punteggio": 3
     },
     {
-      "numero": 4,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Domanda 4",
+      "id": 4,
+      "testo": "Osserva la figura: un gatto ha fatto cadere un cubetto della costruzione di Felice. Prima di questo incidente, quale dei seguenti aspetti avrebbe potuto avere la costruzione di Felice?",
       "immagine": "images/kangourou-2024-screenshots/q04.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
       "risposta_corretta": "E",
-      "screenshot_mode": true
+      "punteggio": 3
     },
     {
-      "numero": 5,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Domanda 5",
-      "immagine": "images/kangourou-2024-screenshots/q05.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "id": 5,
+      "testo": "Michele aveva scritto 3 numeri consecutivi di 4 cifre su una stessa riga. Ora che sua sorella ha cancellato alcune cifre, questo è quanto si vede: _ _ _ 7, _ 898, 48 _ _. Quali sono le cifre mancanti, da sinistra a destra? (Nota: un esempio di 3 numeri consecutivi di 4 cifre è dato da 2023, 2024, 2025)",
+      "immagine": null,
+      "opzioni": [
+        {"id": "A", "testo": "389, 3, 99"},
+        {"id": "B", "testo": "489, 3, 96"},
+        {"id": "C", "testo": "489, 4, 98"},
+        {"id": "D", "testo": "489, 4, 99"},
+        {"id": "E", "testo": "488, 4, 99"}
+      ],
       "risposta_corretta": "D",
-      "screenshot_mode": true
+      "punteggio": 3
     },
     {
-      "numero": 6,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Domanda 6",
+      "id": 6,
+      "testo": "I giocatori di una squadra di calcio sono disposti in cerchio in modo da rispettare l'ordine delle loro maglie, come suggerisce la figura. Ogni giocatore, a partire dal numero 1, lancia la palla al terzo giocatore alla sua sinistra. Questa serie di lanci termina nel momento in cui il giocatore che riceve la palla dovrebbe lanciarla per la seconda volta. Qual è il numero dell'ultimo giocatore che ha lanciato la palla?",
       "immagine": "images/kangourou-2024-screenshots/q06.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "opzioni": [
+        {"id": "A", "testo": "7"},
+        {"id": "B", "testo": "8"},
+        {"id": "C", "testo": "9"},
+        {"id": "D", "testo": "10"},
+        {"id": "E", "testo": "11"}
+      ],
       "risposta_corretta": "C",
-      "screenshot_mode": true
+      "punteggio": 3
     },
     {
-      "numero": 7,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Domanda 7",
+      "id": 7,
+      "testo": "La parete della cucina di Alex è rivestita di piastrelle bianche e grigie a scacchiera. Ora Alex ha appeso sulla parete il poster che vedi in figura. Quante piastrelle grigie sono nascoste dal poster?",
       "immagine": "images/kangourou-2024-screenshots/q07.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "opzioni": [
+        {"id": "A", "testo": "15"},
+        {"id": "B", "testo": "21"},
+        {"id": "C", "testo": "25"},
+        {"id": "D", "testo": "30"},
+        {"id": "E", "testo": "35"}
+      ],
       "risposta_corretta": "B",
-      "screenshot_mode": true
+      "punteggio": 3
     },
     {
-      "numero": 8,
-      "punti": 3,
-      "difficolta": "facile",
-      "testo": "Domanda 8",
-      "immagine": "images/kangourou-2024-screenshots/q08.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "id": 8,
+      "testo": "La mamma porta in tavola cinque differenti frutti: una mela, una pera, una arancia, un kiwi e una banana. Ciascuno dei cinque figli prende un frutto che gli piace.\n\nAd Anna piacciono le arance.\nA Bianca piacciono tutti questi frutti.\nA Carlo piacciono arance, kiwi e banane.\nA Daniele piacciono arance e banane.\nA Emma piacciono pere e kiwi.\n\nQuale frutto prende Bianca?",
+      "immagine": null,
+      "opzioni": [
+        {"id": "A", "testo": "Arancia"},
+        {"id": "B", "testo": "Banana"},
+        {"id": "C", "testo": "Mela"},
+        {"id": "D", "testo": "Kiwi"},
+        {"id": "E", "testo": "Pera"}
+      ],
       "risposta_corretta": "C",
-      "screenshot_mode": true
+      "punteggio": 3
     },
     {
-      "numero": 9,
-      "punti": 4,
-      "difficolta": "media",
-      "testo": "Domanda 9",
+      "id": 9,
+      "testo": "Lisa vuole sostituire a ciascuna delle cinque lettere in figura uno dei numeri 1, 2, 4, 5 e 6, senza ripeterli. Vuole inoltre che valgano 11 tutte e tre le seguenti somme: la somma dei numeri sostituiti ad A, E, e C, quella dei numeri sostituiti a B, E e D e quella dei numeri sostituiti a C e D. Che numero dovrà inserire Lisa nella casella E?",
       "immagine": "images/kangourou-2024-screenshots/q09.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "5"},
+        {"id": "E", "testo": "6"}
+      ],
       "risposta_corretta": "C",
-      "screenshot_mode": true
+      "punteggio": 4
     },
     {
-      "numero": 10,
-      "punti": 4,
-      "difficolta": "media",
-      "testo": "Domanda 10",
+      "id": 10,
+      "testo": "Sul pavimento del cortile della scuola è disegnato un percorso con 12 caselle. Antonia e Lucio sono davanti alla casella 1 e giocano così: a turno ognuno lancia la moneta del canguro: se la moneta mostra la faccia \"testa\" chi l'ha lanciata avanza di 3 caselle; se la moneta mostra la faccia \"coda\" chi l'ha lanciata torna indietro di 1 casella oppure rimane fermo, se non ha caselle dietro di sé. Entrambi lanciano la moneta 4 volte: Antonia arriva sul numero 4, Lucio sul numero 8. Quante volte in tutto è uscita la faccia \"coda\"?",
       "immagine": "images/kangourou-2024-screenshots/q10.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
-      "risposta_corretta": "C",
-      "screenshot_mode": true
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "3"},
+        {"id": "D", "testo": "4"},
+        {"id": "E", "testo": "5"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
     },
     {
-      "numero": 11,
-      "punti": 4,
-      "difficolta": "media",
-      "testo": "Domanda 11",
+      "id": 11,
+      "testo": "Il rubinetto in figura perde acqua. Sotto di esso vedi alcuni vasi numerati, tutti delle stesse dimensioni: tre di essi hanno dei tubi di scarico. Osserva attentamente la figura: quale vaso si riempirà per primo?",
       "immagine": "images/kangourou-2024-screenshots/q11.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
-      "risposta_corretta": "B",
-      "screenshot_mode": true
-    },
-    {
-      "numero": 12,
-      "punti": 4,
-      "difficolta": "media",
-      "testo": "Domanda 12",
-      "immagine": "images/kangourou-2024-screenshots/q12.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "opzioni": [
+        {"id": "A", "testo": "3"},
+        {"id": "B", "testo": "4"},
+        {"id": "C", "testo": "5"},
+        {"id": "D", "testo": "6"},
+        {"id": "E", "testo": "7"}
+      ],
       "risposta_corretta": "D",
-      "screenshot_mode": true
+      "punteggio": 4
     },
     {
-      "numero": 13,
-      "punti": 4,
-      "difficolta": "media",
-      "testo": "Domanda 13",
-      "immagine": "images/kangourou-2024-screenshots/q13.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "id": 12,
+      "testo": "Gino il pinguino va a pesca ogni giorno e ogni giorno porta a casa 9 pesci per i suoi due pulcini: 5 pesci li dà al primo pulcino che vede, 4 pesci al secondo; essi mangiano tutti i pesci. Negli ultimi giorni un pulcino ha mangiato 26 pesci. Quanti pesci ha mangiato l'altro pulcino negli stessi giorni?",
+      "immagine": null,
+      "opzioni": [
+        {"id": "A", "testo": "19"},
+        {"id": "B", "testo": "22"},
+        {"id": "C", "testo": "25"},
+        {"id": "D", "testo": "28"},
+        {"id": "E", "testo": "31"}
+      ],
       "risposta_corretta": "A",
-      "screenshot_mode": true
+      "punteggio": 4
     },
     {
-      "numero": 14,
-      "punti": 4,
-      "difficolta": "media",
-      "testo": "Domanda 14",
+      "id": 13,
+      "testo": "Ho scritto tutti i numeri da 1 a 7, ciascuno su una carta diversa. Poi, come suggerisce la figura, ho posto le sette carte all'interno di quattro anelli in parte sovrapposti. Per ogni anello, la somma dei numeri sulle carte in esso contenute è 10. Quale numero si trova sulla carta indicata col punto di domanda?",
+      "immagine": "images/kangourou-2024-screenshots/q13.png",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "5"},
+        {"id": "E", "testo": "7"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Luca vuole costruire un bruco che abbia la testa, la coda e 1 o 2 o 3 pezzi a doppio incastro tra la testa e la coda. I pezzi devono incastrarsi bene, senza buchi o sovrapposizioni. In quanti modi può farlo?",
       "immagine": "images/kangourou-2024-screenshots/q14.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "opzioni": [
+        {"id": "A", "testo": "3"},
+        {"id": "B", "testo": "4"},
+        {"id": "C", "testo": "5"},
+        {"id": "D", "testo": "6"},
+        {"id": "E", "testo": "7"}
+      ],
       "risposta_corretta": "B",
-      "screenshot_mode": true
+      "punteggio": 4
     },
     {
-      "numero": 15,
-      "punti": 4,
-      "difficolta": "media",
-      "testo": "Domanda 15",
+      "id": 15,
+      "testo": "Giovanni ha un cartoncino con una faccia scura e una chiara. Egli scrive i numeri da 1 a 4 sulla faccia scura del cartoncino; poi lo ribalta e sul retro scrive i numeri da 5 a 8, nell'ordine indicato dalla prima figura. Infine ritaglia il cartoncino in 4 carte rettangolari e le mette in fila come suggerisce la seconda figura. Quanto vale la somma dei numeri che dovrebbero essere scritti al posto dei punti di domanda?",
       "immagine": "images/kangourou-2024-screenshots/q15.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
-      "risposta_corretta": "B",
-      "screenshot_mode": true
+      "opzioni": [
+        {"id": "A", "testo": "3"},
+        {"id": "B", "testo": "4"},
+        {"id": "C", "testo": "5"},
+        {"id": "D", "testo": "6"},
+        {"id": "E", "testo": "7"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
     },
     {
-      "numero": 16,
-      "punti": 4,
-      "difficolta": "media",
-      "testo": "Domanda 16",
+      "id": 16,
+      "testo": "La figura a lato mostra una parte di un pavimento. Esso è ottenuto con due tipi di piastrelle: rettangoli grigi e quadrati neri. La piastrella rettangolare ha lati lunghi 23 cm e 11 cm. Quanti centimetri è lungo il lato della piastrella quadrata?",
       "immagine": "images/kangourou-2024-screenshots/q16.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
-      "risposta_corretta": "D",
-      "screenshot_mode": true
-    },
-    {
-      "numero": 17,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Domanda 17",
-      "immagine": "images/kangourou-2024-screenshots/q17.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "opzioni": [
+        {"id": "A", "testo": "3"},
+        {"id": "B", "testo": "4"},
+        {"id": "C", "testo": "5"},
+        {"id": "D", "testo": "6"},
+        {"id": "E", "testo": "7"}
+      ],
       "risposta_corretta": "B",
-      "screenshot_mode": true
+      "punteggio": 4
     },
     {
-      "numero": 18,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Domanda 18",
+      "id": 17,
+      "testo": "Come suggerisce la figura, Ada ha costruito una torre con 8 dischi dello stesso formato. Poi ha rimosso il secondo disco dal fondo di questa torre. Poi ha rimosso il terzo disco dal fondo della torre così ottenuta. Poi ha rimosso il quarto disco dal fondo della nuova torre. Infine ha rimosso il quinto disco dal fondo dell'ultima torre ottenuta. Quale delle seguenti è la torre che Ada vede alla fine?",
+      "immagine": "images/kangourou-2024-screenshots/q17.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "La somma di tre numeri, ciascuno di tre cifre, è 782. Come vedi in figura, da ogni numero è stata rimossa una cifra. Qual è la somma delle tre cifre mancanti?",
       "immagine": "images/kangourou-2024-screenshots/q18.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
-      "risposta_corretta": "D",
-      "screenshot_mode": true
+      "opzioni": [
+        {"id": "A", "testo": "8"},
+        {"id": "B", "testo": "9"},
+        {"id": "C", "testo": "10"},
+        {"id": "D", "testo": "11"},
+        {"id": "E", "testo": "12"}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
     },
     {
-      "numero": 19,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Domanda 19",
+      "id": 19,
+      "testo": "Lucia ha un cilindro, un cono e una palla. Pesa a coppie questi oggetti: qui sotto vedi il risultato delle pesate. Quanto pesa il cilindro?",
       "immagine": "images/kangourou-2024-screenshots/q19.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
-      "risposta_corretta": "E",
-      "screenshot_mode": true
+      "opzioni": [
+        {"id": "A", "testo": "90"},
+        {"id": "B", "testo": "100"},
+        {"id": "C", "testo": "120"},
+        {"id": "D", "testo": "150"},
+        {"id": "E", "testo": "170"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
     },
     {
-      "numero": 20,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Domanda 20",
+      "id": 20,
+      "testo": "Nelle operazioni figurate qui a destra, figure uguali rappresentano cifre uguali e figure diverse rappresentano cifre diverse. Quanto vale triangolo x cerchio x quadrato?",
       "immagine": "images/kangourou-2024-screenshots/q20.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "opzioni": [
+        {"id": "A", "testo": "0"},
+        {"id": "B", "testo": "15"},
+        {"id": "C", "testo": "18"},
+        {"id": "D", "testo": "28"},
+        {"id": "E", "testo": "30"}
+      ],
       "risposta_corretta": "D",
-      "screenshot_mode": true
+      "punteggio": 5
     },
     {
-      "numero": 21,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Domanda 21",
+      "id": 21,
+      "testo": "Guarda la figura: ci sono esattamente due rane in ogni riga e in ogni colonna. Due rane saltano nello stesso istante e ognuna atterra in una casella vuota vicina a quella da cui è saltata, cioè una casella che ha con essa un lato in comune. Dopo di ciò ci sono ancora due rane in ogni riga e in ogni colonna. In quanti modi ciò può succedere?",
       "immagine": "images/kangourou-2024-screenshots/q21.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
-      "risposta_corretta": "D",
-      "screenshot_mode": true
-    },
-    {
-      "numero": 22,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Domanda 22",
-      "immagine": "images/kangourou-2024-screenshots/q22.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "3"},
+        {"id": "D", "testo": "4"},
+        {"id": "E", "testo": "5"}
+      ],
       "risposta_corretta": "C",
-      "screenshot_mode": true
+      "punteggio": 5
     },
     {
-      "numero": 23,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Domanda 23",
-      "immagine": "images/kangourou-2024-screenshots/q23.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "id": 22,
+      "testo": "La figura rappresenta un alveare con 9 celle. Diciamo che due celle sono vicine se hanno un lato in comune. In alcune celle c'è del miele: il numero in ogni cella indica quante celle vicine contengono miele. Quante celle contengono miele?",
+      "immagine": "images/kangourou-2024-screenshots/q22.png",
+      "opzioni": [
+        {"id": "A", "testo": "4"},
+        {"id": "B", "testo": "5"},
+        {"id": "C", "testo": "6"},
+        {"id": "D", "testo": "7"},
+        {"id": "E", "testo": "8"}
+      ],
       "risposta_corretta": "E",
-      "screenshot_mode": true
+      "punteggio": 5
     },
     {
-      "numero": 24,
-      "punti": 5,
-      "difficolta": "difficile",
-      "testo": "Domanda 24",
-      "immagine": "images/kangourou-2024-screenshots/q24.png",
-      "opzioni": {
-        "A": "Opzione A",
-        "B": "Opzione B",
-        "C": "Opzione C",
-        "D": "Opzione D",
-        "E": "Opzione E"
-      },
+      "id": 23,
+      "testo": "Tre ragazze si sono avvicinate una dopo l'altra al vassoio che vedi in figura per prendere dei dolcetti. Non sappiamo in quale ordine sono arrivate al vassoio, ma sappiamo che:\n- una delle ragazze ha preso tutti i cuori che ha trovato sul vassoio e nient'altro;\n- un'altra ha preso tutti i dolcetti bianchi che ha trovato sul vassoio e nient'altro;\n- un'altra ha preso tutti i dolcetti grandi che ha trovato sul vassoio e nient'altro.\nIl risultato finale è che una ragazza ha preso 3 dolcetti, una ne ha presi 6 e una ne ha presi 7. Quale dei seguenti insiemi di dolcetti è stato preso da una delle ragazze?",
+      "immagine": "images/kangourou-2024-screenshots/q23.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
       "risposta_corretta": "D",
-      "screenshot_mode": true
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Ci sono 2 tipi di blocchi: bianchi e grigi. Un cubetto può essere composto accostando 4 blocchi bianchi oppure 1 blocco bianco e 1 grigio. Il cubo grande in figura è fatto di cubetti. Qual è il più piccolo numero di blocchi bianchi che permette di comporre il cubo grande?",
+      "immagine": "images/kangourou-2024-screenshots/q24.png",
+      "opzioni": [
+        {"id": "A", "testo": "8"},
+        {"id": "B", "testo": "11"},
+        {"id": "C", "testo": "13"},
+        {"id": "D", "testo": "14"},
+        {"id": "E", "testo": "23"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
     }
   ]
 }

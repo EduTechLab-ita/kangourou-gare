@@ -270,7 +270,7 @@
                     <select id="tipo-gara" onchange="loadAnniDisponibili()">
                         <option value="">-- Seleziona categoria --</option>
                         <option value="koala">🐨 Koala (2ª-3ª Primaria)</option>
-                        <option value="kangourou">🦘 Kangourou (4ª-5ª Primaria)</option>
+                        <option value="kangourou">🦘 Kangourou - Ecolier (4ª-5ª Primaria)</option>
                     </select>
                 </div>
 
@@ -391,7 +391,7 @@
                 preview.innerHTML = `
                     <div style="background: white; border-radius: 10px; padding: 20px;">
                         <h2 style="color: #667eea; margin-bottom: 20px;">
-                            ${tipo === 'koala' ? '🐨 Koala' : '🦘 Kangourou'} ${anno}
+                            ${tipo === 'koala' ? '🐨 Koala' : '🦘 Kangourou - Ecolier'} ${anno}
                         </h2>
 
                         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 20px;">
@@ -475,7 +475,7 @@
 
             container.innerHTML = catalogoGare.map(gara => `
                 <div class="catalog-item" onclick="selezionaGara('${gara.tipo}', ${gara.anno})">
-                    <h3>${gara.tipo === 'koala' ? '🐨 Koala' : '🦘 Kangourou'} ${gara.anno}</h3>
+                    <h3>${gara.tipo === 'koala' ? '🐨 Koala' : '🦘 Kangourou - Ecolier'} ${gara.anno}</h3>
                     <div class="meta">📅 Anno: ${gara.anno}</div>
                     <div class="meta">🎯 Categoria: ${gara.categoria}</div>
                     <div class="meta">👥 Classi: ${gara.classi}</div>
