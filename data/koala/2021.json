@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "anno": 2021,
+    "tipo": "koala",
+    "categoria": "Pre-Ecolier",
+    "classi": "2ª e 3ª Primaria",
+    "tempo_minuti": 75,
+    "totale_domande": 24,
+    "punteggio_massimo": 96
+  },
+  "domande": [
+    {
+      "numero": 1,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Giovanni ha appoggiato su un tavolo 3 bastoncini neri uguali a questo. Senza romperli e senza piegarli, ha realizzato una delle figure che vedi. Quale?",
+      "immagine": "images/koala-2021-screenshots/q01.png",
+      "opzioni": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "",
+        "E": ""
+      },
+      "risposta_corretta": "C"
+    },
+    {
+      "numero": 2,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "L'immagine mostra 2 funghi. Qual è la differenza tra le loro altezze?",
+      "immagine": "images/koala-2021-screenshots/q02.png",
+      "opzioni": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "11",
+        "E": "17"
+      },
+      "risposta_corretta": "E"
+    },
+    {
+      "numero": 3,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Quale è il più lungo tra i percorsi mostrati nelle 5 figure?",
+      "immagine": "images/koala-2021-screenshots/q03.png",
+      "opzioni": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "",
+        "E": ""
+      },
+      "risposta_corretta": "C"
+    },
+    {
+      "numero": 4,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Quattro quadrati di carta identici sono posizionati come mostrato. Michele vuole praticare un foro che attraversi tutti e quattro i quadrati, ma può farlo solo in uno dei cinque punti indicati. In quale di essi Michele deve praticare il foro?",
+      "immagine": "images/koala-2021-screenshots/q04.png",
+      "opzioni": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "risposta_corretta": "D"
+    },
+    {
+      "numero": 5,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Isabella indossa questa maglietta e si mette davanti a uno specchio. Quale di queste immagini vede nello specchio?",
+      "immagine": "images/koala-2021-screenshots/q05.png",
+      "opzioni": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "",
+        "E": ""
+      },
+      "risposta_corretta": "C"
+    },
+    {
+      "numero": 6,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "La torre rosa è più alta della torre blu ma più bassa della torre verde. La torre d'argento è più alta della torre verde. Qual è la torre più alta?",
+      "immagine": "images/koala-2021-screenshots/q06.png",
+      "opzioni": {
+        "A": "La torre rosa",
+        "B": "La torre verde",
+        "C": "La torre blu",
+        "D": "La torre d'argento",
+        "E": "È impossibile decidere"
+      },
+      "risposta_corretta": "C"
+    },
+    {
+      "numero": 7,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "Questi bambini sono in fila. Alcuni sono rivolti verso di te e altri ti danno le spalle. Quanti tra bambini e bambine tengono la mano di un altro bambino con la mano destra?",
+      "immagine": "images/koala-2021-screenshots/q07.png",
+      "opzioni": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "risposta_corretta": "A"
+    },
+    {
+      "numero": 8,
+      "punti": 3,
+      "difficolta": "facile",
+      "testo": "In queste costellazioni ogni stella è denotata da un numero invece che da un nome. I numeri che denotano le stelle nella costellazione Kangourou sono tutti maggiori di 3 e la loro somma è 20. Qual è la costellazione Kangourou?",
+      "immagine": "images/koala-2021-screenshots/q08.png",
+      "opzioni": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "",
+        "E": ""
+      },
+      "risposta_corretta": "D"
+    },
+    {
+      "numero": 9,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Edoardo ha tagliato un nastro come mostrato nella figura. Alla fine, quanti pezzi di nastro ha ottenuto?",
+      "immagine": "images/koala-2021-screenshots/q09.png",
+      "opzioni": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12",
+        "E": "13"
+      },
+      "risposta_corretta": "D"
+    },
+    {
+      "numero": 10,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Il gatto Ronron cammina sopra un muro. Parte dal punto B e segue la direzione delle frecce mostrate nell'immagine. In quale punto arriva dopo aver percorso esattamente 20 metri?",
+      "immagine": "images/koala-2021-screenshots/q10.png",
+      "opzioni": {
+        "A": "In A",
+        "B": "In B",
+        "C": "In C",
+        "D": "In D",
+        "E": "In E"
+      },
+      "risposta_corretta": "B"
+    },
+    {
+      "numero": 11,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "In figura vedi i due vasi di fiori che Giulia aveva sul balcone. Oggi Giulia ha comperato altri fiori e li ha aggiunti nei due vasi, senza togliere i fiori che già c'erano: ora in ciascuno dei due vasi, per ogni tipo di fiore, c'è lo stesso numero di fiori. Qual è il minimo numero di fiori che Giulia può aver acquistato?",
+      "immagine": "images/koala-2021-screenshots/q11.png",
+      "opzioni": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8",
+        "E": "10"
+      },
+      "risposta_corretta": "C"
+    },
+    {
+      "numero": 12,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Utilizzando la tabella in figura Tom può codificare alcune parole. Ad esempio, la parola PIZZA ha il codice \"2A 4A 1C 1C 2B\". Quale parola nasconde il codice \"3B 1D 4D 2B\"?",
+      "immagine": "images/koala-2021-screenshots/q12.png",
+      "opzioni": {
+        "A": "MARE",
+        "B": "MESI",
+        "C": "MALE",
+        "D": "MIRA",
+        "E": "MELA"
+      },
+      "risposta_corretta": "D"
+    },
+    {
+      "numero": 13,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Quale delle cinque figure puoi ottenere accostando queste due forme?",
+      "immagine": "images/koala-2021-screenshots/q13.png",
+      "opzioni": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "",
+        "E": ""
+      },
+      "risposta_corretta": "E"
+    },
+    {
+      "numero": 14,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Il \"Kangball\" si gioca come il calcio, ma ogni rete vale 2 punti. In una partita Chiara ha segnato 5 reti e Angela 9. Quanti punti meno di Angela ha totalizzato Chiara?",
+      "immagine": "images/koala-2021-screenshots/q14.png",
+      "opzioni": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "10",
+        "E": "12"
+      },
+      "risposta_corretta": "C"
+    },
+    {
+      "numero": 15,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "L'immagine mostra le cinque case di cinque amici e la loro scuola. La scuola è l'edificio più grande nella foto. Per andare a scuola, Doris e Ali passano davanti alla casa di Leo. Eva passa davanti a casa di Cloe. Qual è la casa di Eva?",
+      "immagine": "images/koala-2021-screenshots/q15.png",
+      "opzioni": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "",
+        "E": ""
+      },
+      "risposta_corretta": "D"
+    },
+    {
+      "numero": 16,
+      "punti": 4,
+      "difficolta": "media",
+      "testo": "Un canguro aveva staccato due ramoscelli per fare colazione. Su ogni ramoscello c'erano 10 foglie. Il canguro mangiò solo alcune foglie del primo ramoscello; del secondo ramoscello mangiò tante foglie quante ne erano rimaste sul primo. Quante foglie, in totale, rimasero sui due ramoscelli?",
+      "immagine": "images/koala-2021-screenshots/q16.png",
+      "opzioni": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "10",
+        "E": "15"
+      },
+      "risposta_corretta": "D"
+    },
+    {
+      "numero": 17,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Mara ha costruito la figura a fianco utilizzando quattro delle cinque forme che seguono. Quale forma Mara non ha utilizzato?",
+      "immagine": "images/koala-2021-screenshots/q17.png",
+      "opzioni": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "",
+        "E": ""
+      },
+      "risposta_corretta": "B"
+    },
+    {
+      "numero": 18,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Una maghetta si diverte a trasformare i frutti. Ogni volta che ha 3 mele le trasforma in 1 banana. Ogni volta che ha 3 banane le trasforma in 1 mela. Se inizia con 4 mele e 5 banane, che cosa le resterà quando arriverà al momento di non poter più fare trasformazioni?",
+      "immagine": "images/koala-2021-screenshots/q18.png",
+      "opzioni": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "",
+        "E": ""
+      },
+      "risposta_corretta": "E"
+    },
+    {
+      "numero": 19,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Abbiamo posto nelle due scatole le cinque carte numerate che vedi qui sotto. La somma dei numeri delle carte nella prima scatola è uguale a quella dei numeri delle carte nella seconda. Quale può essere il numero di una carta che sta nella stessa scatola della carta 4?",
+      "immagine": "images/koala-2021-screenshots/q19.png",
+      "opzioni": {
+        "A": "Solo il 3",
+        "B": "Solo il 5",
+        "C": "Solo il 6",
+        "D": "Solo il 5 o il 6",
+        "E": "È impossibile determinarlo"
+      },
+      "risposta_corretta": "D"
+    },
+    {
+      "numero": 20,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "L'immagine mostra un ingranaggio costituito da due ruote dentate, ciascuna con uno e un solo dente nero. In quali posizioni si verranno a trovare i due denti neri dopo che la ruota dentata piccola avrà compiuto un giro completo?",
+      "immagine": "images/koala-2021-screenshots/q20.png",
+      "opzioni": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "",
+        "E": ""
+      },
+      "risposta_corretta": "A"
+    },
+    {
+      "numero": 21,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Tre ragazze e due ragazzi partecipano ad una esibizione di ballo. Ogni ragazza balla con ogni ragazzo esattamente per un minuto e mezzo e in ogni istante sulla pista da ballo c'è una coppia e una sola. Quanti minuti dura la loro esibizione?",
+      "immagine": "images/koala-2021-screenshots/q21.png",
+      "opzioni": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "9",
+        "E": "10"
+      },
+      "risposta_corretta": "D"
+    },
+    {
+      "numero": 22,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Ogni partecipante a un concorso di cucina ha preparato un vassoio di biscotti come quello mostrato. Qual è il minimo numero di vassoi di biscotti che permette di realizzare il piatto qui sotto?",
+      "immagine": "images/koala-2021-screenshots/q22.png",
+      "opzioni": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "risposta_corretta": "E"
+    },
+    {
+      "numero": 23,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Al lunedì, al mercoledì e al venerdì il canguro Kangie mangia solo mele. Al martedì e al giovedì mangia solo manghi. Mangia 2 mele o 3 manghi al giorno. Al sabato e alla domenica non mangia frutta. Quanti pezzi di frutta mangia Kangie in due settimane?",
+      "immagine": "images/koala-2021-screenshots/q23.png",
+      "opzioni": {
+        "A": "12",
+        "B": "16",
+        "C": "18",
+        "D": "20",
+        "E": "24"
+      },
+      "risposta_corretta": "B"
+    },
+    {
+      "numero": 24,
+      "punti": 5,
+      "difficolta": "difficile",
+      "testo": "Saverio ha cinque giocattoli: una palla, un orsacchiotto, un trenino, un puzzle e un'automobilina. Li ha messi, uno per ogni ripiano, in uno scaffale con cinque ripiani. La palla è più in alto dell'orsacchiotto e più in basso dell'automobilina. Il trenino è sullo scaffale subito sopra la palla. Su quale ripiano non ha sicuramente posizionato il puzzle?",
+      "immagine": "images/koala-2021-screenshots/q24.png",
+      "opzioni": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "risposta_corretta": "E"
+    }
+  ]
+}
