@@ -8,7 +8,7 @@
   "domande": [
     {
       "id": 1,
-      "testo": "Giovanni ha appoggiato su un tavolo 3 bastoncini neri uguali a questo. Senza romperli e senza piegarli, ha realizzato una delle figure che vedi. Quale?",
+      "testo": "Giovanni ha appoggiato su un tavolo 3 bastoncini neri uguali. Senza romperli e senza piegarli, ha realizzato una delle figure che vedi. Quale?",
       "immagine": "images/koala-2021-screenshots/q01.png",
       "opzioni": [
         {"id": "A", "testo": ""},
