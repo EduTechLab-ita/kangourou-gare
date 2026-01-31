@@ -8,7 +8,7 @@
   "domande": [
     {
       "id": 1,
-      "testo": "Aldo ha acceso 5 candele identiche, tutte allo stesso istante. Ognuna di esse si è spenta in momenti differenti: il loro aspetto attuale è mostrato dalla figura. Quale candela si è spenta per prima?",
+      "testo": "Aldo ha acceso 5 candele identiche, tutte allo stesso istante. Ognuna di esse si è spenta in momenti differenti: il loro aspetto attuale è mostrato in figura. Quale candela si è spenta per prima?",
       "immagine": "images/kangourou-2023-screenshots/q01.png",
       "opzioni": [
         {"id": "A", "testo": "A"},
@@ -50,7 +50,7 @@
     },
     {
       "id": 4,
-      "testo": "Alice ha i quattro pezzi di cartone che vedi in figura. Con due di essi può formare il quadrato qui a lato. Quali sono?",
+      "testo": "Alice ha i quattro pezzi di cartone mostrati in figura. Con due di essi può formare un quadrato. Quali sono?",
       "immagine": "images/kangourou-2023-screenshots/q04.png",
       "opzioni": [
         {"id": "A", "testo": "1 e 2"},
@@ -106,7 +106,7 @@
     },
     {
       "id": 8,
-      "testo": "Sul cerchio nero Daniele ha incollato le due figure grigie che vedi alla sua destra, senza tagliarle, ma in qualche caso sovrapponendole parzialmente. Quale di queste figure non può aver ottenuto?",
+      "testo": "Sul cerchio nero Daniele ha incollato le due figure grigie mostrate in figura, senza tagliarle, ma in qualche caso sovrapponendole parzialmente. Quale di queste figure non può aver ottenuto?",
       "immagine": "images/kangourou-2023-screenshots/q08.png",
       "opzioni": [
         {"id": "A", "testo": ""},
