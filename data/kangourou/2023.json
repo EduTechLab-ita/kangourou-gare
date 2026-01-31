@@ -1,0 +1,346 @@
+{
+  "id": "ecolier-2023",
+  "titolo": "Ecolier 2023",
+  "anno": "2023",
+  "categoria": "Kangourou (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Aldo ha acceso 5 candele identiche, tutte allo stesso istante. Ognuna di esse si è spenta in momenti differenti: il loro aspetto attuale è mostrato dalla figura. Quale candela si è spenta per prima?",
+      "immagine": "images/kangourou-2023-screenshots/q01.png",
+      "opzioni": [
+        {"id": "A", "testo": "A"},
+        {"id": "B", "testo": "B"},
+        {"id": "C", "testo": "C"},
+        {"id": "D", "testo": "D"},
+        {"id": "E", "testo": "E"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "La somma delle cifre di 2023 è 7. Fra quanti anni saremo per la prima volta in un anno la somma delle cui cifre sia ancora 7?",
+      "immagine": "",
+      "opzioni": [
+        {"id": "A", "testo": "7"},
+        {"id": "B", "testo": "8"},
+        {"id": "C", "testo": "9"},
+        {"id": "D", "testo": "10"},
+        {"id": "E", "testo": "11"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "La figura mostra il quadrante di un orologio e ciò che vede Sara dopo avergli sovrapposto un cerchio scuro con due buchi. Ora Sara ruota il cerchio intorno al suo centro. Quale di queste coppie di numeri è possibile che veda nei buchi dopo la rotazione?",
+      "immagine": "images/kangourou-2023-screenshots/q03.png",
+      "opzioni": [
+        {"id": "A", "testo": "4 e 9"},
+        {"id": "B", "testo": "5 e 9"},
+        {"id": "C", "testo": "5 e 10"},
+        {"id": "D", "testo": "6 e 9"},
+        {"id": "E", "testo": "7 e 12"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "Alice ha i quattro pezzi di cartone che vedi in figura. Con due di essi può formare il quadrato qui a lato. Quali sono?",
+      "immagine": "images/kangourou-2023-screenshots/q04.png",
+      "opzioni": [
+        {"id": "A", "testo": "1 e 2"},
+        {"id": "B", "testo": "1 e 3"},
+        {"id": "C", "testo": "1 e 4"},
+        {"id": "D", "testo": "3 e 4"},
+        {"id": "E", "testo": "2 e 4"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "In teatro, un tecnico delle luci accende e spegne luci colorate seguendo il piano mostrato in figura. Per quanti minuti in tutto ci sono esattamente due luci accese contemporaneamente?",
+      "immagine": "images/kangourou-2023-screenshots/q05.png",
+      "opzioni": [
+        {"id": "A", "testo": "2"},
+        {"id": "B", "testo": "6"},
+        {"id": "C", "testo": "8"},
+        {"id": "D", "testo": "9"},
+        {"id": "E", "testo": "10"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Carlo ha fatto dei disegni su un foglio trasparente e poi l'ha piegato lungo la linea tratteggiata come mostra la figura. Quale di queste immagini ha visto dopo la piegatura?",
+      "immagine": "images/kangourou-2023-screenshots/q06.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Anna ha 4 dischi di misure differenti. Vuole costruire una torre sovrapponendo 3 dischi in modo che ogni disco sia più piccolo del disco su cui appoggia. In quanti modi può farlo?",
+      "immagine": "images/kangourou-2023-screenshots/q07.png",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "5"},
+        {"id": "E", "testo": "6"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Sul cerchio nero Daniele ha incollato le due figure grigie che vedi alla sua destra, senza tagliarle, ma in qualche caso sovrapponendole parzialmente. Quale di queste figure non può aver ottenuto?",
+      "immagine": "images/kangourou-2023-screenshots/q08.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "Piera vuole ricoprire la forma disegnata in figura con le 5 forme che compaiono nelle risposte. Quale forma andrà a coprire il puntino indicato dalla freccia?",
+      "immagine": "images/kangourou-2023-screenshots/q09.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Robi ha una bilancia a due bracci e sei pesi: da 1, 2, 3, 4, 5 e 6 kg. Robi mette cinque dei sei pesi sulla bilancia come suggerisce la figura e mette da parte quello rimasto. La bilancia sta in equilibrio. Quale peso ha messo da parte?",
+      "immagine": "images/kangourou-2023-screenshots/q10.png",
+      "opzioni": [
+        {"id": "A", "testo": "Quello da 1 kg"},
+        {"id": "B", "testo": "Quello da 2 kg"},
+        {"id": "C", "testo": "Quello da 3 kg"},
+        {"id": "D", "testo": "Quello da 4 kg"},
+        {"id": "E", "testo": "Non è possibile stabilirlo con certezza"}
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Ada ha una riga numerata lunga 60 cm; su di essa manca la maggior parte delle tacche che indicano i millimetri e i centimetri. Però Ada riesce a misurare con una sola misurazione segmenti lunghi 10, 20, 30, 40, 50 o 60 cm. Quale delle seguenti può essere la sua riga?",
+      "immagine": "images/kangourou-2023-screenshots/q11.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Ci sono 7 case a Nord della Via A, 8 case a Est della Via B e 5 case a Sud della Via A. Quante sono le case a Ovest della Via B?",
+      "immagine": "images/kangourou-2023-screenshots/q12.png",
+      "opzioni": [
+        {"id": "A", "testo": "4"},
+        {"id": "B", "testo": "5"},
+        {"id": "C", "testo": "6"},
+        {"id": "D", "testo": "7"},
+        {"id": "E", "testo": "8"}
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "Al porto 8 automobili sono in coda per entrare in un traghetto. Ogni auto contiene o 2 o 3 persone. In totale queste persone sono 19. Quante automobili contengono esattamente 2 persone?",
+      "immagine": "",
+      "opzioni": [
+        {"id": "A", "testo": "2"},
+        {"id": "B", "testo": "3"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "5"},
+        {"id": "E", "testo": "6"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Una linea della metropolitana ha 6 stazioni A, B, C, D, E, F. Il treno ferma ad ogni stazione e quando arriva a una delle due stazioni terminali inverte il verso di marcia. Un macchinista ha iniziato il suo turno di servizio alla stazione B e la sua prima fermata è stata nella stazione C. In quale stazione sarà la sua 96-esima fermata?",
+      "immagine": "images/kangourou-2023-screenshots/q14.png",
+      "opzioni": [
+        {"id": "A", "testo": "A"},
+        {"id": "B", "testo": "B"},
+        {"id": "C", "testo": "C"},
+        {"id": "D", "testo": "D"},
+        {"id": "E", "testo": "E"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Luisa vuole colorare i cerchi in figura in modo che, ogni volta che due cerchi sono collegati da un segmento, i due cerchi abbiano colori diversi. Qual è il più piccolo numero di colori che le basta?",
+      "immagine": "images/kangourou-2023-screenshots/q15.png",
+      "opzioni": [
+        {"id": "A", "testo": "2"},
+        {"id": "B", "testo": "3"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "5"},
+        {"id": "E", "testo": "6"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "Sandra attraversa dall'entrata all'uscita un labirinto su due piani, senza mai tornare sui suoi passi. In quale ordine vedrà i dipinti alle pareti?",
+      "immagine": "images/kangourou-2023-screenshots/q16.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Sei koala e due canguri sono in fila e ciascuno di loro ha ricevuto un numero, come si vede in figura. Ogni tre animali che hanno numeri consecutivi, esattamente uno è un canguro. Quale dei seguenti è il numero di uno dei due canguri?",
+      "immagine": "images/kangourou-2023-screenshots/q17.png",
+      "opzioni": [
+        {"id": "A", "testo": "2"},
+        {"id": "B", "testo": "3"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "5"},
+        {"id": "E", "testo": "7"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Rebecca piega due volte un foglio quadrato di carta, come mostrato in figura, dove i segmenti tratteggiati indicano la linea di piegatura. Poi taglia l'angolo lungo il segmento indicato nel quadrato che ha ottenuto. Infine apre il foglio di carta. Quale figura apparirà?",
+      "immagine": "images/kangourou-2023-screenshots/q18.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "Elisa, Mario e Nicola entrano sempre uno alla volta in sala mensa. Elisa non è mai la prima, Mario non è mai il secondo e Nicola non è mai il terzo. In quanti ordini differenti possono entrare?",
+      "immagine": "",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "3"},
+        {"id": "D", "testo": "4"},
+        {"id": "E", "testo": "6"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Sulla parete ci sono cinque orologi. Un orologio è un'ora avanti, un orologio è un'ora indietro, un orologio mostra l'ora corretta e due orologi sono fermi. Quale orologio mostra l'ora corretta?",
+      "immagine": "images/kangourou-2023-screenshots/q20.png",
+      "opzioni": [
+        {"id": "A", "testo": "A"},
+        {"id": "B", "testo": "B"},
+        {"id": "C", "testo": "C"},
+        {"id": "D", "testo": "D"},
+        {"id": "E", "testo": "E"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Adamo ed Eva hanno 9 biglie a testa: alcune sono rosse, le altre sono blu e, complessivamente, le biglie rosse sono 8. Eva ha un numero di biglie blu che è doppio del numero delle sue biglie rosse. Quante biglie blu ha Adamo?",
+      "immagine": "",
+      "opzioni": [
+        {"id": "A", "testo": "3"},
+        {"id": "B", "testo": "4"},
+        {"id": "C", "testo": "5"},
+        {"id": "D", "testo": "6"},
+        {"id": "E", "testo": "0"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Elsa ha due macchine. Nella macchina R il foglio esce ruotato di 90° in senso orario. La macchina S stampa sul foglio il simbolo ♣. In quale ordine Elsa deve azionare le due macchine per ottenere il risultato mostrato in figura?",
+      "immagine": "images/kangourou-2023-screenshots/q22.png",
+      "opzioni": [
+        {"id": "A", "testo": "SRR"},
+        {"id": "B", "testo": "RSR"},
+        {"id": "C", "testo": "RSS"},
+        {"id": "D", "testo": "RRS"},
+        {"id": "E", "testo": "SRS"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "In ciascuno dei cerchietti in figura Elena ha scritto un numero intero scelto fra quelli da 1 a 7, usandoli tutti. Ha fatto in modo che, ogni volta che due cerchietti sono agli estremi di una sbarretta, la somma dei numeri in essi contenuti sia il numero scritto vicino alla sbarretta. Quale numero ha scritto nel cerchietto ombreggiato?",
+      "immagine": "images/kangourou-2023-screenshots/q23.png",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "3"},
+        {"id": "D", "testo": "4"},
+        {"id": "E", "testo": "5"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Maria ha annerito esattamente 5 caselle in una griglia 4x4. Poi ha sfidato 5 suoi amici a indovinare quali caselle ha annerito. Le loro risposte sono quelle indicate sotto. Dopo aver visto i loro disegni Maria dice: Uno di voi ha indovinato tutte le caselle e ciascuno degli altri solo 4 caselle. Qual è la risposta corretta?",
+      "immagine": "images/kangourou-2023-screenshots/q24.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    }
+  ]
+}
