@@ -50,7 +50,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2022.pdf",
       "json_url": "data/kangourou/2022.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "koala-2021",
@@ -76,7 +76,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2021.pdf",
       "json_url": "data/kangourou/2021.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "koala-2020",
@@ -89,7 +89,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/koala/2020.pdf",
       "json_url": "data/koala/2020.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2020",
@@ -102,7 +102,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2020.pdf",
       "json_url": "data/kangourou/2020.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "koala-2019",
@@ -115,7 +115,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/koala/2019.pdf",
       "json_url": "data/koala/2019.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2019",
@@ -128,7 +128,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2019.pdf",
       "json_url": "data/kangourou/2019.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "koala-2018",
@@ -141,7 +141,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/koala/2018.pdf",
       "json_url": "data/koala/2018.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2018",
@@ -154,7 +154,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2018.pdf",
       "json_url": "data/kangourou/2018.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "koala-2017",
@@ -167,7 +167,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/koala/2017.pdf",
       "json_url": "data/koala/2017.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2017",
@@ -180,7 +180,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2017.pdf",
       "json_url": "data/kangourou/2017.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "koala-2016",
@@ -193,7 +193,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/koala/2016.pdf",
       "json_url": "data/koala/2016.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2016",
@@ -206,7 +206,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2016.pdf",
       "json_url": "data/kangourou/2016.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "koala-2015",
@@ -219,7 +219,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/koala/2015.pdf",
       "json_url": "data/koala/2015.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2015",
@@ -232,7 +232,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2015.pdf",
       "json_url": "data/kangourou/2015.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "koala-2014",
@@ -245,7 +245,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/koala/2014.pdf",
       "json_url": "data/koala/2014.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2014",
@@ -258,7 +258,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2014.pdf",
       "json_url": "data/kangourou/2014.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "koala-2013",
@@ -284,7 +284,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2013.pdf",
       "json_url": "data/kangourou/2013.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2012",
@@ -297,7 +297,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2012.pdf",
       "json_url": "data/kangourou/2012.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2011",
@@ -310,7 +310,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2011.pdf",
       "json_url": "data/kangourou/2011.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2010",
@@ -323,7 +323,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2010.pdf",
       "json_url": "data/kangourou/2010.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2009",
@@ -336,7 +336,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2009.pdf",
       "json_url": "data/kangourou/2009.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2008",
@@ -349,7 +349,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2008.pdf",
       "json_url": "data/kangourou/2008.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2007",
@@ -362,7 +362,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2007.pdf",
       "json_url": "data/kangourou/2007.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2006",
@@ -375,7 +375,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2006.pdf",
       "json_url": "data/kangourou/2006.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2005",
@@ -388,7 +388,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2005.pdf",
       "json_url": "data/kangourou/2005.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2004",
@@ -401,7 +401,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2004.pdf",
       "json_url": "data/kangourou/2004.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2003",
@@ -414,7 +414,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2003.pdf",
       "json_url": "data/kangourou/2003.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2002",
@@ -427,7 +427,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2002.pdf",
       "json_url": "data/kangourou/2002.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2001",
@@ -440,7 +440,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2001.pdf",
       "json_url": "data/kangourou/2001.json",
-      "disponibile": true
+      "disponibile": false
     },
     {
       "id": "kangourou-2000",
@@ -453,10 +453,11 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2000.pdf",
       "json_url": "data/kangourou/2000.json",
-      "disponibile": true
+      "disponibile": false
     }
   ],
-  "ultimo_aggiornamento": "2025-11-11",
-  "versione": "1.0.0",
-  "totale_gare": 35
+  "ultimo_aggiornamento": "2026-01-31",
+  "versione": "1.1.0",
+  "totale_gare": 35,
+  "gare_disponibili": 5
 }

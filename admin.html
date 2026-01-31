@@ -473,7 +473,8 @@
                 return;
             }
 
-            container.innerHTML = catalogoGare.map(gara => `
+            const gareAttive = catalogoGare.filter(g => g.disponibile);
+            container.innerHTML = gareAttive.map(gara => `
                 <div class="catalog-item" onclick="selezionaGara('${gara.tipo}', ${gara.anno})">
                     <h3>${gara.tipo === 'koala' ? '🐨 Koala' : '🦘 Kangourou - Ecolier'} ${gara.anno}</h3>
                     <div class="meta">📅 Anno: ${gara.anno}</div>
@@ -506,7 +507,7 @@
                 return;
             }
 
-            const gareDisponibili = catalogoGare.filter(g => g.tipo === tipo);
+            const gareDisponibili = catalogoGare.filter(g => g.tipo === tipo && g.disponibile);
 
             selectAnno.disabled = false;
             selectAnno.innerHTML = '<option value="">-- Seleziona anno --</option>' +
