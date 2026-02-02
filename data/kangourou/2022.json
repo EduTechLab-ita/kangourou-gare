@@ -176,7 +176,7 @@
     },
     {
       "id": 13,
-      "testo": "Aladino ha un tappeto quadrato. Il tappeto ha un bordo di puntini distribuiti su due linee come suggerisce la figura, che però mostra il tappeto piegato in parte. Lungo ogni lato del tappeto c'è lo stesso numero di puntini: quello che vedi in figura sul lato destro. Quanti sono in tutto i puntini sul tappeto di Aladino?",
+      "testo": "Aladino ha un tappeto quadrato. Il tappeto ha un bordo di puntini distribuiti su due linee come suggerisce la figura, che però mostra il tappeto piegato in parte. Lungo ogni lato del tappeto c'è lo stesso numero di puntini visibile in figura. Quanti sono in tutto i puntini sul tappeto di Aladino?",
       "immagine": "images/kangourou-2022-screenshots/q13.png",
       "opzioni": [
         {"id": "A", "testo": "20"},
@@ -260,7 +260,7 @@
     },
     {
       "id": 19,
-      "testo": "Ho tanti cubi di lato 10 cm, con cui ho costruito una piramide. Una formica si è arrampicata su e giù dalla piramide seguendo la linea spessa in figura (a sinistra il percorso è simmetrico di quello ben visibile a destra). Quanti centimetri è lunga la strada percorsa dalla formica per salire e scendere dalla piramide?",
+      "testo": "Ho tanti cubi di lato 10 cm, con cui ho costruito una piramide. Una formica si è arrampicata su e giù dalla piramide seguendo la linea spessa mostrata in figura (il percorso di salita è simmetrico a quello di discesa). Quanti centimetri è lunga la strada percorsa dalla formica per salire e scendere dalla piramide?",
       "immagine": "images/kangourou-2022-screenshots/q19.png",
       "opzioni": [
         {"id": "A", "testo": "30"},
