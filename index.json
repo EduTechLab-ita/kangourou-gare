@@ -50,7 +50,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2022.pdf",
       "json_url": "data/kangourou/2022.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "koala-2021",
@@ -456,9 +456,9 @@
       "disponibile": false
     }
   ],
-  "ultimo_aggiornamento": "2026-01-31",
-  "versione": "1.1.0",
+  "ultimo_aggiornamento": "2026-02-02",
+  "versione": "1.2.0",
   "totale_gare": 35,
-  "gare_disponibili": 5,
-  "novita": "Nuova gara caricata: Kangourou - Ecolier 2023 (4ª-5ª Primaria)"
+  "gare_disponibili": 6,
+  "novita": "Nuova gara caricata: Kangourou - Ecolier 2022 (4ª-5ª Primaria)"
 }

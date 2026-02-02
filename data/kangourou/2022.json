@@ -1,0 +1,346 @@
+{
+  "id": "kangourou-2022",
+  "titolo": "Ecolier 2022",
+  "anno": "2022",
+  "categoria": "Kangourou (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Quali numeri, fra quelli elencati nelle risposte, puoi scrivere rispettivamente nella casella a sinistra e nella casella a destra per rendere corretta l'uguaglianza 2020 + □ = 2022 + □ ?",
+      "immagine": "",
+      "opzioni": [
+        {"id": "A", "testo": "3 e 5"},
+        {"id": "B", "testo": "4 e 1"},
+        {"id": "C", "testo": "2 e 4"},
+        {"id": "D", "testo": "7 e 2"},
+        {"id": "E", "testo": "9 e 7"}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Giulio vuole aprire la scatola nera contenente il treno. Per farlo toglie una scatola alla volta. Qual è il minimo numero di scatole che gli basta togliere?",
+      "immagine": "images/kangourou-2022-screenshots/q02.png",
+      "opzioni": [
+        {"id": "A", "testo": "3"},
+        {"id": "B", "testo": "4"},
+        {"id": "C", "testo": "5"},
+        {"id": "D", "testo": "6"},
+        {"id": "E", "testo": "7"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Osserva la figura: l'ape vuole raggiungere il fiore. Nelle risposte ogni freccia rappresenta il passaggio da un quadretto a uno vicino, nella direzione e nel verso indicati dalla freccia. Quale insieme di frecce permette all'ape di raggiungere il fiore?",
+      "immagine": "images/kangourou-2022-screenshots/q03.png",
+      "opzioni": [
+        {"id": "A", "testo": "→ → ↓ ↓ ↓"},
+        {"id": "B", "testo": "↓ ↓ → ↓ ↓"},
+        {"id": "C", "testo": "→ ↓ → ↓ →"},
+        {"id": "D", "testo": "→ ↓ → ↓ ↓ →"},
+        {"id": "E", "testo": "↓ → → ↓ ↓ ↓"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "In figura vedi una scacchiera sulla quale ci sono alcune pedine grigie. Rossella vuole che in ogni riga e in ogni colonna di questa scacchiera ci siano 2 e non più di 2 pedine. Quale pedina deve spostare su una cella vuota?",
+      "immagine": "images/kangourou-2022-screenshots/q04.png",
+      "opzioni": [
+        {"id": "A", "testo": "A"},
+        {"id": "B", "testo": "B"},
+        {"id": "C", "testo": "C"},
+        {"id": "D", "testo": "D"},
+        {"id": "E", "testo": "E"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Il canguro Matematico si diverte a saltare lungo la retta numerica. Fa un salto lungo seguito da due salti corti, come mostra la figura, e ripete questo schema diverse volte. Parte da 0 e arriva a 16. Quanti salti fa in tutto?",
+      "immagine": "images/kangourou-2022-screenshots/q05.png",
+      "opzioni": [
+        {"id": "A", "testo": "4"},
+        {"id": "B", "testo": "7"},
+        {"id": "C", "testo": "8"},
+        {"id": "D", "testo": "9"},
+        {"id": "E", "testo": "12"}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Ogni segmento obliquo nelle figure rappresenta uno specchio appoggiato perpendicolarmente al piano del foglio. Un raggio laser si riflette negli specchi secondo la legge descritta in figura. Se gli specchi sono disposti come in figura e il raggio colpisce la faccia riflettente, da quale punto uscirà il raggio laser?",
+      "immagine": "images/kangourou-2022-screenshots/q06.png",
+      "opzioni": [
+        {"id": "A", "testo": "A"},
+        {"id": "B", "testo": "B"},
+        {"id": "C", "testo": "C"},
+        {"id": "D", "testo": "D"},
+        {"id": "E", "testo": "E"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Non ci sono anitre nella cartolina di Michele. Sulla cartolina di Chiara è visibile il sole. Ci sono esattamente due animali sulla cartolina di Paola. Gli animali che compaiono nelle cartoline di Luca e di Nicola non volano. Qual è la cartolina di Michele?",
+      "immagine": "images/kangourou-2022-screenshots/q07.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Giovanni ha costruito la torre mostrata in figura. Che immagine vede quando guarda la torre dall'alto?",
+      "immagine": "images/kangourou-2022-screenshots/q08.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "Ivan ha inserito dei numeri in una griglia 3×3 con l'intenzione che le sei somme ottenute sommando i numeri di ciascuna riga e di ciascuna colonna fossero uguali. Ivan però ha fatto un errore: quale numero deve essere corretto?",
+      "immagine": "images/kangourou-2022-screenshots/q09.png",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "3"},
+        {"id": "C", "testo": "Uno dei due 4"},
+        {"id": "D", "testo": "5"},
+        {"id": "E", "testo": "Uno dei due 7"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Ogni cella della griglia in figura contiene uno dei numeri 1, 2, 3, 4, 5. I numeri finora inseriti rispettano la seguente regola: se due celle hanno un lato in comune non contengono lo stesso numero. Quale dei seguenti pezzi, inserito nella griglia, consente di continuare a rispettare la regola?",
+      "immagine": "images/kangourou-2022-screenshots/q10.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "I figli di mamma canguro hanno 2, 4, 5, 6, 8, 10 anni. Quattro di loro sono femmine e la somma delle loro età è di 22 anni. Quanti anni hanno i due figli maschi?",
+      "immagine": "images/kangourou-2022-screenshots/q11.png",
+      "opzioni": [
+        {"id": "A", "testo": "2 e 8"},
+        {"id": "B", "testo": "4 e 5"},
+        {"id": "C", "testo": "5 e 8"},
+        {"id": "D", "testo": "6 e 8"},
+        {"id": "E", "testo": "6 e 10"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Nel cortile della scuola sono state allineate alcune file di sedie. Ogni fila contiene lo stesso numero di sedie. Ci sono due file di sedie davanti alla fila in cui è seduto Roberto e una fila dietro di lui. Sulla sua fila ci sono 3 sedie alla sua sinistra e 5 alla sua destra. Quante sedie sono state messe in cortile?",
+      "immagine": "",
+      "opzioni": [
+        {"id": "A", "testo": "24"},
+        {"id": "B", "testo": "27"},
+        {"id": "C", "testo": "32"},
+        {"id": "D", "testo": "35"},
+        {"id": "E", "testo": "36"}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "Aladino ha un tappeto quadrato. Il tappeto ha un bordo di puntini distribuiti su due linee come suggerisce la figura, che però mostra il tappeto piegato in parte. Lungo ogni lato del tappeto c'è lo stesso numero di puntini: quello che vedi in figura sul lato destro. Quanti sono in tutto i puntini sul tappeto di Aladino?",
+      "immagine": "images/kangourou-2022-screenshots/q13.png",
+      "opzioni": [
+        {"id": "A", "testo": "20"},
+        {"id": "B", "testo": "24"},
+        {"id": "C", "testo": "28"},
+        {"id": "D", "testo": "32"},
+        {"id": "E", "testo": "36"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Su un foglio è riportata una griglia quadrata contenente tutti i numeri da 1 a 36. Enza piega il foglio due volte, come suggerito dalla figura. Poi buca il foglio piegato in corrispondenza al cerchietto nero indicato dalla freccia. Quali numeri della griglia vengono bucati?",
+      "immagine": "images/kangourou-2022-screenshots/q14.png",
+      "opzioni": [
+        {"id": "A", "testo": "8, 11, 26, 29"},
+        {"id": "B", "testo": "14, 17, 20, 23"},
+        {"id": "C", "testo": "15, 16, 21, 22"},
+        {"id": "D", "testo": "14, 16, 21, 23"},
+        {"id": "E", "testo": "15, 17, 20, 22"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Nell'addizione mostrata in figura 4 cifre non sono visibili. Quanto vale la loro somma?",
+      "immagine": "images/kangourou-2022-screenshots/q15.png",
+      "opzioni": [
+        {"id": "A", "testo": "8"},
+        {"id": "B", "testo": "9"},
+        {"id": "C", "testo": "11"},
+        {"id": "D", "testo": "13"},
+        {"id": "E", "testo": "14"}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "Viola sceglie alcune tra le forme mostrate in figura e le descrive così: \"Tra le forme che ho scelto, due sono grigie, due sono grandi e due sono tonde\". Qual è il più piccolo numero di figure che Viola può aver scelto?",
+      "immagine": "images/kangourou-2022-screenshots/q16.png",
+      "opzioni": [
+        {"id": "A", "testo": "2"},
+        {"id": "B", "testo": "3"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "5"},
+        {"id": "E", "testo": "6"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Il cubo in figura è pieno ed è stato costruito usando dei tasselli di legno dei tre tipi mostrati in figura. Quanti tasselli bianchi sono stati usati?",
+      "immagine": "images/kangourou-2022-screenshots/q17.png",
+      "opzioni": [
+        {"id": "A", "testo": "8"},
+        {"id": "B", "testo": "11"},
+        {"id": "C", "testo": "13"},
+        {"id": "D", "testo": "16"},
+        {"id": "E", "testo": "19"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Tre squadre di calcio partecipano a un torneo. Ogni squadra incontra le altre due esattamente una volta. Se la partita termina con un pareggio a ognuna delle due squadre viene assegnato 1 punto; in caso contrario vengono assegnati 3 punti alla squadra che vince, 0 punti a quella che perde. Con quale numero di punti nessuna squadra può aver concluso il torneo?",
+      "immagine": "",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "5"},
+        {"id": "E", "testo": "6"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "Ho tanti cubi di lato 10 cm, con cui ho costruito una piramide. Una formica si è arrampicata su e giù dalla piramide seguendo la linea spessa in figura (a sinistra il percorso è simmetrico di quello ben visibile a destra). Quanti centimetri è lunga la strada percorsa dalla formica per salire e scendere dalla piramide?",
+      "immagine": "images/kangourou-2022-screenshots/q19.png",
+      "opzioni": [
+        {"id": "A", "testo": "30"},
+        {"id": "B", "testo": "60"},
+        {"id": "C", "testo": "70"},
+        {"id": "D", "testo": "80"},
+        {"id": "E", "testo": "90"}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Da ognuna delle case del puzzle esce una strada. Alba vuole inserire al centro uno dei tasselli mostrati in figura, in modo da garantire che ci siano una strada da A a B e una da A a E, ma da escludere che si possa andare da A a D. Alba può ruotare i cinque tasselli. Quali tasselli può usare?",
+      "immagine": "images/kangourou-2022-screenshots/q20.png",
+      "opzioni": [
+        {"id": "A", "testo": "Sia 1 sia 2"},
+        {"id": "B", "testo": "Sia 2 sia 3"},
+        {"id": "C", "testo": "Sia 1 sia 4"},
+        {"id": "D", "testo": "Sia 4 sia 5"},
+        {"id": "E", "testo": "Sia 1 sia 5"}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Giorgio e Thea iniziano a camminare dallo stesso punto A, con la stessa velocità, che mantengono sempre, ma in direzione opposta. Giorgio cammina sul bordo dell'aiuola quadrata, Thea sul bordo di quella rettangolare: trovi le misure delle due aiuole in figura. Qual è il minimo numero di giri intorno all'aiuola quadrata conclusi i quali Giorgio incontra di nuovo Thea nel punto A?",
+      "immagine": "images/kangourou-2022-screenshots/q21.png",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "3"},
+        {"id": "D", "testo": "4"},
+        {"id": "E", "testo": "5"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Cinque bambine mangiano dei biscotti. Laura mangia due biscotti più di Sofia; Betti mangia tre biscotti meno di Laura. Chiara mangia un biscotto più di Betti e tre meno di Alice. Quali bambine mangiano lo stesso numero di biscotti?",
+      "immagine": "",
+      "opzioni": [
+        {"id": "A", "testo": "Chiara e Laura"},
+        {"id": "B", "testo": "Chiara e Sofia"},
+        {"id": "C", "testo": "Laura e Alice"},
+        {"id": "D", "testo": "Sofia e Alice"},
+        {"id": "E", "testo": "Alice e Betti"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Il bruco mostrato in figura si è arrotolato per dormire. Quale delle seguenti forme può aver assunto?",
+      "immagine": "images/kangourou-2022-screenshots/q23.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Le celle della griglia quadrata in figura sono di tre colori diversi. Ogni cella contiene un numero invisibile, numeri uguali in celle di colore uguale. A destra di ogni riga è indicata la somma dei numeri contenuti nelle celle di quella riga. Quale numero è contenuto nella cella nera?",
+      "immagine": "images/kangourou-2022-screenshots/q24.png",
+      "opzioni": [
+        {"id": "A", "testo": "6"},
+        {"id": "B", "testo": "8"},
+        {"id": "C", "testo": "10"},
+        {"id": "D", "testo": "12"},
+        {"id": "E", "testo": "14"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    }
+  ]
+}
