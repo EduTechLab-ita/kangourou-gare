@@ -22,7 +22,7 @@
     },
     {
       "id": 2,
-      "testo": "Il palloncino Tommy e stato fotografato davanti a un castello. Quale delle seguenti immagini puo corrispondere alla fotografia di Tommy?",
+      "testo": "Il palloncino Tommy e stato fotografato davanti a un castello. Quale immagine puo corrispondere alla fotografia di Tommy?",
       "immagine": "images/koala-2020-screenshots/q02.png",
       "opzioni": [
         {"id": "A", "testo": ""},
@@ -36,7 +36,7 @@
     },
     {
       "id": 3,
-      "testo": "Bianca ha composto il puzzle del canguro in modo errato. Quale dei seguenti e il modo corretto di accostare i pezzi del puzzle?",
+      "testo": "Bianca ha composto il puzzle del canguro in modo errato. Qual e il modo corretto di accostare i pezzi del puzzle?",
       "immagine": "images/koala-2020-screenshots/q03.png",
       "opzioni": [
         {"id": "A", "testo": ""},
@@ -64,7 +64,7 @@
     },
     {
       "id": 5,
-      "testo": "Lilly ha due cartoncini della stessa misura. Nel cartoncino A ci sono quattro buchi. Lilly pone il cartoncino A esattamente sopra il cartoncino B. Quale delle seguenti immagini vede?",
+      "testo": "Lilly ha due cartoncini della stessa misura. Nel cartoncino A ci sono quattro buchi. Lilly pone il cartoncino A esattamente sopra il cartoncino B. Quale immagine vede?",
       "immagine": "images/koala-2020-screenshots/q05.png",
       "opzioni": [
         {"id": "A", "testo": ""},
@@ -92,7 +92,7 @@
     },
     {
       "id": 7,
-      "testo": "Anna ha disegnato alcune forme geometriche: 3 triangoli neri e meno di 4 quadrati. Quale tra i seguenti puo essere il disegno di Anna?",
+      "testo": "Anna ha disegnato alcune forme geometriche: 3 triangoli neri e meno di 4 quadrati. Quale puo essere il disegno di Anna?",
       "immagine": "images/koala-2020-screenshots/q07.png",
       "opzioni": [
         {"id": "A", "testo": ""},
@@ -120,7 +120,7 @@
     },
     {
       "id": 9,
-      "testo": "Quale dei seguenti pezzi completa la figura?",
+      "testo": "Quale pezzo completa la figura?",
       "immagine": "images/koala-2020-screenshots/q09.png",
       "opzioni": [
         {"id": "A", "testo": ""},
@@ -176,7 +176,7 @@
     },
     {
       "id": 13,
-      "testo": "In quale delle seguenti figure e stata usata di piu la matita grigia?",
+      "testo": "In quale figura e stata usata di piu la matita grigia?",
       "immagine": "images/koala-2020-screenshots/q13.png",
       "opzioni": [
         {"id": "A", "testo": ""},
@@ -232,7 +232,7 @@
     },
     {
       "id": 17,
-      "testo": "Luigi vuole disporre su una tabella 3x3 nove carte. Vuole che le carte poste in ogni riga e in ogni colonna mostrino le tre diverse forme e i tre diversi numeri di forme. Ne ha gia messe tre. Quale delle seguenti carte deve mettere nella casella grigia?",
+      "testo": "Luigi vuole disporre su una tabella 3x3 nove carte. Vuole che le carte poste in ogni riga e in ogni colonna mostrino le tre diverse forme e i tre diversi numeri di forme. Ne ha gia messe tre. Quale carta deve mettere nella casella grigia?",
       "immagine": "images/koala-2020-screenshots/q17.png",
       "opzioni": [
         {"id": "A", "testo": ""},
@@ -316,7 +316,7 @@
     },
     {
       "id": 23,
-      "testo": "Su ciascuna delle facce di un cubo sono stati scritti sei numeri diversi scelti tra i numeri da 1 a 9, un numero su ogni faccia. Le somme dei numeri su ogni coppia di facce opposte sono uguali. Quale dei seguenti numeri e stato scritto sulla faccia opposta alla faccia col numero 5?",
+      "testo": "Su ciascuna delle facce di un cubo sono stati scritti sei numeri diversi scelti tra i numeri da 1 a 9, un numero su ogni faccia. Le somme dei numeri su ogni coppia di facce opposte sono uguali. Quale numero e stato scritto sulla faccia opposta alla faccia col numero 5?",
       "immagine": "images/koala-2020-screenshots/q23.png",
       "opzioni": [
         {"id": "A", "testo": "3"},
