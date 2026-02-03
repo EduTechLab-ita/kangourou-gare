@@ -1,0 +1,346 @@
+{
+  "id": "koala-2020",
+  "titolo": "Koala 2020",
+  "anno": "2020",
+  "categoria": "Koala (Classi 2a-3a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Il canguro sale tre gradini alla volta, il coniglio scende due gradini alla volta: su quale gradino si incontrano?",
+      "immagine": "images/koala-2020-screenshots/q01.png",
+      "opzioni": [
+        {"id": "A", "testo": "3"},
+        {"id": "B", "testo": "4"},
+        {"id": "C", "testo": "5"},
+        {"id": "D", "testo": "6"},
+        {"id": "E", "testo": "7"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Il palloncino Tommy e stato fotografato davanti a un castello. Quale delle seguenti immagini puo corrispondere alla fotografia di Tommy?",
+      "immagine": "images/koala-2020-screenshots/q02.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Bianca ha composto il puzzle del canguro in modo errato. Quale dei seguenti e il modo corretto di accostare i pezzi del puzzle?",
+      "immagine": "images/koala-2020-screenshots/q03.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "Un mago ha estratto dal suo cappello a cilindro dei pupazzi in un certo ordine. Prosegue nell'estrazione secondo lo schema iniziale, che si ripete ogni cinque giocattoli. Quali sono, nell'ordine, i prossimi due pupazzi?",
+      "immagine": "images/koala-2020-screenshots/q04.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Lilly ha due cartoncini della stessa misura. Nel cartoncino A ci sono quattro buchi. Lilly pone il cartoncino A esattamente sopra il cartoncino B. Quale delle seguenti immagini vede?",
+      "immagine": "images/koala-2020-screenshots/q05.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Mario ha fatto una costruzione usando alcuni cubetti bianchi e 14 cubetti grigi, tutti della stessa misura. Quanti dei cubetti grigi non puoi vedere nella figura?",
+      "immagine": "images/koala-2020-screenshots/q06.png",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "3"},
+        {"id": "C", "testo": "5"},
+        {"id": "D", "testo": "6"},
+        {"id": "E", "testo": "8"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Anna ha disegnato alcune forme geometriche: 3 triangoli neri e meno di 4 quadrati. Quale tra i seguenti puo essere il disegno di Anna?",
+      "immagine": "images/koala-2020-screenshots/q07.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "La treccia in figura e composta usando tre nastri: uno giallo, uno azzurro e uno rosso. Quali colori corrispondono ai numeri 1, 2, 3 che vedi in figura?",
+      "immagine": "images/koala-2020-screenshots/q08.png",
+      "opzioni": [
+        {"id": "A", "testo": "1 azzurro, 2 giallo, 3 rosso"},
+        {"id": "B", "testo": "1 giallo, 2 rosso, 3 azzurro"},
+        {"id": "C", "testo": "1 rosso, 2 azzurro, 3 giallo"},
+        {"id": "D", "testo": "1 giallo, 2 azzurro, 3 rosso"},
+        {"id": "E", "testo": "1 azzurro, 2 rosso, 3 giallo"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "Quale dei seguenti pezzi completa la figura?",
+      "immagine": "images/koala-2020-screenshots/q09.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Un villaggio di 12 case ha quattro vie dritte e tre strade circolari. Su ogni via dritta ci sono 3 case; anche su ogni strada circolare ci sono 3 case. La mappa mostra 11 delle case: dove deve essere disegnata la dodicesima casa?",
+      "immagine": "images/koala-2020-screenshots/q10.png",
+      "opzioni": [
+        {"id": "A", "testo": "In A"},
+        {"id": "B", "testo": "In B"},
+        {"id": "C", "testo": "In C"},
+        {"id": "D", "testo": "In D"},
+        {"id": "E", "testo": "In E"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Le cinque costruzioni mostrate in figura sono state ottenute accostando dei cubetti uguali faccia contro faccia. In quale di esse abbiamo usato piu cubetti?",
+      "immagine": "images/koala-2020-screenshots/q11.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Abbiamo scritto un numero su ciascun petalo di due fiori, entrambi di cinque petali. Le due somme dei numeri scritti sui due fiori sono uguali. Quale numero e scritto sul petalo nascosto?",
+      "immagine": "images/koala-2020-screenshots/q12.png",
+      "opzioni": [
+        {"id": "A", "testo": "0"},
+        {"id": "B", "testo": "3"},
+        {"id": "C", "testo": "5"},
+        {"id": "D", "testo": "7"},
+        {"id": "E", "testo": "1"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "In quale delle seguenti figure e stata usata di piu la matita grigia?",
+      "immagine": "images/koala-2020-screenshots/q13.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Anna vuole scrivere i numeri 1, 2, 3, 4, 5 e 6, ciascuno in uno dei sei quadretti in figura. Vuole che risulti uguale a 10 sia la somma dei numeri scritti nei quadretti azzurri, sia la somma dei numeri scritti nei quadretti gialli. Che numero deve scrivere nel quadretto con il punto interrogativo?",
+      "immagine": "images/koala-2020-screenshots/q14.png",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "3"},
+        {"id": "D", "testo": "4"},
+        {"id": "E", "testo": "5"}
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Sul tavolo c'e una carta con cerchio, quadrato e triangolo. Essa viene capovolta lungo il suo lato superiore e poi lungo il lato sinistro. Quale di questi e l'aspetto della carta dopo i due movimenti?",
+      "immagine": "images/koala-2020-screenshots/q15.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "La nonna ha infornato 12 biscotti. Vuole dare tutti i biscotti che cuocera ai suoi 5 nipotini e vuole dare a ciascun nipotino lo stesso numero di biscotti. Qual e il minimo numero di biscotti che dovra infornare ancora?",
+      "immagine": "images/koala-2020-screenshots/q16.png",
+      "opzioni": [
+        {"id": "A", "testo": "0"},
+        {"id": "B", "testo": "1"},
+        {"id": "C", "testo": "2"},
+        {"id": "D", "testo": "3"},
+        {"id": "E", "testo": "4"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Luigi vuole disporre su una tabella 3x3 nove carte. Vuole che le carte poste in ogni riga e in ogni colonna mostrino le tre diverse forme e i tre diversi numeri di forme. Ne ha gia messe tre. Quale delle seguenti carte deve mettere nella casella grigia?",
+      "immagine": "images/koala-2020-screenshots/q17.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Due treni identici, ciascuno con 31 carrozze, viaggiano in versi opposti. Quando le carrozze numero 19 dei due treni sono affiancate, quale carrozza affianca la carrozza numero 12 del primo treno?",
+      "immagine": "images/koala-2020-screenshots/q18.png",
+      "opzioni": [
+        {"id": "A", "testo": "7"},
+        {"id": "B", "testo": "12"},
+        {"id": "C", "testo": "21"},
+        {"id": "D", "testo": "26"},
+        {"id": "E", "testo": "31"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "L'ape Bea puo muoversi solo sulle celle grigie. In quanti diversi modi puoi colorare di grigio esattamente due celle bianche in modo da permettere a Bea di andare da A a B?",
+      "immagine": "images/koala-2020-screenshots/q19.png",
+      "opzioni": [
+        {"id": "A", "testo": "3"},
+        {"id": "B", "testo": "4"},
+        {"id": "C", "testo": "5"},
+        {"id": "D", "testo": "6"},
+        {"id": "E", "testo": "7"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Osserva la figura: ogni cerchietto rappresenta un uomo e ogni freccia diretta da un uomo a un altro indica che il primo uomo e piu alto del secondo. Ad esempio l'uomo B e piu alto dell'uomo A. Chi e il piu basso?",
+      "immagine": "images/koala-2020-screenshots/q20.png",
+      "opzioni": [
+        {"id": "A", "testo": "L'uomo A"},
+        {"id": "B", "testo": "L'uomo B"},
+        {"id": "C", "testo": "L'uomo C"},
+        {"id": "D", "testo": "L'uomo D"},
+        {"id": "E", "testo": "L'uomo E"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "In un cestino ci sono alcune mele e 8 pere. Ogni frutto e o giallo o verde. Il numero delle mele supera di 3 il numero totale di frutti verdi. Ci sono 6 pere gialle. Quante mele gialle ci sono nel cestino?",
+      "immagine": "images/koala-2020-screenshots/q21.png",
+      "opzioni": [
+        {"id": "A", "testo": "4"},
+        {"id": "B", "testo": "5"},
+        {"id": "C", "testo": "6"},
+        {"id": "D", "testo": "7"},
+        {"id": "E", "testo": "8"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Carlo ha scritto ciascuno dei numeri 1, 2, 3, 4 e 5 in uno dei cerchi della figura facendo in modo che la somma dei 3 numeri allineati orizzontalmente sia uguale alla somma dei 3 numeri in colonna. Quali numeri puo aver scritto nel cerchio con il punto interrogativo?",
+      "immagine": "images/koala-2020-screenshots/q22.png",
+      "opzioni": [
+        {"id": "A", "testo": "Solo 5"},
+        {"id": "B", "testo": "2 o 3 o 4"},
+        {"id": "C", "testo": "Solo 3"},
+        {"id": "D", "testo": "Solo 1 o 3"},
+        {"id": "E", "testo": "1 o 3 o 5"}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Su ciascuna delle facce di un cubo sono stati scritti sei numeri diversi scelti tra i numeri da 1 a 9, un numero su ogni faccia. Le somme dei numeri su ogni coppia di facce opposte sono uguali. Quale dei seguenti numeri e stato scritto sulla faccia opposta alla faccia col numero 5?",
+      "immagine": "images/koala-2020-screenshots/q23.png",
+      "opzioni": [
+        {"id": "A", "testo": "3"},
+        {"id": "B", "testo": "5"},
+        {"id": "C", "testo": "6"},
+        {"id": "D", "testo": "7"},
+        {"id": "E", "testo": "9"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Giovanni e Stefano si scambiano delle biglie. Prima Giovanni da a Stefano tante biglie quante ne ha Stefano; poi Stefano da a Giovanni tante biglie quante ne ha Giovanni dopo il primo scambio. Dopo questi due scambi entrambi hanno 4 biglie. Quante biglie aveva Giovanni all'inizio?",
+      "immagine": "images/koala-2020-screenshots/q24.png",
+      "opzioni": [
+        {"id": "A", "testo": "6"},
+        {"id": "B", "testo": "5"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "3"},
+        {"id": "E", "testo": "2"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    }
+  ]
+}
