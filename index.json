@@ -245,7 +245,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/koala/2014.pdf",
       "json_url": "data/koala/2014.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "kangourou-2014",
@@ -456,9 +456,9 @@
       "disponibile": false
     }
   ],
-  "ultimo_aggiornamento": "2026-02-03",
-  "versione": "1.3.0",
+  "ultimo_aggiornamento": "2026-02-06",
+  "versione": "1.4.0",
   "totale_gare": 35,
-  "gare_disponibili": 7,
-  "novita": "Nuova gara caricata: Koala 2020 (2ª-3ª Primaria)"
+  "gare_disponibili": 8,
+  "novita": "Nuova gara caricata: Koala 2014 (2ª-3ª Primaria)"
 }

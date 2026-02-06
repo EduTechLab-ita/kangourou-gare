@@ -1,0 +1,346 @@
+{
+  "id": "koala-2014",
+  "titolo": "Koala 2014",
+  "anno": "2014",
+  "categoria": "Koala (Classi 2a-3a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "La coccinella si poserà su un fiore che ha cinque petali e tre foglie. Su quale fiore si poserà?",
+      "immagine": "images/koala-2014-screenshots/q01.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Immagina di seguire il filo partendo dall'estremità dove c'è la freccia. In quale ordine incontri le tre figure nere (● cerchio, ■ quadrato, ▲ triangolo)?",
+      "immagine": "images/koala-2014-screenshots/q02.png",
+      "opzioni": [
+        {"id": "A", "testo": "▲ ■ ●"},
+        {"id": "B", "testo": "▲ ● ■"},
+        {"id": "C", "testo": "● ▲ ■"},
+        {"id": "D", "testo": "■ ▲ ●"},
+        {"id": "E", "testo": "■ ● ▲"}
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Quanti quadratini grigi ci sono in più rispetto a quelli bianchi?",
+      "immagine": "images/koala-2014-screenshots/q03.png",
+      "opzioni": [
+        {"id": "A", "testo": "6"},
+        {"id": "B", "testo": "7"},
+        {"id": "C", "testo": "8"},
+        {"id": "D", "testo": "9"},
+        {"id": "E", "testo": "10"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "Metti in fila gli animali ordinandoli dal più piccolo al più grande. Qual è l'animale che starà a metà della fila?",
+      "immagine": "images/koala-2014-screenshots/q04.png",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "3"},
+        {"id": "D", "testo": "4"},
+        {"id": "E", "testo": "5"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Anna ha dodici piastrelle con un arco. Vuole accostarle su due file da sei per formare una linea continua e ha già sistemato le prime due. Quale figura mostra come apparirà l'ultimo tratto della linea?",
+      "immagine": "images/koala-2014-screenshots/q05.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Elena pedala sul suo triciclo mentre guarda verso una lampada. Alla sua sinistra ha un muro. Quale è la sua ombra proiettata dalla lampada sul muro?",
+      "immagine": "images/koala-2014-screenshots/q06.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Accostando 25 quadratini, Marco ha ottenuto un quadrato. Per fargli dispetto, sua sorella Alice gliene ha portati via alcuni. Quanti gliene ha portati via?",
+      "immagine": "images/koala-2014-screenshots/q07.png",
+      "opzioni": [
+        {"id": "A", "testo": "6"},
+        {"id": "B", "testo": "7"},
+        {"id": "C", "testo": "8"},
+        {"id": "D", "testo": "10"},
+        {"id": "E", "testo": "12"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Quante oche pesano come il coccodrillo?",
+      "immagine": "images/koala-2014-screenshots/q08.png",
+      "opzioni": [
+        {"id": "A", "testo": "5 oche"},
+        {"id": "B", "testo": "4 oche"},
+        {"id": "C", "testo": "3 oche"},
+        {"id": "D", "testo": "2 oche"},
+        {"id": "E", "testo": "1 oca"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "La formica parte dalla sua casa e fa: 3 passi a destra, 3 passi in alto, 3 passi a destra, 1 passo in alto, e incontra la coccinella. Che animale incontra se fa: 2 passi a destra, 2 passi in basso, 3 passi a destra, 3 passi in alto, 2 passi a destra, 2 passi in alto?",
+      "immagine": "images/koala-2014-screenshots/q09.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "All'interno di quanti cerchi sta il canguro Kang?",
+      "immagine": "images/koala-2014-screenshots/q10.png",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "3"},
+        {"id": "D", "testo": "4"},
+        {"id": "E", "testo": "5"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Gianni, accostando 4 tasselli, ha formato un quadrato. Quale figura non può formare accostando, in modo diverso, gli stessi quattro tasselli?",
+      "immagine": "images/koala-2014-screenshots/q11.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Da un rettangolo è stato ritagliato un pezzo. Qual è il pezzo rimasto?",
+      "immagine": "images/koala-2014-screenshots/q12.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "I lati di ogni quadratino sono tutti lunghi un metro. Camminando solo lungo i lati, partendo dalla lettera K vuoi toccare tutte le lettere che formano la parola KANGAROO nell'ordine in cui appaiono, fermandoti all'ultima O. Quanti metri è lungo il cammino più breve?",
+      "immagine": "images/koala-2014-screenshots/q13.png",
+      "opzioni": [
+        {"id": "A", "testo": "16"},
+        {"id": "B", "testo": "17"},
+        {"id": "C", "testo": "18"},
+        {"id": "D", "testo": "19"},
+        {"id": "E", "testo": "20"}
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Quanti sono i numeri interi compresi tra 10 e 31 (31 incluso) che puoi scrivere usando solo le cifre 1, 2 e 3? Puoi usare una stessa cifra più di una volta.",
+      "immagine": null,
+      "opzioni": [
+        {"id": "A", "testo": "2"},
+        {"id": "B", "testo": "4"},
+        {"id": "C", "testo": "6"},
+        {"id": "D", "testo": "7"},
+        {"id": "E", "testo": "8"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Gianni aveva in mano sette asticelle numerate e le ha posate sul tavolo una dopo l'altra. La prima che ha posato è la numero 2, che sta sotto a tutte; l'ultima è la numero 6, che sta sopra a tutte. Che numero ha l'asticella che sta nel mezzo, cioè la quarta che Gianni ha posato?",
+      "immagine": "images/koala-2014-screenshots/q15.png",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "3"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "5"},
+        {"id": "E", "testo": "7"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "Quante rane hanno preso tutti insieme i tre pellicani?",
+      "immagine": "images/koala-2014-screenshots/q16.png",
+      "opzioni": [
+        {"id": "A", "testo": "1"},
+        {"id": "B", "testo": "2"},
+        {"id": "C", "testo": "4"},
+        {"id": "D", "testo": "9"},
+        {"id": "E", "testo": "12"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "La scacchiera si è rovinata. Quante sono le caselle nere che mancano a destra della linea?",
+      "immagine": "images/koala-2014-screenshots/q17.png",
+      "opzioni": [
+        {"id": "A", "testo": "11"},
+        {"id": "B", "testo": "12"},
+        {"id": "C", "testo": "13"},
+        {"id": "D", "testo": "14"},
+        {"id": "E", "testo": "15"}
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Tim il coniglio segue una dieta molto regolare: ogni giorno mangia a sua scelta o 10 carote oppure 2 carrube. La scorsa settimana Tim ha mangiato in tutto 6 carrube. Quante carote ha mangiato in tutto?",
+      "immagine": "images/koala-2014-screenshots/q18.png",
+      "opzioni": [
+        {"id": "A", "testo": "20"},
+        {"id": "B", "testo": "30"},
+        {"id": "C", "testo": "34"},
+        {"id": "D", "testo": "40"},
+        {"id": "E", "testo": "50"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "A Giuseppe piace modificare tutti i numeri che trova: aumenta di 1 ogni cifra pari e diminuisce di 1 ogni cifra dispari. Così facendo, il numero 4891 diventa 5980, mentre il numero 1342 diventa 253. Dopo aver modificato un numero secondo questa regola, Giuseppe ha ottenuto 3895. Qual è la somma delle cifre del numero da cui era partito?",
+      "immagine": null,
+      "opzioni": [
+        {"id": "A", "testo": "18"},
+        {"id": "B", "testo": "21"},
+        {"id": "C", "testo": "22"},
+        {"id": "D", "testo": "23"},
+        {"id": "E", "testo": "24"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Inserisci le cifre 2, 3, 4 e 5, una in ogni rettangolo, in modo che il risultato dell'addizione indicata sia il più grande possibile. Qual è il risultato dell'addizione?",
+      "immagine": "images/koala-2014-screenshots/q20.png",
+      "opzioni": [
+        {"id": "A", "testo": "68"},
+        {"id": "B", "testo": "77"},
+        {"id": "C", "testo": "86"},
+        {"id": "D", "testo": "95"},
+        {"id": "E", "testo": "97"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Accostando 24 quadratini uguali, Cristina ha ottenuto il quadrato \"bucato\", cioè privato del quadratino centrale. Se ora vuole ritagliare in pezzi tutti uguali fra loro il quadrato \"bucato\", quale pezzo non potrà mai ottenere?",
+      "immagine": "images/koala-2014-screenshots/q21.png",
+      "opzioni": [
+        {"id": "A", "testo": ""},
+        {"id": "B", "testo": ""},
+        {"id": "C", "testo": ""},
+        {"id": "D", "testo": ""},
+        {"id": "E", "testo": ""}
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Per ottenere con una calcolatrice il risultato dell'operazione 2×3×15=, Bruno ha dovuto premere i tasti 7 volte. Se vuole ottenere allo stesso modo il risultato del prodotto di tutti i numeri interi fra 3 e 21 compresi, quante volte dovrà premere i tasti?",
+      "immagine": "images/koala-2014-screenshots/q22.png",
+      "opzioni": [
+        {"id": "A", "testo": "19"},
+        {"id": "B", "testo": "31"},
+        {"id": "C", "testo": "37"},
+        {"id": "D", "testo": "50"},
+        {"id": "E", "testo": "60"}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Franca ha 4 cubi rossi, 3 cubi blu, 2 cubi verdi e 1 cubo giallo. Vuole costruire una torre come quella in figura e vuole che, ogni volta che due cubi si toccano, i due cubi abbiano colori diversi. Di che colore deve essere il cubo contrassegnato dal punto di domanda?",
+      "immagine": "images/koala-2014-screenshots/q23.png",
+      "opzioni": [
+        {"id": "A", "testo": "ROSSO"},
+        {"id": "B", "testo": "BLU"},
+        {"id": "C", "testo": "VERDE"},
+        {"id": "D", "testo": "GIALLO"},
+        {"id": "E", "testo": "PUÒ SCEGLIERE LEI IL COLORE"}
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Anna, Bruna e Carla hanno 3 confetti ciascuna. Daria, Elide e Francesca hanno 4 confetti ciascuna. Giorgia, Iva e Laura hanno 5 confetti ciascuna. Tre di queste nove ragazze mettono tutti i loro confetti in un vaso vuoto. A questo punto le altre sei prendono tutte lo stesso numero di confetti dal vaso e il vaso resta di nuovo vuoto. Quale affermazione è sicuramente falsa?",
+      "immagine": null,
+      "opzioni": [
+        {"id": "A", "testo": "Anna e Daria sono due delle tre ragazze che hanno messo i confetti nel vaso."},
+        {"id": "B", "testo": "Elide e Francesca sono due delle tre ragazze che hanno messo i confetti nel vaso."},
+        {"id": "C", "testo": "Francesca e Giorgia sono due delle tre ragazze che hanno messo i confetti nel vaso."},
+        {"id": "D", "testo": "Giorgia e Iva sono due delle tre ragazze che hanno messo i confetti nel vaso."},
+        {"id": "E", "testo": "Carla e Iva sono due delle tre ragazze che hanno messo i confetti nel vaso."}
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    }
+  ]
+}
