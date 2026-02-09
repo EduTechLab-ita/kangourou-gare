@@ -447,7 +447,8 @@
                 console.log(`Array risposte inizializzato: ${userAnswers.length} domande`);
 
                 // Aggiorna titolo
-                const tipoNome = tipo === 'koala' ? '🐨 Koala' : '🦘 Kangourou';
+                const nomiTipo = { 'koala': '🐨 Koala', 'kangourou': '🦘 Kangourou', 'benjamin': '📐 Benjamin', 'cadet': '🔬 Cadet' };
+                const tipoNome = nomiTipo[tipo] || tipo;
                 document.getElementById('title').textContent = `${tipoNome} ${anno}`;
 
                 // Inizializza timer se modalità a tempo

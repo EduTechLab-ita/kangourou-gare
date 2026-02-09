@@ -14,6 +14,32 @@
       "disponibile": true
     },
     {
+      "id": "benjamin-2024",
+      "tipo": "benjamin",
+      "anno": 2024,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2024.pdf",
+      "json_url": "data/benjamin/2024.json",
+      "disponibile": true
+    },
+    {
+      "id": "cadet-2024",
+      "tipo": "cadet",
+      "anno": 2024,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2024.pdf",
+      "json_url": "data/cadet/2024.json",
+      "disponibile": false
+    },
+    {
       "id": "kangourou-2023",
       "tipo": "kangourou",
       "anno": 2023,
@@ -25,6 +51,32 @@
       "pdf_url": "pdf/kangourou/2023.pdf",
       "json_url": "data/kangourou/2023.json",
       "disponibile": true
+    },
+    {
+      "id": "benjamin-2023",
+      "tipo": "benjamin",
+      "anno": 2023,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2023.pdf",
+      "json_url": "data/benjamin/2023.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2023",
+      "tipo": "cadet",
+      "anno": 2023,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2023.pdf",
+      "json_url": "data/cadet/2023.json",
+      "disponibile": false
     },
     {
       "id": "koala-2022",
@@ -53,6 +105,32 @@
       "disponibile": true
     },
     {
+      "id": "benjamin-2022",
+      "tipo": "benjamin",
+      "anno": 2022,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2022.pdf",
+      "json_url": "data/benjamin/2022.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2022",
+      "tipo": "cadet",
+      "anno": 2022,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2022.pdf",
+      "json_url": "data/cadet/2022.json",
+      "disponibile": false
+    },
+    {
       "id": "koala-2021",
       "tipo": "koala",
       "anno": 2021,
@@ -76,6 +154,32 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2021.pdf",
       "json_url": "data/kangourou/2021.json",
+      "disponibile": false
+    },
+    {
+      "id": "benjamin-2021",
+      "tipo": "benjamin",
+      "anno": 2021,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2021.pdf",
+      "json_url": "data/benjamin/2021.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2021",
+      "tipo": "cadet",
+      "anno": 2021,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2021.pdf",
+      "json_url": "data/cadet/2021.json",
       "disponibile": false
     },
     {
@@ -105,6 +209,32 @@
       "disponibile": false
     },
     {
+      "id": "benjamin-2020",
+      "tipo": "benjamin",
+      "anno": 2020,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2020.pdf",
+      "json_url": "data/benjamin/2020.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2020",
+      "tipo": "cadet",
+      "anno": 2020,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2020.pdf",
+      "json_url": "data/cadet/2020.json",
+      "disponibile": false
+    },
+    {
       "id": "koala-2019",
       "tipo": "koala",
       "anno": 2019,
@@ -128,6 +258,32 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2019.pdf",
       "json_url": "data/kangourou/2019.json",
+      "disponibile": false
+    },
+    {
+      "id": "benjamin-2019",
+      "tipo": "benjamin",
+      "anno": 2019,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2019.pdf",
+      "json_url": "data/benjamin/2019.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2019",
+      "tipo": "cadet",
+      "anno": 2019,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2019.pdf",
+      "json_url": "data/cadet/2019.json",
       "disponibile": false
     },
     {
@@ -157,6 +313,32 @@
       "disponibile": false
     },
     {
+      "id": "benjamin-2018",
+      "tipo": "benjamin",
+      "anno": 2018,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2018.pdf",
+      "json_url": "data/benjamin/2018.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2018",
+      "tipo": "cadet",
+      "anno": 2018,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2018.pdf",
+      "json_url": "data/cadet/2018.json",
+      "disponibile": false
+    },
+    {
       "id": "koala-2017",
       "tipo": "koala",
       "anno": 2017,
@@ -180,6 +362,32 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2017.pdf",
       "json_url": "data/kangourou/2017.json",
+      "disponibile": false
+    },
+    {
+      "id": "benjamin-2017",
+      "tipo": "benjamin",
+      "anno": 2017,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2017.pdf",
+      "json_url": "data/benjamin/2017.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2017",
+      "tipo": "cadet",
+      "anno": 2017,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2017.pdf",
+      "json_url": "data/cadet/2017.json",
       "disponibile": false
     },
     {
@@ -209,6 +417,32 @@
       "disponibile": false
     },
     {
+      "id": "benjamin-2016",
+      "tipo": "benjamin",
+      "anno": 2016,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2016.pdf",
+      "json_url": "data/benjamin/2016.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2016",
+      "tipo": "cadet",
+      "anno": 2016,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2016.pdf",
+      "json_url": "data/cadet/2016.json",
+      "disponibile": false
+    },
+    {
       "id": "koala-2015",
       "tipo": "koala",
       "anno": 2015,
@@ -232,6 +466,32 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2015.pdf",
       "json_url": "data/kangourou/2015.json",
+      "disponibile": false
+    },
+    {
+      "id": "benjamin-2015",
+      "tipo": "benjamin",
+      "anno": 2015,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2015.pdf",
+      "json_url": "data/benjamin/2015.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2015",
+      "tipo": "cadet",
+      "anno": 2015,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2015.pdf",
+      "json_url": "data/cadet/2015.json",
       "disponibile": false
     },
     {
@@ -261,6 +521,32 @@
       "disponibile": false
     },
     {
+      "id": "benjamin-2014",
+      "tipo": "benjamin",
+      "anno": 2014,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2014.pdf",
+      "json_url": "data/benjamin/2014.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2014",
+      "tipo": "cadet",
+      "anno": 2014,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2014.pdf",
+      "json_url": "data/cadet/2014.json",
+      "disponibile": false
+    },
+    {
       "id": "koala-2013",
       "tipo": "koala",
       "anno": 2013,
@@ -287,6 +573,32 @@
       "disponibile": false
     },
     {
+      "id": "benjamin-2013",
+      "tipo": "benjamin",
+      "anno": 2013,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2013.pdf",
+      "json_url": "data/benjamin/2013.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2013",
+      "tipo": "cadet",
+      "anno": 2013,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2013.pdf",
+      "json_url": "data/cadet/2013.json",
+      "disponibile": false
+    },
+    {
       "id": "kangourou-2012",
       "tipo": "kangourou",
       "anno": 2012,
@@ -297,6 +609,32 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2012.pdf",
       "json_url": "data/kangourou/2012.json",
+      "disponibile": false
+    },
+    {
+      "id": "benjamin-2012",
+      "tipo": "benjamin",
+      "anno": 2012,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2012.pdf",
+      "json_url": "data/benjamin/2012.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2012",
+      "tipo": "cadet",
+      "anno": 2012,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2012.pdf",
+      "json_url": "data/cadet/2012.json",
       "disponibile": false
     },
     {
@@ -313,6 +651,32 @@
       "disponibile": false
     },
     {
+      "id": "benjamin-2011",
+      "tipo": "benjamin",
+      "anno": 2011,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2011.pdf",
+      "json_url": "data/benjamin/2011.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2011",
+      "tipo": "cadet",
+      "anno": 2011,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2011.pdf",
+      "json_url": "data/cadet/2011.json",
+      "disponibile": false
+    },
+    {
       "id": "kangourou-2010",
       "tipo": "kangourou",
       "anno": 2010,
@@ -323,6 +687,32 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2010.pdf",
       "json_url": "data/kangourou/2010.json",
+      "disponibile": false
+    },
+    {
+      "id": "benjamin-2010",
+      "tipo": "benjamin",
+      "anno": 2010,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2010.pdf",
+      "json_url": "data/benjamin/2010.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2010",
+      "tipo": "cadet",
+      "anno": 2010,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2010.pdf",
+      "json_url": "data/cadet/2010.json",
       "disponibile": false
     },
     {
@@ -339,6 +729,32 @@
       "disponibile": false
     },
     {
+      "id": "benjamin-2009",
+      "tipo": "benjamin",
+      "anno": 2009,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2009.pdf",
+      "json_url": "data/benjamin/2009.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2009",
+      "tipo": "cadet",
+      "anno": 2009,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2009.pdf",
+      "json_url": "data/cadet/2009.json",
+      "disponibile": false
+    },
+    {
       "id": "kangourou-2008",
       "tipo": "kangourou",
       "anno": 2008,
@@ -349,6 +765,32 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2008.pdf",
       "json_url": "data/kangourou/2008.json",
+      "disponibile": false
+    },
+    {
+      "id": "benjamin-2008",
+      "tipo": "benjamin",
+      "anno": 2008,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2008.pdf",
+      "json_url": "data/benjamin/2008.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2008",
+      "tipo": "cadet",
+      "anno": 2008,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2008.pdf",
+      "json_url": "data/cadet/2008.json",
       "disponibile": false
     },
     {
@@ -365,6 +807,32 @@
       "disponibile": false
     },
     {
+      "id": "benjamin-2007",
+      "tipo": "benjamin",
+      "anno": 2007,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2007.pdf",
+      "json_url": "data/benjamin/2007.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2007",
+      "tipo": "cadet",
+      "anno": 2007,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2007.pdf",
+      "json_url": "data/cadet/2007.json",
+      "disponibile": false
+    },
+    {
       "id": "kangourou-2006",
       "tipo": "kangourou",
       "anno": 2006,
@@ -375,6 +843,32 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2006.pdf",
       "json_url": "data/kangourou/2006.json",
+      "disponibile": false
+    },
+    {
+      "id": "benjamin-2006",
+      "tipo": "benjamin",
+      "anno": 2006,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2006.pdf",
+      "json_url": "data/benjamin/2006.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2006",
+      "tipo": "cadet",
+      "anno": 2006,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2006.pdf",
+      "json_url": "data/cadet/2006.json",
       "disponibile": false
     },
     {
@@ -391,6 +885,32 @@
       "disponibile": false
     },
     {
+      "id": "benjamin-2005",
+      "tipo": "benjamin",
+      "anno": 2005,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2005.pdf",
+      "json_url": "data/benjamin/2005.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2005",
+      "tipo": "cadet",
+      "anno": 2005,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2005.pdf",
+      "json_url": "data/cadet/2005.json",
+      "disponibile": false
+    },
+    {
       "id": "kangourou-2004",
       "tipo": "kangourou",
       "anno": 2004,
@@ -401,6 +921,32 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2004.pdf",
       "json_url": "data/kangourou/2004.json",
+      "disponibile": false
+    },
+    {
+      "id": "benjamin-2004",
+      "tipo": "benjamin",
+      "anno": 2004,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2004.pdf",
+      "json_url": "data/benjamin/2004.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2004",
+      "tipo": "cadet",
+      "anno": 2004,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2004.pdf",
+      "json_url": "data/cadet/2004.json",
       "disponibile": false
     },
     {
@@ -417,6 +963,32 @@
       "disponibile": false
     },
     {
+      "id": "benjamin-2003",
+      "tipo": "benjamin",
+      "anno": 2003,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2003.pdf",
+      "json_url": "data/benjamin/2003.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2003",
+      "tipo": "cadet",
+      "anno": 2003,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2003.pdf",
+      "json_url": "data/cadet/2003.json",
+      "disponibile": false
+    },
+    {
       "id": "kangourou-2002",
       "tipo": "kangourou",
       "anno": 2002,
@@ -427,6 +999,32 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2002.pdf",
       "json_url": "data/kangourou/2002.json",
+      "disponibile": false
+    },
+    {
+      "id": "benjamin-2002",
+      "tipo": "benjamin",
+      "anno": 2002,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2002.pdf",
+      "json_url": "data/benjamin/2002.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2002",
+      "tipo": "cadet",
+      "anno": 2002,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2002.pdf",
+      "json_url": "data/cadet/2002.json",
       "disponibile": false
     },
     {
@@ -443,6 +1041,32 @@
       "disponibile": false
     },
     {
+      "id": "benjamin-2001",
+      "tipo": "benjamin",
+      "anno": 2001,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2001.pdf",
+      "json_url": "data/benjamin/2001.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2001",
+      "tipo": "cadet",
+      "anno": 2001,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2001.pdf",
+      "json_url": "data/cadet/2001.json",
+      "disponibile": false
+    },
+    {
       "id": "kangourou-2000",
       "tipo": "kangourou",
       "anno": 2000,
@@ -454,11 +1078,37 @@
       "pdf_url": "pdf/kangourou/2000.pdf",
       "json_url": "data/kangourou/2000.json",
       "disponibile": false
+    },
+    {
+      "id": "benjamin-2000",
+      "tipo": "benjamin",
+      "anno": 2000,
+      "categoria": "Benjamin",
+      "classi": "1ª e 2ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/benjamin/2000.pdf",
+      "json_url": "data/benjamin/2000.json",
+      "disponibile": false
+    },
+    {
+      "id": "cadet-2000",
+      "tipo": "cadet",
+      "anno": 2000,
+      "categoria": "Cadet",
+      "classi": "3ª Media",
+      "tempo_minuti": 75,
+      "totale_domande": 30,
+      "punteggio_massimo": 120,
+      "pdf_url": "pdf/cadet/2000.pdf",
+      "json_url": "data/cadet/2000.json",
+      "disponibile": false
     }
   ],
-  "ultimo_aggiornamento": "2026-02-06",
-  "versione": "1.4.0",
-  "totale_gare": 35,
-  "gare_disponibili": 8,
-  "novita": "Nuova gara caricata: Koala 2014 (2ª-3ª Primaria)"
+  "ultimo_aggiornamento": "2026-02-09",
+  "versione": "2.0.0",
+  "totale_gare": 85,
+  "gare_disponibili": 9,
+  "novita": "Nuova categoria: Benjamin (1ª-2ª Media) - prima gara disponibile: Benjamin 2024"
 }
