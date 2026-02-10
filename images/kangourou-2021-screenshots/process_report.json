@@ -1,0 +1,192 @@
+{
+  "pdf": "2021.pdf",
+  "questions_total": 24,
+  "questions_with_images": 21,
+  "details": [
+    {
+      "question": 1,
+      "file": "q01.png",
+      "method": "clip_pdf",
+      "size": "1535x526",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 2,
+      "file": "q02.png",
+      "method": "extracted",
+      "size": "969x313",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 3,
+      "file": "q03.png",
+      "method": "extracted",
+      "size": "822x137",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 4,
+      "file": "q04.png",
+      "method": "clip_pdf",
+      "size": "1535x490",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 5,
+      "file": "q05.png",
+      "method": "clip_pdf",
+      "size": "1535x368",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 6,
+      "file": "q06.png",
+      "method": "extracted",
+      "size": "388x303",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 7,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 8,
+      "file": "q08.png",
+      "method": "combined_3",
+      "size": "274x925",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 9,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 10,
+      "file": "q10.png",
+      "method": "clip_pdf",
+      "size": "1535x427",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 11,
+      "file": "q11.png",
+      "method": "combined_3",
+      "size": "554x951",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 12,
+      "file": "q12.png",
+      "method": "extracted",
+      "size": "544x190",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 13,
+      "file": "q13.png",
+      "method": "clip_pdf",
+      "size": "1535x810",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 14,
+      "file": "q14.png",
+      "method": "clip_pdf",
+      "size": "1535x648",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 15,
+      "file": "q15.png",
+      "method": "extracted",
+      "size": "306x414",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 16,
+      "file": "q16.png",
+      "method": "combined_3",
+      "size": "361x593",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 17,
+      "file": "q17.png",
+      "method": "extracted",
+      "size": "310x308",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 18,
+      "file": "q18.png",
+      "method": "extracted",
+      "size": "609x181",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 19,
+      "file": "q19.png",
+      "method": "extracted",
+      "size": "493x152",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 20,
+      "file": "q20.png",
+      "method": "extracted",
+      "size": "558x418",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 21,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 22,
+      "file": "q22.png",
+      "method": "extracted",
+      "size": "859x164",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 23,
+      "file": "q23.png",
+      "method": "extracted",
+      "size": "418x418",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 24,
+      "file": "q24.png",
+      "method": "combined_2",
+      "size": "384x551",
+      "validated": true,
+      "warnings": []
+    }
+  ],
+  "warnings": [],
+  "warnings_count": 0
+}
