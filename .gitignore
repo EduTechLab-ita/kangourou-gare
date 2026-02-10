@@ -1,5 +1,7 @@
-# Python scripts di sviluppo
+# Python scripts di sviluppo (esclusi quelli di pipeline)
 *.py
+!process_gara.py
+!extract_all_images.py
 __pycache__/
 *.pyc
 
