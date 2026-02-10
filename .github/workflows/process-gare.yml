@@ -9,6 +9,9 @@ on:
         required: true
         default: 'kangourou/2021,kangourou/2019'
 
+permissions:
+  contents: write
+
 jobs:
   process:
     runs-on: ubuntu-latest
