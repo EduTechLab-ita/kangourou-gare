@@ -11,11 +11,26 @@
       "testo": "Alice piega il foglio su cui è disegnata questa figura lungo la linea tratteggiata. Quale dei seguenti quadrati si ribalta su un quadrato a esso identico?",
       "immagine": "images/benjamin-2024-screenshots/q01.png",
       "opzioni": [
-        {"id": "A", "testo": ""},
-        {"id": "B", "testo": ""},
-        {"id": "C", "testo": ""},
-        {"id": "D", "testo": ""},
-        {"id": "E", "testo": ""}
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
       ],
       "risposta_corretta": "B",
       "punteggio": 3
@@ -25,11 +40,26 @@
       "testo": "Sul pavimento del cortile è disegnata una lunga striscia di quadrati uguali. Mia gioca a saltare da uno all'altro atterrando alternativamente su due piedi o su un piede solo. In figura (dal basso verso l'alto) si vedono le impronte dei suoi primi salti. Ogni quattro quadrati ripete la sequenza di salti. In quale dei seguenti quadrati Mia atterrerà solo sul suo piede destro?",
       "immagine": "images/benjamin-2024-screenshots/q02.png",
       "opzioni": [
-        {"id": "A", "testo": "Il decimo"},
-        {"id": "B", "testo": "Il quindicesimo"},
-        {"id": "C", "testo": "Il ventesimo"},
-        {"id": "D", "testo": "Il ventunesimo"},
-        {"id": "E", "testo": "Il ventitreesimo"}
+        {
+          "id": "A",
+          "testo": "Il decimo"
+        },
+        {
+          "id": "B",
+          "testo": "Il quindicesimo"
+        },
+        {
+          "id": "C",
+          "testo": "Il ventesimo"
+        },
+        {
+          "id": "D",
+          "testo": "Il ventunesimo"
+        },
+        {
+          "id": "E",
+          "testo": "Il ventitreesimo"
+        }
       ],
       "risposta_corretta": "C",
       "punteggio": 3
@@ -39,11 +69,26 @@
       "testo": "Diciamo che una parola (cioè una sequenza di lettere) ne contiene un'altra se per ottenere la seconda basta cancellare alcune lettere dalla prima: ad es. la parola GABADEDDEG contiene la parola AADDG, ma non contiene la parola AGA. Mattia vuole scrivere una parola che contenga le tre parole ABCD, BCDA e BADC. Qual è il più piccolo numero possibile di lettere per la parola che vuole scrivere Mattia?",
       "immagine": null,
       "opzioni": [
-        {"id": "A", "testo": "4"},
-        {"id": "B", "testo": "6"},
-        {"id": "C", "testo": "7"},
-        {"id": "D", "testo": "8"},
-        {"id": "E", "testo": "12"}
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "12"
+        }
       ],
       "risposta_corretta": "C",
       "punteggio": 3
@@ -53,11 +98,26 @@
       "testo": "La figura mostra come Nora sovrappone due rettangoli identici, ciascuno di area 18 cm², in modo da ottenere un nuovo rettangolo. Il nuovo rettangolo può essere scomposto in tre quadrati identici. Quanti centimetri quadrati misura l'area del nuovo rettangolo?",
       "immagine": "images/benjamin-2024-screenshots/q04.png",
       "opzioni": [
-        {"id": "A", "testo": "24"},
-        {"id": "B", "testo": "27"},
-        {"id": "C", "testo": "30"},
-        {"id": "D", "testo": "32"},
-        {"id": "E", "testo": "36"}
+        {
+          "id": "A",
+          "testo": "24"
+        },
+        {
+          "id": "B",
+          "testo": "27"
+        },
+        {
+          "id": "C",
+          "testo": "30"
+        },
+        {
+          "id": "D",
+          "testo": "32"
+        },
+        {
+          "id": "E",
+          "testo": "36"
+        }
       ],
       "risposta_corretta": "B",
       "punteggio": 3
@@ -67,11 +127,26 @@
       "testo": "Dina ha appoggiato 3 scatole sul pavimento, in parte nascoste da un muretto. Quando le guarda ponendosi davanti al muretto, le scatole hanno l'aspetto mostrato in figura. Che aspetto hanno quando le guarda ponendosi dall'altra parte del muretto?",
       "immagine": "images/benjamin-2024-screenshots/q05.png",
       "opzioni": [
-        {"id": "A", "testo": ""},
-        {"id": "B", "testo": ""},
-        {"id": "C", "testo": ""},
-        {"id": "D", "testo": ""},
-        {"id": "E", "testo": ""}
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
       ],
       "risposta_corretta": "B",
       "punteggio": 3
@@ -81,11 +156,26 @@
       "testo": "Sul pianale di un autocarro ci sono sei scatole disposte come indicato in figura. Un facchino le trasporta a terra. Sposta una scatola alla volta e solo se sopra di essa non ci sono altre scatole. Appoggia ogni scatola a terra oppure sopra un'altra scatola, senza più spostarla. Quale dei seguenti cumuli non può realizzare?",
       "immagine": "images/benjamin-2024-screenshots/q06.png",
       "opzioni": [
-        {"id": "A", "testo": ""},
-        {"id": "B", "testo": ""},
-        {"id": "C", "testo": ""},
-        {"id": "D", "testo": ""},
-        {"id": "E", "testo": ""}
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
       ],
       "risposta_corretta": "C",
       "punteggio": 3
@@ -95,11 +185,26 @@
       "testo": "Osserva la figura: due ruote girano intorno a uno stesso perno. Su ciascuna di esse sono indicati (con numeri o lettere) 7 punti, vertici di un ottagono regolare. Ad ogni minuto entrambe compiono uno scatto, ma in versi opposti come indicato dalle frecce: ogni vertice va ad occupare la posizione del vertice ad esso successivo secondo il verso di rotazione. In figura si vedono la posizione iniziale (la lettera A è di fronte al numero 1) e la successiva. Dopo un certo numero di scatti la lettera C si troverà di fronte al numero 2; in quel momento a quale numero si troverà di fronte la lettera F?",
       "immagine": "images/benjamin-2024-screenshots/q07.png",
       "opzioni": [
-        {"id": "A", "testo": "1"},
-        {"id": "B", "testo": "4"},
-        {"id": "C", "testo": "5"},
-        {"id": "D", "testo": "6"},
-        {"id": "E", "testo": "7"}
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "5"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "7"
+        }
       ],
       "risposta_corretta": "C",
       "punteggio": 3
@@ -109,11 +214,26 @@
       "testo": "Per pesare un oggetto che pesa 445 g, Piero ha a disposizione una bilancia a due piatti e i pesi mostrati in figura. Qual è il minimo numero di pesi che gli permette di mettere in equilibrio la bilancia?",
       "immagine": "images/benjamin-2024-screenshots/q08.png",
       "opzioni": [
-        {"id": "A", "testo": "2"},
-        {"id": "B", "testo": "3"},
-        {"id": "C", "testo": "4"},
-        {"id": "D", "testo": "5"},
-        {"id": "E", "testo": "6"}
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
       ],
       "risposta_corretta": "B",
       "punteggio": 3
@@ -123,11 +243,26 @@
       "testo": "In un albergo le camere sono ordinate in ordine crescente, iniziando da 1, senza saltare alcun numero. Filippo ha contato quante volte una stessa cifra compare nel complesso dei numeri delle camere dell'albergo e ha trovato che 2 compare 14 volte e 5 compare 3 volte. Quante camere al massimo possono esserci nell'albergo?",
       "immagine": null,
       "opzioni": [
-        {"id": "A", "testo": "25"},
-        {"id": "B", "testo": "26"},
-        {"id": "C", "testo": "34"},
-        {"id": "D", "testo": "35"},
-        {"id": "E", "testo": "41"}
+        {
+          "id": "A",
+          "testo": "25"
+        },
+        {
+          "id": "B",
+          "testo": "26"
+        },
+        {
+          "id": "C",
+          "testo": "34"
+        },
+        {
+          "id": "D",
+          "testo": "35"
+        },
+        {
+          "id": "E",
+          "testo": "41"
+        }
       ],
       "risposta_corretta": "C",
       "punteggio": 3
@@ -137,11 +272,26 @@
       "testo": "Quale delle seguenti etichette completa il disegno in modo che i due bambini siano collegati ad aquiloni diversi?",
       "immagine": "images/benjamin-2024-screenshots/q10.png",
       "opzioni": [
-        {"id": "A", "testo": ""},
-        {"id": "B", "testo": ""},
-        {"id": "C", "testo": ""},
-        {"id": "D", "testo": ""},
-        {"id": "E", "testo": ""}
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
       ],
       "risposta_corretta": "D",
       "punteggio": 3
@@ -151,11 +301,26 @@
       "testo": "In figura vedi una griglia 4 × 5 con una casella nera e una grigia e 4 piastrelle con cui è possibile coprire la griglia senza lasciare spazi vuoti, né creare sovrapposizioni. Se sulla casella nera si colloca il numero 4 di una delle piastrelle, quale numero viene a trovarsi sulla casella grigia?",
       "immagine": "images/benjamin-2024-screenshots/q11.png",
       "opzioni": [
-        {"id": "A", "testo": "1"},
-        {"id": "B", "testo": "2"},
-        {"id": "C", "testo": "3"},
-        {"id": "D", "testo": "4"},
-        {"id": "E", "testo": "5"}
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
       ],
       "risposta_corretta": "B",
       "punteggio": 4
@@ -165,11 +330,26 @@
       "testo": "Rosa ha disegnato diversi rettangoli identici fino a comporre la figura a destra. La figura è alta 30 cm e, alla base, è larga 45 cm. Quanti centimetri quadrati misura l'area di ciascun rettangolo?",
       "immagine": "images/benjamin-2024-screenshots/q12.png",
       "opzioni": [
-        {"id": "A", "testo": "24"},
-        {"id": "B", "testo": "27"},
-        {"id": "C", "testo": "30"},
-        {"id": "D", "testo": "33"},
-        {"id": "E", "testo": "36"}
+        {
+          "id": "A",
+          "testo": "24"
+        },
+        {
+          "id": "B",
+          "testo": "27"
+        },
+        {
+          "id": "C",
+          "testo": "30"
+        },
+        {
+          "id": "D",
+          "testo": "33"
+        },
+        {
+          "id": "E",
+          "testo": "36"
+        }
       ],
       "risposta_corretta": "E",
       "punteggio": 4
@@ -179,11 +359,26 @@
       "testo": "Guarda la figura: Carlo ritaglia i quattro quadratini grigi dal quadrato grande. Le lunghezze dei lati dei quadratini sono indicate in figura. L'area della figura rimanente è metà di quella del quadrato originario. Qual è il perimetro della figura rimanente?",
       "immagine": "images/benjamin-2024-screenshots/q13.png",
       "opzioni": [
-        {"id": "A", "testo": "36"},
-        {"id": "B", "testo": "40"},
-        {"id": "C", "testo": "44"},
-        {"id": "D", "testo": "48"},
-        {"id": "E", "testo": "52"}
+        {
+          "id": "A",
+          "testo": "36"
+        },
+        {
+          "id": "B",
+          "testo": "40"
+        },
+        {
+          "id": "C",
+          "testo": "44"
+        },
+        {
+          "id": "D",
+          "testo": "48"
+        },
+        {
+          "id": "E",
+          "testo": "52"
+        }
       ],
       "risposta_corretta": "B",
       "punteggio": 4
@@ -193,11 +388,26 @@
       "testo": "Giulio aveva cinque scatole di cioccolatini, denominate in figura con le lettere A, B, C, D ed E. Il numero che si vede sopra ogni cioccolatino, rappresentato da un cerchio, denota il suo gusto. Giulio ha mangiato quasi tutti i cioccolatini, lasciandone uno per scatola come mostra la seconda figura. Qual è il nome della scatola indicata con X?",
       "immagine": "images/benjamin-2024-screenshots/q14.png",
       "opzioni": [
-        {"id": "A", "testo": "A"},
-        {"id": "B", "testo": "B"},
-        {"id": "C", "testo": "C"},
-        {"id": "D", "testo": "D"},
-        {"id": "E", "testo": "E"}
+        {
+          "id": "A",
+          "testo": "A"
+        },
+        {
+          "id": "B",
+          "testo": "B"
+        },
+        {
+          "id": "C",
+          "testo": "C"
+        },
+        {
+          "id": "D",
+          "testo": "D"
+        },
+        {
+          "id": "E",
+          "testo": "E"
+        }
       ],
       "risposta_corretta": "E",
       "punteggio": 4
@@ -207,11 +417,26 @@
       "testo": "Ciascuno dei 16 cerchietti in figura copre un numero naturale. Numeri coperti da cerchietti vicini differiscono di un'unità. Uno dei cerchietti copre il numero 5, un altro copre il numero 13. Quanti numeri diversi sono coperti complessivamente dai 16 cerchietti?",
       "immagine": "images/benjamin-2024-screenshots/q15.png",
       "opzioni": [
-        {"id": "A", "testo": "9"},
-        {"id": "B", "testo": "10"},
-        {"id": "C", "testo": "13"},
-        {"id": "D", "testo": "14"},
-        {"id": "E", "testo": "16"}
+        {
+          "id": "A",
+          "testo": "9"
+        },
+        {
+          "id": "B",
+          "testo": "10"
+        },
+        {
+          "id": "C",
+          "testo": "13"
+        },
+        {
+          "id": "D",
+          "testo": "14"
+        },
+        {
+          "id": "E",
+          "testo": "16"
+        }
       ],
       "risposta_corretta": "A",
       "punteggio": 4
@@ -221,11 +446,26 @@
       "testo": "La figura mostra due quadrati grandi che hanno la stessa area. Nel primo quadrato sono stati congiunti i punti medi dei lati e sono stati ombreggiati i triangoli che si sono così formati. Nel secondo quadrato sono stati disegnati e ombreggiati quattro quadratini identici, il cui lato è un terzo del lato del quadrato grande. La superficie ombreggiata nel primo quadrato misura 9 cm². Quanti centimetri quadrati misura la superficie ombreggiata nella seconda figura?",
       "immagine": "images/benjamin-2024-screenshots/q16.png",
       "opzioni": [
-        {"id": "A", "testo": "4"},
-        {"id": "B", "testo": "8"},
-        {"id": "C", "testo": "9"},
-        {"id": "D", "testo": "10"},
-        {"id": "E", "testo": "12"}
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "9"
+        },
+        {
+          "id": "D",
+          "testo": "10"
+        },
+        {
+          "id": "E",
+          "testo": "12"
+        }
       ],
       "risposta_corretta": "B",
       "punteggio": 4
@@ -235,11 +475,26 @@
       "testo": "Rappresentiamo ognuna delle cifre da 0 a 9 mediante un insieme di punti bianchi e neri disposti in un rettangolo come mostra la figura (lo schema è quello della scrittura Braille per non vedenti). Quanti diversi numeri di due cifre (quindi maggiori di 9) contengono esattamente cinque punti neri?",
       "immagine": "images/benjamin-2024-screenshots/q17.png",
       "opzioni": [
-        {"id": "A", "testo": "16"},
-        {"id": "B", "testo": "18"},
-        {"id": "C", "testo": "30"},
-        {"id": "D", "testo": "32"},
-        {"id": "E", "testo": "34"}
+        {
+          "id": "A",
+          "testo": "16"
+        },
+        {
+          "id": "B",
+          "testo": "18"
+        },
+        {
+          "id": "C",
+          "testo": "30"
+        },
+        {
+          "id": "D",
+          "testo": "32"
+        },
+        {
+          "id": "E",
+          "testo": "34"
+        }
       ],
       "risposta_corretta": "C",
       "punteggio": 4
@@ -249,11 +504,26 @@
       "testo": "La figura rappresenta un alveare con 16 celle. Diciamo che due celle sono vicine se hanno un lato in comune. Alcune celle contengono miele: il numero in ogni cella indica quante celle vicine contengono miele. Quante celle contengono miele?",
       "immagine": "images/benjamin-2024-screenshots/q18.png",
       "opzioni": [
-        {"id": "A", "testo": "7"},
-        {"id": "B", "testo": "8"},
-        {"id": "C", "testo": "9"},
-        {"id": "D", "testo": "10"},
-        {"id": "E", "testo": "11"}
+        {
+          "id": "A",
+          "testo": "7"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "9"
+        },
+        {
+          "id": "D",
+          "testo": "10"
+        },
+        {
+          "id": "E",
+          "testo": "11"
+        }
       ],
       "risposta_corretta": "C",
       "punteggio": 4
@@ -263,11 +533,26 @@
       "testo": "Anna vuole inserire i numeri da 1 a 10, ciascuno in uno dei cerchi in figura. Vuole che, se quattro cerchi sono allineati (come ad esempio i 4 cerchi grigi), la somma dei numeri in essi contenuti sia 23. Quale numero deve porre nel cerchio denotato con il punto di domanda?",
       "immagine": "images/benjamin-2024-screenshots/q19.png",
       "opzioni": [
-        {"id": "A", "testo": "4"},
-        {"id": "B", "testo": "5"},
-        {"id": "C", "testo": "6"},
-        {"id": "D", "testo": "7"},
-        {"id": "E", "testo": "8"}
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "5"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "7"
+        },
+        {
+          "id": "E",
+          "testo": "8"
+        }
       ],
       "risposta_corretta": "D",
       "punteggio": 4
@@ -277,11 +562,26 @@
       "testo": "Roberto ha n biglie. Le raggruppa una prima volta in coppie e annota il numero di coppie trovate; poi le raggruppa in terne e annota il numero di terne trovate. In nessuno dei due casi gli avanzano delle biglie. Il numero di coppie è di 7 unità maggiore del numero delle terne. Quale delle seguenti disuguaglianze è corretta?",
       "immagine": null,
       "opzioni": [
-        {"id": "A", "testo": "n = 29"},
-        {"id": "B", "testo": "29 ≤ n < 37"},
-        {"id": "C", "testo": "37 ≤ n < 49"},
-        {"id": "D", "testo": "49 ≤ n < 59"},
-        {"id": "E", "testo": "n ≥ 59"}
+        {
+          "id": "A",
+          "testo": "n = 29"
+        },
+        {
+          "id": "B",
+          "testo": "29 ≤ n < 37"
+        },
+        {
+          "id": "C",
+          "testo": "37 ≤ n < 49"
+        },
+        {
+          "id": "D",
+          "testo": "49 ≤ n < 59"
+        },
+        {
+          "id": "E",
+          "testo": "n ≥ 59"
+        }
       ],
       "risposta_corretta": "C",
       "punteggio": 4
@@ -291,11 +591,26 @@
       "testo": "In figura vedi tre dadi speciali identici appoggiati su un tavolo. Qual è la somma dei numeri sulle facce appoggiate sul tavolo?",
       "immagine": "images/benjamin-2024-screenshots/q21.png",
       "opzioni": [
-        {"id": "A", "testo": "26"},
-        {"id": "B", "testo": "40"},
-        {"id": "C", "testo": "43"},
-        {"id": "D", "testo": "47"},
-        {"id": "E", "testo": "56"}
+        {
+          "id": "A",
+          "testo": "26"
+        },
+        {
+          "id": "B",
+          "testo": "40"
+        },
+        {
+          "id": "C",
+          "testo": "43"
+        },
+        {
+          "id": "D",
+          "testo": "47"
+        },
+        {
+          "id": "E",
+          "testo": "56"
+        }
       ],
       "risposta_corretta": "C",
       "punteggio": 5
@@ -305,11 +620,26 @@
       "testo": "Il disegno mostra quattro rettangoli accostati e indica le aree di tre di essi e la lunghezza di alcuni segmenti. Quanti centimetri quadrati misura la superficie del rettangolo grigio?",
       "immagine": "images/benjamin-2024-screenshots/q22.png",
       "opzioni": [
-        {"id": "A", "testo": "12"},
-        {"id": "B", "testo": "14"},
-        {"id": "C", "testo": "16"},
-        {"id": "D", "testo": "18"},
-        {"id": "E", "testo": "20"}
+        {
+          "id": "A",
+          "testo": "12"
+        },
+        {
+          "id": "B",
+          "testo": "14"
+        },
+        {
+          "id": "C",
+          "testo": "16"
+        },
+        {
+          "id": "D",
+          "testo": "18"
+        },
+        {
+          "id": "E",
+          "testo": "20"
+        }
       ],
       "risposta_corretta": "E",
       "punteggio": 5
@@ -319,11 +649,26 @@
       "testo": "La figura mostra la mappa delle sette linee metropolitane di una cittadina. I cerchi indicano le stazioni. Martino vuole colorare le linee in modo che, se due linee passano attraverso una stessa stazione, esse abbiano colori diversi. Qual è il più piccolo numero di colori che Martino può utilizzare?",
       "immagine": "images/benjamin-2024-screenshots/q23.png",
       "opzioni": [
-        {"id": "A", "testo": "3"},
-        {"id": "B", "testo": "4"},
-        {"id": "C", "testo": "5"},
-        {"id": "D", "testo": "6"},
-        {"id": "E", "testo": "7"}
+        {
+          "id": "A",
+          "testo": "3"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "5"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "7"
+        }
       ],
       "risposta_corretta": "A",
       "punteggio": 5
@@ -333,11 +678,26 @@
       "testo": "Francesco vuole costruire un cubo partendo dal suo sviluppo piano che vedi in figura. Egli ha preparato lo sviluppo piano e lo ha iniziato a \"colorare\" in modo che, se due facce condividono uno spigolo, i triangoli che si affacciano su tale spigolo abbiano ordinatamente lo stesso colore. Come deve colorare i triangoli della faccia rimasta ancora bianca nello sviluppo piano?",
       "immagine": "images/benjamin-2024-screenshots/q24.png",
       "opzioni": [
-        {"id": "A", "testo": ""},
-        {"id": "B", "testo": ""},
-        {"id": "C", "testo": ""},
-        {"id": "D", "testo": ""},
-        {"id": "E", "testo": ""}
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
       ],
       "risposta_corretta": "B",
       "punteggio": 5
@@ -347,11 +707,26 @@
       "testo": "Il numero di quattro cifre 2024 ha tre proprietà: contiene tre cifre distinte, tutte le sue cifre sono pari e l'ultima cifra è uguale alla somma delle prime tre. Quanti numeri di quattro cifre (incluso 2024) hanno tutte queste proprietà?",
       "immagine": null,
       "opzioni": [
-        {"id": "A", "testo": "2"},
-        {"id": "B", "testo": "4"},
-        {"id": "C", "testo": "6"},
-        {"id": "D", "testo": "7"},
-        {"id": "E", "testo": "8"}
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "7"
+        },
+        {
+          "id": "E",
+          "testo": "8"
+        }
       ],
       "risposta_corretta": "D",
       "punteggio": 5
@@ -361,11 +736,26 @@
       "testo": "Maria ha disegnato un cubo con etichette rotonde nei vertici. In ciascuna di queste etichette vuole scrivere un numero naturale compreso tra 1 e 8 (inclusi), senza ripetizioni e rispettando la condizione che la somma dei numeri nei vertici di ciascuna faccia sia sempre la stessa. Come vedi, ha già scritto i numeri 6, 7 e 8. Quale numero dovrà scrivere nell'etichetta indicata con il punto di domanda?",
       "immagine": "images/benjamin-2024-screenshots/q26.png",
       "opzioni": [
-        {"id": "A", "testo": "1"},
-        {"id": "B", "testo": "2"},
-        {"id": "C", "testo": "3"},
-        {"id": "D", "testo": "4"},
-        {"id": "E", "testo": "5"}
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
       ],
       "risposta_corretta": "C",
       "punteggio": 5
@@ -375,11 +765,26 @@
       "testo": "La nonna ha un sacco di caramelle. Decide di dividerle tra i suoi nipoti in modo che ciascuno riceva un sacchetto con lo stesso numero di caramelle. Mette il massimo numero possibile di caramelle in ogni sacchetto; alla fine scopre che ci sono 20 caramelle in ogni sacchetto e le sono avanzate 12 caramelle. Quante caramelle al minimo potrebbe aver avuto la nonna?",
       "immagine": null,
       "opzioni": [
-        {"id": "A", "testo": "52"},
-        {"id": "B", "testo": "232"},
-        {"id": "C", "testo": "272"},
-        {"id": "D", "testo": "411"},
-        {"id": "E", "testo": "432"}
+        {
+          "id": "A",
+          "testo": "52"
+        },
+        {
+          "id": "B",
+          "testo": "232"
+        },
+        {
+          "id": "C",
+          "testo": "272"
+        },
+        {
+          "id": "D",
+          "testo": "411"
+        },
+        {
+          "id": "E",
+          "testo": "432"
+        }
       ],
       "risposta_corretta": "C",
       "punteggio": 5
@@ -389,11 +794,26 @@
       "testo": "Daniele progetta di tagliare una corda in 12 pezzi di uguale lunghezza e segna sulla corda i punti in cui deve tagliarla. Anche Marco progetta di tagliare la stessa corda in 16 pezzi di uguale lunghezza e segna i punti in cui deve tagliarla. Arriva Maya, che taglia la corda in tutti i punti in cui trova un segno. Quanti pezzi di corda ottiene Maya?",
       "immagine": null,
       "opzioni": [
-        {"id": "A", "testo": "24"},
-        {"id": "B", "testo": "25"},
-        {"id": "C", "testo": "27"},
-        {"id": "D", "testo": "28"},
-        {"id": "E", "testo": "29"}
+        {
+          "id": "A",
+          "testo": "24"
+        },
+        {
+          "id": "B",
+          "testo": "25"
+        },
+        {
+          "id": "C",
+          "testo": "27"
+        },
+        {
+          "id": "D",
+          "testo": "28"
+        },
+        {
+          "id": "E",
+          "testo": "29"
+        }
       ],
       "risposta_corretta": "A",
       "punteggio": 5
@@ -403,11 +823,26 @@
       "testo": "Con i sette pezzi che vedi in figura, Emma vuole costruire un bruco che abbia una testa, una coda e 1 o 2 o 3 pezzi a doppio incastro tra la testa e la coda. I pezzi devono incastrarsi bene, senza buchi o sovrapposizioni. In quanti modi diversi può farlo?",
       "immagine": "images/benjamin-2024-screenshots/q29.png",
       "opzioni": [
-        {"id": "A", "testo": "10"},
-        {"id": "B", "testo": "14"},
-        {"id": "C", "testo": "16"},
-        {"id": "D", "testo": "18"},
-        {"id": "E", "testo": "20"}
+        {
+          "id": "A",
+          "testo": "10"
+        },
+        {
+          "id": "B",
+          "testo": "14"
+        },
+        {
+          "id": "C",
+          "testo": "16"
+        },
+        {
+          "id": "D",
+          "testo": "18"
+        },
+        {
+          "id": "E",
+          "testo": "20"
+        }
       ],
       "risposta_corretta": "E",
       "punteggio": 5
@@ -417,11 +852,26 @@
       "testo": "Ada aveva scritto sulla lavagna un numero di tre cifre. Biagio ha aggiunto una quarta cifra a destra del numero di Ada. Ora Biagio osserva: \"Guarda! Il tuo numero è aumentato di 2024\". Quale cifra ha aggiunto Biagio?",
       "immagine": null,
       "opzioni": [
-        {"id": "A", "testo": "2"},
-        {"id": "B", "testo": "3"},
-        {"id": "C", "testo": "4"},
-        {"id": "D", "testo": "8"},
-        {"id": "E", "testo": "9"}
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
       ],
       "risposta_corretta": "D",
       "punteggio": 5
