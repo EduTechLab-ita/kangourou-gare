@@ -521,6 +521,81 @@ def process_gara(pdf_path, output_folder):
 
     doc.close()
 
+    # Fase 5: Validazione automatica
+    print("\n[5/5] Validazione immagini...")
+    warnings = []
+
+    for detail in report["details"]:
+        q_num = detail["question"]
+        fname = detail.get("file")
+
+        if fname is None:
+            continue
+
+        fpath = os.path.join(output_folder, fname)
+        try:
+            img = Image.open(fpath)
+            w, h = img.size
+
+            # Controllo 1: immagine troppo piccola (probabilmente spazzatura)
+            if w < 50 or h < 50:
+                msg = f"Q{q_num}: immagine troppo piccola ({w}x{h})"
+                warnings.append(msg)
+                print(f"  WARN: {msg}")
+                continue
+
+            # Controllo 2: immagine troppo stretta (probabilmente un frammento)
+            if w < 80 and h > w * 5:
+                msg = f"Q{q_num}: immagine troppo stretta ({w}x{h}), possibile frammento"
+                warnings.append(msg)
+                print(f"  WARN: {msg}")
+
+            # Controllo 3: immagine quasi tutta bianca (vuota)
+            pixels = list(img.getdata())
+            total = len(pixels)
+            white_count = sum(1 for p in pixels if (p[0] > 240 and p[1] > 240 and p[2] > 240) if isinstance(p, tuple))
+            if isinstance(pixels[0], tuple):
+                white_pct = white_count / total
+            else:
+                white_pct = sum(1 for p in pixels if p > 240) / total
+
+            if white_pct > 0.98:
+                msg = f"Q{q_num}: immagine quasi vuota ({white_pct:.0%} bianca)"
+                warnings.append(msg)
+                print(f"  WARN: {msg}")
+
+            # Controllo 4: dimensioni sospette (troppo grande = probabilmente ha troppo contenuto)
+            if w > 2000 and h > 2000:
+                msg = f"Q{q_num}: immagine molto grande ({w}x{h}), potrebbe includere troppo"
+                warnings.append(msg)
+                print(f"  WARN: {msg}")
+
+            detail["validated"] = True
+            detail["warnings"] = []
+
+        except Exception as e:
+            msg = f"Q{q_num}: errore lettura immagine: {e}"
+            warnings.append(msg)
+            print(f"  WARN: {msg}")
+
+    # Aggiungi warnings ai dettagli
+    for w_msg in warnings:
+        q_num_str = w_msg.split(":")[0]  # "Q5"
+        q_num = int(q_num_str[1:])
+        for detail in report["details"]:
+            if detail["question"] == q_num:
+                if "warnings" not in detail:
+                    detail["warnings"] = []
+                detail["warnings"].append(w_msg)
+
+    report["warnings"] = warnings
+    report["warnings_count"] = len(warnings)
+
+    if not warnings:
+        print("  Tutte le immagini superano la validazione")
+    else:
+        print(f"  {len(warnings)} warning trovati")
+
     # Salva report
     report_path = os.path.join(output_folder, "process_report.json")
     with open(report_path, "w", encoding="utf-8") as f:
@@ -528,6 +603,10 @@ def process_gara(pdf_path, output_folder):
 
     print(f"\n{'=' * 60}")
     print(f"  COMPLETATO: {report['questions_with_images']}/{report['questions_total']} domande con immagini")
+    if warnings:
+        print(f"  WARNING: {len(warnings)} problemi trovati (vedi report)")
+    else:
+        print(f"  VALIDAZIONE: OK, nessun problema")
     print(f"  Output: {output_folder}")
     print(f"  Report: {report_path}")
     print(f"{'=' * 60}\n")
