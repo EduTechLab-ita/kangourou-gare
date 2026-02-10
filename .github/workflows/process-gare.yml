@@ -1,0 +1,95 @@
+name: Processa Gare Kangourou
+
+on:
+  # Manuale: si lancia dal tab Actions su GitHub
+  workflow_dispatch:
+    inputs:
+      gare:
+        description: 'Gare da processare (es: kangourou/2021,kangourou/2019)'
+        required: true
+        default: 'kangourou/2021,kangourou/2019'
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installa dipendenze
+        run: pip install PyMuPDF Pillow
+
+      - name: Processa gare
+        run: |
+          IFS=',' read -ra GARE <<< "${{ github.event.inputs.gare }}"
+          ERRORS=0
+          for gara in "${GARE[@]}"; do
+            gara=$(echo "$gara" | xargs)  # trim spaces
+            TIPO=$(echo "$gara" | cut -d'/' -f1)
+            ANNO=$(echo "$gara" | cut -d'/' -f2)
+            PDF="pdf/${TIPO}/${ANNO}.pdf"
+            OUTPUT="images/${TIPO}-${ANNO}-screenshots"
+
+            echo ""
+            echo "========================================="
+            echo "  Processo: ${TIPO} ${ANNO}"
+            echo "========================================="
+
+            if [ ! -f "$PDF" ]; then
+              echo "ERRORE: PDF non trovato: $PDF"
+              ERRORS=$((ERRORS + 1))
+              continue
+            fi
+
+            python process_gara.py "$PDF" "$OUTPUT"
+
+            if [ $? -ne 0 ]; then
+              echo "ERRORE: Processamento fallito per ${TIPO} ${ANNO}"
+              ERRORS=$((ERRORS + 1))
+            fi
+          done
+
+          if [ $ERRORS -gt 0 ]; then
+            echo ""
+            echo "ATTENZIONE: $ERRORS gare con errori"
+          fi
+
+      - name: Committa risultati
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Aggiungi solo le immagini generate (screenshots)
+          git add images/*-screenshots/*.png
+          git add images/*-screenshots/process_report.json
+
+          # Controlla se ci sono modifiche
+          if git diff --cached --quiet; then
+            echo "Nessuna nuova immagine generata"
+          else
+            GARE="${{ github.event.inputs.gare }}"
+            git commit -m "Auto: processate immagini gare (${GARE})"
+            git push
+            echo "Immagini committate e pushate!"
+          fi
+
+      - name: Mostra report
+        if: always()
+        run: |
+          echo ""
+          echo "========================================="
+          echo "  REPORT FINALE"
+          echo "========================================="
+          for report in images/*-screenshots/process_report.json; do
+            if [ -f "$report" ]; then
+              echo ""
+              echo "--- $report ---"
+              cat "$report" | python -m json.tool 2>/dev/null || cat "$report"
+            fi
+          done
