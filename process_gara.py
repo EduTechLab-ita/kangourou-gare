@@ -385,7 +385,20 @@ def render_image(doc, img_info):
     """Renderizza un'immagine (raster o vettoriale) come PIL Image."""
     if img_info["type"] == "raster":
         data = img_info["data"]
-        return Image.open(io.BytesIO(data)).convert("RGB")
+        try:
+            img = Image.open(io.BytesIO(data))
+            if img.mode == "CMYK":
+                # CMYK JPEG: i byte raw danno colori sbagliati con Pillow.
+                # Usiamo render_clip dal PDF che gestisce CMYK correttamente.
+                rect = img_info["rect"]
+                return render_clip(doc, img_info["page"],
+                                   (rect.x0, rect.y0, rect.x1, rect.y1))
+            return img.convert("RGB")
+        except Exception:
+            # Fallback su qualsiasi errore di apertura: clip dal PDF
+            rect = img_info["rect"]
+            return render_clip(doc, img_info["page"],
+                               (rect.x0, rect.y0, rect.x1, rect.y1))
     else:
         # Vettoriale: clip dal PDF
         rect = img_info["rect"]
