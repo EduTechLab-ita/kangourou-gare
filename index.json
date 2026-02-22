@@ -258,7 +258,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2019.pdf",
       "json_url": "data/kangourou/2019.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "benjamin-2019",
@@ -1107,8 +1107,8 @@
     }
   ],
   "ultimo_aggiornamento": "2026-02-22",
-  "versione": "2.1.0",
+  "versione": "2.2.0",
   "totale_gare": 85,
-  "gare_disponibili": 10,
-  "novita": "Nuova gara disponibile: Kangourou 2021 (4ª-5ª Primaria)"
+  "gare_disponibili": 11,
+  "novita": "Nuove gare disponibili: Kangourou 2021 e Kangourou 2019 (4ª-5ª Primaria)"
 }

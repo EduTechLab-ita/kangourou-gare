@@ -1,0 +1,706 @@
+{
+  "id": "kangourou-2019",
+  "titolo": "Kangourou - Ecolier 2019",
+  "anno": "2019",
+  "categoria": "Kangourou (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Nelle figure che vedi ogni pallino vale 1 e ogni barra vale 5: quindi, ad esempio, la figura a lato vale 8. Quale delle seguenti figure vale 17?",
+      "immagine": "images/kangourou-2019-screenshots/q01.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Tre persone hanno attraversato un prato innevato con le scarpe infangate, lasciando le impronte che vedi in figura. In che ordine sono passate?",
+      "immagine": "images/kangourou-2019-screenshots/q02.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Nella copertina di un libro per bambini sui mezzi di trasporto ci sono due finestre. Quando si apre la copertina, appare quello che mostra la figura. Quali mezzi si vedono quando il libro è chiuso?",
+      "immagine": "images/kangourou-2019-screenshots/q03.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "Dalla griglia che vedi nella figura a fianco, Caterina ritaglia una tessera formata da due quadretti accostati. Quale delle seguenti tessere può ottenere?",
+      "immagine": "images/kangourou-2019-screenshots/q04.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Come mostra la figura, la mamma ha tagliato a metà una torta, poi ha tagliato a metà una delle due metà, ancora ha tagliato a metà una delle due parti ottenute e infine ha tagliato a metà una delle due ultime fette ottenute. Le fette più piccole che ha ottenuto pesano un etto. Quanti etti pesava l'intera torta?",
+      "immagine": "images/kangourou-2019-screenshots/q05.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "6"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "12"
+        },
+        {
+          "id": "D",
+          "testo": "16"
+        },
+        {
+          "id": "E",
+          "testo": "20"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "In una classe il numero delle ragazze è il doppio del numero dei ragazzi e lo supera di 8. Quanti studenti ci sono in quella classe?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "16"
+        },
+        {
+          "id": "B",
+          "testo": "18"
+        },
+        {
+          "id": "C",
+          "testo": "20"
+        },
+        {
+          "id": "D",
+          "testo": "24"
+        },
+        {
+          "id": "E",
+          "testo": "28"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Linda ha appeso in una bacheca 3 fotografie usando 8 puntine da disegno, come ti mostra la figura. Se ne avesse appese 7 operando alla stessa maniera, quante puntine avrebbe dovuto usare?",
+      "immagine": "images/kangourou-2019-screenshots/q07.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "14"
+        },
+        {
+          "id": "B",
+          "testo": "16"
+        },
+        {
+          "id": "C",
+          "testo": "18"
+        },
+        {
+          "id": "D",
+          "testo": "22"
+        },
+        {
+          "id": "E",
+          "testo": "26"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Nella prima figura vedi cinque piastrelle quadrate, tutte uguali fra loro, accostate in un certo modo. Levandone una opportunamente scelta e lasciando le altre nella posizione in cui si trovano, quante delle seguenti forme puoi ottenere?",
+      "immagine": "images/kangourou-2019-screenshots/q08.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "In figura vedi un percorso ad ostacoli: gli ostacoli sono i quadrati grigi che rappre-sentano altrettante pozze d'acqua. Per raggiungere l'ultima casella, quella indicata con X, il canguro Jump deve compiere dei salti in avanti: quando atterra su una ca-sella, deve ripartire con un salto lungo tante caselle quante sono indicate nella casella da cui parte (ad esempio: 1 significa che deve atterrare sulla casella successiva, 2 che deve saltare una casella e così via). Quante caselle deve essere lungo il suo primo salto, se vuole atterrare in X evitando tutte le pozze d'acqua?",
+      "immagine": "images/kangourou-2019-screenshots/q09.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "Non può riuscire ad evitare tutte le pozze."
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Sei strisce di carta sono intrecciate e incollate su un vetro tra-sparente; Franca e Guido le osservano da parti opposte del vetro. La figura ti mostra quello che vede Franca. Che cosa vede Guido?",
+      "immagine": "images/kangourou-2019-screenshots/q10.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Osserva le bilance in figura dove compaiono tre cani iden-tici e due pesi, uno da 12 e l'al-tro da 20 chili. Il peso in chili di ognuno dei cani è espresso da un numero intero. Quale?",
+      "immagine": "images/kangourou-2019-screenshots/q11.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "7"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "9"
+        },
+        {
+          "id": "D",
+          "testo": "10"
+        },
+        {
+          "id": "E",
+          "testo": "11"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Alcuni amici hanno delle biglie colorate e possono scambiarle secondo queste regole: per 3 biglie blu si può ottenere una biglia rossa, per 2 biglie rosse se ne pos-sono ottenere 5 verdi. Sara ha 16 biglie blu. Quante biglie verdi potrebbe ottenere al massimo?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "10"
+        },
+        {
+          "id": "C",
+          "testo": "13"
+        },
+        {
+          "id": "D",
+          "testo": "15"
+        },
+        {
+          "id": "E",
+          "testo": "20"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "Stefano ha a disposizione le cifre 2, 0, 1 e 9. In ognuna delle caselle in figura ne deve inserire una e le deve usare tutte. Se vuole che la somma indicata fornisca il risultato più grande possibile, che cifra dovrà inserire nella casella indicata con il punto di domanda?",
+      "immagine": "images/kangourou-2019-screenshots/q13.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "0 oppure 1."
+        },
+        {
+          "id": "B",
+          "testo": "0 oppure 2."
+        },
+        {
+          "id": "C",
+          "testo": "Necessariamente 0."
+        },
+        {
+          "id": "D",
+          "testo": "Necessariamente 1."
+        },
+        {
+          "id": "E",
+          "testo": "Necessariamente 2."
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Un bicchiere pieno d'acqua pesa 400 grammi. Lo stesso bicchiere vuoto pesa 100 grammi. Quanti grammi pesa un bicchiere riempito d'acqua a metà?",
+      "immagine": "images/kangourou-2019-screenshots/q14.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "150"
+        },
+        {
+          "id": "B",
+          "testo": "200"
+        },
+        {
+          "id": "C",
+          "testo": "225"
+        },
+        {
+          "id": "D",
+          "testo": "300"
+        },
+        {
+          "id": "E",
+          "testo": "Un numero diverso dai precedenti"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "A Kanglandia la moneta è il kang. Con 5 kang si comprano una mela e una pera, con 7 kang una mela e una banana, con 10 kang una pera e una banana. Quanti kang occorrono per compare una mela, una pera e una banana?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "8"
+        },
+        {
+          "id": "B",
+          "testo": "9"
+        },
+        {
+          "id": "C",
+          "testo": "10"
+        },
+        {
+          "id": "D",
+          "testo": "11"
+        },
+        {
+          "id": "E",
+          "testo": "12"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "Una strana macchina cambia-gettoni fornisce tre gettoni bianchi se si inserisce un gettone rosso, mentre fornisce due gettoni rossi se si inserisce un gettone bianco. Alice ha inizialmente 4 gettoni, 3 rossi e 1 bianco; ogni volta che inserisce un gettone, unisce i gettoni ottenuti a quelli che le sono rimasti. Se compie l'operazione tre volte, inserendo ogni volta un gettone a caso tra quelli che ha in quel momento, qual è il più piccolo numero di gettoni che potrebbe ritrovarsi ad avere?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "7"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "8"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Ognuno dei simboli disco, stella, cuore rappresenta un nu-mero. Per ogni riga, la somma dei numeri rappresentati nella riga è indicata a destra. Che numero è rappresentato dalla stella?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Su un foglio a quadretti compare la figura che vedi: rappresenta un dipinto che occupa 7 × 7 quadretti rac-chiuso da una cornice che è composta da 32 quadretti. Per un dipinto che occupasse 10 × 10 quadretti, da quanti quadretti dovrebbe essere composta la cornice?",
+      "immagine": "images/kangourou-2019-screenshots/q18.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "36"
+        },
+        {
+          "id": "B",
+          "testo": "40"
+        },
+        {
+          "id": "C",
+          "testo": "44"
+        },
+        {
+          "id": "D",
+          "testo": "48"
+        },
+        {
+          "id": "E",
+          "testo": "52"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "Le pagine di un libretto sono numerate a partire da 1. Complessivamente, nella numerazione la cifra 5 compare 16 volte. Quante pagine può avere al massimo il libretto?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "49"
+        },
+        {
+          "id": "B",
+          "testo": "64"
+        },
+        {
+          "id": "C",
+          "testo": "66"
+        },
+        {
+          "id": "D",
+          "testo": "74"
+        },
+        {
+          "id": "E",
+          "testo": "80"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Un vialetto ha le dimensioni in-dicate in figura. Un gatto cammina lungo la linea tratteggiata che in ogni tratto rettilineo del vialetto si trova esattamente a metà. Per quanti metri cammina il gatto?",
+      "immagine": "images/kangourou-2019-screenshots/q20.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "63"
+        },
+        {
+          "id": "B",
+          "testo": "68"
+        },
+        {
+          "id": "C",
+          "testo": "69"
+        },
+        {
+          "id": "D",
+          "testo": "71"
+        },
+        {
+          "id": "E",
+          "testo": "83"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "In uno zoo ci sono complessivamente 15 animali: leoni, elefanti e canguri. 10 non sono leoni, 8 non sono elefanti. Quanti sono i canguri?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "10"
+        },
+        {
+          "id": "E",
+          "testo": "18"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Maria ha 9 piccoli triangoli: 3 rossi, 3 gialli e 3 blu. Accostandoli come ti mostra la figura, ha formato un grande triangolo seguendo questa regola: se due trian-goli piccoli hanno un lato in comune, devono essere di colori diversi. In figura vedi dove si trovano un trian-golo rosso (R), uno giallo (G) e due blu (B); gli altri triangoli sono numerati. Quale delle seguenti affermazioni è vera?",
+      "immagine": "images/kangourou-2019-screenshots/q22.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1 è giallo e 3 è blu."
+        },
+        {
+          "id": "B",
+          "testo": "1 è blu e 2 è rosso."
+        },
+        {
+          "id": "C",
+          "testo": "1 e 3 sono entrambi rossi."
+        },
+        {
+          "id": "D",
+          "testo": "5 è rosso e 2 è giallo."
+        },
+        {
+          "id": "E",
+          "testo": "1 e 3 sono entrambi gialli."
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Aldo, Bruno, Carlo, Dario ed Enrico sono cinque amici: uno di essi ha mangiato un biscotto. Aldo dice: “Non ho mangiato io il biscotto”. Bruno dice: “Ho mangiato io il biscotto”. Carlo dice: “Enrico non ha mangiato il biscotto”. Dario dice: “Io non ho mangiato il biscotto”. Enrico dice: “È stato Aldo a mangiare il biscotto”. Solo uno di essi non dice la verità. Chi ha mangiato il biscotto?",
+      "immagine": "images/kangourou-2019-screenshots/q23.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Aldo"
+        },
+        {
+          "id": "B",
+          "testo": "Bruno"
+        },
+        {
+          "id": "C",
+          "testo": "Carlo"
+        },
+        {
+          "id": "D",
+          "testo": "Dario"
+        },
+        {
+          "id": "E",
+          "testo": "Enrico"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Emilio ha steso ad asciugare i tovaglioli usati nel suo ristorante. Ha iniziato usando due mollette da bu-cato, come indicato nella figura 1. A un certo punto però se è reso conto che le mollette da bucato che aveva non gli sarebbero bastati. Allora ha iniziato a stendere i tovaglioli come indicato nella figura 2. A lavoro terminato, ha steso complessivamente 35 to-vaglioli e usato 58 mollette da bucato. Quanti tovaglioli ha steso nel modo indicato dalla figura 1?",
+      "immagine": "images/kangourou-2019-screenshots/q24.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "12"
+        },
+        {
+          "id": "B",
+          "testo": "13"
+        },
+        {
+          "id": "C",
+          "testo": "21"
+        },
+        {
+          "id": "D",
+          "testo": "22"
+        },
+        {
+          "id": "E",
+          "testo": "23"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    }
+  ]
+}
