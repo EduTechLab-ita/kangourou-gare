@@ -10,7 +10,7 @@ const urlsToCache = [
   './index.json'
 ];
 
-// Installazione
+// Installazione - skipWaiting: prende subito il controllo senza aspettare
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
@@ -19,21 +19,25 @@ self.addEventListener('install', event => {
         return cache.addAll(urlsToCache);
       })
   );
+  self.skipWaiting();
 });
 
-// Attivazione
+// Attivazione - claim: controlla subito tutti i tab aperti
 self.addEventListener('activate', event => {
   event.waitUntil(
-    caches.keys().then(cacheNames => {
-      return Promise.all(
-        cacheNames.map(cacheName => {
-          if (cacheName !== CACHE_NAME) {
-            console.log('Rimuovo vecchia cache:', cacheName);
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    })
+    Promise.all([
+      caches.keys().then(cacheNames =>
+        Promise.all(
+          cacheNames.map(cacheName => {
+            if (cacheName !== CACHE_NAME) {
+              console.log('Rimuovo vecchia cache:', cacheName);
+              return caches.delete(cacheName);
+            }
+          })
+        )
+      ),
+      self.clients.claim()
+    ])
   );
 });
 
