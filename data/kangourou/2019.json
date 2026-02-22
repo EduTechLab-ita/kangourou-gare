@@ -645,9 +645,9 @@
       "punteggio": 5
     },
     {
-      "id": 23,
-      "testo": "Aldo, Bruno, Carlo, Dario ed Enrico sono cinque amici: uno di essi ha mangiato un biscotto. Aldo dice: “Non ho mangiato io il biscotto”. Bruno dice: “Ho mangiato io il biscotto”. Carlo dice: “Enrico non ha mangiato il biscotto”. Dario dice: “Io non ho mangiato il biscotto”. Enrico dice: “È stato Aldo a mangiare il biscotto”. Solo uno di essi non dice la verità. Chi ha mangiato il biscotto?",
-      "immagine": "images/kangourou-2019-screenshots/q23.png",
+      “id”: 23,
+      “testo”: “Aldo, Bruno, Carlo, Dario ed Enrico sono cinque amici: uno di essi ha mangiato un biscotto. Aldo dice: “Non ho mangiato io il biscotto”. Bruno dice: “Ho mangiato io il biscotto”. Carlo dice: “Enrico non ha mangiato il biscotto”. Dario dice: “Io non ho mangiato il biscotto”. Enrico dice: “È stato Aldo a mangiare il biscotto”. Solo uno di essi non dice la verità. Chi ha mangiato il biscotto?”,
+      “immagine”: null,
       "opzioni": [
         {
           "id": "A",
