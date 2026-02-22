@@ -7,7 +7,7 @@
       "question": 1,
       "file": "q01.png",
       "method": "clip_pdf",
-      "size": "1645x317",
+      "size": "1737x317",
       "validated": true,
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "question": 2,
       "file": "q02.png",
       "method": "combined_3",
-      "size": "763x1045",
+      "size": "1497x590",
       "validated": true,
       "warnings": []
     },
@@ -23,7 +23,7 @@
       "question": 3,
       "file": "q03.png",
       "method": "clip_pdf",
-      "size": "1645x647",
+      "size": "1737x647",
       "validated": true,
       "warnings": []
     },
@@ -31,7 +31,7 @@
       "question": 4,
       "file": "q04.png",
       "method": "combined_3",
-      "size": "362x931",
+      "size": "1531x620",
       "validated": true,
       "warnings": []
     },
@@ -39,7 +39,7 @@
       "question": 5,
       "file": "q05.png",
       "method": "extracted",
-      "size": "546x334",
+      "size": "629x418",
       "validated": true,
       "warnings": []
     },
@@ -52,7 +52,7 @@
       "question": 7,
       "file": "q07.png",
       "method": "extracted",
-      "size": "420x255",
+      "size": "503x338",
       "validated": true,
       "warnings": []
     },
@@ -60,7 +60,7 @@
       "question": 8,
       "file": "q08.png",
       "method": "extracted",
-      "size": "1385x507",
+      "size": "1468x590",
       "validated": true,
       "warnings": []
     },
@@ -68,7 +68,7 @@
       "question": 9,
       "file": "q09.png",
       "method": "clip_pdf",
-      "size": "1645x735",
+      "size": "1737x735",
       "validated": true,
       "warnings": []
     },
@@ -76,7 +76,7 @@
       "question": 10,
       "file": "q10.png",
       "method": "clip_pdf",
-      "size": "1645x768",
+      "size": "1737x768",
       "validated": true,
       "warnings": []
     },
@@ -84,7 +84,7 @@
       "question": 11,
       "file": "q11.png",
       "method": "clip_pdf",
-      "size": "1645x418",
+      "size": "1737x418",
       "validated": true,
       "warnings": []
     },
@@ -97,7 +97,7 @@
       "question": 13,
       "file": "q13.png",
       "method": "combined_2",
-      "size": "369x273",
+      "size": "628x217",
       "validated": true,
       "warnings": []
     },
@@ -105,7 +105,7 @@
       "question": 14,
       "file": "q14.png",
       "method": "extracted",
-      "size": "491x222",
+      "size": "574x305",
       "validated": true,
       "warnings": []
     },
@@ -141,7 +141,7 @@
       "question": 20,
       "file": "q20.png",
       "method": "extracted",
-      "size": "634x311",
+      "size": "718x394",
       "validated": true,
       "warnings": []
     },
@@ -154,7 +154,7 @@
       "question": 22,
       "file": "q22.png",
       "method": "extracted",
-      "size": "432x380",
+      "size": "516x463",
       "validated": true,
       "warnings": []
     },
@@ -162,7 +162,7 @@
       "question": 23,
       "file": "q23.png",
       "method": "clip_pdf",
-      "size": "1645x517",
+      "size": "1737x517",
       "validated": true,
       "warnings": []
     },
@@ -170,7 +170,7 @@
       "question": 24,
       "file": "q24.png",
       "method": "combined_2",
-      "size": "623x551",
+      "size": "1598x533",
       "validated": true,
       "warnings": []
     }
