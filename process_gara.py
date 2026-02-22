@@ -42,10 +42,12 @@ MAX_CLUSTER_HEIGHT_PCT = 0.35  # Soglia per split cluster alti
 # Filtri
 MIN_RASTER_W = 60        # Dimensione minima immagini raster (pixel)
 MIN_RASTER_H = 60
-MARGIN_LEFT_PCT = 0.06   # Margini pagina da escludere
+MARGIN_LEFT_PCT = 0.06   # Margini pagina da escludere (filtro immagini)
 MARGIN_RIGHT_PCT = 0.94
 MARGIN_TOP_PCT = 0.04
 MARGIN_BOTTOM_PCT = 0.96
+
+CLIP_LEFT_PCT = 0.01     # Margine sinistro per clip PDF (più generoso, include etichette A/B/C/D/E)
 
 # Abbinamento
 CLIP_PADDING = 5          # Padding per clip PDF (punti)
@@ -405,13 +407,29 @@ def generate_question_image(doc, q, images, all_images):
         use_clip = True
 
     if images and not use_clip:
-        # Ordina per posizione Y, poi X
         images.sort(key=lambda i: (i["rect"].y0, i["rect"].x0))
 
-        rendered = []
-        for img in images:
-            rendered.append(render_image(doc, img))
+        # Per cluster vettoriali: bounding box totale con padding asimmetrico.
+        # +25pt sinistra (etichette A/B/C/D/E), +25pt basso (etichette sotto figure).
+        # NON si usa clip_pdf: includerebbe testo domanda e domande adiacenti.
+        if all(img["type"] == "vector" for img in images):
+            x0 = min(img["rect"].x0 for img in images)
+            x1 = max(img["rect"].x1 for img in images)
+            y0 = min(img["rect"].y0 for img in images)
+            y1 = max(img["rect"].y1 for img in images)
+            page_obj = doc[images[0]["page"]]
+            clip = fitz.Rect(
+                max(0, x0 - 25),
+                max(0, y0 - 5),
+                min(page_obj.rect.width, x1 + 5),
+                min(page_obj.rect.height, y1 + 25),
+            )
+            mat = fitz.Matrix(ZOOM, ZOOM)
+            pix = page_obj.get_pixmap(matrix=mat, clip=clip)
+            return Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
 
+        # Immagini raster: estrazione diretta
+        rendered = [render_image(doc, img) for img in images]
         if len(rendered) == 1:
             return rendered[0]
         else:
@@ -422,10 +440,10 @@ def generate_question_image(doc, q, images, all_images):
     if has_content:
         # Clip generoso della zona domanda (tecnica "volo radente")
         page = doc[q["page"]]
-        x0 = page.rect.width * MARGIN_LEFT_PCT
+        x0 = page.rect.width * CLIP_LEFT_PCT
         x1 = page.rect.width * MARGIN_RIGHT_PCT
-        y0 = q["y_start"]  # Dall'inizio del testo domanda
-        y1 = q["y_end"]    # Fino alla domanda successiva
+        y0 = q["y_start"]
+        y1 = q["y_end"]
         return render_clip(doc, q["page"], (x0, y0, x1, y1), padding=2)
 
     return None

@@ -7,7 +7,7 @@
       "question": 1,
       "file": "q01.png",
       "method": "clip_pdf",
-      "size": "1535x526",
+      "size": "1622x526",
       "validated": true,
       "warnings": []
     },
@@ -23,7 +23,7 @@
       "question": 3,
       "file": "q03.png",
       "method": "extracted",
-      "size": "822x137",
+      "size": "905x220",
       "validated": true,
       "warnings": []
     },
@@ -31,7 +31,7 @@
       "question": 4,
       "file": "q04.png",
       "method": "clip_pdf",
-      "size": "1535x490",
+      "size": "1622x490",
       "validated": true,
       "warnings": []
     },
@@ -39,7 +39,7 @@
       "question": 5,
       "file": "q05.png",
       "method": "clip_pdf",
-      "size": "1535x368",
+      "size": "1622x368",
       "validated": true,
       "warnings": []
     },
@@ -47,7 +47,7 @@
       "question": 6,
       "file": "q06.png",
       "method": "extracted",
-      "size": "388x303",
+      "size": "472x386",
       "validated": true,
       "warnings": []
     },
@@ -60,7 +60,7 @@
       "question": 8,
       "file": "q08.png",
       "method": "combined_3",
-      "size": "274x925",
+      "size": "897x388",
       "validated": true,
       "warnings": []
     },
@@ -73,7 +73,7 @@
       "question": 10,
       "file": "q10.png",
       "method": "clip_pdf",
-      "size": "1535x427",
+      "size": "1622x427",
       "validated": true,
       "warnings": []
     },
@@ -81,7 +81,7 @@
       "question": 11,
       "file": "q11.png",
       "method": "combined_3",
-      "size": "554x951",
+      "size": "1577x640",
       "validated": true,
       "warnings": []
     },
@@ -89,7 +89,7 @@
       "question": 12,
       "file": "q12.png",
       "method": "extracted",
-      "size": "544x190",
+      "size": "628x274",
       "validated": true,
       "warnings": []
     },
@@ -97,7 +97,7 @@
       "question": 13,
       "file": "q13.png",
       "method": "clip_pdf",
-      "size": "1535x810",
+      "size": "1622x810",
       "validated": true,
       "warnings": []
     },
@@ -105,7 +105,7 @@
       "question": 14,
       "file": "q14.png",
       "method": "clip_pdf",
-      "size": "1535x648",
+      "size": "1622x648",
       "validated": true,
       "warnings": []
     },
@@ -113,7 +113,7 @@
       "question": 15,
       "file": "q15.png",
       "method": "extracted",
-      "size": "306x414",
+      "size": "389x497",
       "validated": true,
       "warnings": []
     },
@@ -121,7 +121,7 @@
       "question": 16,
       "file": "q16.png",
       "method": "combined_3",
-      "size": "361x593",
+      "size": "1458x499",
       "validated": true,
       "warnings": []
     },
@@ -129,7 +129,7 @@
       "question": 17,
       "file": "q17.png",
       "method": "extracted",
-      "size": "310x308",
+      "size": "393x392",
       "validated": true,
       "warnings": []
     },
@@ -137,7 +137,7 @@
       "question": 18,
       "file": "q18.png",
       "method": "extracted",
-      "size": "609x181",
+      "size": "692x264",
       "validated": true,
       "warnings": []
     },
@@ -145,7 +145,7 @@
       "question": 19,
       "file": "q19.png",
       "method": "extracted",
-      "size": "493x152",
+      "size": "576x236",
       "validated": true,
       "warnings": []
     },
@@ -153,7 +153,7 @@
       "question": 20,
       "file": "q20.png",
       "method": "extracted",
-      "size": "558x418",
+      "size": "641x502",
       "validated": true,
       "warnings": []
     },
@@ -166,7 +166,7 @@
       "question": 22,
       "file": "q22.png",
       "method": "extracted",
-      "size": "859x164",
+      "size": "942x247",
       "validated": true,
       "warnings": []
     },
@@ -174,7 +174,7 @@
       "question": 23,
       "file": "q23.png",
       "method": "extracted",
-      "size": "418x418",
+      "size": "501x501",
       "validated": true,
       "warnings": []
     },
@@ -182,7 +182,7 @@
       "question": 24,
       "file": "q24.png",
       "method": "combined_2",
-      "size": "384x551",
+      "size": "467x660",
       "validated": true,
       "warnings": []
     }

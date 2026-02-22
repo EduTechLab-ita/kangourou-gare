@@ -154,7 +154,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2021.pdf",
       "json_url": "data/kangourou/2021.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "benjamin-2021",

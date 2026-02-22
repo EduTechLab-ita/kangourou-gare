@@ -1,0 +1,706 @@
+{
+  "id": "kangourou-2021",
+  "titolo": "Kangourou - Ecolier 2021",
+  "anno": "2021",
+  "categoria": "Kangourou (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Enrico ha i 4 mattoni, identici per dimensioni, che vedi in figura: Quale dei cubi mostrati qui sotto può comporre ?",
+      "immagine": "images/kangourou-2021-screenshots/q01.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Se tendiamo la fune, quanti pesci risultano avere il muso rivolto verso l'anello?",
+      "immagine": "images/kangourou-2021-screenshots/q02.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3"
+        },
+        {
+          "id": "B",
+          "testo": "5"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "7"
+        },
+        {
+          "id": "E",
+          "testo": "8"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Incastrando le quattro tessere del puzzle in modo corretto, si ottiene un rettangolo in cui si legge un'addizione. Qual è il suo risultato?",
+      "immagine": "images/kangourou-2021-screenshots/q03.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "6"
+        },
+        {
+          "id": "B",
+          "testo": "15"
+        },
+        {
+          "id": "C",
+          "testo": "18"
+        },
+        {
+          "id": "D",
+          "testo": "24"
+        },
+        {
+          "id": "E",
+          "testo": "33"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "Alessia ha disegnato il sole sorridente che vedi qui a lato. Quale dei seguenti frammenti fa parte del suo disegno?",
+      "immagine": "images/kangourou-2021-screenshots/q04.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Nelle risposte vedi i bersagli colpiti da cinque ragazzi durante una gara di tiro con l'arco. Riccardo ha totalizzato il punteggio più alto: qual è il suo bersaglio?",
+      "immagine": "images/kangourou-2021-screenshots/q05.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Un metro a nastro è avvolto intorno a un cilindro come mostra la figura. Quale numero si trova in corrispondenza della tacca indicata dal punto di domanda?",
+      "immagine": "images/kangourou-2021-screenshots/q06.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "33"
+        },
+        {
+          "id": "B",
+          "testo": "42"
+        },
+        {
+          "id": "C",
+          "testo": "48"
+        },
+        {
+          "id": "D",
+          "testo": "53"
+        },
+        {
+          "id": "E",
+          "testo": "69"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Daniele ha esploso un fuoco d'artificio argentato e uno dorato nello stesso istante. In tutto i due fuochi hanno emesso 20 stelline. Il fuoco dorato ne ha emesse 6 in più di quello argentato: quante stelline ha emesso il fuoco dorato?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "9"
+        },
+        {
+          "id": "B",
+          "testo": "10"
+        },
+        {
+          "id": "C",
+          "testo": "12"
+        },
+        {
+          "id": "D",
+          "testo": "13"
+        },
+        {
+          "id": "E",
+          "testo": "15"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Rossana ha alcune sfere, di 3 colori diversi. Sfere dello stesso colore hanno lo stesso peso. Le bilance in figura mostrano il peso complessivo di alcuni gruppi di queste sfere. Qual è il peso di ogni sfera bianca?",
+      "immagine": "images/kangourou-2021-screenshots/q08.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3 kg"
+        },
+        {
+          "id": "B",
+          "testo": "4 kg"
+        },
+        {
+          "id": "C",
+          "testo": "5 kg"
+        },
+        {
+          "id": "D",
+          "testo": "6 kg"
+        },
+        {
+          "id": "E",
+          "testo": "7 kg"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "Un koala ha mangiato alcune foglie da tre rami di eucalipto. Ogni ramo aveva 20 foglie: il koala dal primo ramo ne ha mangiate alcune e dal secondo ramo ha mangiato tante foglie quante ne erano rimaste sul primo. Infine ha mangiato 2 foglie dal terzo ramo. Quante foglie in tutto sono rimaste sui tre rami?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "20"
+        },
+        {
+          "id": "B",
+          "testo": "22"
+        },
+        {
+          "id": "C",
+          "testo": "28"
+        },
+        {
+          "id": "D",
+          "testo": "32"
+        },
+        {
+          "id": "E",
+          "testo": "38"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Stamattina, quando ha aperto il negozio, il gelataio Mario aveva in cassa una certa quantità di denaro. Dopo aver venduto 6 gelati, aveva in cassa 70 euro. Ora che ha venduto in totale 16 gelati ha in cassa 120 euro. Tutti i gelati venduti avevano lo stesso prezzo: quanti euro aveva in cassa Mario all'apertura del negozio?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "20"
+        },
+        {
+          "id": "B",
+          "testo": "30"
+        },
+        {
+          "id": "C",
+          "testo": "40"
+        },
+        {
+          "id": "D",
+          "testo": "50"
+        },
+        {
+          "id": "E",
+          "testo": "60"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Ogni carta di uno strano mazzo di carte riporta una delle figure che trovi qui a destra. Nina e Gina giocano così: una allinea sul tavolo cinque carte del mazzo e l'altra deve cercare di accostare tra loro tutte le carte contenenti la stessa figura operando solo uno scambio tra due carte. Quale dei seguenti allineamenti deve scegliere Nina se vuole impedire a Gina di raggiungere l'obiettivo?",
+      "immagine": "images/kangourou-2021-screenshots/q11.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Sofia vuole prendere 5 formine diverse da questi cinque vasi. Può prendere solo una formina da ciascun vaso. Quale formina deve prendere dal vaso 4?",
+      "immagine": "images/kangourou-2021-screenshots/q12.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "☆"
+        },
+        {
+          "id": "B",
+          "testo": "○"
+        },
+        {
+          "id": "C",
+          "testo": "⬠"
+        },
+        {
+          "id": "D",
+          "testo": "◇"
+        },
+        {
+          "id": "E",
+          "testo": "Non può riuscirci."
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "Guarda la figura: in ciascuno dei 5 gettoni c'è un numero sormontato da una freccia. Se le frecce in due gettoni adiacenti hanno verso opposto, sostituiamo a questi due gettoni un nuovo gettone in cui il numero è la somma dei due numeri e la freccia è orientata come lo era sul numero maggiore, come mostrato in questo esempio. Procedendo nel rispetto di questa regola, qual è il risultato finale?",
+      "immagine": "images/kangourou-2021-screenshots/q13.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Eva ha i cinque adesivi mostrati qui a fianco: Ne attacca uno in ciascuno dei 5 riquadri di questo tabellone in modo che la stella non stia nel riquadro 5, il frutto stia nel riquadro 1 oppure nel riquadro 2, il fiore sia adiacente sia al cerchio sia al triangolo. In quale riquadro Eva ha attaccato il fiore?",
+      "immagine": "images/kangourou-2021-screenshots/q14.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Su un edificio molto alto ci sono 4 scale antincendio, come mostra la figura. Per tre delle scale sono indicate, alla sommità, le corrispondenti altezze in metri. Quanti metri è lunga la scala restante?",
+      "immagine": "images/kangourou-2021-screenshots/q15.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "12"
+        },
+        {
+          "id": "B",
+          "testo": "14"
+        },
+        {
+          "id": "C",
+          "testo": "16"
+        },
+        {
+          "id": "D",
+          "testo": "20"
+        },
+        {
+          "id": "E",
+          "testo": "22"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "Nora ha allineato 3 tazze sul tavolo della cucina e gioca così: prende la tazza più a sinistra, la capovolge e la deposita a destra delle altre due tazze. La figura mostra la prima mossa. Come si presenteranno le tre tazze dopo la decima mossa?",
+      "immagine": "images/kangourou-2021-screenshots/q16.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Come vedi in figura, Luca ha un campo quadrato con 16 alberi e uno steccato interno, costituito da nove “moduli” mobili, che individuano quattro regioni: una con 8 alberi, due con 3 alberi e una con 2 alberi. Vuole spostare alcuni dei moduli in modo da formare esattamente tre regioni, di cui due con 6 alberi. Qual è il minimo numero di moduli spostando i quali può realizzare il suo progetto?",
+      "immagine": "images/kangourou-2021-screenshots/q17.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Ho sette carte: ogni carta riporta due numeri, ciascuno capovolto rispetto all'altro. In questo momento le carte sono disposte come in figura. Voglio fare in modo che la somma dei numeri sulla riga superiore sia uguale alla somma dei numeri sulla riga inferiore. Per ottenere il mio scopo mi basta capovolgere una delle carte. Quale?",
+      "immagine": "images/kangourou-2021-screenshots/q18.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "A"
+        },
+        {
+          "id": "B",
+          "testo": "C"
+        },
+        {
+          "id": "C",
+          "testo": "D"
+        },
+        {
+          "id": "D",
+          "testo": "F"
+        },
+        {
+          "id": "E",
+          "testo": "G"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "Ho inserito in ogni quadrato della griglia sottostante uno dei numeri da 1 a 9, senza ripetizioni. In figura vedi le somme di tutte le coppie di numeri scritti in quadrati adiacenti. Quale numero è contenuto nel quadrato grigio?",
+      "immagine": "images/kangourou-2021-screenshots/q19.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": ""
+        },
+        {
+          "id": "B",
+          "testo": ""
+        },
+        {
+          "id": "C",
+          "testo": ""
+        },
+        {
+          "id": "D",
+          "testo": ""
+        },
+        {
+          "id": "E",
+          "testo": ""
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Mia lancia una serie di freccette contro cinque palloncini. Quando ne colpisce uno ottiene il punteggio che vi appare indicato. Se alla fine del gioco ha totalizzato 30 punti, quale palloncino Mia ha certamente colpito?",
+      "immagine": "images/kangourou-2021-screenshots/q20.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3"
+        },
+        {
+          "id": "B",
+          "testo": "9"
+        },
+        {
+          "id": "C",
+          "testo": "13"
+        },
+        {
+          "id": "D",
+          "testo": "14"
+        },
+        {
+          "id": "E",
+          "testo": "18"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "In una scatola ci sono meno di 50 dolci tutti uguali. Il contenuto della scatola può essere suddiviso equamente tra 2, 3 o 4 bambini; se volessimo suddividerlo equamente tra 7 bambini, servirebbero esattamente altri 6 dolci. Quanti dolci ci sono nella scatola?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "12"
+        },
+        {
+          "id": "B",
+          "testo": "24"
+        },
+        {
+          "id": "C",
+          "testo": "30"
+        },
+        {
+          "id": "D",
+          "testo": "36"
+        },
+        {
+          "id": "E",
+          "testo": "48"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Ciascuna delle 5 cassette in figura contiene o mele o banane ma non entrambi i tipi di frutti. Il peso totale di tutte le banane è il triplo del peso di tutte le mele. Quali cassette contengono le mele?",
+      "immagine": "images/kangourou-2021-screenshots/q22.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1 e 2"
+        },
+        {
+          "id": "B",
+          "testo": "2 e 3"
+        },
+        {
+          "id": "C",
+          "testo": "2 e 4"
+        },
+        {
+          "id": "D",
+          "testo": "3 e 4"
+        },
+        {
+          "id": "E",
+          "testo": "1 e 4"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Elena vuole scrivere tutti i numeri da 1 a 9, uno in ciascuno dei quadrati mostrati qui a fianco. Come mostra l'esempio dei due numeri che Elena ha già inserito, le frecce sono dirette da numero minore a numero maggiore. Quale numero deve essere scritto nel quadrato con il punto di domanda?",
+      "immagine": "images/kangourou-2021-screenshots/q23.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "8"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Come vedi in figura, Martino ha posto su tre bilance alcune formine: alcune sono esagonali , altre quadrate e altre ancora triangolari Quali e quante formine deve mettere sul piatto di sinistra della terza bilancia perché la bilancia risulti in equilibrio?",
+      "immagine": "images/kangourou-2021-screenshots/q24.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Una quadrata."
+        },
+        {
+          "id": "B",
+          "testo": "Due quadrate."
+        },
+        {
+          "id": "C",
+          "testo": "Una esagonale."
+        },
+        {
+          "id": "D",
+          "testo": "Una triangolare."
+        },
+        {
+          "id": "E",
+          "testo": "Due triangolari."
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    }
+  ]
+}
