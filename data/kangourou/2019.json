@@ -472,8 +472,8 @@
     },
     {
       "id": 17,
-      "testo": "Ognuno dei simboli disco, stella, cuore rappresenta un nu-mero. Per ogni riga, la somma dei numeri rappresentati nella riga è indicata a destra. Che numero è rappresentato dalla stella?",
-      "immagine": null,
+      "testo": "Ognuno dei simboli disco, stella, cuore rappresenta un numero. Per ogni riga, la somma dei numeri rappresentati nella riga è indicata a destra. Che numero è rappresentato dalla stella?",
+      "immagine": "images/kangourou-2019-screenshots/q17.png",
       "opzioni": [
         {
           "id": "A",
