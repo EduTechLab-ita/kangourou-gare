@@ -153,7 +153,7 @@ def extract_json_gemini(tipo, anno, n_dom):
     except ImportError:
         pass
 
-    # Tentativo 2: google-generativeai con GEMINI_API_KEY da env
+    # Tentativo 2: google-genai (nuovo SDK) con GEMINI_API_KEY da env
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         print(f"    ❌ GEMINI_API_KEY non trovata. "
@@ -162,13 +162,13 @@ def extract_json_gemini(tipo, anno, n_dom):
         return False
 
     try:
-        import google.generativeai as genai
+        from google import genai
     except ImportError:
-        print(f"    ❌ google-generativeai non installato. Esegui: pip install google-generativeai")
+        print(f"    ❌ google-genai non installato. Esegui: pip install google-genai")
         return False
 
     print(f"    🤖 Gemini (GEMINI_API_KEY da env)...")
-    genai.configure(api_key=api_key)
+    client = genai.Client(api_key=api_key)
 
     pdf_path = REPO_ROOT / f"pdf/{tipo}/{anno}.pdf"
     if not pdf_path.exists():
@@ -177,14 +177,19 @@ def extract_json_gemini(tipo, anno, n_dom):
 
     # Chiamata API Gemini
     try:
-        sample_file = genai.upload_file(str(pdf_path), mime_type="application/pdf")
-        model = genai.GenerativeModel("models/gemini-2.5-flash")
+        uploaded = client.files.upload(
+            file=str(pdf_path),
+            config={"mime_type": "application/pdf"},
+        )
         prompt = _build_gemini_prompt(tipo, anno, n_dom)
         print(f"       ⏳ Attendo risposta Gemini...")
-        response = model.generate_content([sample_file, prompt])
+        response = client.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=[uploaded, prompt],
+        )
         raw = response.text.strip()
         try:
-            genai.delete_file(sample_file.name)
+            client.files.delete(name=uploaded.name)
         except Exception:
             pass
     except Exception as e:
