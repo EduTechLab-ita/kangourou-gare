@@ -240,6 +240,14 @@ def extract_json_gemini(tipo, anno, n_dom):
         end = min(len(raw), pos + 120)
         print(f"       JSONDecodeError: {je}")
         print(f"       Contesto intorno all'errore (pos={pos}): {repr(raw[start:end])}")
+        # Fallback: prova json-repair per virgolette non escapate e altri errori comuni
+        try:
+            from json_repair import repair_json
+            repaired = repair_json(raw)
+            data = json.loads(repaired)
+            print(f"       ✅ JSON riparato con json-repair")
+        except Exception as e2:
+            print(f"       json-repair fallito: {e2}")
 
     if data is None:
         (REPO_ROOT / "output").mkdir(exist_ok=True)
@@ -325,6 +333,7 @@ REGOLE:
 4. "testo" deve contenere la domanda completa, senza il numero iniziale (es. senza "1." o "Domanda 1")
 5. Includi TUTTE le {num_domande} domande, da 1 a {num_domande}
 6. RISPONDI SOLO CON IL JSON VALIDO. Niente markdown, niente spiegazioni, niente testo prima o dopo.
+7. IMPORTANTE: All'interno dei valori stringa JSON, NON usare mai le virgolette doppie ("). Se nel testo originale ci sono parole tra virgolette, sostituisci le virgolette doppie con virgolette singole (') o rimuovile.
 """
 
 
