@@ -189,9 +189,13 @@ def extract_json_gemini(tipo, anno, n_dom):
 
         prompt = _build_gemini_prompt(tipo, anno, n_dom)
         print(f"       ⏳ Attendo risposta Gemini...")
+        from google.genai import types as _genai_types
         response = client.models.generate_content(
             model="gemini-2.5-flash",
             contents=[uploaded, prompt],
+            config=_genai_types.GenerateContentConfig(
+                max_output_tokens=16000,
+            ),
         )
         raw = response.text.strip()
         print(f"       RAW (primi 600 chars): {raw[:600]}")
