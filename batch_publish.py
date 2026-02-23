@@ -199,9 +199,6 @@ def extract_json_gemini(tipo, anno, n_dom):
             ),
         )
         raw = response.text.strip()
-        print(f"       RAW lunghezza totale: {len(raw)} chars")
-        print(f"       RAW (primi 300 chars): {raw[:300]}")
-        print(f"       RAW (ultimi 300 chars): {raw[-300:]}")
         try:
             client.files.delete(name=uploaded.name)
         except Exception:
@@ -235,11 +232,7 @@ def extract_json_gemini(tipo, anno, n_dom):
     try:
         data = json.loads(raw)
     except json.JSONDecodeError as je:
-        pos = je.pos or 0
-        start = max(0, pos - 120)
-        end = min(len(raw), pos + 120)
         print(f"       JSONDecodeError: {je}")
-        print(f"       Contesto intorno all'errore (pos={pos}): {repr(raw[start:end])}")
         # Fallback: prova json-repair per virgolette non escapate e altri errori comuni
         try:
             from json_repair import repair_json

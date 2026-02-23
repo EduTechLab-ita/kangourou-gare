@@ -41,15 +41,6 @@ jobs:
           echo "Batch size: $BATCH_SIZE"
           python batch_publish.py --batch-size $BATCH_SIZE
 
-      - name: Upload raw debug (sempre, per diagnosi errori)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: raw-debug
-          path: output/*.json
-          retention-days: 1
-          if-no-files-found: ignore
-
       - name: Committa e pusha risultati
         id: commit
         run: |
