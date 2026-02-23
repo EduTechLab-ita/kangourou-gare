@@ -1,0 +1,80 @@
+name: Auto Pubblica Gare (Batch)
+
+on:
+  # Ogni domenica alle 8:00 UTC (9:00 ora italiana)
+  schedule:
+    - cron: '0 8 * * 0'
+  # Lancio manuale dal tab Actions (con batch size configurabile)
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Gare da processare (default: 3)'
+        required: false
+        default: '3'
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  batch-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installa dipendenze
+        run: pip install PyMuPDF Pillow google-generativeai
+
+      - name: Esegui batch publish
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          BATCH_SIZE="${{ github.event.inputs.batch_size || '3' }}"
+          echo "Batch size: $BATCH_SIZE"
+          python batch_publish.py --batch-size $BATCH_SIZE
+
+      - name: Committa e pusha risultati
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/ images/ index.json sw.js batch_queue.json
+
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica da committare"
+            echo "CHANGES=false" >> $GITHUB_ENV
+          else
+            git commit -m "Auto: batch publish gare Kangourou ($(date +%Y-%m-%d))"
+            git push
+            echo "CHANGES=true" >> $GITHUB_ENV
+            echo "Modifiche committate e pushate!"
+          fi
+
+      - name: Crea GitHub Issue con report
+        if: env.CHANGES == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = '*(nessun report trovato)*';
+            try {
+              body = fs.readFileSync('output/batch_report.md', 'utf8');
+            } catch(e) {}
+
+            const today = new Date().toISOString().split('T')[0];
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📊 Batch publish completato - ${today}`,
+              body: body,
+              labels: ['batch-report']
+            });
+            console.log('Issue creata con il report del batch!');
