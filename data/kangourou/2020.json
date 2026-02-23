@@ -327,7 +327,7 @@
     },
     {
       "id": 12,
-      "testo": "Martino costruisce uno steccato usando pali come questo, ciascuno lungo un metro. In figura vedi uno steccato lungo 4 metri. Quanti pali utilizzerà Martino per costruire uno steccato lungo 10 metri?",
+      "testo": "Martino costruisce uno steccato usando dei pali come vedi in figura, ciascuno lungo un metro. In figura vedi uno steccato lungo 4 metri. Quanti pali utilizzerà Martino per costruire uno steccato lungo 10 metri?",
       "immagine": "images/kangourou-2020-screenshots/q12.png",
       "opzioni": [
         {
