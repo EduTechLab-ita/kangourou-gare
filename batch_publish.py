@@ -194,7 +194,8 @@ def extract_json_gemini(tipo, anno, n_dom):
             model="gemini-2.5-flash",
             contents=[uploaded, prompt],
             config=_genai_types.GenerateContentConfig(
-                max_output_tokens=16000,
+                max_output_tokens=65536,
+                thinking_config=_genai_types.ThinkingConfig(thinking_budget=2048),
             ),
         )
         raw = response.text.strip()
