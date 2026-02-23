@@ -233,14 +233,18 @@ def extract_json_gemini(tipo, anno, n_dom):
     data = None
     try:
         data = json.loads(raw)
-    except json.JSONDecodeError:
-        pass
+    except json.JSONDecodeError as je:
+        pos = je.pos or 0
+        start = max(0, pos - 120)
+        end = min(len(raw), pos + 120)
+        print(f"       JSONDecodeError: {je}")
+        print(f"       Contesto intorno all'errore (pos={pos}): {repr(raw[start:end])}")
 
     if data is None:
         (REPO_ROOT / "output").mkdir(exist_ok=True)
         raw_path = REPO_ROOT / f"output/{tipo}-{anno}-raw.json"
         raw_path.write_text(raw, encoding="utf-8")
-        print(f"    ❌ JSON parse error: impossibile estrarre JSON valido (raw in {raw_path.name})")
+        print(f"    ❌ JSON parse error: raw salvato in {raw_path.name}")
         return False
 
     domande_raw = data.get("domande", [])
