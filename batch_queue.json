@@ -1,6 +1,7 @@
 {
   "batch_size": 3,
-  "note": "Koala 2015-2019 escluse: layout griglia 2x2 non supportato da process_gara.py",
+  "enabled": true,
+  "note": "Koala 2015-2019 escluse: layout griglia 2x2 non supportato da process_gara.py. Per disabilitare il batch automatico: cambia enabled in false.",
   "queue": [
     {
       "tipo": "kangourou",

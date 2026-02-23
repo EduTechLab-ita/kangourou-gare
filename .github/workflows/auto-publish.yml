@@ -1,9 +1,10 @@
 name: Auto Pubblica Gare (Batch)
 
 on:
-  # Ogni domenica alle 8:00 UTC (9:00 ora italiana)
+  # Ogni 2 giorni alle 8:00 UTC (9:00 ora italiana)
+  # Per disabilitare l'automazione: apri batch_queue.json su GitHub e cambia "enabled": false
   schedule:
-    - cron: '0 8 * * 0'
+    - cron: '0 8 */2 * *'
   # Lancio manuale dal tab Actions (con batch size configurabile)
   workflow_dispatch:
     inputs:

@@ -430,6 +430,11 @@ def main():
     with open(queue_path, encoding="utf-8") as f:
         queue_data = json.load(f)
 
+    # Toggle automatismo: se enabled=false la Action si ferma senza errori
+    if not queue_data.get("enabled", True):
+        print("⏸️  Batch automatico disabilitato (enabled=false in batch_queue.json). Niente da fare.")
+        return 0
+
     queue = queue_data.get("queue", [])
     batch_size = args.batch_size or queue_data.get("batch_size", 3)
     batch = queue[:batch_size]
