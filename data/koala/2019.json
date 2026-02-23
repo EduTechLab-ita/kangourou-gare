@@ -1,0 +1,706 @@
+{
+  "id": "koala-2019",
+  "titolo": "Koala 2019",
+  "anno": "2019",
+  "categoria": "Koala (Classi 2a-3a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Quale di questi cinque rettangoli contiene soltanto numeri minori di 7?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Osserva questa collana. Quale di queste è una sua parte?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Caterina ha ritagliato un pezzo di questa griglia. Quale di questi può essere il pezzo che ha ritagliato?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "In figura vedi delle calze, su ognuna delle quali è riportato un numero. Per comporre un paio, si devono usare due calze che riportino lo stesso numero. Quante paia di calze si possono comporre?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Incollando su un cartoncino un triangolo e dei dischetti tutti uguali fra loro, eventualmente spezzati a metà, Marco ha realizzato l'immagine di una casetta. Per fargli uno scherzo, Anna ha portato via alcuni dei dischetti interi: la figura ti mostra quello che rimane dell'opera di Marco. Quanti dischetti ha portato via Anna?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "8"
+        },
+        {
+          "id": "B",
+          "testo": "7"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "4"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Per formare un mazzo di fiori, Gaia deve usare tutti i fiori che stanno nel rettangolo, ma fuori dal triangolo, e soltanto quelli. Da quanti fiori sarà composto il mazzo di Gaia?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "26"
+        },
+        {
+          "id": "B",
+          "testo": "22"
+        },
+        {
+          "id": "C",
+          "testo": "19"
+        },
+        {
+          "id": "D",
+          "testo": "14"
+        },
+        {
+          "id": "E",
+          "testo": "13"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Noi insieme costiamo 6 cent. Noi insieme costiamo 8 cent. Quanti cent. costiamo noi due insieme?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Sul nastro trasportatore più a sinistra nella figura, sono allineati dei pacchi. Quando i tre nastri incominciano a muoversi, l'elfo distribuisce i pacchi alternatamente sul nastro D di destra e su quello S di sinistra: il primo pacco va su quello di destra, il secondo su quello di sinistra, il terzo ancora sul nastro di destra, il quarto su quello sinistra e così via. Terminata la distribuzione, tutti i nastri si fermeranno. Quale di queste figure ti mostra come saranno allineati i pacchi sul nastro di sinistra?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "Se vuoi evitare che il topo raggiunga il formaggio, occorre e basta che tu chiuda due porte. Quali?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1 e 2"
+        },
+        {
+          "id": "B",
+          "testo": "2 e 3"
+        },
+        {
+          "id": "C",
+          "testo": "3 e 4"
+        },
+        {
+          "id": "D",
+          "testo": "4 e 5"
+        },
+        {
+          "id": "E",
+          "testo": "3 e 5"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Patrizia aveva un foglio di carta. Lo ha piegato una prima volta e poi una seconda lungo i segmenti tratteggiati e infine lo ha tagliato lungo il segmento non tratteg-giato: queste tre operazioni ti sono suggerite nell'ordine dalla figura. Alla fine, quanti pezzi di carta ha ottenuto?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Cinque fogli di carta quadrati, di diverso colore e numerati, sono parzialmente sovrapposti in modo da formare un unico quadrato, come ti mostra la figura. Sandra li vuole levare uno alla volta ma, per levare un foglio, occorre che nessun altro ne ricopra anche solo una parte. In quale ordine li deve levare?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1-2-3-4-5"
+        },
+        {
+          "id": "B",
+          "testo": "5-2-3-4-1"
+        },
+        {
+          "id": "C",
+          "testo": "4-5-2-3-1"
+        },
+        {
+          "id": "D",
+          "testo": "5-3-2-1-4"
+        },
+        {
+          "id": "E",
+          "testo": "5-2-3-1-4"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "La figura ti mostra un pavimento quadrato di 9 piastrelle, un gatto e una tazza di latte che occupano piastrelle poste in due angoli opposti del quadrato. Il gatto può muoversi solo nelle direzioni indicate dalle frecce, cioè da sinistra a destra o dall'alto in basso e, se vuole cambiare direzione, lo può fare solo quando si trova al centro di una piastrella. Quanti sono i percorsi diversi che gli permettono di raggiungere la tazza di latte?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "Quattro strisce di carta sono intrecciate e incollate su un vetro trasparente; Silvia e Aldo le osservano da parti opposte del vetro. La figura ti mostra quello che vede Silvia. Che cosa vede Aldo?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Corrado vuole incollare quattro cubi uguali tra loro e poi verniciare il solido che ha composto, ma la poca vernice che ha basta per uno solo dei cinque solidi che potrebbe comporre. Quale?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "La figura ti mostra un pavimento rettangolare ottenuto accostando alcune lastre anch'esse rettangolari, tutte uguali fra loro. Il lato più corto di ciascuna lastra è lungo un metro. Quanti metri è lungo il lato più lungo del pavimento?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "6"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "10"
+        },
+        {
+          "id": "D",
+          "testo": "11"
+        },
+        {
+          "id": "E",
+          "testo": "12"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "Un treno è partito da Kang alle 6 precise di mattina, diretto a Aroo (un posto molto lontano da Kang) dove è arrivato alle 11 di sera. Lungo il percorso ha fatto tre fermate intermedie: i numeri che vedi in figura indicano, nell'ordine, le ore di viaggio fra Kang e la prima fermata, quelle fra la prima fermata e la seconda, quelle fra la seconda e la terza. Quante ore ha impiegato per andare dalla terza fermata ad Aroo?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "In una fattoria ci sono solo pecore e mucche. Il fattore munge insieme una mucca e una pecora alla volta: così facendo, quando le mucche sono tutte munte, rimangono da mungere 8 pecore. Il numero complessivo delle pecore è il doppio di quello delle mucche. Quanti animali ci sono in tutto nella fattoria?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "16"
+        },
+        {
+          "id": "B",
+          "testo": "18"
+        },
+        {
+          "id": "C",
+          "testo": "20"
+        },
+        {
+          "id": "D",
+          "testo": "24"
+        },
+        {
+          "id": "E",
+          "testo": "28"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Tagliando una figura, Mauro ha ottenuto i tre pezzi che vedi. Quale fra le seguenti è la figura che Mauro ha tagliato?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "Nello zoo ci sono alcuni cammelli con due gobbe e alcuni dromedari con una gobba, 10 animali in tutto. Complessivamente ci sono 14 gobbe. Quanti sono i dromedari?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "7"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Tre scoiattoli insieme hanno trovato 7 noci. Ognuno ha trovato un numero di noci diverso da ciascuno degli altri, e tutti hanno trovato almeno una noce. Quante noci ha trovato lo scoiattolo che ne ha trovate di più?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Giocando sulla spiaggia, Tim e Tom hanno formato un mucchio di sabbia e hanno piantato una ban-diera sulla sua cima. Esattamente metà dell'asta della bandiera è conficcata nella sabbia; dalla cima dell'asta alla base del mucchio di sabbia ci sono 80 centimetri, dalla base dell'asta alla base del mucchio ci sono 20 centimetri. Quanto è alto il mucchio di sabbia?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "40"
+        },
+        {
+          "id": "B",
+          "testo": "45"
+        },
+        {
+          "id": "C",
+          "testo": "50"
+        },
+        {
+          "id": "D",
+          "testo": "55"
+        },
+        {
+          "id": "E",
+          "testo": "60"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Qui vedi una striscia suddivisa in nove quadratini. È arrivato Enrico e ha sostituito ad ogni quadratino nero un quadratino bianco. Poi è arrivato Fabio e, nella striscia lasciata da Enrico, ha sostituito ad ogni quadratino grigio un quadratino nero. Infine è arrivato Gino e, nella striscia lasciata da Fabio, ha sostituito ad ogni quadratino bianco un quadratino grigio. Qual è la striscia che ha lasciato Gino?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Dalla griglia numerata che vedi qui sotto Pietro ha ritagliato un quadrato di quattro celle, ha sommato i quattro numeri che compaiono in queste quattro celle e ti ha comunicato di avere ottenuto un numero più grande di 63. Poi ti ha detto che almeno uno dei seguenti cinque numeri compare nel quadrato che lui ha ritagliato e ti ha chiesto di indovinarlo. Quale di questi cinque numeri devi indicare, se vuoi essere sicuro di non sbagliare?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "8"
+        },
+        {
+          "id": "B",
+          "testo": "10"
+        },
+        {
+          "id": "C",
+          "testo": "14"
+        },
+        {
+          "id": "D",
+          "testo": "15"
+        },
+        {
+          "id": "E",
+          "testo": "18"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Una strana macchina cambia-gettoni ti dà tre gettoni bianchi se ne inserisci uno rosso, ti dà due gettoni rossi se ne inserisci uno bianco. Dopo avere giocato tre volte, inserendo un gettone alla volta, quale è il minimo numero possibile di gettoni, tra bianchi e rossi, che puoi trovarti ad avere?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "7"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "8"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    }
+  ]
+}

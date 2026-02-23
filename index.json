@@ -245,7 +245,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/koala/2019.pdf",
       "json_url": "data/koala/2019.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "kangourou-2019",
@@ -1107,8 +1107,8 @@
     }
   ],
   "ultimo_aggiornamento": "2026-02-23",
-  "versione": "2.6.0",
+  "versione": "2.7.0",
   "totale_gare": 85,
-  "gare_disponibili": 15,
-  "novita": "Nuove gare disponibili: Kangourou 2018, Kangourou 2017, Kangourou 2016"
+  "gare_disponibili": 16,
+  "novita": "Nuove gare disponibili: Koala 2019"
 }
