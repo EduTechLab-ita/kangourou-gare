@@ -194,6 +194,7 @@ def extract_json_gemini(tipo, anno, n_dom):
             contents=[uploaded, prompt],
         )
         raw = response.text.strip()
+        print(f"       RAW (primi 600 chars): {raw[:600]}")
         try:
             client.files.delete(name=uploaded.name)
         except Exception:
