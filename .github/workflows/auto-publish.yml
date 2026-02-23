@@ -63,6 +63,7 @@ jobs:
             echo "CHANGES=false" >> $GITHUB_ENV
           else
             git commit -m "Auto: batch publish gare Kangourou ($(date +%Y-%m-%d))"
+            git pull --rebase origin main
             git push
             echo "CHANGES=true" >> $GITHUB_ENV
             echo "Modifiche committate e pushate!"
