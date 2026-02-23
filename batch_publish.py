@@ -184,7 +184,7 @@ def extract_json_gemini(tipo, anno, n_dom):
         prompt = _build_gemini_prompt(tipo, anno, n_dom)
         print(f"       ⏳ Attendo risposta Gemini...")
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             contents=[uploaded, prompt],
         )
         raw = response.text.strip()
@@ -196,7 +196,7 @@ def extract_json_gemini(tipo, anno, n_dom):
         print(f"    ❌ Errore Gemini API: {e}")
         return False
 
-    # Pulizia output Gemini
+    # Pulizia output Gemini (gestisce testo extra da modelli thinking)
     if raw.startswith("```json"):
         raw = raw[7:]
     elif raw.startswith("```"):
@@ -207,14 +207,27 @@ def extract_json_gemini(tipo, anno, n_dom):
     # Fix virgolette tipografiche (bug Gemini)
     raw = raw.replace('\u201c', '"').replace('\u201d', '"')
 
-    # Parse JSON
+    # Parse JSON — se fallisce, estrai il blocco JSON dal testo (gemini-2.5 thinking)
+    data = None
     try:
         data = json.loads(raw)
-    except json.JSONDecodeError as e:
+    except json.JSONDecodeError:
+        # Gemini 2.5 (thinking) può aggiungere testo prima/dopo il JSON
+        # Cerca il primo { e l'ultimo } per estrarre solo il JSON
+        start = raw.find('{')
+        end = raw.rfind('}')
+        if start != -1 and end != -1 and end > start:
+            try:
+                data = json.loads(raw[start:end + 1])
+                print(f"       ℹ️  JSON estratto dal testo (modello thinking)")
+            except json.JSONDecodeError:
+                pass
+
+    if data is None:
         (REPO_ROOT / "output").mkdir(exist_ok=True)
         raw_path = REPO_ROOT / f"output/{tipo}-{anno}-raw.json"
         raw_path.write_text(raw, encoding="utf-8")
-        print(f"    ❌ JSON parse error: {e} (raw salvato in {raw_path.name})")
+        print(f"    ❌ JSON parse error: impossibile estrarre JSON valido (raw in {raw_path.name})")
         return False
 
     domande_raw = data.get("domande", [])
