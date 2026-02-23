@@ -1,0 +1,706 @@
+{
+  "id": "kangourou-2020",
+  "titolo": "Kangourou - Ecolier 2020",
+  "anno": "2020",
+  "categoria": "Kangourou (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Un fungo cresce di giorno in giorno. Licia lo ha fotografato ogni giorno da lunedì a venerdì. Quale di queste sue foto è stata scattata martedì?",
+      "immagine": "images/kangourou-2020-screenshots/q01.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Quale dei seguenti tasselli completa il mosaico a lato?",
+      "immagine": "images/kangourou-2020-screenshots/q02.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "In ogni cella della griglia che vedi qui a fianco è indicata un'operazione. Antonio ombreggia tutte le celle contenenti un'operazione il cui risultato è 20. Quale delle seguenti forme ottiene?",
+      "immagine": "images/kangourou-2020-screenshots/q03.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "I quadrati nelle risposte sono stati parzialmente colorati di grigio. In quale di essi la parte colorata è maggiore?",
+      "immagine": "images/kangourou-2020-screenshots/q04.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Sonia traccia col gesso sul pavimento la grande tabella che vedi a lato, poi incomincia a saltare da una cella all'altra. Parte dalla cella numero 1 e segue questa regola: a ogni nuovo salto, atterra in una cella con un numero che è di 3 unità maggiore di quello della cella da cui ha spiccato il salto. Qual è il numero presente nell'ultima cella su cui potrà atterrare?",
+      "immagine": "images/kangourou-2020-screenshots/q05.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "11"
+        },
+        {
+          "id": "B",
+          "testo": "13"
+        },
+        {
+          "id": "C",
+          "testo": "18"
+        },
+        {
+          "id": "D",
+          "testo": "19"
+        },
+        {
+          "id": "E",
+          "testo": "22"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Con i sei adesivi che vedi a lato si possono comporre diverse figure, ma una sola di quelle che vedi qui sotto. Quale?",
+      "immagine": "images/kangourou-2020-screenshots/q06.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Giorgio incolla sei adesivi con immagini di animali, ciascuno su una faccia di un cubo. La figura qui a lato mostra il cubo in due posizioni differenti. Quale adesivo sta sulla faccia opposta a quella con l'anatroccolo?",
+      "immagine": "images/kangourou-2020-screenshots/q07.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Francesco ha le seguenti tessere: Ne userà alcune per coprire, completamente e senza sovrapposizioni, la griglia che vedi qui sotto. Se vuole usare il maggior numero possibile di tessere di misure differenti, quante tessere userà in tutto Francesco?",
+      "immagine": "images/kangourou-2020-screenshots/q08.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "5"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "7"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "Cinzia colora ogni regione in cui è suddiviso il cerchio che vedi a lato o di rosso o di giallo o di blu, facendo in modo che regioni che si toccano ricevano colori diversi. Cinzia colora di rosso la regione più esterna; dopo che tutto il disegno è stato colorato, quante regioni risultano colorate di rosso?",
+      "immagine": "images/kangourou-2020-screenshots/q09.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Luca guarda dall'alto la piramide che vedi qui sotto. Quale delle immagini qui a lato vede?",
+      "immagine": "images/kangourou-2020-screenshots/q10.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Osserva la figura: Daniele ha legato il suo cane a un metro dall'angolo di un'edicola con pianta rettangolare i cui lati misurano 7 m e 5 m. Il guinzaglio è lungo 11 m. Ci sono 5 giochini a forma di osso nelle posizioni che vedi in figura: quanti di essi possono essere raggiunti dal cane?",
+      "immagine": "images/kangourou-2020-screenshots/q11.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Martino costruisce uno steccato usando pali come questo, ciascuno lungo un metro. In figura vedi uno steccato lungo 4 metri. Quanti pali utilizzerà Martino per costruire uno steccato lungo 10 metri?",
+      "immagine": "images/kangourou-2020-screenshots/q12.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "22"
+        },
+        {
+          "id": "B",
+          "testo": "30"
+        },
+        {
+          "id": "C",
+          "testo": "33"
+        },
+        {
+          "id": "D",
+          "testo": "40"
+        },
+        {
+          "id": "E",
+          "testo": "42"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "Osserva la scala in figura: ogni volta che il coniglio scende di 3 gradini, il canguro sale di 7 gradini. Qual è il numero del gradino sul quale si incontreranno?",
+      "immagine": "images/kangourou-2020-screenshots/q13.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "53"
+        },
+        {
+          "id": "B",
+          "testo": "60"
+        },
+        {
+          "id": "C",
+          "testo": "63"
+        },
+        {
+          "id": "D",
+          "testo": "70"
+        },
+        {
+          "id": "E",
+          "testo": "73"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "La somma di tre numeri è 50. Cristina sottrae uno stesso numero segreto da ciascuno dei tre numeri e ottiene come risultati i numeri 24, 13 e 7. Uno solo dei seguenti è uno dei tre numeri iniziali. Quale?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "9"
+        },
+        {
+          "id": "B",
+          "testo": "11"
+        },
+        {
+          "id": "C",
+          "testo": "13"
+        },
+        {
+          "id": "D",
+          "testo": "17"
+        },
+        {
+          "id": "E",
+          "testo": "23"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Amalia vuol costruire una coroncina usando 10 copie del gettone che vedi a destra e vuole che quando due gettoni condividono un lato i numeri corrispondenti coincidano. Ha già disposto 3 gettoni con questo criterio. Quale numero si troverà alla fine nel triangolo denotato con X?",
+      "immagine": "images/kangourou-2020-screenshots/q15.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "Guido ha due tipi di stecchini: corti, che misurano 1 cm ciascuno, e lunghi, che misurano 3 cm ciascuno. Con quale delle combinazioni suggerite nelle risposte può costruire un quadrato, senza rompere alcuno stecchino, né sovrapporre parti di due stecchini?",
+      "immagine": "images/kangourou-2020-screenshots/q16.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5 corti e 2 lunghi"
+        },
+        {
+          "id": "B",
+          "testo": "7 corti e 3 lunghi"
+        },
+        {
+          "id": "C",
+          "testo": "6 corti"
+        },
+        {
+          "id": "D",
+          "testo": "4 corti e 2 lunghi"
+        },
+        {
+          "id": "E",
+          "testo": "6 lunghi"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Se osservi un dado standard vedi che, per ognuna delle tre coppie di facce opposte, il numero di puntini complessivamente presenti sulle due facce opposte è 7. Il disegno mostra un dado standard che è stato messo nella prima casella di una striscia lunga sei caselle e poi verrà fatto rotolare verso destra lungo la striscia. Quando il dado raggiungerà l'ultima casella, quale sarà il numero totale di puntini sulle tre facce indicate con punti interrogativi?",
+      "immagine": "images/kangourou-2020-screenshots/q17.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "6"
+        },
+        {
+          "id": "B",
+          "testo": "7"
+        },
+        {
+          "id": "C",
+          "testo": "9"
+        },
+        {
+          "id": "D",
+          "testo": "11"
+        },
+        {
+          "id": "E",
+          "testo": "12"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Sei amici ordinano ciascuno una pallina di gelato. Ordinano in tutto 3 palline di vaniglia, 2 palline di cioccolato e una pallina di limone. In cima a ogni gelato c'è una decorazione scelta da una scatola contenente 3 ciliegie, 2 wafer e 1 cioccolatino e la scelta è fatta in modo che ogni gelato, una volta decorato, possa essere distinto da ciascuno degli altri. Quale delle seguenti combinazioni NON è possibile?",
+      "immagine": "images/kangourou-2020-screenshots/q18.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Gelato al cioccolato con ciliegia."
+        },
+        {
+          "id": "B",
+          "testo": "Gelato alla vaniglia con ciliegia."
+        },
+        {
+          "id": "C",
+          "testo": "Gelato al limone con wafer."
+        },
+        {
+          "id": "D",
+          "testo": "Gelato al cioccolato con wafer."
+        },
+        {
+          "id": "E",
+          "testo": "Gelato alla vaniglia con cioccolatino."
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "Devi indovinare i nomi di tre ragazze sedute su una panchina, nell'ordine in cui sono sedute. Sai che in ognuna delle seguenti terne di nomi Chiara, Elisa, Rosa Chiara, Laura, Maria Anna, Laura, Rosa compare un solo nome corretto ed è nella posizione corretta. Quali sono nell'ordine i nomi delle tre ragazze sedute sulla panchina?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Anna, Elisa, Maria"
+        },
+        {
+          "id": "B",
+          "testo": "Anna, Laura, Maria"
+        },
+        {
+          "id": "C",
+          "testo": "Chiara, Laura, Rosa"
+        },
+        {
+          "id": "D",
+          "testo": "Chiara, Elisa, Maria"
+        },
+        {
+          "id": "E",
+          "testo": "Anna, Laura, Rosa"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "L'insegnante ha scritto i numeri da 1 a 8 sulla lavagna, poi li ha coperti con forme geometriche: triangoli, quadrati e un cerchio. Sommando i quattro numeri coperti dai triangoli otterresti 10, sommando i tre numeri coperti dai quadrati otterresti 20; qual è il numero coperto dal cerchio?",
+      "immagine": "images/kangourou-2020-screenshots/q20.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "5"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "7"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Gianna ha alcune immagini di pappagalli. Vuole colorare solo la testa, la coda e le ali di ogni pappagallo di rosso, blu o verde in modo che su ogni pappagallo appaiano tutti e tre i colori. Colora la testa di un pappagallo di rosso, le ali di verde e la coda di blu. Quanti altri pappagalli può colorare in modo che siano tutti colorati diversamente?",
+      "immagine": "images/kangourou-2020-screenshots/q21.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "5"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Alcune squadre partecipano ad un campo estivo Kangourou. Ogni squadra è formata da 5 o 6 membri e in tutto ci sono 43 persone. Quante squadre ci sono nel campo?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Quale delle seguenti 'chiavi' non può essere tagliata in tre pezzi tutti diversi tra loro composti ciascuno da cinque quadratini grigi?",
+      "immagine": "images/kangourou-2020-screenshots/q23.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Anna rimpiazza le lettere nell'espressione KAN – ROO + GA con cifre scelte tra quelle da 1 a 9: lettere uguali con cifre uguali, lettere diverse con cifre diverse. Poi calcola il risultato. Qual è il massimo risultato che può ottenere?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "933"
+        },
+        {
+          "id": "B",
+          "testo": "939"
+        },
+        {
+          "id": "C",
+          "testo": "941"
+        },
+        {
+          "id": "D",
+          "testo": "942"
+        },
+        {
+          "id": "E",
+          "testo": "948"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    }
+  ]
+}

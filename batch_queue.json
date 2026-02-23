@@ -2,74 +2,394 @@
   "batch_size": 3,
   "note": "Koala 2015-2019 escluse: layout griglia 2x2 non supportato da process_gara.py",
   "queue": [
-    {"tipo": "kangourou", "anno": "2020", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2018", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2017", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2016", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2015", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2014", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2013", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2012", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2011", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2010", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2009", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2008", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2007", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2006", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2005", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2004", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2003", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2002", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2001", "n_dom": 24},
-    {"tipo": "kangourou", "anno": "2000", "n_dom": 24},
-    {"tipo": "benjamin", "anno": "2023", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2022", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2021", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2020", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2019", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2018", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2017", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2016", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2015", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2014", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2013", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2012", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2011", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2010", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2009", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2008", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2007", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2006", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2005", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2004", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2003", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2002", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2001", "n_dom": 30, "needs_download": true},
-    {"tipo": "benjamin", "anno": "2000", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2024", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2023", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2022", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2021", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2020", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2019", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2018", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2017", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2016", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2015", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2014", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2013", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2012", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2011", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2010", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2009", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2008", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2007", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2006", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2005", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2004", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2003", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2002", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2001", "n_dom": 30, "needs_download": true},
-    {"tipo": "cadet", "anno": "2000", "n_dom": 30, "needs_download": true}
+    {
+      "tipo": "kangourou",
+      "anno": "2018",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2017",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2016",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2015",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2014",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2013",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2012",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2011",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2010",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2009",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2008",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2007",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2006",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2005",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2004",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2003",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2002",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2001",
+      "n_dom": 24
+    },
+    {
+      "tipo": "kangourou",
+      "anno": "2000",
+      "n_dom": 24
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2023",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2022",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2021",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2020",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2019",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2018",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2017",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2016",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2015",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2014",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2013",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2012",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2011",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2010",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2009",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2008",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2007",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2006",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2005",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2004",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2003",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2002",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2001",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "benjamin",
+      "anno": "2000",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2024",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2023",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2022",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2021",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2020",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2019",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2018",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2017",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2016",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2015",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2014",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2013",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2012",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2011",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2010",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2009",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2008",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2007",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2006",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2005",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2004",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2003",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2002",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2001",
+      "n_dom": 30,
+      "needs_download": true
+    },
+    {
+      "tipo": "cadet",
+      "anno": "2000",
+      "n_dom": 30,
+      "needs_download": true
+    }
   ]
 }
