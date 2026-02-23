@@ -177,10 +177,16 @@ def extract_json_gemini(tipo, anno, n_dom):
 
     # Chiamata API Gemini
     try:
+        import time
         uploaded = client.files.upload(
             file=str(pdf_path),
             config={"mime_type": "application/pdf"},
         )
+        # Aspetta che il file sia elaborato da Gemini
+        while uploaded.state and uploaded.state.name == "PROCESSING":
+            time.sleep(3)
+            uploaded = client.files.get(name=uploaded.name)
+
         prompt = _build_gemini_prompt(tipo, anno, n_dom)
         print(f"       ⏳ Attendo risposta Gemini...")
         response = client.models.generate_content(
