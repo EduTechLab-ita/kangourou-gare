@@ -204,31 +204,31 @@ def extract_json_gemini(tipo, anno, n_dom):
         return False
 
     # Pulizia output Gemini (gestisce testo extra da modelli thinking)
-    if raw.startswith("```json"):
-        raw = raw[7:]
-    elif raw.startswith("```"):
-        raw = raw[3:]
-    if raw.endswith("```"):
-        raw = raw[:-3]
-    raw = raw.strip()
+    # Prova 1: estrai blocco ```json ... ``` con regex (più robusto)
+    import re as _re
+    m = _re.search(r'```json\s*(.*?)\s*```', raw, _re.DOTALL)
+    if m:
+        raw = m.group(1).strip()
+        print(f"       ℹ️  JSON estratto da blocco markdown")
+    else:
+        # Prova 2: rimuovi backtick manualmente
+        if raw.startswith("```json"):
+            raw = raw[7:]
+        elif raw.startswith("```"):
+            raw = raw[3:]
+        if raw.endswith("```"):
+            raw = raw[:-3]
+        raw = raw.strip()
+
     # Fix virgolette tipografiche (bug Gemini)
     raw = raw.replace('\u201c', '"').replace('\u201d', '"')
 
-    # Parse JSON — se fallisce, estrai il blocco JSON dal testo (gemini-2.5 thinking)
+    # Parse JSON
     data = None
     try:
         data = json.loads(raw)
     except json.JSONDecodeError:
-        # Gemini 2.5 (thinking) può aggiungere testo prima/dopo il JSON
-        # Cerca il primo { e l'ultimo } per estrarre solo il JSON
-        start = raw.find('{')
-        end = raw.rfind('}')
-        if start != -1 and end != -1 and end > start:
-            try:
-                data = json.loads(raw[start:end + 1])
-                print(f"       ℹ️  JSON estratto dal testo (modello thinking)")
-            except json.JSONDecodeError:
-                pass
+        pass
 
     if data is None:
         (REPO_ROOT / "output").mkdir(exist_ok=True)
