@@ -1,0 +1,706 @@
+{
+  "id": "kangourou-2017",
+  "titolo": "Kangourou - Ecolier 2017",
+  "anno": "2017",
+  "categoria": "Kangourou (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Quale tra i seguenti tasselli può essere inserito tra i tasselli che vedi qui sopra in modo che le due uguaglianze siano entrambe soddisfatte?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "=5 5-1"
+        },
+        {
+          "id": "B",
+          "testo": "=3 4-2"
+        },
+        {
+          "id": "C",
+          "testo": "=5 1+2"
+        },
+        {
+          "id": "D",
+          "testo": "=4 5-3"
+        },
+        {
+          "id": "E",
+          "testo": "=5 1+1"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Gianni guarda fuori dalla finestra (osserva la figura!) e vede metà dei canguri che abitano nel parco. Quanti canguri abitano nel parco?",
+      "immagine": "images/kangourou-2017-screenshots/q02.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3"
+        },
+        {
+          "id": "B",
+          "testo": "10"
+        },
+        {
+          "id": "C",
+          "testo": "12"
+        },
+        {
+          "id": "D",
+          "testo": "15"
+        },
+        {
+          "id": "E",
+          "testo": "18"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Su due fogli quadrettati di carta trasparente alcuni quadretti sono stati anneriti, come mostra la figura. Se i due fogli vengono sovrapposti alla tavola numerica mostrata al centro, i numeri sotto i quadretti anneriti non possono essere visti. Sovrapponendoli entrambi alla tavola si riesce a vedere ancora un solo numero: quale?",
+      "immagine": "images/kangourou-2017-screenshots/q03.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "9"
+        },
+        {
+          "id": "B",
+          "testo": "7"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "Quale numero è coperto dal muso del panda?",
+      "immagine": "images/kangourou-2017-screenshots/q04.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "16"
+        },
+        {
+          "id": "B",
+          "testo": "18"
+        },
+        {
+          "id": "C",
+          "testo": "20"
+        },
+        {
+          "id": "D",
+          "testo": "24"
+        },
+        {
+          "id": "E",
+          "testo": "28"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "La figura mostra una tabella di addizione in cui le somme sono state svolte correttamente. La tabella è stata macchiata. Qual è la somma dei due numeri che si trovano nelle celle coperte dalla macchia?",
+      "immagine": "images/kangourou-2017-screenshots/q05.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "30"
+        },
+        {
+          "id": "B",
+          "testo": "32"
+        },
+        {
+          "id": "C",
+          "testo": "33"
+        },
+        {
+          "id": "D",
+          "testo": "34"
+        },
+        {
+          "id": "E",
+          "testo": "36"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Quel monello di Kangoo ha picchiato troppo forte sullo specchio che si è rotto in tanti pezzi. Quanti di essi hanno esattamente quattro lati?",
+      "immagine": "images/kangourou-2017-screenshots/q06.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "3"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "La figura a destra mostra la facciata della casa di Anna. Sul retro questa casa ha tre finestre e non ha porte. Quale figura vede Anna guardando il retro della sua casa?",
+      "immagine": "images/kangourou-2017-screenshots/q07.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Se [immagine di un'equazione con cerchi e quadrati] quale delle uguaglianze che seguono è vera?",
+      "immagine": "images/kangourou-2017-screenshots/q08.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "La figura a destra mostra una collana con sei perle. Quale tra le collane disegnate sotto rappresenta la stessa collana?",
+      "immagine": "images/kangourou-2017-screenshots/q09.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "I palloncini sono in vendita in buste da 5, 10 e 25 pezzi. Mario acquista esattamente 70 palloncini. Qual è il più piccolo numero di buste che può aver acquistato?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "5"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "7"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Roby ha piegato un foglio di carta, poi ha praticato un unico foro nella carta così piegata; infine ha aperto il foglio di carta. Vedi il risultato nella figura a lato. In quale modo Roby aveva piegato il foglio di carta?",
+      "immagine": "images/kangourou-2017-screenshots/q11.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Una piscina ha organizzato un torneo a squadre. Prima si sono iscritti 13 ragazzi, poi altri 19. Per il torneo servono sei squadre, tutte con lo stesso numero di membri. Se si vogliono far partecipare tutti i ragazzi già iscritti, qual è il minimo numero di ragazzi che devono iscriversi ancora perché si possano formare le sei squadre?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "La figura mostra una griglia quadrata 4×4: in ogni sua cella sono stati inseriti dei numeri. Cerca in tale griglia il quadrato 2×2 tale che la somma dei numeri nelle sue quattro celle sia la più grande possibile. Quanto vale tale somma?",
+      "immagine": "images/kangourou-2017-screenshots/q13.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "11"
+        },
+        {
+          "id": "B",
+          "testo": "12"
+        },
+        {
+          "id": "C",
+          "testo": "13"
+        },
+        {
+          "id": "D",
+          "testo": "14"
+        },
+        {
+          "id": "E",
+          "testo": "15"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Davide vuol cuocere 5 vivande e ha a disposizione solo due fornelli. Ciascuna vivanda ha un tempo di cottura diverso da tutte le altre: 40, 15, 35, 10 e 45 minuti. Qual è il minimo numero di minuti che servono a Davide per finire il lavoro? Tieni presente che Davide non può togliere una vivanda dal fuoco se non è trascorso l'intero tempo di cottura.",
+      "immagine": "images/kangourou-2017-screenshots/q14.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "60"
+        },
+        {
+          "id": "B",
+          "testo": "70"
+        },
+        {
+          "id": "C",
+          "testo": "75"
+        },
+        {
+          "id": "D",
+          "testo": "80"
+        },
+        {
+          "id": "E",
+          "testo": "85"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Quale numero deve essere scritto nel cerchio contenente il punto di domanda?",
+      "immagine": "images/kangourou-2017-screenshots/q15.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "10"
+        },
+        {
+          "id": "B",
+          "testo": "11"
+        },
+        {
+          "id": "C",
+          "testo": "12"
+        },
+        {
+          "id": "D",
+          "testo": "13"
+        },
+        {
+          "id": "E",
+          "testo": "14"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "La figura mostra una costruzione fatta con cubi di legno sovrapposti e accostati e una pianta della stessa costruzione. Per ogni quadrato della pianta, il numero che vi compare indica quanti cubi si trovano sopra quel quadrato. Due macchie di inchiostro sono cadute sulla pianta. Qual è la somma dei numeri sotto le macchie?",
+      "immagine": "images/kangourou-2017-screenshots/q16.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "3"
+        },
+        {
+          "id": "E",
+          "testo": "7"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Un rettangolo ha lati lunghi 1 cm e 10 cm (come suggerito dalla figura). Di quanti quadrati di lato 1 cm lo si deve prolungare per ottenere un rettangolo di perimetro doppio?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "9"
+        },
+        {
+          "id": "B",
+          "testo": "10"
+        },
+        {
+          "id": "C",
+          "testo": "11"
+        },
+        {
+          "id": "D",
+          "testo": "12"
+        },
+        {
+          "id": "E",
+          "testo": "20"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Quanti metri è lungo il treno?",
+      "immagine": "images/kangourou-2017-screenshots/q18.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "55"
+        },
+        {
+          "id": "B",
+          "testo": "115"
+        },
+        {
+          "id": "C",
+          "testo": "170"
+        },
+        {
+          "id": "D",
+          "testo": "220"
+        },
+        {
+          "id": "E",
+          "testo": "230"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "Le prove del coro iniziano alle 5 del pomeriggio e, per andarci, Giorgio deve prendere l'autobus. Sa che:\n• gli servono 5 minuti per andare da casa sua alla fermata dell'autobus;\n• dalle 6:15 del mattino in poi, l'autobus passa da tale fermata ogni 10 minuti;\n• il percorso in autobus dura 15 minuti;\n• gli servono altri 5 minuti per andare dalla fermata dell'autobus alla sede del coro.\nA che ora, al più tardi, deve lasciare casa sua per essere sicuro di arrivare in orario alle prove?",
+      "immagine": "images/kangourou-2017-screenshots/q19.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "16:20"
+        },
+        {
+          "id": "B",
+          "testo": "16:25"
+        },
+        {
+          "id": "C",
+          "testo": "16:30"
+        },
+        {
+          "id": "D",
+          "testo": "16:35"
+        },
+        {
+          "id": "E",
+          "testo": "16:45"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Allo zoo sono nati da poco una giraffa, un elefante, un leone e un orso. Susanna ha poco tempo, ma vuole andare a vedere due diversi neonati, senza però iniziare dal leone. In quanti modi diversi può procedere?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3"
+        },
+        {
+          "id": "B",
+          "testo": "7"
+        },
+        {
+          "id": "C",
+          "testo": "8"
+        },
+        {
+          "id": "D",
+          "testo": "9"
+        },
+        {
+          "id": "E",
+          "testo": "12"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Quattro fratelli hanno mangiato in tutto 11 pizzette. Ognuno di essi ne ha mangiato almeno una e nessuno di loro ha mangiato lo stesso numero di pizzette. Tre di loro hanno mangiato in tutto 9 pizzette e uno di loro ha mangiato esattamente 3 pizzette. Quante pizzette sono state mangiate dal ragazzo che ne ha mangiato il maggior numero?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "5"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "7"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "In figura vedi una tabella suddivisa in celle: se hanno in comune un lato o anche solo un vertice diremo che le due celle sono confinanti. In alcune delle celle Lilli ha disegnato una faccina e in alcune delle altre celle ha scritto il numero totale di faccine che stanno nelle celle confinanti. Poi ha coperto con dei cartoncini tutte le celle che non contengono numeri. Quante faccine ha nascosto Lilli?",
+      "immagine": "images/kangourou-2017-screenshots/q22.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "5"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "11"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Sul tavolo c'erano dieci sacchetti: ognuno conteneva un diverso numero di monete di cioccolato, da 1 a 10. A ciascuno dei cinque nipotini la nonna ha dato due sacchetti di monete. Ad Alex sono così toccate 5 monete, a Ben 7, a Claudio 9 e a Dario 15. Quante monete di cioccolato sono toccate a Enzo?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "9"
+        },
+        {
+          "id": "B",
+          "testo": "11"
+        },
+        {
+          "id": "C",
+          "testo": "13"
+        },
+        {
+          "id": "D",
+          "testo": "17"
+        },
+        {
+          "id": "E",
+          "testo": "19"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Sara ha tante sagome di cartoncino: ogni sagoma è formata da quattro quadratini uguali. Accostando bene tre di queste sagome (ma senza sovrapporle) ha costruito un rettangolo formato da 12 quadratini uguali. Due delle sagome sono uguali e hanno la forma che vedi a lato. Quante tra le sagome che seguono possono essere la terza sagoma?",
+      "immagine": "images/kangourou-2017-screenshots/q24.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "nessuna"
+        },
+        {
+          "id": "B",
+          "testo": "una"
+        },
+        {
+          "id": "C",
+          "testo": "due"
+        },
+        {
+          "id": "D",
+          "testo": "tre"
+        },
+        {
+          "id": "E",
+          "testo": "tutte"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    }
+  ]
+}

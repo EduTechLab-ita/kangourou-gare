@@ -1,0 +1,706 @@
+{
+  "id": "kangourou-2016",
+  "titolo": "Kangourou - Ecolier 2016",
+  "anno": "2016",
+  "categoria": "Kangourou (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Un cangurino compie oggi 6 settimane e due giorni. Tra quanti giorni avrà 8 settimane?",
+      "immagine": "images/kangourou-2016-screenshots/q01.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "12"
+        },
+        {
+          "id": "D",
+          "testo": "16"
+        },
+        {
+          "id": "E",
+          "testo": "19"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "La figura mostra due operazioni e una somma. Qual è il valore di '?'?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "24"
+        },
+        {
+          "id": "B",
+          "testo": "28"
+        },
+        {
+          "id": "C",
+          "testo": "36"
+        },
+        {
+          "id": "D",
+          "testo": "56"
+        },
+        {
+          "id": "E",
+          "testo": "80"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Anna ha portato a scuola alcune mele e le ha condivise con 5 amiche. Ogni bambina ha mangiato mezza mela. Quante mele ha portato Anna?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2 e mezza"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "3 e mezza"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "Che immagine vede il pagliaccio della figura quando si guarda allo specchio?",
+      "immagine": "images/kangourou-2016-screenshots/q04.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "In figura un rettangolo scuro è in parte nascosto da una tenda. Che figura geometrica è quella della parte nascosta?",
+      "immagine": "images/kangourou-2016-screenshots/q05.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Un triangolo"
+        },
+        {
+          "id": "B",
+          "testo": "Un quadrato"
+        },
+        {
+          "id": "C",
+          "testo": "Un esagono"
+        },
+        {
+          "id": "D",
+          "testo": "Un cerchio"
+        },
+        {
+          "id": "E",
+          "testo": "Un pentagono"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Cinque bambini hanno ciascuno un quadrato, un triangolo e un cerchio: tutti questi oggetti sono di carta non trasparente. Ogni bambino ha sovrapposto parzialmente i suoi tre oggetti: la figura ti mostra che cosa si vede alla fine. Quanti bambini hanno messo il triangolo sopra (non necessariamente 'subito' sopra) al quadrato?",
+      "immagine": "images/kangourou-2016-screenshots/q06.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "0"
+        },
+        {
+          "id": "B",
+          "testo": "1"
+        },
+        {
+          "id": "C",
+          "testo": "2"
+        },
+        {
+          "id": "D",
+          "testo": "3"
+        },
+        {
+          "id": "E",
+          "testo": "4"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Il topolino vuole uscire dal labirinto. Quanti differenti percorsi può seguire se non vuole passare per lo stesso varco più di una volta?",
+      "immagine": "images/kangourou-2016-screenshots/q07.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "5"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "7"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "La somma delle cifre dell'anno 2016 è 9. Qual sarà il primo anno, dopo il 2016, in cui la somma delle cifre sarà ancora 9?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2106"
+        },
+        {
+          "id": "B",
+          "testo": "2061"
+        },
+        {
+          "id": "C",
+          "testo": "2043"
+        },
+        {
+          "id": "D",
+          "testo": "2025"
+        },
+        {
+          "id": "E",
+          "testo": "2023"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "Quale delle seguenti affermazioni relative alla figura è corretta?",
+      "immagine": "images/kangourou-2016-screenshots/q09.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Il numero dei cerchi è uguale a quello dei quadrati."
+        },
+        {
+          "id": "B",
+          "testo": "Ci sono meno cerchi che triangoli."
+        },
+        {
+          "id": "C",
+          "testo": "Il numero dei cerchi è il doppio di quello dei triangoli."
+        },
+        {
+          "id": "D",
+          "testo": "Ci sono più quadrati che triangoli."
+        },
+        {
+          "id": "E",
+          "testo": "Il numero dei triangoli è di due maggiore di quello dei cerchi."
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Sara ha due cartellini; ha scritto un numero su ogni faccia di ciascun cartellino. La somma dei numeri scritti sul primo cartellino è uguale alla somma dei numeri scritti sul secondo. Inoltre la somma dei quattro numeri è 32. Sara ha appoggiato i due cartellini sul tavolo e noi ora vediamo i numeri 5 e 12. Quali sono i numeri che stanno sulle facce dei due cartellini che non vediamo?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "7 e 0"
+        },
+        {
+          "id": "B",
+          "testo": "8 e 1"
+        },
+        {
+          "id": "C",
+          "testo": "6 e 3"
+        },
+        {
+          "id": "D",
+          "testo": "9 e 2"
+        },
+        {
+          "id": "E",
+          "testo": "11 e 4"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Nino somma sette numeri e ottiene 2016. Uno dei numeri che somma è 201. Se al posto di 201 scrivesse 102, che somma otterrebbe?",
+      "immagine": "images/kangourou-2016-screenshots/q11.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1815"
+        },
+        {
+          "id": "B",
+          "testo": "1914"
+        },
+        {
+          "id": "C",
+          "testo": "1917"
+        },
+        {
+          "id": "D",
+          "testo": "2115"
+        },
+        {
+          "id": "E",
+          "testo": "2118"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Lara ha dapprima disegnato un triangolo equilatero. Poi ha unito i punti medi di ogni lato e ha ottenuto un triangolo più piccolo che ha annerito. Poi ha ripetuto l'operazione su ogni triangolo bianco che le è rimasto. La figura mostra il risultato dei primi tre passi di questa procedura. Lara prosegue nel suo gioco. Quanti triangoli scuri ci saranno al passo successivo?",
+      "immagine": "images/kangourou-2016-screenshots/q12.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "7"
+        },
+        {
+          "id": "B",
+          "testo": "10"
+        },
+        {
+          "id": "C",
+          "testo": "13"
+        },
+        {
+          "id": "D",
+          "testo": "16"
+        },
+        {
+          "id": "E",
+          "testo": "19"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "Abbiamo a disposizione i cinque tasselli in figura. Vogliamo accostarne alcuni (senza lasciare buchi né sovrapporli) per formare un quadrato. Quali dobbiamo scegliere?",
+      "immagine": "images/kangourou-2016-screenshots/q13.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1, 3 e 5"
+        },
+        {
+          "id": "B",
+          "testo": "1, 2 e 5"
+        },
+        {
+          "id": "C",
+          "testo": "1, 4 e 5"
+        },
+        {
+          "id": "D",
+          "testo": "3, 4 e 5"
+        },
+        {
+          "id": "E",
+          "testo": "2, 3 e 5"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Ho alcuni cani: il numero delle loro zampe supera di 18 il numero dei loro nasi. Quanti cani ho?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "5"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Nadia pensa di inserire in ogni cella della tabella in figura solo i numeri 1, 2, 3 e di farlo in modo che in ogni riga e in ogni colonna questi tre numeri compaiano esattamente una volta. Ha già iniziato a scrivere alcuni numeri: qual è la somma dei numeri che deve scrivere nelle celle denotate con X e Y?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "Nicola ha un'assicella divisa in 11 quadrati, come mostra la figura. Mette 8 monete in 8 quadrati consecutivi, una in ciascun quadrato, senza lasciare quadrati vuoti tra due monete. Qual è il massimo numero di quadrati in cui possiamo essere certi che c'è una moneta?",
+      "immagine": "images/kangourou-2016-screenshots/q16.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Se ribaltiamo una carta intorno al suo lato destro vediamo questo disegno: Che disegno vediamo, invece, se ribaltiamo la stessa carta intorno al suo lato superiore?",
+      "immagine": "images/kangourou-2016-screenshots/q17.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Oggi è il compleanno di quattro fratelli: Dado, Dido e Dodo sono gemelli, mentre Bobo ha tre anni di più. Quale dei seguenti numeri può essere la somma delle età dei quattro fratelli?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "25"
+        },
+        {
+          "id": "B",
+          "testo": "27"
+        },
+        {
+          "id": "C",
+          "testo": "29"
+        },
+        {
+          "id": "D",
+          "testo": "30"
+        },
+        {
+          "id": "E",
+          "testo": "60"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "In un giardino incantato ci sono strani alberi: ognuno produce 6 pere e 3 mele oppure 8 pere e 4 mele. Sugli alberi del giardino ci sono complessivamente 25 mele: quante pere ci sono?",
+      "immagine": "images/kangourou-2016-screenshots/q19.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "35"
+        },
+        {
+          "id": "B",
+          "testo": "40"
+        },
+        {
+          "id": "C",
+          "testo": "45"
+        },
+        {
+          "id": "D",
+          "testo": "50"
+        },
+        {
+          "id": "E",
+          "testo": "56"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Vogliamo inserire al centro della composizione che vedi in figura una piastrella fra quelle numerate. Vogliamo fare in modo che, quando due piastrelle condividono un bordo, le linee che si saldano su quel bordo abbiano ugual colore (bianco o grigio o nero) sulle due piastrelle. Quali piastrelle NON possiamo inserire?",
+      "immagine": "images/kangourou-2016-screenshots/q20.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Solo la 1 e la 5."
+        },
+        {
+          "id": "B",
+          "testo": "Solo la 3 e la 4."
+        },
+        {
+          "id": "C",
+          "testo": "Solo la 5."
+        },
+        {
+          "id": "D",
+          "testo": "Tutte tranne la 2."
+        },
+        {
+          "id": "E",
+          "testo": "Tutte."
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Quattro ciclisti A, B, C, D hanno partecipato a una gara. Prima della gara, quattro amici avevano pronosticato il loro ordine di arrivo: CDBA secondo Rocco, DABC secondo Salvo, CBAD secondo Tino, BACD secondo Vito. In queste previsioni l'esatta posizione di arrivo di ciascun ciclista è stata indovinata almeno due volte. Qual è stato l'ordine di arrivo?",
+      "immagine": "images/kangourou-2016-screenshots/q21.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "DCBA"
+        },
+        {
+          "id": "B",
+          "testo": "DACB"
+        },
+        {
+          "id": "C",
+          "testo": "CABD"
+        },
+        {
+          "id": "D",
+          "testo": "BADC"
+        },
+        {
+          "id": "E",
+          "testo": "ABCD"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Livia vuole mettere sul tavolo cinque piatti, in ordine di peso crescente. Ha già disposto i piatti Q, R, S e T nell'ordine desiderato: T pesa più di tutti. Dove deve mettere il piatto Z?",
+      "immagine": "images/kangourou-2016-screenshots/q22.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "A sinistra del piatto Q."
+        },
+        {
+          "id": "B",
+          "testo": "Tra il piatto Q e il piatto R."
+        },
+        {
+          "id": "C",
+          "testo": "Tra il piatto R e il piatto S."
+        },
+        {
+          "id": "D",
+          "testo": "Tra il piatto S e il piatto T."
+        },
+        {
+          "id": "E",
+          "testo": "A destra del piatto T."
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Matteo ha costruito una barretta con 27 mattoncini: Poi l'ha divisa in due barrette in modo che la lunghezza di una sia il doppio di quella dell'altra. Poi ha preso ciascuna di queste barrette e l'ha divisa nello stesso modo e ha ripetuto l'operazione finché è stato possibile. Quale delle seguenti barrette non ha mai ottenuto?",
+      "immagine": "images/kangourou-2016-screenshots/q23.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "10"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "In figura vedi cinque passeri posati su un filo: alcuni guardano a destra, altri a sinistra. Ogni passero cinguetta tante volte quanti sono i passeri che stanno dalla parte dove guarda: ad esempio Donato cinguetta tre volte. Poi uno dei passeri volta la testa dalla parte opposta. Di nuovo ogni passero cinguetta tante volte quanti sono i passeri che stanno dalla parte dove guarda. Ora il numero totale di cinguettii è maggiore di quello della prima volta. Quale passero ha voltato la testa?",
+      "immagine": "images/kangourou-2016-screenshots/q24.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Angelo"
+        },
+        {
+          "id": "B",
+          "testo": "Bruno"
+        },
+        {
+          "id": "C",
+          "testo": "Chicco"
+        },
+        {
+          "id": "D",
+          "testo": "Donato"
+        },
+        {
+          "id": "E",
+          "testo": "Elio"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    }
+  ]
+}

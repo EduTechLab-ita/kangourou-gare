@@ -5,21 +5,6 @@
   "queue": [
     {
       "tipo": "kangourou",
-      "anno": "2018",
-      "n_dom": 24
-    },
-    {
-      "tipo": "kangourou",
-      "anno": "2017",
-      "n_dom": 24
-    },
-    {
-      "tipo": "kangourou",
-      "anno": "2016",
-      "n_dom": 24
-    },
-    {
-      "tipo": "kangourou",
       "anno": "2015",
       "n_dom": 24
     },

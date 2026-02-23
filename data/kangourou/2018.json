@@ -1,0 +1,706 @@
+{
+  "id": "kangourou-2018",
+  "titolo": "Kangourou - Ecolier 2018",
+  "anno": "2018",
+  "categoria": "Kangourou (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Leone ha 10 timbri di gomma diversi fra loro: con ciascuno di essi può stampare una delle dieci cifre. Quanti di essi usa per stampare la data 15032018 della gara Kangourou?",
+      "immagine": "images/kangourou-2018-screenshots/q01.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "La figura mostra cinque viti avvitate in un blocco. Quattro hanno la stessa lunghezza; una è più corta delle altre. Quale?",
+      "immagine": "images/kangourou-2018-screenshots/q02.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Qui a lato vedi una foto della coccinella Sofia. Quale delle seguenti certamente non è la foto di Sofia dopo che si è girata su sé stessa?",
+      "immagine": "images/kangourou-2018-screenshots/q03.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "Michele ha preparato la tavola per 8 persone: per farlo correttamente avrebbe dovuto porre il coltello a destra e la forchetta a sinistra di ciascun piatto. Quanti commensali hanno trovato le posate distribuite in modo corretto?",
+      "immagine": "images/kangourou-2018-screenshots/q04.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "2"
+        },
+        {
+          "id": "E",
+          "testo": "3"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Diana gioca al tiro al bersaglio. Guarda le figure: al primo turno con tre frecce Diana ha totalizzato 12 punti; al secondo turno ne ha totalizzati 15. Quanti punti ha totalizzato al terzo turno?",
+      "immagine": "images/kangourou-2018-screenshots/q05.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "18"
+        },
+        {
+          "id": "B",
+          "testo": "19"
+        },
+        {
+          "id": "C",
+          "testo": "20"
+        },
+        {
+          "id": "D",
+          "testo": "21"
+        },
+        {
+          "id": "E",
+          "testo": "22"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Da un foglio a quadretti Tom ha ritagliato pezzi di carta di due tipi: quadrati e trapezi, tutti come quelli in figura. Quanti di tali pezzi sono sufficienti a coprire, completamente e senza sovrapposizioni, la barca in figura?",
+      "immagine": "images/kangourou-2018-screenshots/q06.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Ho riprodotto l'immagine a destra con i colori scambiati e poi l'ho ruotata. Quale delle seguenti figure posso aver ottenuto?",
+      "immagine": "images/kangourou-2018-screenshots/q07.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Susanna ha due sorelle: una ha due anni meno di lei e l'altra tre anni di più di lei. Oggi la somma delle età delle tre sorelle è 19 anni. Quanti anni ha oggi Susanna?",
+      "immagine": "images/kangourou-2018-screenshots/q08.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "5"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "7"
+        },
+        {
+          "id": "E",
+          "testo": "8"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "Sette anni fa Zoe aveva piantato un alberello alto 30 cm. Esso è cresciuto nel primo anno di 20 cm e poi ogni anno di 2 cm in meno che nell'anno precedente. Quanti centimetri era alto l'alberello dopo 3 anni?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "52"
+        },
+        {
+          "id": "B",
+          "testo": "74"
+        },
+        {
+          "id": "C",
+          "testo": "78"
+        },
+        {
+          "id": "D",
+          "testo": "84"
+        },
+        {
+          "id": "E",
+          "testo": "86"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Un corriere deve consegnare i pacchi per la gara Kangourou in 4 città, A, B, C e D, partendo da Milano e ritornando a Milano. Il viaggio, descritto nella mappa, è lungo in tutto 100 km. La distanza tra la città A e la città B è la stessa di quella tra Milano e la città C passando per la città D. Quanti chilometri dista da Milano la città A?",
+      "immagine": "images/kangourou-2018-screenshots/q10.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "17"
+        },
+        {
+          "id": "B",
+          "testo": "23"
+        },
+        {
+          "id": "C",
+          "testo": "26"
+        },
+        {
+          "id": "D",
+          "testo": "33"
+        },
+        {
+          "id": "E",
+          "testo": "35"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Un archeologo ha scoperto che un antico popolo rappresentava i numeri interi da 1 a 5 con i simboli che vedi a destra, ma non ha trovato quale simbolo rappresentasse il singolo numero. Per sua fortuna ha anche scoperto che valgono queste uguaglianze: = O + * = * + * = + Quale dei seguenti simboli rappresenta il numero 3?",
+      "immagine": "images/kangourou-2018-screenshots/q11.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Roberto vuole comporre dei mosaici accostando, senza sovrapporle, piastrelle come quella qui a lato. Quanti dei cinque mosaici che seguono può comporre?",
+      "immagine": "images/kangourou-2018-screenshots/q12.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "Bunny il coniglio due settimane fa aveva 20 carote. Da quando ha cominciato a mangiarne, ne ha mangiate due al giorno e, dopo aver mangiato quelle di martedì scorso, gliene rimanevano 8. In quale giorno della settimana ha mangiato la prima carota?",
+      "immagine": "images/kangourou-2018-screenshots/q13.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Lunedì"
+        },
+        {
+          "id": "B",
+          "testo": "Martedì"
+        },
+        {
+          "id": "C",
+          "testo": "Mercoledì"
+        },
+        {
+          "id": "D",
+          "testo": "Giovedì"
+        },
+        {
+          "id": "E",
+          "testo": "Venerdì"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Alberto vuole inserire in ogni cella di una griglia 5 × 5 una delle cinque figure indicate nelle risposte, in modo che ognuna di esse compaia una volta e una sola su ogni riga e su ogni colonna. Qui di lato vedi il lavoro finora svolto. Quale figura dovrà inserire nella cella indicata con il punto di domanda?",
+      "immagine": "images/kangourou-2018-screenshots/q14.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Ci sono 11 fiori in un cespuglio di rose. Alcune farfalle e alcune libellule sono posate sui fiori, non più di un insetto per fiore. Più della metà dei fiori sono occupati e, complessivamente, il numero di farfalle è il triplo del numero di libellule. Quante farfalle ci sono sui fiori?",
+      "immagine": "images/kangourou-2018-screenshots/q15.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "6"
+        },
+        {
+          "id": "B",
+          "testo": "7"
+        },
+        {
+          "id": "C",
+          "testo": "8"
+        },
+        {
+          "id": "D",
+          "testo": "9"
+        },
+        {
+          "id": "E",
+          "testo": "3"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "Tobia ha incollato 10 cubetti uguali, ottenendo la struttura che vedi in figura. Poi ha verniciato tutta la struttura, compresa la parte di sotto. Quanti cubetti hanno esattamente 4 facce verniciate?",
+      "immagine": "images/kangourou-2018-screenshots/q16.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "6"
+        },
+        {
+          "id": "B",
+          "testo": "7"
+        },
+        {
+          "id": "C",
+          "testo": "8"
+        },
+        {
+          "id": "D",
+          "testo": "9"
+        },
+        {
+          "id": "E",
+          "testo": "10"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "In figura vedi lo schema di un labirinto: in ogni cella è stato posto un numero. Roberto è entrato dalla porta aperta sul lato superiore (indicata dalla freccia), è passato attraverso alcune celle ed è uscito da una delle cinque porte aperte sul lato inferiore. I numeri posti nelle celle che ha attraversato erano via via crescenti. Da quale porta è uscito?",
+      "immagine": "images/kangourou-2018-screenshots/q17.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "A"
+        },
+        {
+          "id": "B",
+          "testo": "B"
+        },
+        {
+          "id": "C",
+          "testo": "C"
+        },
+        {
+          "id": "D",
+          "testo": "D"
+        },
+        {
+          "id": "E",
+          "testo": "E"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Sulla prima bilancia ci sono quattro palline con pesi diversi: 10, 20, 30 e 40 grammi. La seconda bilancia è in equilibrio. Quale pallina pesa 30 grammi?",
+      "immagine": "images/kangourou-2018-screenshots/q18.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Certamente la A"
+        },
+        {
+          "id": "B",
+          "testo": "Certamente la B"
+        },
+        {
+          "id": "C",
+          "testo": "Certamente la C"
+        },
+        {
+          "id": "D",
+          "testo": "Certamente la D"
+        },
+        {
+          "id": "E",
+          "testo": "I dati non sono sufficienti per decidere."
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "Lucilla ha piegato a metà un foglio di carta rettangolare ottenendo un quadrato; poi ha tagliato i due fogli sovrapposti lungo una linea frastagliata: la figura a destra mostra come Lucilla vede la parte rimasta del foglio piegato. Quale delle seguenti figure potrebbe essere quella che vede quando riapre il foglio?",
+      "immagine": "images/kangourou-2018-screenshots/q19.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Solo la (4)"
+        },
+        {
+          "id": "B",
+          "testo": "Solo la (4) o la (5)"
+        },
+        {
+          "id": "C",
+          "testo": "Solo la (2) o la (4)"
+        },
+        {
+          "id": "D",
+          "testo": "Solo la (1), la (4) o la (5)"
+        },
+        {
+          "id": "E",
+          "testo": "Solo la (5)"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "La cintura in figura a destra può essere allacciata in cinque modi diversi inserendo i gancini (a destra) nei fori (a sinistra). A sinistra vedi la cintura in cui ho inserito solo l'ultimo gancino a destra nel primo foro a sinistra. Di quanti centimetri diventa più corta la cintura se inserisco tutti e cinque i gancini nei fori?",
+      "immagine": "images/kangourou-2018-screenshots/q20.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "10"
+        },
+        {
+          "id": "D",
+          "testo": "16"
+        },
+        {
+          "id": "E",
+          "testo": "20"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Violetta ha una piastrella di vetro trasparente con immagini, anch'esse di vetro trasparente. La ribalta lungo uno dei lati, come vedi in questa figura (il lato della prima piastrella lungo il quale è fatto il ribaltamento è disegnato a tratto più spesso). Ribalta ancora per due volte la piastrella (lungo i lati del traliccio disegnati a tratto più spesso), andando da sinistra verso destra. Quale di queste figure mostra l'aspetto finale della piastrella?",
+      "immagine": "images/kangourou-2018-screenshots/q21.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Il rettangolo grande è formato accostando, senza sovrapposizioni e senza lasciare buchi, un certo numero di quadrati di varie misure. I tre quadrati più piccoli sono uguali. Se voglio ottenere il rettangolo grande accostando tanti quadrati uguali a quelli piccoli quanti me ne servono?",
+      "immagine": "images/kangourou-2018-screenshots/q22.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "165"
+        },
+        {
+          "id": "B",
+          "testo": "176"
+        },
+        {
+          "id": "C",
+          "testo": "187"
+        },
+        {
+          "id": "D",
+          "testo": "198"
+        },
+        {
+          "id": "E",
+          "testo": "200"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "In ogni cella di questa griglia Silvia vuole scrivere un numero da 1 a 7 in modo che nessun numero compaia due volte. Due numeri consecutivi non possono essere scritti in due celle che abbiano in comune un lato o anche un solo vertice. Quale numero può scrivere nella cella indicata con il punto interrogativo?",
+      "immagine": "images/kangourou-2018-screenshots/q23.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Uno qualunque dei sette numeri."
+        },
+        {
+          "id": "B",
+          "testo": "Qualunque numero dispari, ma non un numero pari."
+        },
+        {
+          "id": "C",
+          "testo": "Qualunque numero pari, ma non un numero dispari."
+        },
+        {
+          "id": "D",
+          "testo": "Solo il numero 4."
+        },
+        {
+          "id": "E",
+          "testo": "Solo il numero 1 o il numero 7."
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Per sconfiggere il drago Tanteteste, Giorgio deve tagliargli, una dopo l'altra, tutte le teste. Ogni tre teste tagliate ne cresce immediatamente una nuova. Giorgio sconfigge il drago tagliandogli in tutto 13 teste. Quante teste aveva il drago all'inizio?",
+      "immagine": "images/kangourou-2018-screenshots/q24.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "8"
+        },
+        {
+          "id": "B",
+          "testo": "9"
+        },
+        {
+          "id": "C",
+          "testo": "10"
+        },
+        {
+          "id": "D",
+          "testo": "11"
+        },
+        {
+          "id": "E",
+          "testo": "12"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    }
+  ]
+}

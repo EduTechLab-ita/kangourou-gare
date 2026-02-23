@@ -310,7 +310,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2018.pdf",
       "json_url": "data/kangourou/2018.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "benjamin-2018",
@@ -362,7 +362,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2017.pdf",
       "json_url": "data/kangourou/2017.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "benjamin-2017",
@@ -414,7 +414,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2016.pdf",
       "json_url": "data/kangourou/2016.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "benjamin-2016",
@@ -1107,8 +1107,8 @@
     }
   ],
   "ultimo_aggiornamento": "2026-02-23",
-  "versione": "2.3.0",
+  "versione": "2.6.0",
   "totale_gare": 85,
-  "gare_disponibili": 12,
-  "novita": "Nuove gare disponibili: Kangourou 2020"
+  "gare_disponibili": 15,
+  "novita": "Nuove gare disponibili: Kangourou 2018, Kangourou 2017, Kangourou 2016"
 }
