@@ -1,0 +1,706 @@
+{
+  "id": "kangourou-2014",
+  "titolo": "Kangourou - Ecolier 2014",
+  "anno": "2014",
+  "categoria": "Kangourou (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Osserva la figura a fianco. Uno solo dei cerchietti qui sotto è l'ingrandimento della sua parte centrale. Quale?",
+      "immagine": "images/kangourou-2014-screenshots/q01.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Giacomo vuole trasformare il numero 2014 in un numero di cinque cifre aggiungendo alle cifre già presenti la cifra 3. Se vuole ottenere il numero più piccolo possibile, dove deve collocare la cifra 3?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "All'inizio"
+        },
+        {
+          "id": "B",
+          "testo": "Fra 2 e 0"
+        },
+        {
+          "id": "C",
+          "testo": "Fra 0 e 1"
+        },
+        {
+          "id": "D",
+          "testo": "Fra 1 e 4"
+        },
+        {
+          "id": "E",
+          "testo": "Alla fine"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Alcuni rettangoli, fra i quali un quadrato, e alcuni triangoli, sono stati accostati o sovrapposti in modo da formare le cinque casette che vedi. Per quali fra esse sono stati usati pezzi identici e nella stessa quantità?",
+      "immagine": "images/kangourou-2014-screenshots/q03.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1 e 4"
+        },
+        {
+          "id": "B",
+          "testo": "3 e 4"
+        },
+        {
+          "id": "C",
+          "testo": "1, 4 e 5"
+        },
+        {
+          "id": "D",
+          "testo": "3, 4 e 5"
+        },
+        {
+          "id": "E",
+          "testo": "1, 2, 4 e 5"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "A ciascuno dei punti qui a fianco corrisponde il risultato della sottrazione indicata vicino ad esso. Partendo dal punto a cui corrisponde il risultato 0, Maria vuole collegarlo con il punto a cui corrisponde il risultato 1, quindi vuole collegare quest'ultimo al punto cui corrisponde il risultato 2 e così via fino al risultato 5. Quale dei seguenti schemi indica i collegamenti che vuole fare Maria?",
+      "immagine": "images/kangourou-2014-screenshots/q04.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Adamo ha meno caramelle di Martino, ma più di Susanna. Lucia ha più caramelle sia di Adamo sia di Martino. Diana ha più caramelle di Adamo, ma meno di Lucia. Chi di loro ha più caramelle di tutti gli altri?",
+      "immagine": "images/kangourou-2014-screenshots/q05.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Martino"
+        },
+        {
+          "id": "B",
+          "testo": "Adamo"
+        },
+        {
+          "id": "C",
+          "testo": "Susanna"
+        },
+        {
+          "id": "D",
+          "testo": "Diana"
+        },
+        {
+          "id": "E",
+          "testo": "Lucia"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Franca ha i quattro tasselli che vedi qui a fianco. Usando questi tasselli, vuole formare la sagoma che è riportata in ognuna delle risposte. Dove deve mettere il tassello ?",
+      "immagine": "images/kangourou-2014-screenshots/q06.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Un negoziante ha dipinto i fiori che vedi nella figura a destra sull'esterno della vetrina del suo negozio. Il vetro è trasparente. Come appare il disegno guardandolo dall'interno del negozio?",
+      "immagine": "images/kangourou-2014-screenshots/q07.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Maria è seduta al tavolo con sua mamma Enrica, suo padre Roberto e suo zio Carlo, che è fratello di Roberto. Chi è la persona più giovane fra loro quattro?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Enrica"
+        },
+        {
+          "id": "B",
+          "testo": "Maria"
+        },
+        {
+          "id": "C",
+          "testo": "Carlo"
+        },
+        {
+          "id": "D",
+          "testo": "Roberto"
+        },
+        {
+          "id": "E",
+          "testo": "Non è possibile rispondere senza ulteriori informazioni."
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "In ognuna delle caselle quadrate rimaste libere nella figura, Monica vuole scrivere un numero in modo che ogni numero che appare sia il prodotto dei due numeri che stanno sotto ad esso. Qual è la somma dei numeri che Monica deve scrivere?",
+      "immagine": "images/kangourou-2014-screenshots/q09.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "8"
+        },
+        {
+          "id": "B",
+          "testo": "16"
+        },
+        {
+          "id": "C",
+          "testo": "32"
+        },
+        {
+          "id": "D",
+          "testo": "64"
+        },
+        {
+          "id": "E",
+          "testo": "88"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Su un piatto inizialmente c'erano alcuni biscotti. Sandro ne ha preso la metà, poi Chiara ha preso la metà dei rimanenti e infine Mauro ha preso la metà di quelli lasciati da Chiara. Nel piatto alla fine sono rimasti 6 biscotti. Quanti ce n'erano all'inizio?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "12"
+        },
+        {
+          "id": "B",
+          "testo": "18"
+        },
+        {
+          "id": "C",
+          "testo": "20"
+        },
+        {
+          "id": "D",
+          "testo": "24"
+        },
+        {
+          "id": "E",
+          "testo": "48"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Osserva la figura a fianco. Quale delle seguenti piastrelle devi mettere al posto del punto di domanda, se vuoi che la parte dipinta di nero abbia la stessa area di quella rimasta bianca?",
+      "immagine": "images/kangourou-2014-screenshots/q11.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Paolo gioca al tiro al bersaglio. Se non colpisce il bersaglio ottiene 0 punti, se lo colpisce ottiene il punteggio indicato in figura nella zona in cui lo ha colpito. Dopo due lanci, quale dei seguenti numeri non può essere la somma dei due punteggi che ha ottenuto?",
+      "immagine": "images/kangourou-2014-screenshots/q12.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "60"
+        },
+        {
+          "id": "B",
+          "testo": "70"
+        },
+        {
+          "id": "C",
+          "testo": "80"
+        },
+        {
+          "id": "D",
+          "testo": "90"
+        },
+        {
+          "id": "E",
+          "testo": "100"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "Inizialmente Fulvia aveva dischetti bianchi, grigi e neri in uguale quantità. Dopo che ne ha disposti alcuni come ti mostra la figura, gliene sono rimasti cinque. In figura puoi vedere tutti i dischetti utilizzati da Fulvia. Quanti dischetti aveva all'inizio per ciascun colore?",
+      "immagine": "images/kangourou-2014-screenshots/q13.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "15"
+        },
+        {
+          "id": "E",
+          "testo": "18"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Il coniglio Tim è molto ghiotto di carote e carrube, ma segue una regola ferrea: ogni giorno, a sua scelta, mangia o 9 carote, o 2 carrube, o 1 carruba e 4 carote. Durante una settimana Tim ha mangiato in tutto 30 carote. Quante carrube ha mangiato in tutto in quella settimana?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "6"
+        },
+        {
+          "id": "B",
+          "testo": "7"
+        },
+        {
+          "id": "C",
+          "testo": "8"
+        },
+        {
+          "id": "D",
+          "testo": "9"
+        },
+        {
+          "id": "E",
+          "testo": "10"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Incollando 8 cubetti uguali fra loro, Tommaso ha ottenuto una costruzione e l'ha appoggiata sul pavimento come ti mostra la figura a destra. Guardando la costruzione dall'alto, quale delle seguenti immagini può vedere Tommaso?",
+      "immagine": "images/kangourou-2014-screenshots/q15.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "Quanti circoletti neri ci sono nella figura?",
+      "immagine": "images/kangourou-2014-screenshots/q16.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "180"
+        },
+        {
+          "id": "B",
+          "testo": "181"
+        },
+        {
+          "id": "C",
+          "testo": "182"
+        },
+        {
+          "id": "D",
+          "testo": "183"
+        },
+        {
+          "id": "E",
+          "testo": "265"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Enrico ha dieci pedine tutte uguali: ognuna ha una faccia rossa e l'altra verde. Le dispone in fila sul tavolo in modo che tutte mostrino la faccia rossa. Dopo un minuto le gira tutte. Dopo un altro minuto gira solo quelle di posto pari. Dopo un altro minuto gira solo la terza, la sesta e la nona. Dopo un altro minuto gira solo la quarta e l'ottava e così via fino a quando, alla fine, gira solo la decima. A questo punto, quante pedine mostrano la faccia verde?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "5"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "7"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Sette persone, uomini e donne, sono sedute attorno ad un tavolo rotondo. Non ci sono due uomini uno a fianco dell'altro e nessuna donna è seduta fra altre due donne. Allora il numero delle donne sedute al tavolo",
+      "immagine": "images/kangourou-2014-screenshots/q18.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "è sicuramente 3."
+        },
+        {
+          "id": "B",
+          "testo": "può essere sia 3 sia 4."
+        },
+        {
+          "id": "C",
+          "testo": "è sicuramente 4."
+        },
+        {
+          "id": "D",
+          "testo": "può essere sia 4 sia 5."
+        },
+        {
+          "id": "E",
+          "testo": "è sicuramente 5."
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "Anna ha allineato alcune carte, su ognuna delle quali è riportata una lettera, come ti mostra la figura. Fare una mossa su queste carte significa scambiarne due fra di loro. Qual è il minimo numero di mosse che le consente di comporre la parola 'SEGMENTO'?",
+      "immagine": "images/kangourou-2014-screenshots/q19.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "A partire dal mezzogiorno di oggi l'orologio del campanile, che fino ad allora aveva funzionato regolarmente, si è guastato: la lancetta delle ore ha continuato a muoversi regolarmente, mentre quella dei minuti a incominciato a ruotare 12 volte più velocemente del dovuto. Ora sono le 12:55 esatte. In quale delle seguenti posizioni si trovano le due lancette?",
+      "immagine": "images/kangourou-2014-screenshots/q20.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Michele è andato in un negozio e ha acquistato alcuni dei giocattoli che vedi nella figura, per ciascuno dei quali è indicato il prezzo. Ha pagato con 3 biglietti da 50 euro e ha ottenuto 20 euro di resto. Appena uscito ha cambiato idea ed è tornato nel negozio facendosi cambiare uno dei giocattoli che aveva acquistato con un altro, anch'esso nella figura: in questo modo ha ricevuto altri 5 euro di resto. Con quali giocattoli è tornato alla fine a casa?",
+      "immagine": "images/kangourou-2014-screenshots/q21.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "La carrozza e l'aereo."
+        },
+        {
+          "id": "B",
+          "testo": "La carrozza e l'autobus."
+        },
+        {
+          "id": "C",
+          "testo": "La carrozza e il tram."
+        },
+        {
+          "id": "D",
+          "testo": "La moto e il tram."
+        },
+        {
+          "id": "E",
+          "testo": "L'autobus, la moto e il tram."
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Osserva la figura. I 5 punti rappresentano altrettante stazioni e i segmenti che le collegano rappresentano delle linee ferroviarie. Il numero accanto ad ogni stazione indica quanti vagoni sono presenti in quella stazione. Una locomotiva fa servizio fra le varie stazioni: ad ogni stazione può lasciare o prelevare alcuni vagoni. Se parte dalla stazione dove ci sono più vagoni, qual è il minor numero di linee che le basta percorrere per fare in modo che, al termine dei suoi viaggi, in tutte le stazioni sia presente lo stesso numero di vagoni?",
+      "immagine": "images/kangourou-2014-screenshots/q22.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3"
+        },
+        {
+          "id": "B",
+          "testo": "4"
+        },
+        {
+          "id": "C",
+          "testo": "5"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "7"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Mettendo in ogni casella una e una sola delle cifre 0, 1, 2, 3, 4, 5, 6, e usandole tutte, si ottiene un'addizione corretta. Che cifra va messa nella casella grigia?",
+      "immagine": "images/kangourou-2014-screenshots/q23.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "5"
+        },
+        {
+          "id": "E",
+          "testo": "6"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Vuoi colorare di grigio alcuni quadratini fra quelli che appaiono nella figura a destra, ma vuoi che non appaiano quadrati grigi come quello, presentato a sinistra, ottenuti accostando 4 quadratini grigi. Quanti quadratini puoi colorare al massimo?",
+      "immagine": "images/kangourou-2014-screenshots/q24.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "16"
+        },
+        {
+          "id": "B",
+          "testo": "18"
+        },
+        {
+          "id": "C",
+          "testo": "20"
+        },
+        {
+          "id": "D",
+          "testo": "21"
+        },
+        {
+          "id": "E",
+          "testo": "22"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    }
+  ]
+}
