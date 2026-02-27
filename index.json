@@ -609,7 +609,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2012.pdf",
       "json_url": "data/kangourou/2012.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "benjamin-2012",
@@ -648,7 +648,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2011.pdf",
       "json_url": "data/kangourou/2011.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "benjamin-2011",
@@ -687,7 +687,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2010.pdf",
       "json_url": "data/kangourou/2010.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "benjamin-2010",
@@ -1106,9 +1106,9 @@
       "disponibile": false
     }
   ],
-  "ultimo_aggiornamento": "2026-02-25",
-  "versione": "2.10.1",
+  "ultimo_aggiornamento": "2026-02-27",
+  "versione": "2.13.0",
   "totale_gare": 85,
-  "gare_disponibili": 19,
-  "novita": "Fix Koala 2021 Q5: immagine completa con opzioni"
+  "gare_disponibili": 22,
+  "novita": "Nuove gare disponibili: Kangourou 2012, Kangourou 2011, Kangourou 2010"
 }

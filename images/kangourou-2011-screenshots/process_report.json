@@ -1,0 +1,325 @@
+{
+  "pdf": "2011.pdf",
+  "questions_total": 47,
+  "questions_with_images": 27,
+  "details": [
+    {
+      "question": 1,
+      "file": "q01.png",
+      "method": "clip_pdf",
+      "size": "1830x263",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 2,
+      "file": "q02.png",
+      "method": "extracted",
+      "size": "778x288",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 3,
+      "file": "q03.png",
+      "method": "clip_pdf",
+      "size": "1830x558",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 4,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 5,
+      "file": "q05.png",
+      "method": "combined_3",
+      "size": "1480x533",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 6,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 7,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 8,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 9,
+      "file": "q09.png",
+      "method": "extracted",
+      "size": "1481x276",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 10,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 11,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 12,
+      "file": "q12.png",
+      "method": "clip_pdf",
+      "size": "1830x578",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 13,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 14,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 15,
+      "file": "q15.png",
+      "method": "clip_pdf",
+      "size": "1830x607",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 16,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 17,
+      "file": "q17.png",
+      "method": "combined_3",
+      "size": "1480x254",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 18,
+      "file": "q18.png",
+      "method": "combined_2",
+      "size": "310x317",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 19,
+      "file": "q19.png",
+      "method": "extracted",
+      "size": "1472x893",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 20,
+      "file": "q20.png",
+      "method": "combined_3",
+      "size": "826x295",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 21,
+      "file": "q21.png",
+      "method": "clip_pdf",
+      "size": "1830x722",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 22,
+      "file": "q22.png",
+      "method": "extracted",
+      "size": "478x466",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 23,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 24,
+      "file": "q24.png",
+      "method": "clip_pdf",
+      "size": "1830x1703",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 1,
+      "file": "q01.png",
+      "method": "clip_pdf",
+      "size": "2389x247",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 2,
+      "file": "q02.png",
+      "method": "extracted",
+      "size": "778x288",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 3,
+      "file": "q03.png",
+      "method": "clip_pdf",
+      "size": "2389x247",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 4,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 5,
+      "file": "q05.png",
+      "method": "combined_3",
+      "size": "1480x533",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 6,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 7,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 8,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 9,
+      "file": "q09.png",
+      "method": "extracted",
+      "size": "1481x276",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 10,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 11,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 75,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 12,
+      "file": "q12.png",
+      "method": "clip_pdf",
+      "size": "2389x247",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 13,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 14,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 15,
+      "file": "q15.png",
+      "method": "clip_pdf",
+      "size": "2389x305",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 16,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 17,
+      "file": "q17.png",
+      "method": "combined_3",
+      "size": "1480x254",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 18,
+      "file": "q18.png",
+      "method": "combined_2",
+      "size": "310x317",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 19,
+      "file": "q19.png",
+      "method": "extracted",
+      "size": "1472x893",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 20,
+      "file": "q20.png",
+      "method": "combined_3",
+      "size": "826x295",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 21,
+      "file": "q21.png",
+      "method": "clip_pdf",
+      "size": "2389x362",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 22,
+      "file": "q22.png",
+      "method": "extracted",
+      "size": "478x466",
+      "validated": true,
+      "warnings": []
+    }
+  ],
+  "warnings": [],
+  "warnings_count": 0
+}

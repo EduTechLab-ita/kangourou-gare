@@ -1,0 +1,308 @@
+{
+  "pdf": "2010.pdf",
+  "questions_total": 43,
+  "questions_with_images": 28,
+  "details": [
+    {
+      "question": 1,
+      "file": "q01.png",
+      "method": "clip_pdf",
+      "size": "1830x754",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 2,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 3,
+      "file": "q03.png",
+      "method": "combined_2",
+      "size": "1404x466",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 4,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 14,
+      "file": "q14.png",
+      "method": "clip_pdf",
+      "size": "1830x374",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 5,
+      "file": "q05.png",
+      "method": "extracted",
+      "size": "709x324",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 6,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 7,
+      "file": "q07.png",
+      "method": "extracted",
+      "size": "1669x339",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 8,
+      "file": "q08.png",
+      "method": "clip_pdf",
+      "size": "1830x410",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 9,
+      "file": "q09.png",
+      "method": "clip_pdf",
+      "size": "1830x775",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 11,
+      "file": "q11.png",
+      "method": "extracted",
+      "size": "966x270",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 12,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 13,
+      "file": "q13.png",
+      "method": "extracted",
+      "size": "1473x248",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 14,
+      "file": "q14.png",
+      "method": "clip_pdf",
+      "size": "1830x509",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 15,
+      "file": "q15.png",
+      "method": "clip_pdf",
+      "size": "1830x411",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 16,
+      "file": "q16.png",
+      "method": "combined_3",
+      "size": "1480x254",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 17,
+      "file": "q17.png",
+      "method": "extracted",
+      "size": "439x386",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 18,
+      "file": "q18.png",
+      "method": "clip_pdf",
+      "size": "1830x656",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 19,
+      "file": "q19.png",
+      "method": "clip_pdf",
+      "size": "1830x165",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 2015,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 20,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 21,
+      "file": "q21.png",
+      "method": "combined_3",
+      "size": "1480x253",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 22,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 23,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 24,
+      "file": "q24.png",
+      "method": "combined_3",
+      "size": "1480x254",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 1,
+      "file": "q01.png",
+      "method": "clip_pdf",
+      "size": "2389x366",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 2,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 3,
+      "file": "q03.png",
+      "method": "combined_2",
+      "size": "1404x466",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 4,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 5,
+      "file": "q05.png",
+      "method": "extracted",
+      "size": "709x324",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 6,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 7,
+      "file": "q07.png",
+      "method": "extracted",
+      "size": "1669x339",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 8,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 9,
+      "file": "q09.png",
+      "method": "clip_pdf",
+      "size": "2389x227",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 10,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 11,
+      "file": "q11.png",
+      "method": "extracted",
+      "size": "966x270",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 12,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 13,
+      "file": "q13.png",
+      "method": "extracted",
+      "size": "1473x248",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 14,
+      "file": "q14.png",
+      "method": "clip_pdf",
+      "size": "2389x222",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 15,
+      "file": null,
+      "method": "no_image"
+    },
+    {
+      "question": 16,
+      "file": "q16.png",
+      "method": "combined_3",
+      "size": "1480x254",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 17,
+      "file": "q17.png",
+      "method": "extracted",
+      "size": "439x386",
+      "validated": true,
+      "warnings": []
+    },
+    {
+      "question": 18,
+      "file": "q18.png",
+      "method": "clip_pdf",
+      "size": "2389x598",
+      "validated": true,
+      "warnings": []
+    }
+  ],
+  "warnings": [],
+  "warnings_count": 0
+}
