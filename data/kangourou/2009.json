@@ -1,0 +1,706 @@
+{
+  "id": "kangourou-2009",
+  "titolo": "Kangourou - Ecolier 2009",
+  "anno": "2009",
+  "categoria": "Kangourou (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Hai in tasca una banconota da 5 euro, una moneta da 2 euro e una moneta da 1 euro e devi pagare uno dei seguenti importi. Per quale di essi devi necessariamente attendere il resto?",
+      "immagine": "images/kangourou-2009-screenshots/q01.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "3 €"
+        },
+        {
+          "id": "B",
+          "testo": "4 €"
+        },
+        {
+          "id": "C",
+          "testo": "6 €"
+        },
+        {
+          "id": "D",
+          "testo": "7 €"
+        },
+        {
+          "id": "E",
+          "testo": "8 €"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Usando cubetti tutti uguali fra loro e solo appoggiandoli uno sull'altro, Carlo ha costruito un grande cubo di 3 cubetti per ogni lato. Per fargli un dispetto, la sua sorellina Anna ha sottratto dal cubo grande alcuni cubetti e a Carlo è rimasta la struttura che vedi in figura. Quanti cubetti ha portato via Anna?",
+      "immagine": "images/kangourou-2009-screenshots/q02.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "6"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "10"
+        },
+        {
+          "id": "D",
+          "testo": "12"
+        },
+        {
+          "id": "E",
+          "testo": "16"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Quattro bastoncini hanno in tutto otto estremità. Quante estremità hanno in tutto sei bastoncini e mezzo?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "6"
+        },
+        {
+          "id": "B",
+          "testo": "8"
+        },
+        {
+          "id": "C",
+          "testo": "12"
+        },
+        {
+          "id": "D",
+          "testo": "13"
+        },
+        {
+          "id": "E",
+          "testo": "14"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "Nella prima riga della figura vedi il numero 930, ottenuto illuminando alcuni quadratini su uno schermo. Ogni quadratino può passare da illuminato a spento o viceversa premendo un pulsante. Vuoi ottenere il numero 806 che appare nella seconda riga: qual è il più piccolo numero di pulsanti che ti basta premere per ottenere lo scopo?",
+      "immagine": "images/kangourou-2009-screenshots/q04.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Enrica ha tirato un dado quattro volte. Le facce del dado sono numerate da 1 a 6 e, sommando i punteggi ottenuti in ogni lancio, Enrica ha totalizzato 23. Quante volte ha ottenuto 6?",
+      "immagine": "images/kangourou-2009-screenshots/q05.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "0"
+        },
+        {
+          "id": "B",
+          "testo": "1"
+        },
+        {
+          "id": "C",
+          "testo": "2"
+        },
+        {
+          "id": "D",
+          "testo": "3"
+        },
+        {
+          "id": "E",
+          "testo": "4"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Antonio ha incollato sul tavolo 10 foglietti rettangolari tutti uguali fra loro nel modo che è indicato dalla figura; i lati dei foglietti misurano 4 e 6 centimetri. Su di essi Antonio ha tracciato la linea marcata in grassetto, costruita collegando i centri dei foglietti mediante tratti rettilinei. Quanti centimetri è lunga la linea tracciata da Antonio?",
+      "immagine": "images/kangourou-2009-screenshots/q06.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "24"
+        },
+        {
+          "id": "B",
+          "testo": "40"
+        },
+        {
+          "id": "C",
+          "testo": "46"
+        },
+        {
+          "id": "D",
+          "testo": "50"
+        },
+        {
+          "id": "E",
+          "testo": "56"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Pietro aveva una tavoletta di cioccolata suddivisa in quadratini. Ne ha dato una striscia di 5 quadratini a suo fratello e una striscia di 7 quadratini a sua sorella; le strisce sono state staccate dalla tavoletta come indica la figura. Di quanti quadratini era composta inizialmente la tavoletta di cioccolata?",
+      "immagine": "images/kangourou-2009-screenshots/q07.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "20"
+        },
+        {
+          "id": "B",
+          "testo": "40"
+        },
+        {
+          "id": "C",
+          "testo": "50"
+        },
+        {
+          "id": "D",
+          "testo": "60"
+        },
+        {
+          "id": "E",
+          "testo": "80"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Hai un cubo e vuoi colorarne ognuno dei vertici rispettando la regola seguente: due vertici che siano alle estremità di uno stesso spigolo devono ricevere colori diversi. Qual è il più piccolo numero di colori che ti consente di raggiungere il tuo scopo?",
+      "immagine": "images/kangourou-2009-screenshots/q08.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "8"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "In una scuola di danza attualmente vi sono 25 ragazzi e 19 ragazze. A partire da martedì prossimo, ogni martedì si aggiungeranno 2 ragazzi e 3 ragazze. Fra quanti martedì il numero delle ragazze sarà uguale al numero dei ragazzi?",
+      "immagine": "images/kangourou-2009-screenshots/q09.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "6"
+        },
+        {
+          "id": "B",
+          "testo": "5"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "3"
+        },
+        {
+          "id": "E",
+          "testo": "2"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "La figura rappresenta un righello lungo esattamente 10 centimetri. I millimetri sono indicati dai trattini verticali. Quanti sono questi trattini?",
+      "immagine": "images/kangourou-2009-screenshots/q10.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "101"
+        },
+        {
+          "id": "B",
+          "testo": "95"
+        },
+        {
+          "id": "C",
+          "testo": "98"
+        },
+        {
+          "id": "D",
+          "testo": "99"
+        },
+        {
+          "id": "E",
+          "testo": "100"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Un lato di un rettangolo è lungo 8 centimetri ed è lungo il doppio dell'altro lato. Quanti centimetri è lungo il lato di un quadrato che ha lo stesso perimetro del rettangolo?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "8"
+        },
+        {
+          "id": "D",
+          "testo": "12"
+        },
+        {
+          "id": "E",
+          "testo": "24"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Vuoi completare la griglia 4 x 4 in figura inserendo in ognuna delle caselle rimaste libere un numero scelto fra 1, 2, 3, 4. Vuoi farlo in modo che in ogni riga, in ogni colonna e in ognuna delle quattro sotto-griglie 2 x 2 evidenziate, ogni numero appaia una e una sola volta. In quanti modi diversi puoi realizzare il tuo scopo?",
+      "immagine": "images/kangourou-2009-screenshots/q12.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "È impossibile realizzare quanto richiesto."
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "Le dieci cifre in figura sono costruite accostando opportunamente degli stuzzicadenti tutti uguali fra loro. Fra i numeri di due cifre, ho costruito quello che richiede l'impiego della maggiore quantità di stuzzicadenti. Quanti ne ho usati?",
+      "immagine": "images/kangourou-2009-screenshots/q13.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "10"
+        },
+        {
+          "id": "B",
+          "testo": "11"
+        },
+        {
+          "id": "C",
+          "testo": "12"
+        },
+        {
+          "id": "D",
+          "testo": "13"
+        },
+        {
+          "id": "E",
+          "testo": "14"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Anna, Bice e Carla hanno raccolto complessivamente 7 funghi. Ognuna di loro ha raccolto almeno un fungo, ma ognuna ha raccolto un numero di funghi diverso da ciascuna delle altre due. Anna ne ha raccolti meno di tutte e Carla più di tutte. Quanti funghi ha raccolto Bice?",
+      "immagine": "images/kangourou-2009-screenshots/q14.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "La situazione descritta non può essersi verificata."
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "Hai le due tessere del domino che vedi in figura e sei libero di accostarle come vuoi. Quale delle seguenti figure non puoi realizzare?",
+      "immagine": "images/kangourou-2009-screenshots/q15.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "Alle 6:15 il tuo orologio digitale, che a quell'ora segnava l'ora esatta, è caduto in terra e ha incominciato ad andare all'indietro, sempre però rispettando esattamente il tempo. Alle 19:30 hai guardato di nuovo l'orologio: quale ora indicava?",
+      "immagine": "images/kangourou-2009-screenshots/q16.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "17:00"
+        },
+        {
+          "id": "B",
+          "testo": "17:45"
+        },
+        {
+          "id": "C",
+          "testo": "18:30"
+        },
+        {
+          "id": "D",
+          "testo": "19:00"
+        },
+        {
+          "id": "E",
+          "testo": "19:15"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Hai calcolato la somma seguente 1 + 11 + 111 + ... + 111111111 + 1111111111 che è la somma dei primi dieci numeri interi che puoi scrivere usando solo la cifra 1. Quante cifre tutte diverse fra loro compaiono nel risultato?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "5"
+        },
+        {
+          "id": "C",
+          "testo": "8"
+        },
+        {
+          "id": "D",
+          "testo": "9"
+        },
+        {
+          "id": "E",
+          "testo": "10"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Un treno lungo 180 metri impiega 5 secondi a passare davanti ad una persona. Poco dopo il treno imbocca un viadotto lungo 360 metri. Se la velocità del treno rimane la stessa, quanti secondi passano dall'istante in cui il treno imbocca il viadotto a quello in cui l'ultima carrozza ne esce?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "15"
+        },
+        {
+          "id": "B",
+          "testo": "10"
+        },
+        {
+          "id": "C",
+          "testo": "20"
+        },
+        {
+          "id": "D",
+          "testo": "30"
+        },
+        {
+          "id": "E",
+          "testo": "25"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "Le case di Gino e Silvia sono sullo stesso lato della stessa via. Prima della casa di Gino vi sono altre 27 case, dopo ve ne sono altre 13. La casa di Silvia invece ha tante case alla sua sinistra quante alla sua destra. Quante case ci sono tra quella di Gino e quella di Silvia (senza contare le loro)?",
+      "immagine": "images/kangourou-2009-screenshots/q19.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "6"
+        },
+        {
+          "id": "B",
+          "testo": "7"
+        },
+        {
+          "id": "C",
+          "testo": "8"
+        },
+        {
+          "id": "D",
+          "testo": "14"
+        },
+        {
+          "id": "E",
+          "testo": "21"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Un codice segreto è formato da 6 cifre; la somma delle cifre di posto pari è uguale alla somma delle cifre di posto dispari. Il codice corrisponde certamente a uno dei seguenti, dove le cifre indicate con * sono illeggibili. Quale?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "81**61"
+        },
+        {
+          "id": "B",
+          "testo": "7*727*"
+        },
+        {
+          "id": "C",
+          "testo": "4*4141"
+        },
+        {
+          "id": "D",
+          "testo": "12*9*8"
+        },
+        {
+          "id": "E",
+          "testo": "181*2*"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Giorgio colleziona figurine di calciatori. Ogni anno il numero delle sue figurine è la somma dei numeri delle sue figurine nei due anni immediatamente precedenti. L'anno scorso Giorgio aveva 60 figurine e quest'anno ne ha 96. Quante figurine aveva nel 2006?",
+      "immagine": "images/kangourou-2009-screenshots/q21.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "20"
+        },
+        {
+          "id": "B",
+          "testo": "24"
+        },
+        {
+          "id": "C",
+          "testo": "36"
+        },
+        {
+          "id": "D",
+          "testo": "40"
+        },
+        {
+          "id": "E",
+          "testo": "48"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "Un numero palindromo è un numero che rimane lo stesso se viene letto da destra a sinistra invece che da sinistra a destra: ad esempio i numeri 101 e 1221 sono palindromi, mentre il numero 1231 non lo è. Sul contachilometri della mia auto ora compare il numero palindromo 15951. Quanti chilometri dovrò percorrere perché appaia il numero palindromo successivo?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "100"
+        },
+        {
+          "id": "B",
+          "testo": "110"
+        },
+        {
+          "id": "C",
+          "testo": "710"
+        },
+        {
+          "id": "D",
+          "testo": "900"
+        },
+        {
+          "id": "E",
+          "testo": "1010"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Giovanni ha tracciato una linea costituita da alcuni segmenti rettilinei. Alla fine di ogni segmento ha sempre girato ad angolo retto, o a destra o a sinistra rispetto al verso di provenienza. Ad ogni cambio di direzione ha riportato su un foglio a parte uno dei simboli X o Y: uno dei due, non sai quale, indica sempre che ha girato a sinistra, l'altro che ha girato a destra. Sul foglio a parte c'è la sequenza XYYYXX: quale potrebbe essere, fra le seguenti, la linea tracciata da Giovanni a partire dal punto W?",
+      "immagine": "images/kangourou-2009-screenshots/q23.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Nel paese di Piedistrani ogni abitante ha il piede sinistro più lungo di uno o due numeri rispetto al piede destro. I negozi, tuttavia, sono come nel resto del mondo: vendono scarpe a coppie, una scarpa destra e una sinistra dello stesso numero. Per risparmiare, alcuni amici di Piedistrani decidono di associarsi e di comprare le scarpe tutti insieme, per poi accoppiarle nel modo che a loro conviene. Così facendo, ognuno prende due scarpe e rimangono inutilizzate una scarpa del numero 36 e una del numero 45. Allora il minimo numero possibile di questi amici è",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "6"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "8"
+        },
+        {
+          "id": "E",
+          "testo": "9"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    }
+  ]
+}

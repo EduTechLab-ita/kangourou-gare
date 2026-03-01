@@ -726,7 +726,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2009.pdf",
       "json_url": "data/kangourou/2009.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "benjamin-2009",
@@ -765,7 +765,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2008.pdf",
       "json_url": "data/kangourou/2008.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "benjamin-2008",
@@ -804,7 +804,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2007.pdf",
       "json_url": "data/kangourou/2007.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "benjamin-2007",
@@ -1106,9 +1106,9 @@
       "disponibile": false
     }
   ],
-  "ultimo_aggiornamento": "2026-02-27",
-  "versione": "2.13.0",
+  "ultimo_aggiornamento": "2026-03-01",
+  "versione": "2.16.0",
   "totale_gare": 85,
-  "gare_disponibili": 22,
-  "novita": "Nuove gare disponibili: Kangourou 2012, Kangourou 2011, Kangourou 2010"
+  "gare_disponibili": 25,
+  "novita": "Nuove gare disponibili: Kangourou 2009, Kangourou 2008, Kangourou 2007"
 }

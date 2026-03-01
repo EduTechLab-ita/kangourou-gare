@@ -1,0 +1,706 @@
+{
+  "id": "kangourou-2007",
+  "titolo": "Kangourou - Ecolier 2007",
+  "anno": "2007",
+  "categoria": "Kangourou (Classi 4a-5a primaria)",
+  "durata_minuti": 75,
+  "screenshot_mode": false,
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Osserva la figura. Zoe segue uno dei percorsi da casa a scuola senza mai tornare indietro. Quando passa su un numero lo annota. Quali terne di numeri, tra quelle proposte, può aver annotato quando arriva a scuola?",
+      "immagine": "images/kangourou-2007-screenshots/q01.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1, 2 e 4"
+        },
+        {
+          "id": "B",
+          "testo": "2, 3 e 4"
+        },
+        {
+          "id": "C",
+          "testo": "2, 3 e 5"
+        },
+        {
+          "id": "D",
+          "testo": "1, 5 e 6"
+        },
+        {
+          "id": "E",
+          "testo": "1, 2 e 5"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "testo": "Quante lettere hanno in comune le parole KANGOUROU e PROBLEMA?",
+      "immagine": "images/kangourou-2007-screenshots/q02.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "testo": "Ho pesato la mia bicicletta. Quale fra i seguenti risultati posso aver trovato?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "8 kg"
+        },
+        {
+          "id": "B",
+          "testo": "1 kg"
+        },
+        {
+          "id": "C",
+          "testo": "800 g"
+        },
+        {
+          "id": "D",
+          "testo": "80 kg"
+        },
+        {
+          "id": "E",
+          "testo": "800 kg"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "testo": "Da un rettangolo costruito con un foglio di carta quadrettata ho ritagliato la figura a fianco. Mi è rimasta una delle figure seguenti: quale?",
+      "immagine": "images/kangourou-2007-screenshots/q04.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "figura"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "testo": "Fra sei ore e mezza saranno esattamente le quattro del mattino. Che ore sono?",
+      "immagine": "images/kangourou-2007-screenshots/q05.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "21:30"
+        },
+        {
+          "id": "B",
+          "testo": "04:00"
+        },
+        {
+          "id": "C",
+          "testo": "20:00"
+        },
+        {
+          "id": "D",
+          "testo": "02:30"
+        },
+        {
+          "id": "E",
+          "testo": "10:30"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "testo": "Hai a disposizione solo le cifre 0 e 7. Quanti diversi numeri di tre cifre (significative) puoi scrivere?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "8"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "6"
+        },
+        {
+          "id": "E",
+          "testo": "4"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "testo": "Quale numero si deve inserire nella nuvoletta grigia affinché il calcolo risulti esatto?",
+      "immagine": "images/kangourou-2007-screenshots/q07.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "9"
+        },
+        {
+          "id": "E",
+          "testo": "un numero diverso dai precedenti"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "testo": "Per Natale 3 amiche intendono scambiarsi i doni in questo modo: ciascuna fa un solo regalo (ovviamente non a sé stessa) e ne riceve uno. In quanti modi è possibile realizzare il progetto?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "1"
+        },
+        {
+          "id": "B",
+          "testo": "2"
+        },
+        {
+          "id": "C",
+          "testo": "3"
+        },
+        {
+          "id": "D",
+          "testo": "4"
+        },
+        {
+          "id": "E",
+          "testo": "5"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "testo": "Una matrioska è formata da 5 bamboline di colori diversi, una contenuta nell'altra. Quella azzurra è più piccola della verde, ma non della gialla. Quella blu è più grande sia della azzurra che della verde, ma più piccola della rossa. Di quale colore è la terza bambolina in ordine di grandezza?",
+      "immagine": "images/kangourou-2007-screenshots/q09.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "verde"
+        },
+        {
+          "id": "B",
+          "testo": "rossa"
+        },
+        {
+          "id": "C",
+          "testo": "blu"
+        },
+        {
+          "id": "D",
+          "testo": "azzurra"
+        },
+        {
+          "id": "E",
+          "testo": "gialla"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "testo": "Elisa, che è più giovane di suo fratello Matteo di un anno ed un giorno, è nata il 1° gennaio 2002. Qual è la data di nascita di Matteo?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "2 gennaio 2003"
+        },
+        {
+          "id": "B",
+          "testo": "2 gennaio 2001"
+        },
+        {
+          "id": "C",
+          "testo": "31 dicembre 2000"
+        },
+        {
+          "id": "D",
+          "testo": "31 dicembre 2001"
+        },
+        {
+          "id": "E",
+          "testo": "30 dicembre 2000"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "testo": "Qual è il numero totale dei rettangoli che si vedono in figura?",
+      "immagine": "images/kangourou-2007-screenshots/q11.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "5"
+        },
+        {
+          "id": "B",
+          "testo": "12"
+        },
+        {
+          "id": "C",
+          "testo": "7"
+        },
+        {
+          "id": "D",
+          "testo": "10"
+        },
+        {
+          "id": "E",
+          "testo": "nessuno dei precedenti"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "testo": "Il laboratorio del falegname dispone di due macchine A e B, il cui funzionamento è illustrato in figura. Qual è la sequenza corretta nell'uso delle macchine per ottenere [figura]? La macchina B ruota l'oggetto di 45° in senso orario",
+      "immagine": "images/kangourou-2007-screenshots/q12.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "BBA"
+        },
+        {
+          "id": "B",
+          "testo": "ABB"
+        },
+        {
+          "id": "C",
+          "testo": "BAB"
+        },
+        {
+          "id": "D",
+          "testo": "BA"
+        },
+        {
+          "id": "E",
+          "testo": "BABBB"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "testo": "Quindici ragazzi sono seduti in cerchio. Ognuno indossa un cappello: il primo è rosso, il secondo bianco, il terzo blu, il quarto rosso di nuovo, il quinto bianco, il sesto blu e così di seguito. Arrigo, che indossa un cappello arancione, vuole entrare nel cerchio in modo da aver vicino un cappello rosso, ma non un cappello blu. In quanti posti può sedersi?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "5"
+        },
+        {
+          "id": "C",
+          "testo": "10"
+        },
+        {
+          "id": "D",
+          "testo": "15"
+        },
+        {
+          "id": "E",
+          "testo": "1"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "testo": "Anna, Bianca, Cecilia e Diana praticano ciascuna uno ed uno solo dei seguenti sport: karate, calcio, pallavolo e judo. Anna non pratica sport che utilizzano una palla, la judoka Bianca va spesso allo stadio ad assistere a partite di calcio. Quale delle seguenti affermazioni può essere vera?",
+      "immagine": "images/kangourou-2007-screenshots/q14.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Anna gioca a pallavolo"
+        },
+        {
+          "id": "B",
+          "testo": "Bianca gioca a calcio"
+        },
+        {
+          "id": "C",
+          "testo": "Cecilia gioca a pallavolo"
+        },
+        {
+          "id": "D",
+          "testo": "Diana fa karate"
+        },
+        {
+          "id": "E",
+          "testo": "Anna fa judo"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "testo": "I sedili di una giostra sono equispaziati (cioè la distanza di un sedile da quello che lo segue è sempre la stessa) e numerati in ordine 1, 2, 3, ... . In questa giostra Pietro è seduto sul sedile numero 11, esattamente dall'altra parte di Maria che occupa il sedile numero 4. Quanti sedili sono presenti in quella giostra?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "13"
+        },
+        {
+          "id": "B",
+          "testo": "14"
+        },
+        {
+          "id": "C",
+          "testo": "16"
+        },
+        {
+          "id": "D",
+          "testo": "17"
+        },
+        {
+          "id": "E",
+          "testo": "22"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "testo": "I numeri 1, 2 e 3 devono essere scritti nelle caselle della tabella in figura in modo che ciascuno dei numeri 1, 2 e 3 compaia in ogni riga ed in ogni colonna. Isabella ha iniziato ad inserire alcuni numeri nella tabella: quale numero può scrivere nella casella indicata con il punto di domanda?",
+      "immagine": "images/kangourou-2007-screenshots/q16.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "solo 1"
+        },
+        {
+          "id": "B",
+          "testo": "solo 2"
+        },
+        {
+          "id": "C",
+          "testo": "solo 3"
+        },
+        {
+          "id": "D",
+          "testo": "2 o 3"
+        },
+        {
+          "id": "E",
+          "testo": "1, 2 oppure 3"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "testo": "Immagina di scrivere uno dopo l'altro tutti i numeri da 1 a 100 inclusi: quante cifre hai scritto?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "100"
+        },
+        {
+          "id": "B",
+          "testo": "150"
+        },
+        {
+          "id": "C",
+          "testo": "190"
+        },
+        {
+          "id": "D",
+          "testo": "192"
+        },
+        {
+          "id": "E",
+          "testo": "200"
+        }
+      ],
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "testo": "Chiara e Donatella hanno appuntamento alle 7:05. Quando arriva, Donatella pensa di essere in anticipo di 15 minuti, ma ha l'orologio indietro di 7 minuti; Chiara invece pensa di essere in ritardo di 10 minuti, ma ha l'orologio avanti di 7 minuti. Quale delle due amiche deve aspettare l'altra e per quanto tempo?",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "Donatella aspetta Chiara per 5 minuti"
+        },
+        {
+          "id": "B",
+          "testo": "Donatella aspetta Chiara per 14 minuti"
+        },
+        {
+          "id": "C",
+          "testo": "Donatella aspetta Chiara per 11 minuti"
+        },
+        {
+          "id": "D",
+          "testo": "Chiara aspetta Donatella per 5 minuti"
+        },
+        {
+          "id": "E",
+          "testo": "Chiara aspetta Donatella per 11 minuti"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "testo": "Un dado è un cubo le cui facce sono numerate da 1 a 6. La somma dei numeri che si trovano su due facce opposte è sempre 7. Sette dadi sono impilati come mostra la figura. Immagina di poter osservare le pile da ogni angolo: qual è la somma dei punti che risultano comunque invisibili, cioè nascosti fra i dadi o sotto le pile?",
+      "immagine": "images/kangourou-2007-screenshots/q19.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "49"
+        },
+        {
+          "id": "B",
+          "testo": "47"
+        },
+        {
+          "id": "C",
+          "testo": "46"
+        },
+        {
+          "id": "D",
+          "testo": "42"
+        },
+        {
+          "id": "E",
+          "testo": "35"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "testo": "Un foglio di carta di forma quadrata viene piegato due volte in modo che il risultato sia ancora un quadrato. A questo quadrato viene tagliato un angolo. Quale delle figure sottostanti non può essere ottenuta con questo procedimento?",
+      "immagine": "images/kangourou-2007-screenshots/q20.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "figura"
+        },
+        {
+          "id": "B",
+          "testo": "figura"
+        },
+        {
+          "id": "C",
+          "testo": "figura"
+        },
+        {
+          "id": "D",
+          "testo": "figura"
+        },
+        {
+          "id": "E",
+          "testo": "nessuna"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "testo": "Nella figura è mostrata una sequenza di tre quadrati 'quadrettati' con alcuni quadretti anneriti. Quante caselle bianche avrà il quadrato successivo, se lo costruiamo con lo stesso principio?",
+      "immagine": "images/kangourou-2007-screenshots/q21.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "50"
+        },
+        {
+          "id": "B",
+          "testo": "60"
+        },
+        {
+          "id": "C",
+          "testo": "65"
+        },
+        {
+          "id": "D",
+          "testo": "70"
+        },
+        {
+          "id": "E",
+          "testo": "75"
+        }
+      ],
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "testo": "2007 + 2008 + 2009 + 2010 + 2011 + 2012 + 2013 + 2014 + 2015 + 2016 =",
+      "immagine": null,
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "20115"
+        },
+        {
+          "id": "B",
+          "testo": "10205"
+        },
+        {
+          "id": "C",
+          "testo": "2125"
+        },
+        {
+          "id": "D",
+          "testo": "202007"
+        },
+        {
+          "id": "E",
+          "testo": "20075"
+        }
+      ],
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "testo": "Anna dispone di una grande quantità di carte di forma quadrata come quella a fianco. Accostando opportunamente quattro di queste carte può costruire un circuito chiuso (in bianco nella seconda figura). Anna vuole costruire un circuito più grande: qual è il minimo numero di carte che le consente di attuare il suo progetto?",
+      "immagine": "images/kangourou-2007-screenshots/q23.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "8"
+        },
+        {
+          "id": "B",
+          "testo": "10"
+        },
+        {
+          "id": "C",
+          "testo": "9"
+        },
+        {
+          "id": "D",
+          "testo": "16"
+        },
+        {
+          "id": "E",
+          "testo": "12"
+        }
+      ],
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "testo": "Fabio, Luca e Mauro oggi compiono gli anni. La somma delle loro età oggi è di 22 anni; quando Fabio avrà l'età che Luca ha oggi tale somma sarà di 28 anni; quando Fabio avrà l'età che Mauro ha oggi tale somma sarà di 37 anni. Quanti anni ha Fabio oggi?",
+      "immagine": "images/kangourou-2007-screenshots/q24.png",
+      "opzioni": [
+        {
+          "id": "A",
+          "testo": "4"
+        },
+        {
+          "id": "B",
+          "testo": "5"
+        },
+        {
+          "id": "C",
+          "testo": "6"
+        },
+        {
+          "id": "D",
+          "testo": "7"
+        },
+        {
+          "id": "E",
+          "testo": "8"
+        }
+      ],
+      "risposta_corretta": "B",
+      "punteggio": 5
+    }
+  ]
+}
