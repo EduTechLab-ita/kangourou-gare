@@ -125,7 +125,7 @@
     {
       "id": 5,
       "testo": "Adamo ha meno caramelle di Martino, ma più di Susanna. Lucia ha più caramelle sia di Adamo sia di Martino. Diana ha più caramelle di Adamo, ma meno di Lucia. Chi di loro ha più caramelle di tutti gli altri?",
-      "immagine": "images/kangourou-2014-screenshots/q05.png",
+      "immagine": null,
       "opzioni": [
         {
           "id": "A",
