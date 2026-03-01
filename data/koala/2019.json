@@ -9,7 +9,7 @@
     {
       "id": 1,
       "testo": "Quale di questi cinque rettangoli contiene soltanto numeri minori di 7?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q01.png",
       "opzioni": [
         {
           "id": "A",
@@ -38,7 +38,7 @@
     {
       "id": 2,
       "testo": "Osserva questa collana. Quale di queste è una sua parte?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q02.png",
       "opzioni": [
         {
           "id": "A",
@@ -67,7 +67,7 @@
     {
       "id": 3,
       "testo": "Caterina ha ritagliato un pezzo di questa griglia. Quale di questi può essere il pezzo che ha ritagliato?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q03.png",
       "opzioni": [
         {
           "id": "A",
@@ -96,7 +96,7 @@
     {
       "id": 4,
       "testo": "In figura vedi delle calze, su ognuna delle quali è riportato un numero. Per comporre un paio, si devono usare due calze che riportino lo stesso numero. Quante paia di calze si possono comporre?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q04.png",
       "opzioni": [
         {
           "id": "A",
@@ -125,7 +125,7 @@
     {
       "id": 5,
       "testo": "Incollando su un cartoncino un triangolo e dei dischetti tutti uguali fra loro, eventualmente spezzati a metà, Marco ha realizzato l'immagine di una casetta. Per fargli uno scherzo, Anna ha portato via alcuni dei dischetti interi: la figura ti mostra quello che rimane dell'opera di Marco. Quanti dischetti ha portato via Anna?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q05.png",
       "opzioni": [
         {
           "id": "A",
@@ -154,7 +154,7 @@
     {
       "id": 6,
       "testo": "Per formare un mazzo di fiori, Gaia deve usare tutti i fiori che stanno nel rettangolo, ma fuori dal triangolo, e soltanto quelli. Da quanti fiori sarà composto il mazzo di Gaia?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q06.png",
       "opzioni": [
         {
           "id": "A",
@@ -183,7 +183,7 @@
     {
       "id": 7,
       "testo": "Noi insieme costiamo 6 cent. Noi insieme costiamo 8 cent. Quanti cent. costiamo noi due insieme?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q07.png",
       "opzioni": [
         {
           "id": "A",
@@ -212,7 +212,7 @@
     {
       "id": 8,
       "testo": "Sul nastro trasportatore più a sinistra nella figura, sono allineati dei pacchi. Quando i tre nastri incominciano a muoversi, l'elfo distribuisce i pacchi alternatamente sul nastro D di destra e su quello S di sinistra: il primo pacco va su quello di destra, il secondo su quello di sinistra, il terzo ancora sul nastro di destra, il quarto su quello sinistra e così via. Terminata la distribuzione, tutti i nastri si fermeranno. Quale di queste figure ti mostra come saranno allineati i pacchi sul nastro di sinistra?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q08.png",
       "opzioni": [
         {
           "id": "A",
@@ -241,7 +241,7 @@
     {
       "id": 9,
       "testo": "Se vuoi evitare che il topo raggiunga il formaggio, occorre e basta che tu chiuda due porte. Quali?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q09.png",
       "opzioni": [
         {
           "id": "A",
@@ -270,7 +270,7 @@
     {
       "id": 10,
       "testo": "Patrizia aveva un foglio di carta. Lo ha piegato una prima volta e poi una seconda lungo i segmenti tratteggiati e infine lo ha tagliato lungo il segmento non tratteg-giato: queste tre operazioni ti sono suggerite nell'ordine dalla figura. Alla fine, quanti pezzi di carta ha ottenuto?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q10.png",
       "opzioni": [
         {
           "id": "A",
@@ -299,7 +299,7 @@
     {
       "id": 11,
       "testo": "Cinque fogli di carta quadrati, di diverso colore e numerati, sono parzialmente sovrapposti in modo da formare un unico quadrato, come ti mostra la figura. Sandra li vuole levare uno alla volta ma, per levare un foglio, occorre che nessun altro ne ricopra anche solo una parte. In quale ordine li deve levare?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q11.png",
       "opzioni": [
         {
           "id": "A",
@@ -328,7 +328,7 @@
     {
       "id": 12,
       "testo": "La figura ti mostra un pavimento quadrato di 9 piastrelle, un gatto e una tazza di latte che occupano piastrelle poste in due angoli opposti del quadrato. Il gatto può muoversi solo nelle direzioni indicate dalle frecce, cioè da sinistra a destra o dall'alto in basso e, se vuole cambiare direzione, lo può fare solo quando si trova al centro di una piastrella. Quanti sono i percorsi diversi che gli permettono di raggiungere la tazza di latte?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q12.png",
       "opzioni": [
         {
           "id": "A",
@@ -357,7 +357,7 @@
     {
       "id": 13,
       "testo": "Quattro strisce di carta sono intrecciate e incollate su un vetro trasparente; Silvia e Aldo le osservano da parti opposte del vetro. La figura ti mostra quello che vede Silvia. Che cosa vede Aldo?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q13.png",
       "opzioni": [
         {
           "id": "A",
@@ -386,7 +386,7 @@
     {
       "id": 14,
       "testo": "Corrado vuole incollare quattro cubi uguali tra loro e poi verniciare il solido che ha composto, ma la poca vernice che ha basta per uno solo dei cinque solidi che potrebbe comporre. Quale?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q14.png",
       "opzioni": [
         {
           "id": "A",
@@ -415,7 +415,7 @@
     {
       "id": 15,
       "testo": "La figura ti mostra un pavimento rettangolare ottenuto accostando alcune lastre anch'esse rettangolari, tutte uguali fra loro. Il lato più corto di ciascuna lastra è lungo un metro. Quanti metri è lungo il lato più lungo del pavimento?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q15.png",
       "opzioni": [
         {
           "id": "A",
@@ -444,7 +444,7 @@
     {
       "id": 16,
       "testo": "Un treno è partito da Kang alle 6 precise di mattina, diretto a Aroo (un posto molto lontano da Kang) dove è arrivato alle 11 di sera. Lungo il percorso ha fatto tre fermate intermedie: i numeri che vedi in figura indicano, nell'ordine, le ore di viaggio fra Kang e la prima fermata, quelle fra la prima fermata e la seconda, quelle fra la seconda e la terza. Quante ore ha impiegato per andare dalla terza fermata ad Aroo?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q16.png",
       "opzioni": [
         {
           "id": "A",
@@ -473,7 +473,7 @@
     {
       "id": 17,
       "testo": "In una fattoria ci sono solo pecore e mucche. Il fattore munge insieme una mucca e una pecora alla volta: così facendo, quando le mucche sono tutte munte, rimangono da mungere 8 pecore. Il numero complessivo delle pecore è il doppio di quello delle mucche. Quanti animali ci sono in tutto nella fattoria?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q17.png",
       "opzioni": [
         {
           "id": "A",
@@ -502,7 +502,7 @@
     {
       "id": 18,
       "testo": "Tagliando una figura, Mauro ha ottenuto i tre pezzi che vedi. Quale fra le seguenti è la figura che Mauro ha tagliato?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q18.png",
       "opzioni": [
         {
           "id": "A",
@@ -531,7 +531,7 @@
     {
       "id": 19,
       "testo": "Nello zoo ci sono alcuni cammelli con due gobbe e alcuni dromedari con una gobba, 10 animali in tutto. Complessivamente ci sono 14 gobbe. Quanti sono i dromedari?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q19.png",
       "opzioni": [
         {
           "id": "A",
@@ -560,7 +560,7 @@
     {
       "id": 20,
       "testo": "Tre scoiattoli insieme hanno trovato 7 noci. Ognuno ha trovato un numero di noci diverso da ciascuno degli altri, e tutti hanno trovato almeno una noce. Quante noci ha trovato lo scoiattolo che ne ha trovate di più?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q20.png",
       "opzioni": [
         {
           "id": "A",
@@ -589,7 +589,7 @@
     {
       "id": 21,
       "testo": "Giocando sulla spiaggia, Tim e Tom hanno formato un mucchio di sabbia e hanno piantato una ban-diera sulla sua cima. Esattamente metà dell'asta della bandiera è conficcata nella sabbia; dalla cima dell'asta alla base del mucchio di sabbia ci sono 80 centimetri, dalla base dell'asta alla base del mucchio ci sono 20 centimetri. Quanto è alto il mucchio di sabbia?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q21.png",
       "opzioni": [
         {
           "id": "A",
@@ -618,7 +618,7 @@
     {
       "id": 22,
       "testo": "Qui vedi una striscia suddivisa in nove quadratini. È arrivato Enrico e ha sostituito ad ogni quadratino nero un quadratino bianco. Poi è arrivato Fabio e, nella striscia lasciata da Enrico, ha sostituito ad ogni quadratino grigio un quadratino nero. Infine è arrivato Gino e, nella striscia lasciata da Fabio, ha sostituito ad ogni quadratino bianco un quadratino grigio. Qual è la striscia che ha lasciato Gino?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q22.png",
       "opzioni": [
         {
           "id": "A",
@@ -647,7 +647,7 @@
     {
       "id": 23,
       "testo": "Dalla griglia numerata che vedi qui sotto Pietro ha ritagliato un quadrato di quattro celle, ha sommato i quattro numeri che compaiono in queste quattro celle e ti ha comunicato di avere ottenuto un numero più grande di 63. Poi ti ha detto che almeno uno dei seguenti cinque numeri compare nel quadrato che lui ha ritagliato e ti ha chiesto di indovinarlo. Quale di questi cinque numeri devi indicare, se vuoi essere sicuro di non sbagliare?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q23.png",
       "opzioni": [
         {
           "id": "A",
@@ -676,7 +676,7 @@
     {
       "id": 24,
       "testo": "Una strana macchina cambia-gettoni ti dà tre gettoni bianchi se ne inserisci uno rosso, ti dà due gettoni rossi se ne inserisci uno bianco. Dopo avere giocato tre volte, inserendo un gettone alla volta, quale è il minimo numero possibile di gettoni, tra bianchi e rossi, che puoi trovarti ad avere?",
-      "immagine": null,
+      "immagine": "images/koala-2019-screenshots/q24.png",
       "opzioni": [
         {
           "id": "A",
