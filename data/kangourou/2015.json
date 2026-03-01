@@ -328,7 +328,7 @@
     {
       "id": 12,
       "testo": "In una gara cui hanno preso parte 30 concorrenti, Gennaro ha superato 3 concorrenti in più di quanti hanno superato lui. Come si è classificato Gennaro?",
-      "immagine": "images/kangourou-2015-screenshots/q12.png",
+      "immagine": null,
       "opzioni": [
         {
           "id": "A",
@@ -676,7 +676,7 @@
     {
       "id": 24,
       "testo": "Durante il fine settimana, sabato e domenica, cinque amici hanno cucinato dei biscotti: Anna ne ha cucinati 24, Bruno 25, Cesare 26, Davide 27 ed Elisa 28. Arrivati a domenica sera, uno di essi aveva in totale il doppio dei biscotti rispetto a quanti ne aveva cucinati sabato sera, un altro il triplo, un altro il quadruplo, un altro il quintuplo e un altro il sestuplo. Chi ne aveva cucinati di più fino a sabato sera?",
-      "immagine": "images/kangourou-2015-screenshots/q24.png",
+      "immagine": null,
       "opzioni": [
         {
           "id": "A",
