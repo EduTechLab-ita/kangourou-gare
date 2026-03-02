@@ -1,0 +1,89 @@
+name: Batch Screenshot Gare
+
+on:
+  workflow_dispatch:
+    inputs:
+      anni:
+        description: 'Anni da processare (separati da spazio, es: 2000 2001 2002)'
+        required: true
+        default: '2000 2001 2002 2003 2004 2005 2006'
+      tipo:
+        description: 'Tipo gara'
+        required: true
+        default: 'kangourou'
+        type: choice
+        options:
+          - kangourou
+          - benjamin
+          - cadet
+      n_dom:
+        description: 'Numero domande (24 per Kangourou/Koala, 30 per Benjamin/Cadet)'
+        required: true
+        default: '24'
+
+jobs:
+  batch-screenshot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installa dipendenze
+        run: pip install pymupdf
+
+      - name: Estrai screenshot per ogni anno
+        run: |
+          for anno in ${{ github.event.inputs.anni }}; do
+            echo "=== Processing ${{ github.event.inputs.tipo }} $anno ==="
+            python extract_full_questions.py $anno ${{ github.event.inputs.tipo }} ${{ github.event.inputs.n_dom }}
+          done
+
+      - name: Aggiorna versione e sw.js
+        run: |
+          python - <<'EOF'
+          import json, re
+          from datetime import date
+
+          with open('index.json', encoding='utf-8') as f:
+              idx = json.load(f)
+
+          # Incrementa versione patch
+          v = idx['versione'].split('.')
+          v[2] = str(int(v[2]) + 1)
+          nuova_versione = '.'.join(v)
+
+          anni = "${{ github.event.inputs.anni }}".split()
+          tipo = "${{ github.event.inputs.tipo }}"
+          idx['versione'] = nuova_versione
+          idx['ultimo_aggiornamento'] = str(date.today())
+          idx['novita'] = f"{tipo.capitalize()} {', '.join(anni)}: screenshot completo domande"
+
+          with open('index.json', 'w', encoding='utf-8') as f:
+              json.dump(idx, f, ensure_ascii=False, indent=2)
+
+          # Aggiorna sw.js
+          with open('sw.js', encoding='utf-8') as f:
+              sw = f.read()
+          sw = re.sub(r"kangourou-trainer-v[\d.]+", f"kangourou-trainer-v{nuova_versione}", sw)
+          with open('sw.js', 'w', encoding='utf-8') as f:
+              f.write(sw)
+
+          print(f"✅ Versione aggiornata: {nuova_versione}")
+          EOF
+
+      - name: Commit e push
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "GitHub Actions"
+          git add .
+          git diff --staged --quiet && echo "Nessuna modifica" || \
+            git commit -m "batch: screenshot ${{ github.event.inputs.tipo }} ${{ github.event.inputs.anni }}"
+          git push

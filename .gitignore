@@ -3,6 +3,7 @@
 !process_gara.py
 !extract_all_images.py
 !batch_publish.py
+!extract_full_questions.py
 __pycache__/
 *.pyc
 
