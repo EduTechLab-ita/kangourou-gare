@@ -1,0 +1,129 @@
+{
+  "id": "koala-2018",
+  "titolo": "Koala 2018",
+  "anno": 2018,
+  "categoria": "Pre-Ecolier",
+  "durata_minuti": 75,
+  "domande": [
+    {
+      "id": 1,
+      "risposta_corretta": "E",
+      "punteggio": 3
+    },
+    {
+      "id": 2,
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 3,
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 4,
+      "risposta_corretta": "D",
+      "punteggio": 3
+    },
+    {
+      "id": 5,
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 6,
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 7,
+      "risposta_corretta": "B",
+      "punteggio": 3
+    },
+    {
+      "id": 8,
+      "risposta_corretta": "C",
+      "punteggio": 3
+    },
+    {
+      "id": 9,
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 10,
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 11,
+      "risposta_corretta": "D",
+      "punteggio": 4
+    },
+    {
+      "id": 12,
+      "risposta_corretta": "A",
+      "punteggio": 4
+    },
+    {
+      "id": 13,
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 14,
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 15,
+      "risposta_corretta": "C",
+      "punteggio": 4
+    },
+    {
+      "id": 16,
+      "risposta_corretta": "B",
+      "punteggio": 4
+    },
+    {
+      "id": 17,
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 18,
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 19,
+      "risposta_corretta": "A",
+      "punteggio": 5
+    },
+    {
+      "id": 20,
+      "risposta_corretta": "C",
+      "punteggio": 5
+    },
+    {
+      "id": 21,
+      "risposta_corretta": "D",
+      "punteggio": 5
+    },
+    {
+      "id": 22,
+      "risposta_corretta": "B",
+      "punteggio": 5
+    },
+    {
+      "id": 23,
+      "risposta_corretta": "E",
+      "punteggio": 5
+    },
+    {
+      "id": 24,
+      "risposta_corretta": "E",
+      "punteggio": 5
+    }
+  ]
+}

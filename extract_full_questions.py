@@ -22,8 +22,8 @@ JSON_PATH  = f"data/{TIPO}/{ANNO}.json"
 
 
 def trova_coordinate_domande(doc, n_dom):
-    """Cerca i pattern 'N.  testo' e restituisce {num: (page_num, y_top)}."""
-    pattern = re.compile(r'^(\d{1,2})\.\s*\S')
+    """Cerca i pattern 'N. testo' (kangourou) o 'N' solo (koala) e restituisce {num: (page_num, y_top)}."""
+    pattern = re.compile(r'^(\d{1,2})(?!\d)')
     coords = {}
     for page_num in range(len(doc)):
         page = doc[page_num]
@@ -78,6 +78,13 @@ def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):
                 y_end = min(page_h, ultimo_y + 20)
 
         y_top = max(0, y_start - margine)
+
+        # Salta se rettangolo non valido (formato PDF non supportato)
+        if y_end <= y_top + 10:
+            print(f"  ⚠️  q{num:02d}: rettangolo non valido (y_top={y_top:.0f}, y_end={y_end:.0f}), skip")
+            salvati.append(None)
+            continue
+
         clip = fitz.Rect(0, y_top, page_w, y_end)
         mat  = fitz.Matrix(scala, scala)
         pix  = page.get_pixmap(matrix=mat, clip=clip, colorspace=fitz.csRGB)
@@ -172,8 +179,8 @@ if __name__ == '__main__':
     salvati = estrai_screenshots(PDF_PATH, OUTPUT_DIR, N_DOM, SCALA, MARGINE_SOPRA)
 
     trovate = sum(1 for s in salvati if s is not None)
-    if trovate == 0:
-        print(f"⏭️  Nessuna domanda trovata nel PDF (formato non supportato), skip.")
+    if trovate < N_DOM // 2:
+        print(f"⏭️  Troppe domande mancanti ({trovate}/{N_DOM}) — formato PDF non supportato, skip.")
         exit(0)
 
     aggiorna_json(JSON_PATH, OUTPUT_DIR, N_DOM, TIPO, ANNO, salvati)

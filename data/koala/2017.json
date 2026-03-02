@@ -1,0 +1,562 @@
+{
+  "id": "koala-2017",
+  "titolo": "Koala 2017",
+  "anno": 2017,
+  "categoria": "Pre-Ecolier",
+  "durata_minuti": 75,
+  "domande": [
+    {
+      "id": 1,
+      "immagine": "images/koala-2017-screenshots/q01.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "immagine": "images/koala-2017-screenshots/q02.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "immagine": "images/koala-2017-screenshots/q03.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "immagine": "images/koala-2017-screenshots/q04.png",
+      "risposta_corretta": "E",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "immagine": "images/koala-2017-screenshots/q05.png",
+      "risposta_corretta": "A",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "immagine": "images/koala-2017-screenshots/q06.png",
+      "risposta_corretta": "A",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "immagine": "images/koala-2017-screenshots/q07.png",
+      "risposta_corretta": "E",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "immagine": "images/koala-2017-screenshots/q08.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "immagine": "images/koala-2017-screenshots/q09.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "immagine": "images/koala-2017-screenshots/q10.png",
+      "risposta_corretta": "C",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "immagine": "images/koala-2017-screenshots/q11.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "immagine": "images/koala-2017-screenshots/q12.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "immagine": "images/koala-2017-screenshots/q13.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "immagine": "images/koala-2017-screenshots/q14.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "immagine": "images/koala-2017-screenshots/q15.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "immagine": "images/koala-2017-screenshots/q16.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "immagine": "images/koala-2017-screenshots/q17.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "immagine": "images/koala-2017-screenshots/q18.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "immagine": "images/koala-2017-screenshots/q19.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "immagine": "images/koala-2017-screenshots/q20.png",
+      "risposta_corretta": "E",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "immagine": "images/koala-2017-screenshots/q21.png",
+      "risposta_corretta": "A",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "immagine": "images/koala-2017-screenshots/q22.png",
+      "risposta_corretta": "D",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "immagine": "images/koala-2017-screenshots/q23.png",
+      "risposta_corretta": "E",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "immagine": "images/koala-2017-screenshots/q24.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    }
+  ],
+  "screenshot_mode": true
+}
