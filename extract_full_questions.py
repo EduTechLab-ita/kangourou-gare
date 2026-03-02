@@ -22,22 +22,35 @@ JSON_PATH  = f"data/{TIPO}/{ANNO}.json"
 
 
 def trova_coordinate_domande(doc, n_dom):
-    """Cerca i pattern 'N. testo' (kangourou) o 'N' solo (koala) e restituisce {num: (page_num, y_top)}."""
-    pattern = re.compile(r'^(\d{1,2})(?!\d)')
-    coords = {}
-    for page_num in range(len(doc)):
-        page = doc[page_num]
-        for b in page.get_text('blocks'):
-            txt = b[4].strip()
-            # Salta pagine soluzioni (es. "11. Risposta B)...")
-            if 'risposta' in txt[:30].lower():
-                continue
-            m = pattern.match(txt)
-            if m:
-                num = int(m.group(1))
-                if 1 <= num <= n_dom and num not in coords:
-                    coords[num] = (page_num, b[1])  # y_top del blocco
-    return coords
+    """Cerca i pattern 'N. testo' (kangourou) o 'N' solo (koala) e restituisce {num: (page_num, y_top)}.
+    Primo tentativo: pattern con punto (sicuro, nessun falso positivo).
+    Fallback: pattern senza punto + constraint 80% altezza pagina (formato koala)."""
+
+    def _cerca(pattern, con_constraint):
+        coords = {}
+        for page_num in range(len(doc)):
+            page = doc[page_num]
+            page_h = page.rect.height
+            for b in page.get_text('blocks'):
+                txt = b[4].strip()
+                if 'risposta' in txt[:30].lower():
+                    continue
+                m = pattern.match(txt)
+                if m:
+                    num = int(m.group(1))
+                    if con_constraint and b[1] >= page_h * 0.80:
+                        continue
+                    if 1 <= num <= n_dom and num not in coords:
+                        coords[num] = (page_num, b[1])
+        return coords
+
+    # Tentativo 1: pattern con punto (formato kangourou: "1. testo" o "1.")
+    coords = _cerca(re.compile(r'^(\d{1,2})\.(?:\s*\S|$)'), con_constraint=False)
+    if len(coords) >= n_dom // 2:
+        return coords
+
+    # Fallback: pattern permissivo con constraint y < 80% pagina (formato koala)
+    return _cerca(re.compile(r'^(\d{1,2})(?!\d)'), con_constraint=True)
 
 
 def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):
