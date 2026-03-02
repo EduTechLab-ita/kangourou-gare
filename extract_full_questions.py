@@ -68,12 +68,23 @@ def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):
                     y_end = ny - 5
                 break
 
-        # Se siamo a fine pagina (ultima domanda), taglia all'ultimo blocco di testo + margine
+        # Se siamo a fine pagina (ultima domanda), taglia dopo l'ultimo contenuto visibile
         if y_end == page_h:
             ultimo_y = y_start
+            # Testo
             for b in page.get_text('blocks'):
                 if b[1] >= y_start and b[3] <= page_h:
                     ultimo_y = max(ultimo_y, b[3])
+            # Immagini raster
+            for img in page.get_image_info():
+                y1 = img['bbox'][3]
+                if img['bbox'][1] >= y_start and y1 <= page_h:
+                    ultimo_y = max(ultimo_y, y1)
+            # Disegni vettoriali (includi se arrivano oltre y_start)
+            for path in page.get_drawings():
+                y1 = path['rect'].y1
+                if path['rect'].y1 > y_start and y1 <= page_h:
+                    ultimo_y = max(ultimo_y, y1)
             if ultimo_y > y_start:
                 y_end = min(page_h, ultimo_y + 20)
 
