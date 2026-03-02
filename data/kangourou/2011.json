@@ -4,703 +4,559 @@
   "anno": "2011",
   "categoria": "Kangourou (Classi 4a-5a primaria)",
   "durata_minuti": 75,
-  "screenshot_mode": false,
+  "screenshot_mode": true,
   "domande": [
     {
       "id": 1,
-      "testo": "Angelo vuole scolpire nel legno la parola KANGOUROU. È in grado di scolpire una lettera al giorno e inizia di giovedì. In quale giorno della settimana scolpirà l'ultima lettera?",
       "immagine": "images/kangourou-2011-screenshots/q01.png",
+      "risposta_corretta": "E",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Lunedì"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Martedì"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Mercoledì"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Giovedì"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Venerdì"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 3
+      ]
     },
     {
       "id": 2,
-      "testo": "Partendo da un certo numero, Elisa ha eseguito le operazioni che sono indicate nella figura, ottenendo come risultato 6. Da quale numero era partita?",
       "immagine": "images/kangourou-2011-screenshots/q02.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "9"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "7"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "4"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "0"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "1"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 3
+      ]
     },
     {
       "id": 3,
-      "testo": "Carlo ha posto una pedina in una casella di una griglia quadrata, come ti mostra la figura a destra. Ora si diverte a spostarla, sempre di una casella per volta, prima a destra, poi in alto, poi a sinistra, poi in basso e infine ancora a destra. In quale delle seguenti figure è indicata la posizione finale della pedina?",
       "immagine": "images/kangourou-2011-screenshots/q03.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 3
+      ]
     },
     {
       "id": 4,
-      "testo": "Un cliente ha ordinato ad un pasticcere tre torte alla crema e tre panettoni. Quando arriva in pasticceria, i dolci sono quasi pronti: mancano solo le decorazioni. Per fare il più in fretta possibile, il pasticcere si fa aiutare da un commesso. Ogni dolce però deve essere decorato da una sola persona: se per decorare una torta alla crema si impiegano 9 minuti e per decorare un panettone si impiegano 3 minuti, quanti minuti dovrà aspettare il cliente?",
-      "immagine": null,
+      "immagine": "images/kangourou-2011-screenshots/q04.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "9"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "12"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "15"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "18"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "24"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 3
+      ]
     },
     {
       "id": 5,
-      "testo": "Riferendosi ad una delle figure qui a lato, Marina afferma: 'È grigia, è rotonda o triangolare'. Di quale figura si tratta?",
       "immagine": "images/kangourou-2011-screenshots/q05.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "A"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "B"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "C"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "D"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "E"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 3
+      ]
     },
     {
       "id": 6,
-      "testo": "Anna, Mario e Sandro sono andati in pasticceria. Anna ha pagato 1 € e 50 cent per tre palline di gelato, Mario ha pagato 2 € e 40 cent per due fette di torta. Quanto ha pagato Sandro per una pallina di gelato e una fetta di torta?",
-      "immagine": null,
+      "immagine": "images/kangourou-2011-screenshots/q06.png",
+      "risposta_corretta": "A",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "1 € e 70 cent"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "1 € e 90 cent"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "2 € e 20 cent"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "2 € e 70 cent"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "3 € e 90 cent"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 3
+      ]
     },
     {
       "id": 7,
-      "testo": "L'orologio di un campanile allo scoccare di ogni ora batte il numero di colpi corrispondente all'ora (ad esempio alle 7.00 batte 7 colpi, alle 8.00 batte 8 colpi e così via). Inoltre, batte un colpo ad ogni ora intera più 30 minuti (ad esempio alle 7.30, alle 8.30 e così via). Quanti colpi batte in tutto l'orologio tra le 7.55 e le 10.45 di uno stesso giorno?",
-      "immagine": null,
+      "immagine": "images/kangourou-2011-screenshots/q07.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "6"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "18"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "27"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "30"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "33"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 3
+      ]
     },
     {
       "id": 8,
-      "testo": "Per inscatolare le uova si possono usare scatole da 6 uova e scatole da 12 uova. Qual è il minimo numero di scatole che consente di inscatolare 66 uova?",
-      "immagine": null,
+      "immagine": "images/kangourou-2011-screenshots/q08.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "5"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "6"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "9"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "11"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "13"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 3
+      ]
     },
     {
       "id": 9,
-      "testo": "Quale delle seguenti figure ha l'area più grande?",
       "immagine": "images/kangourou-2011-screenshots/q09.png",
+      "risposta_corretta": "C",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 4
+      ]
     },
     {
       "id": 10,
-      "testo": "I ragazzi di una classe hanno complessivamente 8 gatti, 6 cani e 3 pesci. Ogni ragazzo ha almeno un animale, nessuno ne ha più di due e chi ne ha due ha sicuramente un cane, ma non ha due cani. Esattamente due ragazzi hanno sia un cane sia un pesce ed esattamente tre ragazzi hanno sia un gatto sia un cane. Quanti ragazzi vi sono in quella classe?",
-      "immagine": null,
+      "immagine": "images/kangourou-2011-screenshots/q10.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "11"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "12"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "13"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "14"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "17"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 4
+      ]
     },
     {
       "id": 11,
-      "testo": "Andrea ha in tasca 13 monete: ognuna di esse è da 5 centesimi o da 10 centesimi. Quale fra le seguenti non può certamente essere, in centesimi, la somma totale che Andrea ha in tasca?",
-      "immagine": null,
+      "immagine": "images/kangourou-2011-screenshots/q11.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "80"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "60"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "70"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "115"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "125"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 4
+      ]
     },
     {
       "id": 12,
-      "testo": "Osserva la figura: se pieghi il foglio lungo la linea indicata, quale delle lettere non risulterà coperta da un quadratino grigio?",
       "immagine": "images/kangourou-2011-screenshots/q12.png",
+      "risposta_corretta": "E",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "A"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "B"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "C"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "D"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "E"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 4
+      ]
     },
     {
       "id": 13,
-      "testo": "Anna, Bruno, Cecilia, Dario, Enrica e Franco lanciano un dado (numerato da 1 a 6) e ottengono numeri tutti diversi fra loro. Il numero di Anna è il doppio di quello di Bruno e il triplo di quello di Cecilia. Il numero di Dario è quattro volte quello di Enrica. Qual è il numero di Franco?",
-      "immagine": null,
+      "immagine": "images/kangourou-2011-screenshots/q13.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "2"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "3"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "4"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "5"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "6"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 14,
-      "testo": "Un quiz televisivo è basato sulle regole seguenti. Ogni partecipante ha una dotazione iniziale di 10 punti e deve rispondere a 10 domande: guadagna un punto per ogni risposta corretta che fornisce e perde un punto per ogni risposta sbagliata. Dopo aver risposto a tutte le domande del quiz, il signor Rossi si ritrova ad avere 14 punti. Quante risposte ha sbagliato?",
-      "immagine": null,
+      "immagine": "images/kangourou-2011-screenshots/q14.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "7"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "4"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "5"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "3"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "6"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 15,
-      "testo": "Emanuela si diverte a scrivere il proprio nome su alcune griglie come quelle indicate nelle risposte. Inserisce nell'ordine una lettera in ogni casella seguendo questa regola: può partire da una casella qualunque ma, scritta una lettera in una casella, la successiva deve essere scritta in una casella che ha un lato o un vertice in comune con la precedente. Quale di queste griglie non può essere stata riempita da Emanuela?",
       "immagine": "images/kangourou-2011-screenshots/q15.png",
+      "risposta_corretta": "E",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 4
+      ]
     },
     {
       "id": 16,
-      "testo": "Ad una festa sono state portate due torte. Ognuna è stata divisa in quattro parti e da ognuna di queste parti si sono ottenute tre fette. Ogni invitato ha avuto esattamente una fetta e sono avanzate tre fette. Quanti erano gli invitati?",
-      "immagine": null,
+      "immagine": "images/kangourou-2011-screenshots/q16.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "24"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "21"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "18"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "27"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "13"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 4
+      ]
     },
     {
       "id": 17,
-      "testo": "Anna, Bice, Carla e Daria sono quattro amiche. Passeggiando arrivano ad una panchina e si siedono in un certo ordine. Dopo 10 minuti Anna si scambia di posto con Carla; dopo altri 10 minuti Carla si scambia di posto con Daria. A questo punto, le quattro amiche si trovano sedute, da sinistra a destra, secondo l'ordine alfabetico dei loro nomi. Quale era l'ordine, da sinistra a destra, in cui si erano sedute inizialmente?",
       "immagine": "images/kangourou-2011-screenshots/q17.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Anna, Bice, Carla, Daria"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Anna, Carla, Daria, Bice"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Carla, Bice, Daria, Anna"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Bice, Anna, Carla, Daria"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Daria, Anna, Bice, Carla"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 5
+      ]
     },
     {
       "id": 18,
-      "testo": "Un orologio digitale mostra l'ora, dalle 00:00 alle 23:59, con quattro cifre, come in figura. Quante volte capita in un giorno che le quattro cifre mostrate siano tutte uguali fra loro?",
       "immagine": "images/kangourou-2011-screenshots/q18.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "1"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "24"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "3"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "5"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "12"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 5
+      ]
     },
     {
       "id": 19,
-      "testo": "Quattro dadi identici sono stati accostati in modo da formare la costruzione che vedi nella figura a destra. La somma dei punti su due facce opposte di ogni dado è sempre 7. Come appare la costruzione vista da dietro?",
       "immagine": "images/kangourou-2011-screenshots/q19.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 5
+      ]
     },
     {
       "id": 20,
-      "testo": "Hai le tre carte che vedi in figura. Accostandole, puoi formare diversi numeri di tre cifre ciascuno, ad esempio 989 o 986. Quanti numeri diversi puoi formare?",
       "immagine": "images/kangourou-2011-screenshots/q20.png",
+      "risposta_corretta": "E",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "4"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "6"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "8"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "9"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "12"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 5
+      ]
     },
     {
       "id": 21,
-      "testo": "Stefano ha formato il mosaico che vedi nella figura a destra accostando, senza sovrapporli neppure in parte, pezzi tutti uguali fra loro. Quale dei seguenti pezzi certamente non ha usato?",
       "immagine": "images/kangourou-2011-screenshots/q21.png",
+      "risposta_corretta": "D",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 5
+      ]
     },
     {
       "id": 22,
-      "testo": "In ogni cella quadrata del labirinto che vedi in figura c'è un pezzo di formaggio. Il topo Luigi è entrato nel labirinto dall'apertura indicata dalla freccia in alto a sinistra ed è uscito da quella indicata dalla freccia in basso a destra dopo essersi preso il più grande numero di pezzi di formaggio che poteva prendere passando da ogni cella al massimo una volta. Quanti pezzi di formaggio ha preso?",
       "immagine": "images/kangourou-2011-screenshots/q22.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "17"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "33"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "37"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "41"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "49"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 5
+      ]
     },
     {
       "id": 23,
-      "testo": "In un teatro vi sono 100 spettatori: 50 di essi sono italiani, 60 sono maschi, 90 sono vegetariani. Di quanti spettatori presenti in quel teatro si può essere certi che siano allo stesso tempo italiani, maschi e vegetariani?",
-      "immagine": null,
+      "immagine": "images/kangourou-2011-screenshots/q23.png",
+      "risposta_corretta": "A",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "0"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "1"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "10"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "40"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "50"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 5
+      ]
     },
     {
       "id": 24,
-      "testo": "Usando delle tessere tutte uguali fra loro a forma di esagono, Silvia ha costruito cinque figure. Qui ti mostriamo le prime tre, dicendoti che Silvia ha costruito la quarta e la quinta basandosi sulla stessa regola con la quale ha costruito quelle che vedi (cioè ogni figura è costruita 'circondando di esagoni' la figura precedente). Da quanti esagoni è formata la quinta figura?",
       "immagine": "images/kangourou-2011-screenshots/q24.png",
+      "risposta_corretta": "D",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "37"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "49"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "57"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "61"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "64"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 5
+      ]
     }
   ]
 }

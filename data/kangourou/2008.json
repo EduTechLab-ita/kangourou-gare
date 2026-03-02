@@ -4,703 +4,559 @@
   "anno": "2008",
   "categoria": "Kangourou (Classi 4a-5a primaria)",
   "durata_minuti": 75,
-  "screenshot_mode": false,
+  "screenshot_mode": true,
   "domande": [
     {
       "id": 1,
-      "testo": "Considera l'uguaglianza 1 + 1 * 1 - 2 = 100. Quale fra i segni o le cifre che seguono devi sostituire al simbolo * per renderla vera?",
       "immagine": "images/kangourou-2008-screenshots/q01.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "+"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "-"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "x"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "0"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "1"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 3
+      ]
     },
     {
       "id": 2,
-      "testo": "Quante stelline ci sono nella figura?",
       "immagine": "images/kangourou-2008-screenshots/q02.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "100"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "90"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "95"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "85"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "105"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 3
+      ]
     },
     {
       "id": 3,
-      "testo": "Miriam porta alla mamma, alla nonna, alla zia e alle sue due sorelle un fiore per ciascuna. Sai che\n• i fiori per le sorelle e per la zia hanno lo stesso colore;\n• la nonna non riceve una rosa.\nChe fiore riceve la mamma, se i fiori regalati da Miriam sono quelli indicati qui sotto?",
-      "immagine": null,
+      "immagine": "images/kangourou-2008-screenshots/q03.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Un tulipano giallo."
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Una rosa rossa."
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Un garofano rosso."
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Una rosa gialla."
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Un garofano giallo."
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 3
+      ]
     },
     {
       "id": 4,
-      "testo": "Nelle tre figure puoi osservare tre quadrati grandi, ognuno suddiviso in quadrati più piccoli secondo la regola seguente: passando da un quadrato grande al successivo, il quadrato in alto a destra viene suddiviso in 4 quadrati più piccoli. Se non conteggiamo i quadrati che sono suddivisi in quadrati più piccoli, nella prima figura vi sono 4 quadrati, nella seconda 7, nella terza 10. Proseguendo in questo modo, quanti quadrati vi saranno nella sesta figura (sempre escludendo i quadrati che ne contengono altri)?",
       "immagine": "images/kangourou-2008-screenshots/q04.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "16"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "17"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "18"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "19"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "20"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 3
+      ]
     },
     {
       "id": 5,
-      "testo": "L'orologio digitale di Lucia è difettoso: qualche volta fa apparire la cifra 8 al posto della cifra 0 e qualche volta fa apparire la cifra 0 al posto della cifra 8. All'inizio di una telefonata, Lucia ha guardato il suo orologio e ha letto 20:08. In quanti diversi orari potrebbe essere iniziata quella telefonata?",
-      "immagine": null,
+      "immagine": "images/kangourou-2008-screenshots/q05.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "1"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "2"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "3"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "4"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "8"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 3
+      ]
     },
     {
       "id": 6,
-      "testo": "In figura vedi un foglio sul quale è stato segnato un punto. Se tracci sul foglio quattro rette tutte diverse fra loro, ma tutte passanti per quel punto, in quante parti risulta suddiviso il foglio?",
       "immagine": "images/kangourou-2008-screenshots/q06.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "4"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "6"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "5"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "8"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "12"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 3
+      ]
     },
     {
       "id": 7,
-      "testo": "Aldo è più alto di Bruno, ma più basso di Enrico. Dario è più alto di Carlo, ma più basso di Aldo. Chi è il più alto di tutti?",
       "immagine": "images/kangourou-2008-screenshots/q07.png",
+      "risposta_corretta": "E",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Aldo"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Bruno"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Carlo"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Dario"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Enrico"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 3
+      ]
     },
     {
       "id": 8,
-      "testo": "Andrea ha 8 cubetti, Bernardo ne ha 12, Cesare ne ha 16, Diana ne ha 20. I cubetti di ogni ragazzo sono tutti uguali fra loro. Fra questi ragazzi, chi può costruire un grande cubo pieno usando tutti i suoi cubetti?",
-      "immagine": null,
+      "immagine": "images/kangourou-2008-screenshots/q08.png",
+      "risposta_corretta": "A",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Solo Andrea."
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Solo Cesare."
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Sia Diana sia Bernardo."
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Sia Andrea sia Diana."
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Nessuno dei quattro."
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 3
+      ]
     },
     {
       "id": 9,
-      "testo": "Il numero che esprime l'anno 2008 ha la cifra delle unità uguale a quattro volte la cifra delle migliaia. Fra quanti anni si ripresenterà per la prima volta la medesima situazione?",
       "immagine": "images/kangourou-2008-screenshots/q09.png",
+      "risposta_corretta": "A",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "10"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "100"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "1000"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "2008"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Un numero di anni diverso dai precedenti."
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 4
+      ]
     },
     {
       "id": 10,
-      "testo": "Su un CD sono incisi alcuni pezzi musicali: esaminando i primi tre, il primo dura 6 minuti e 25 secondi, il secondo 12 minuti e 25 secondi, il terzo 10 minuti e 13 secondi. Ognuno dei pezzi è separato dal successivo da un intervallo di 5 secondi. Ascoltando il CD, quanto tempo passa fra l'inizio del primo pezzo e la fine del terzo?",
-      "immagine": null,
+      "immagine": "images/kangourou-2008-screenshots/q10.png",
+      "risposta_corretta": "C",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "28 minuti e 3 secondi"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "28 minuti e 18 secondi"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "29 minuti e 13 secondi"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "29 minuti e 3 secondi"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "29 minuti e 18 secondi"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 4
+      ]
     },
     {
       "id": 11,
-      "testo": "La costruzione che vedi a destra è realizzata utilizzando 5 cubetti uguali fra loro. Ne puoi spostare uno solo, mettendolo nella posizione che desideri. Quale delle costruzioni sottostanti (che sono viste da diverse angolazioni) non può realizzare?",
       "immagine": "images/kangourou-2008-screenshots/q11.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 12,
-      "testo": "Giovanna tira due frecce verso il bersaglio, ed è sicura di colpirlo. Il punteggio ottenuto è la somma dei punteggi realizzati con le singole frecce: per esempio nella figura vediamo una situazione nella quale il punteggio ottenuto è 5. Quanti punteggi diversi fra loro può ottenere Giovanna (5 incluso)?",
       "immagine": "images/kangourou-2008-screenshots/q12.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "4"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "6"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "8"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "9"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "10"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 4
+      ]
     },
     {
       "id": 13,
-      "testo": "Quanti diversi numeri di 4 cifre puoi scrivere, se vuoi che ogni cifra (esclusa quella delle unità) sia il doppio di quella che si trova immediatamente alla sua destra?",
-      "immagine": null,
+      "immagine": "images/kangourou-2008-screenshots/q13.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "0"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "1"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "2"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "3"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "4"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 4
+      ]
     },
     {
       "id": 14,
-      "testo": "Hai un certo numero di mattoncini di dimensioni 1 cm x 2 cm x 4 cm. Vuoi inserirne il maggior numero possibile in una scatola cubica le cui dimensioni sono 4 cm x 4 cm x 4 cm, in modo che la scatola possa essere chiusa da un coperchio. Quanti mattoncini puoi inserire nella scatola al massimo?",
       "immagine": "images/kangourou-2008-screenshots/q14.png",
+      "risposta_corretta": "C",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "6"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "7"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "8"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "9"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "10"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 4
+      ]
     },
     {
       "id": 15,
-      "testo": "In figura vedi la pianta di un giardino quadrato, suddiviso in una piscina (P), un'aiuola (A), un'area - giochi (G) e una serra (S). L'aiuola e l'area-giochi sono entrambe quadrate. Il perimetro dell'aiuola misura 12 metri, quello dell'area-giochi 20 metri. Quanto misura in metri il perimetro della piscina?",
       "immagine": "images/kangourou-2008-screenshots/q15.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "10"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "12"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "14"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "16"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "18"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 16,
-      "testo": "Sul pianeta Frettoloso un anno dura 3 mesi, un mese dura 10 giorni e un giorno dura come un giorno sul pianeta Terra. Giovanna, sulla Terra, ha 360 giorni. Quanti anni avrebbe su Frettoloso?",
-      "immagine": null,
+      "immagine": "images/kangourou-2008-screenshots/q16.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "4"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "6"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "10"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "12"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Un altro numero."
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 17,
-      "testo": "Un canguro in inverno ingrassa di 5 chili e in estate dimagrisce di 4. Il suo peso viene controllato in primavera e in autunno. Nella primavera 2008 il canguro pesa 100 chili. Quanti chili pesava nell'autunno 2004?",
-      "immagine": null,
+      "immagine": "images/kangourou-2008-screenshots/q17.png",
+      "risposta_corretta": "A",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "92"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "93"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "95"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "96"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "98"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 5
+      ]
     },
     {
       "id": 18,
-      "testo": "Guglielmo ha tante sorelle quanti fratelli. Per sua sorella Anna, il numero dei fratelli è il doppio di quello delle sorelle. Quanti figli vi sono in quella famiglia?",
-      "immagine": null,
+      "immagine": "images/kangourou-2008-screenshots/q18.png",
+      "risposta_corretta": "E",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "3"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "4"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "5"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "6"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "7"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 5
+      ]
     },
     {
       "id": 19,
-      "testo": "Una pera, una mela ed una prugna si trovano sul piatto di una bilancia. Se togliamo la pera, la bilancia indica 230 grammi; se togliamo la mela la bilancia indica 200 grammi; se togliamo la prugna, la bilancia indica 290 grammi. Quanti grammi pesano complessivamente i 3 frutti?",
-      "immagine": null,
+      "immagine": "images/kangourou-2008-screenshots/q19.png",
+      "risposta_corretta": "D",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "200"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "250"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "300"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "360"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "420"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 5
+      ]
     },
     {
       "id": 20,
-      "testo": "Una piramide piena a base quadrata, esternamente verniciata di nero, viene sezionata in due parti con un taglio piano. Poiché la piramide è di legno chiaro, ognuna delle due parti ha una faccia chiara mentre tutte le altre sono evidentemente nere. Quale delle seguenti non può essere la forma della faccia chiara?",
       "immagine": "images/kangourou-2008-screenshots/q20.png",
+      "risposta_corretta": "E",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Quadrato"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Trapezio"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Triangolo"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Pentagono"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Tutte le forme elencate sono possibili"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 5
+      ]
     },
     {
       "id": 21,
-      "testo": "Quanti sono i numeri interi naturali di 2 o 3 cifre che sono maggiori della somma delle loro cifre?",
-      "immagine": null,
+      "immagine": "images/kangourou-2008-screenshots/q21.png",
+      "risposta_corretta": "D",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "1"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "100"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "989"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "990"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "999"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 5
+      ]
     },
     {
       "id": 22,
-      "testo": "Se leggi la data 21.02 (il 21 febbraio) da destra a sinistra, ottieni 20.12 ed in questo caso si tratta ancora di una data possibile (il 20 dicembre). Invece la data 10.09 (il 10 settembre) non possiede questa proprietà (non esiste il 90 gennaio). Quante date, in un anno, possiedono questa proprietà (cioè sono come il 21 febbraio)?",
-      "immagine": null,
+      "immagine": "images/kangourou-2008-screenshots/q22.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "30"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "18"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "36"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "35"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Dipende dall'anno"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 5
+      ]
     },
     {
       "id": 23,
-      "testo": "In una piazza si sono radunate 2008 persone. Nessuna di loro ha più di 50 anni. Qual è il più grande numero per il quale è vero quanto segue: 'siamo sicuri che nella piazza vi è almeno quel numero di persone che hanno la stessa età' ?",
       "immagine": "images/kangourou-2008-screenshots/q23.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "39"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "40"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "41"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "42"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Nessuno dei precedenti."
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 5
+      ]
     },
     {
       "id": 24,
-      "testo": "Una scatola contiene sette carte numerate da 1 a 7. Due saggi pescano a caso delle carte dalla scatola: il primo ne prende tre, il secondo due delle rimanenti; le ultime due restano chiuse nella scatola. Il primo saggio, dopo aver guardato solo i numeri scritti sulle carte da lui pescate, dice al secondo: 'Sono certo che la somma dei numeri riportati sulle tue carte è pari'. Quanto vale la somma dei numeri riportati sulle carte pescate dal primo saggio?",
       "immagine": "images/kangourou-2008-screenshots/q24.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "10"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "12"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "6"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "9"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "15"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 5
+      ]
     }
   ]
 }

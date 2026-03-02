@@ -4,703 +4,559 @@
   "anno": "2010",
   "categoria": "Kangourou (Classi 4a-5a primaria)",
   "durata_minuti": 75,
-  "screenshot_mode": false,
+  "screenshot_mode": true,
   "domande": [
     {
       "id": 1,
-      "testo": "Nella figura si vedono un gatto, un topo, una scatola di latte e del formaggio collegati da alcuni percorsi, ma manca un tassello. I percorsi tracciati sul tassello mancante devono permettere al gatto di raggiungere il latte e al topo di raggiungere il formaggio, ma senza incontrarsi. Qual è il tassello mancante?",
       "immagine": "images/kangourou-2010-screenshots/q01.png",
+      "risposta_corretta": "E",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 3
+      ]
     },
     {
       "id": 2,
-      "testo": "Una lezione è iniziata alle 11 e 50 ed è durata 40 minuti. Proprio a metà della lezione, un passero è entrato nella classe. A che ora esattamente?",
-      "immagine": null,
+      "immagine": "images/kangourou-2010-screenshots/q02.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "11 e 30"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "12"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "12 e 10"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "12 e 20"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "12 e 30"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 3
+      ]
     },
     {
       "id": 3,
-      "testo": "Il capo indiano Orso Grande ha tre penne, ascia, frecce e scarpe ai piedi. Suo figlio Scimmia Bianca ha due penne, frecce, non ha ascia, è a piedi nudi e ha due strisce sul petto. Quale figura mostra Orso Grande e Scimmia Bianca insieme?",
       "immagine": "images/kangourou-2010-screenshots/q03.png",
+      "risposta_corretta": "E",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 3
+      ]
     },
     {
       "id": 4,
-      "testo": "Alcuni ragazzi hanno misurato a passi la lunghezza di un campo da gioco. Ciascuno ha fatto passi tutti della stessa lunghezza, ma di lunghezza diversa da ciascuno degli altri. Andrea ne ha fatti 15, Bruno 17, Cecilia 12 e Davide 14. Chi ha fatto i passi più lunghi?",
-      "immagine": null,
+      "immagine": "images/kangourou-2010-screenshots/q04.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Andrea"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Bruno"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Cecilia"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Davide"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Occorrono altre informazioni per poter rispondere"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 3
+      ]
     },
     {
       "id": 5,
-      "testo": "Sei monete uguali fra loro sono disposte a triangolo come nella prima figura. Spostandone il minor numero possibile, Carlo ha ottenuto la disposizione circolare mostrata nella seconda figura. Quante ne ha spostate?",
       "immagine": "images/kangourou-2010-screenshots/q05.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "1"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "2"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "3"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "4"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "5"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 3
+      ]
     },
     {
       "id": 6,
-      "testo": "Quattro compagni di classe sono stati interrogati dalla maestra. - Paola è stata interrogata prima di Enrico; - Anna è stata interrogata prima di Gianni; - Anna è stata interrogata dopo di Enrico. In quale ordine sono stati interrogati?",
-      "immagine": null,
+      "immagine": "images/kangourou-2010-screenshots/q06.png",
+      "risposta_corretta": "A",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Paola, Enrico, Anna, Gianni"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Gianni, Paola, Enrico, Anna"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Paola, Anna, Gianni, Enrico"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Anna, Gianni, Paola, Enrico"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Anna, Paola, Gianni, Enrico"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 3
+      ]
     },
     {
       "id": 7,
-      "testo": "Usando soltanto piastrelle come questa [immagine di piastrella] , quale dei seguenti mosaici è impossibile ottenere?",
       "immagine": "images/kangourou-2010-screenshots/q07.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 3
+      ]
     },
     {
       "id": 8,
-      "testo": "Uno strano animale ha 100 piedi. Dopo che gli hanno regalato e ha indossato 16 paia di scarpe, rimangono ancora nudi 14 dei suoi piedi. Su quanti piedi aveva le scarpe prima di ricevere il regalo?",
       "immagine": "images/kangourou-2010-screenshots/q08.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "27"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "40"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "54"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "70"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "77"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 3
+      ]
     },
     {
       "id": 9,
-      "testo": "Angelo costruisce un cubo grande accostando 64 cubetti bianchi tutti uguali fra loro. Ottenuto il cubo grande, ne colora di grigio 5 facce lasciando bianca la sesta. Quanti dei cubetti vengono ad avere 3 facce colorate di grigio?",
       "immagine": "images/kangourou-2010-screenshots/q09.png",
+      "risposta_corretta": "A",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "4"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "8"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "16"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "20"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "24"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 4
+      ]
     },
     {
       "id": 10,
-      "testo": "Un piccolo traghetto, che collega le due sponde di un fiume, può trasportare o 10 automobili alla volta o 6 furgoni alla volta e non può trasportare contemporaneamente furgoni e automobili. Ieri ha fatto 5 viaggi tutti a pieno carico, trasportando complessivamente 42 veicoli. Quante automobili ha trasportato in tutto ieri?",
-      "immagine": null,
+      "immagine": "images/kangourou-2010-screenshots/q10.png",
+      "risposta_corretta": "E",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "5"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "12"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "20"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "22"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "30"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 4
+      ]
     },
     {
       "id": 11,
-      "testo": "Un quadrato grande è suddiviso in 4 quadratini. Quante colorazioni diverse fra loro puoi ottenere colorando di grigio o di bianco ciascuno dei 4 quadratini? Attenzione: le 4 figure che ti mostriamo corrispondono tutte ad una stessa colorazione, perché da ognuna di esse puoi ottenere ognuna delle altre semplicemente ruotando opportunamente il quadrato grande.",
       "immagine": "images/kangourou-2010-screenshots/q11.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "5"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "6"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "7"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "8"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "9"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 4
+      ]
     },
     {
       "id": 12,
-      "testo": "Il risultato della moltiplicazione 60 x 60 x 24 x 7 è uguale al numero",
-      "immagine": null,
+      "immagine": "images/kangourou-2010-screenshots/q12.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "dei minuti che ci sono in 7 settimane."
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "delle ore che ci sono in 60 giorni."
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "dei secondi che ci sono in 7 ore."
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "dei secondi che ci sono in una settimana."
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "dei minuti che ci sono in 24 settimane."
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 13,
-      "testo": "Che numero devi sostituire al simbolo * se vuoi che la somma dei numeri presenti nella prima riga sia uguale a quella dei numeri presenti nella seconda?",
       "immagine": "images/kangourou-2010-screenshots/q13.png",
+      "risposta_corretta": "A",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "99"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "100"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "209"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "289"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "299"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 4
+      ]
     },
     {
       "id": 14,
-      "testo": "Un cartoncino è suddiviso in 9 quadrati: alcuni dei lati comuni a due quadrati sono numerati come ti indica la prima figura. Anna, tagliando con le forbici lungo 4 di essi e facendo delle piegature lungo gli altri 4, ha ottenuto l'oggetto che vedi nella seconda figura. Quanto vale la somma dei numeri posti sui lati lungo i quali Anna ha tagliato?",
       "immagine": "images/kangourou-2010-screenshots/q14.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "16"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "17"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "18"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "20"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "21"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 15,
-      "testo": "Tino e Lilli sono due gatti, entrambi nati il 18 marzo: due anni fa la somma delle loro età era 15 anni. Oggi Tino compie 13 anni. Fra quanti anni Lilli compirà 9 anni?",
       "immagine": "images/kangourou-2010-screenshots/q15.png",
+      "risposta_corretta": "C",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "1"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "2"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "3"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "4"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "5"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 4
+      ]
     },
     {
       "id": 16,
-      "testo": "Roberta ha 4 catene corte. Per formare una catena unendo due di esse mediante un gancio impiega 9 minuti. Quanti minuti impiegherebbe se volesse formare una lunga catena unendo tutte le sue catene corte?",
       "immagine": "images/kangourou-2010-screenshots/q16.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "24"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "27"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "30"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "33"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "36"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 4
+      ]
     },
     {
       "id": 17,
-      "testo": "In figura vedi una griglia 4 x 4: ogni sua cella ospita una carta da gioco che raffigura un simbolo scelto fra quattro. Fare una mossa consiste nello scambiare fra loro due carte. Qual è il numero minimo di mosse da fare per ottenere che in ogni riga e in ogni colonna siano presenti tutti i simboli?",
       "immagine": "images/kangourou-2010-screenshots/q17.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "1"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "2"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "3"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "4"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "5"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 5
+      ]
     },
     {
       "id": 18,
-      "testo": "Camilla ha scritto tutti i numeri interi da 1 a 100 inclusi, mettendone uno per ogni cella di una griglia con 5 colonne, procedendo in ogni riga da sinistra a destra e partendo dalla prima riga. La parte alta di questa griglia ti è mostrata dalla figura. Paolo ha ritagliato una parte della griglia e poi ha cancellato tutti i numeri presenti in quella parte tranne due. Quale delle seguenti figure rappresenta la parte ritagliata da Paolo?",
       "immagine": "images/kangourou-2010-screenshots/q18.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 5
+      ]
     },
     {
       "id": 19,
-      "testo": "La maestra di Angela, Bianca e Cristina dice che la biblioteca della loro scuola ha circa 2010 volumi, ma non ne dice il numero esatto e invita le tre ragazze ad indovinarlo. Anna propone proprio 2010, Bianca 1998 e Cristina 2015. La maestra dice che, tra il numero esatto dei volumi presenti in biblioteca e i tre numeri proposti, gli scarti sono 12, 7 e 5 ma non nello stesso ordine. Qual è il numero esatto dei volumi?",
       "immagine": "images/kangourou-2010-screenshots/q19.png",
+      "risposta_corretta": "A",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "2003"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "2005"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "2008"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "2020"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "2022"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 5
+      ]
     },
     {
       "id": 20,
-      "testo": "In un certo mese tre martedì sono caduti in un giorno pari. In quale giorno della settimana è caduto il 21 di quel mese?",
-      "immagine": null,
+      "immagine": "images/kangourou-2010-screenshots/q20.png",
+      "risposta_corretta": "E",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Mercoledì"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Giovedì"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Venerdì"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Sabato"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Domenica"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 5
+      ]
     },
     {
       "id": 21,
-      "testo": "Oggi Piero ha 8 anni (cioè nell'ultimo suo compleanno ha compiuto 8 anni) e sua sorella Silvia ne ha 10. Quando, in un giorno futuro, Piero avrà 20 anni, che cosa si potrà dire dell'età di Silvia?",
       "immagine": "images/kangourou-2010-screenshots/q21.png",
+      "risposta_corretta": "E",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Sarà certamente 22 anni"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Sarà certamente 20 o 21 anni"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Sarà certamente 21 o 22 anni, e potrebbe essere 21 anni"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Sarà certamente 20 o 22 anni, e potrebbe essere 20 anni"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Potrebbe essere 23 anni"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 5
+      ]
     },
     {
       "id": 22,
-      "testo": "Franco vuole scrivere un numero di 8 cifre, scelte fra tutte le cifre possibili escludendo 0, in modo che ognuna, dalla seconda in poi, sia maggiore di quella che la precede. Quanti diversi numeri può scrivere?",
-      "immagine": null,
+      "immagine": "images/kangourou-2010-screenshots/q22.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "2"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "8"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "9"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "10"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "72"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 5
+      ]
     },
     {
       "id": 23,
-      "testo": "Andrea, Stefano, Roberto e Giovanni si sono incontrati ad un concerto a Milano. Essi provengono da 4 diverse città: Palermo, Napoli, Roma e Bari. Hai le seguenti informazioni: - Andrea e il ragazzo di Bari sono arrivati a Milano nella mattina del giorno del concerto e nessuno dei due è mai stato a Palermo o a Roma; - Roberto non viene da Bari ed è arrivato a Milano nello stessa ora del ragazzo di Palermo; - Giovanni e il ragazzo di Palermo hanno molto apprezzato il concerto. Da dove viene Giovanni?",
-      "immagine": null,
+      "immagine": "images/kangourou-2010-screenshots/q23.png",
+      "risposta_corretta": "D",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Palermo"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Roma"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Napoli"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Bari"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Milano"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 5
+      ]
     },
     {
       "id": 24,
-      "testo": "Ognuno degli amici di Saverio, se somma il numero del giorno al numero del mese del proprio compleanno, ottiene come risultato 35. Non ci sono due amici che festeggiano il compleanno nello stesso giorno. Quanti amici può avere al massimo Saverio?",
       "immagine": "images/kangourou-2010-screenshots/q24.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "7"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "8"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "9"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "10"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "12"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 5
+      ]
     }
   ]
 }

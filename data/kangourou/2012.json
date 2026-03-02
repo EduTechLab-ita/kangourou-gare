@@ -4,703 +4,559 @@
   "anno": "2012",
   "categoria": "Kangourou (Classi 4a-5a primaria)",
   "durata_minuti": 75,
-  "screenshot_mode": false,
+  "screenshot_mode": true,
   "domande": [
     {
       "id": 1,
-      "testo": "Barbara vuole scrivere su un foglio la parola MATEMATICA a colori, in modo che lettere uguali siano scritte con lo stesso colore e lettere diverse siano scritte con colori diversi. Quanti colori le servono?",
       "immagine": "images/kangourou-2012-screenshots/q01.png",
+      "risposta_corretta": "A",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "6"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "7"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "8"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "9"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "10"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 3
+      ]
     },
     {
       "id": 2,
-      "testo": "In quattro delle cinque figure seguenti l'area della parte bianca è uguale all'area della parte grigia. In quale figura le due aree sono diverse?",
       "immagine": "images/kangourou-2012-screenshots/q02.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 3
+      ]
     },
     {
       "id": 3,
-      "testo": "Il proprietario di un ristorante ha lavato 3 tovaglioli e li ha stesi ad asciugare su una corda in giardino usando 4 mollette come ti mostra la figura. Ora deve lavare 9 tovaglioli e li vuole stendere ad asciugare, allo stesso modo, usando il minor numero possibile di mollette. Quante gliene serviranno?",
       "immagine": "images/kangourou-2012-screenshots/q03.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "8"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "10"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "12"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "14"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "16"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 3
+      ]
     },
     {
       "id": 4,
-      "testo": "Ileana ha colorato di grigio le celle A2, B1, B2, B3, B4, C3, D3 e D4 della griglia in figura. Fra le seguenti, qual è la griglia che ha ottenuto?",
       "immagine": "images/kangourou-2012-screenshots/q04.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 3
+      ]
     },
     {
       "id": 5,
-      "testo": "Una scatola contiene 5 scatole ognuna delle quali, a sua volta, contiene 5 scatole. Quante scatole ci sono in tutto?",
       "immagine": "images/kangourou-2012-screenshots/q05.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "30"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "31"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "25"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "26"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "27"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 3
+      ]
     },
     {
       "id": 6,
-      "testo": "Ada e Gino giocano a chi realizza il punteggio più alto tirando 3 freccette ciascuno su un bersaglio numerato. Il punteggio è calcolato sommando i punti ottenuti con le singole freccette. La figura ti indica dove sono finite le freccette di Ada e quelle di Gino. Chi ha vinto e quanti punti ha totalizzato più dell'altro?",
       "immagine": "images/kangourou-2012-screenshots/q06.png",
+      "risposta_corretta": "E",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Ada, con 3 punti in più"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Gino, con 4 punti in più"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Ada, con 2 punti in più"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Gino, con 2 punti in più"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Ada, con 4 punti in più"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 3
+      ]
     },
     {
       "id": 7,
-      "testo": "Un muro è stato piastrellato con piastrelle quadrate, tutte della stessa dimensione, ma alternando due tipi diversi: bianche rigate e grigie. Alcune piastrelle, di quelle nella parte interna del muro, sono cadute e la figura ti mostra quelle rimaste. Quante piastrelle grigie sono cadute?",
       "immagine": "images/kangourou-2012-screenshots/q07.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "9"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "8"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "7"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "6"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "5"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 3
+      ]
     },
     {
       "id": 8,
-      "testo": "Su ognuno dei 15 tavoli di un ristorante c'è un candeliere. Su 6 tavoli c'è un candeliere con cinque bracci, sugli altri un candeliere con tre bracci. Quante candele occorrono se si vuole che ogni candeliere sia completo?",
-      "immagine": null,
+      "immagine": "images/kangourou-2012-screenshots/q08.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "45"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "50"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "57"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "63"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "75"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 3
+      ]
     },
     {
       "id": 9,
-      "testo": "Negli anni bisestili il mese di febbraio ha 29 giorni. Il 2012 è un anno bisestile e oggi, 15 marzo 2012, a mezzogiorno i pulcini di mio nonno hanno compiuto 20 giorni. In che giorno sono usciti dall'uovo?",
       "immagine": "images/kangourou-2012-screenshots/q09.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Il 19 febbraio"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Il 21 febbraio"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Il 23 febbraio"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Il 24 febbraio"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Il 26 febbraio"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 10,
-      "testo": "Giovanna ha delle tessere a forma di L, tutte uguali a questa nella figura a destra. Quante fra le seguenti quattro figure può ottenere accostando due tessere per volta?",
       "immagine": "images/kangourou-2012-screenshots/q10.png",
+      "risposta_corretta": "E",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "0"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "1"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "2"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "3"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "4"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 4
+      ]
     },
     {
       "id": 11,
-      "testo": "In un parcheggio ci sono solo auto bianche, rosse e verdi. Si sa che le auto bianche sono 3 oppure 5, quelle rosse 4 oppure 6, quelle verdi 5 oppure 7. Uno fra i seguenti è il numero totale delle auto presenti nel parcheggio. Quale?",
-      "immagine": null,
+      "immagine": "images/kangourou-2012-screenshots/q11.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "13"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "16"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "17"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "19"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "20"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 4
+      ]
     },
     {
       "id": 12,
-      "testo": "La nonna ha cotto 20 dolcetti per i suoi nipoti. Ne ha decorati alcuni con uvetta, alcuni con noci e alcuni sia con uvetta sia con noci: precisamente, prima ha messo uvetta su 15 dolcetti, poi ha messo noci su 15 dolcetti. Quanti devono essere, almeno, i dolcetti decorati sia con uvetta sia con noci?",
-      "immagine": null,
+      "immagine": "images/kangourou-2012-screenshots/q12.png",
+      "risposta_corretta": "E",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "4"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "5"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "6"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "8"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "10"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 4
+      ]
     },
     {
       "id": 13,
-      "testo": "Osserva la griglia in figura. Gianni deve prima calcolare il risultato delle operazioni indicate e poi riempire le celle vuote in modo che ogni riga e ogni colonna contenga, o come risultato delle operazioni o perché lui lo ha inserito, ciascuno dei numeri 1, 2, 3, 4. Che numero deve inserire Gianni nella cella grigia?",
       "immagine": "images/kangourou-2012-screenshots/q13.png",
+      "risposta_corretta": "C",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "1"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "2"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "3"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "4"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "3 o 4"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 4
+      ]
     },
     {
       "id": 14,
-      "testo": "Nella scuola degli animali ci sono 3 gatti, 4 galline, 2 pappagalli e alcuni conigli. Le zampe sono complessivamente 44. Quanti sono i conigli?",
-      "immagine": null,
+      "immagine": "images/kangourou-2012-screenshots/q14.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "6"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "5"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "4"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "3"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "2"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 4
+      ]
     },
     {
       "id": 15,
-      "testo": "Hai davanti a te un orologio digitale (cioè un orologio che mostra l'ora indicando le cifre: ad esempio scrive 12:15 per indicare mezzogiorno e un quarto). Quanti minuti dura l'intervallo di tempo più lungo durante il quale almeno una delle quattro cifre è 5?",
       "immagine": "images/kangourou-2012-screenshots/q15.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "10"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "30"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "60"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "70"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "90"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 16,
-      "testo": "Il blocco che vedi in figura è ottenuto accostando un pezzo bianco, un pezzo grigio e un pezzo nero. Ciascuno dei tre pezzi è ottenuto incollando 4 cubetti; tutti i cubetti sono della stessa dimensione. Quale, fra quelli elencati qui sotto, è il pezzo bianco?",
       "immagine": "images/kangourou-2012-screenshots/q16.png",
+      "risposta_corretta": "C",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 4
+      ]
     },
     {
       "id": 17,
-      "testo": "Una cavalletta ha davanti a sè uno scalone con molti gradini. Vuole arrivare esattamente al 22-mo gradino, ma può fare soltanto dei salti di 3 gradini in salita o di 4 in discesa. Qual è il più piccolo numero di salti che le consente di raggiungere lo scopo?",
       "immagine": "images/kangourou-2012-screenshots/q17.png",
+      "risposta_corretta": "D",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "7"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "9"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "10"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "12"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "15"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 5
+      ]
     },
     {
       "id": 18,
-      "testo": "Ogni tessera del gioco del domino è costituita dall'accostamento di due quadrati; su ogni quadrato ci sono alcuni punti, da 0 a 6. Franco aveva accostato sette tessere di domino: due quadrati di tessere diverse avevano un lato in comune solo se avevano lo stesso numero di punti. In questo modo aveva ottenuto una specie di serpente, sulla cui 'schiena' si contavano 29 punti. Suo fratello ha rimosso dal serpente due tessere, quelle che occupavano i posti lasciati bianchi in figura. Quanti punti c'erano nel quadrato indicato con il punto di domanda?",
       "immagine": "images/kangourou-2012-screenshots/q18.png",
+      "risposta_corretta": "A",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "2"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "3"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "4"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "5"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "6"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 5
+      ]
     },
     {
       "id": 19,
-      "testo": "Utilizzando tutte le cifre 1, 2, 3, 4, 5 e 6, Enrica vuole formare due numeri di tre cifre ciascuno. Vuole anche che la somma di questi due numeri sia la più grande possibile. Qual è la massima somma che può ottenere?",
-      "immagine": null,
+      "immagine": "images/kangourou-2012-screenshots/q19.png",
+      "risposta_corretta": "D",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "975"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "999"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "1083"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "1173"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "1221"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 5
+      ]
     },
     {
       "id": 20,
-      "testo": "Laura, Maria, Nadia e Oreste vogliono farsi riprendere in una fotografia seduti su una panchina. Laura e Maria vogliono stare vicine perché sono molto amiche; Oreste vuole stare vicino a Laura. In quanti modi diversi possono disporsi?",
-      "immagine": null,
+      "immagine": "images/kangourou-2012-screenshots/q20.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "2"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "4"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "5"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "6"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "7"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 5
+      ]
     },
     {
       "id": 21,
-      "testo": "Un orologio ha tre diverse lancette: funziona correttamente, ma non ci è stato detto quale lancetta indichi le ore, quale i minuti e quale i secondi. La figura ritrae l'orologio a mezzogiorno, 55 minuti e 30 secondi. Quale figura ritrae l'orologio quando sono le 8 e 11 minuti?",
       "immagine": "images/kangourou-2012-screenshots/q21.png",
+      "risposta_corretta": "A",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 5
+      ]
     },
     {
       "id": 22,
-      "testo": "Michele ha scelto un numero, lo ha moltiplicato per se stesso, ha aggiunto 1 al prodotto, ha moltiplicato la somma ottenuta per 10, ha aggiunto 3 al nuovo prodotto, ha moltiplicato la nuova somma per 4 e ha ottenuto come risultato finale 2012. Da quale numero era partito?",
-      "immagine": null,
+      "immagine": "images/kangourou-2012-screenshots/q22.png",
+      "risposta_corretta": "E",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "11"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "9"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "8"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "5"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Nessuno dei precedenti"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 5
+      ]
     },
     {
       "id": 23,
-      "testo": "I lati di un foglio di carta rettangolare misurano 192 e 84 millimetri. Con un solo taglio in linea retta ottengo due fogli, uno dei quali è un quadrato. Con un solo taglio in linea retta, dal foglio che non è quadrato ottengo ancora due fogli, uno dei quali è un quadrato. Vado avanti in questo modo fino a quando mi devo arrestare, perché dopo un certo taglio entrambi i fogli ottenuti sono quadrati. Quanti millimetri misura il lato di ciascuno di questi due quadrati?",
-      "immagine": null,
+      "immagine": "images/kangourou-2012-screenshots/q23.png",
+      "risposta_corretta": "E",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "1"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "4"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "6"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "10"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "12"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 5
+      ]
     },
     {
       "id": 24,
-      "testo": "Nel gioco del calcio, chi vince una partita guadagna 3 punti in classifica e chi la perde 0 punti. Se una partita finisce in pareggio, entrambe le squadre guadagnano un punto. Dopo aver giocato 38 partite, una squadra ha 80 punti in classifica. Quante partite può avere perso al massimo?",
       "immagine": "images/kangourou-2012-screenshots/q24.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "12"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "11"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "10"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "9"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "8"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 5
+      ]
     }
   ]
 }
