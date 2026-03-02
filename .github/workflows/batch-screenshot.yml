@@ -1,10 +1,10 @@
 name: Batch Screenshot Gare
 
 on:
-  # Trigger automatico: ogni anno il 20 marzo e il 5 aprile (finestra uscita gare Kangourou)
+  # Trigger automatico: ogni anno a settembre (gare di marzo già pubblicate, prima delle esercitazioni)
   schedule:
-    - cron: '0 8 20 3 *'   # 20 marzo alle 9:00 ora italiana
-    - cron: '0 8 5  4 *'   # 5 aprile alle 9:00 (secondo tentativo)
+    - cron: '0 8 1 9 *'    # 1 settembre alle 9:00 ora italiana
+    - cron: '0 8 1 10 *'   # 1 ottobre alle 9:00 (secondo tentativo)
   # Lancio manuale per anni/tipi specifici
   workflow_dispatch:
     inputs:
