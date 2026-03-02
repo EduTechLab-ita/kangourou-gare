@@ -162,6 +162,39 @@ def aggiorna_json(json_path, output_dir, n_dom, tipo, anno, salvati):
     print(f"   screenshot_mode: true, {n_dom} domande, opzioni solo lettera")
 
 
+def crea_json_da_pdf(pdf_path, json_path, n_dom, tipo, anno):
+    """Crea il JSON base estraendo le risposte corrette dall'ultima pagina del PDF."""
+    doc = fitz.open(pdf_path)
+    txt = doc[-1].get_text()
+    doc.close()
+
+    risposte = re.findall(r'\b([A-E])\b', txt)
+    if len(risposte) < n_dom:
+        print(f"⚠️  Trovate solo {len(risposte)} risposte nell'ultima pagina (attese {n_dom}). Verificare manualmente.")
+        return False
+    risposte = risposte[:n_dom]
+
+    def punti(num):
+        if   num <= 8:  return 3
+        elif num <= 16: return 4
+        else:           return 5
+
+    dati = {
+        'id':            f'{tipo}-{anno}',
+        'titolo':        f'{tipo.capitalize()} {anno}',
+        'anno':          int(anno),
+        'categoria':     'Ecolier' if tipo == 'kangourou' else 'Pre-Ecolier',
+        'durata_minuti': 75,
+        'domande':       [{'id': i+1, 'risposta_corretta': r, 'punteggio': punti(i+1)}
+                          for i, r in enumerate(risposte)]
+    }
+    os.makedirs(os.path.dirname(json_path), exist_ok=True)
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(dati, f, ensure_ascii=False, indent=2)
+    print(f"✅ JSON creato da PDF: {json_path}  ({n_dom} risposte estratte)")
+    return True
+
+
 def aggiorna_index(tipo, anno):
     """Mette disponibile: true per la gara nel catalogo index.json."""
     index_path = 'index.json'
@@ -198,8 +231,10 @@ if __name__ == '__main__':
         exit(0)
 
     if not os.path.exists(JSON_PATH):
-        print(f"⏭️  JSON risposte non trovato, skip: {JSON_PATH}")
-        exit(0)
+        print(f"📋 JSON non trovato — estraggo risposte dall'ultima pagina del PDF...")
+        if not crea_json_da_pdf(PDF_PATH, JSON_PATH, N_DOM, TIPO, ANNO):
+            print(f"⏭️  Impossibile creare JSON automaticamente, skip.")
+            exit(0)
 
     salvati = estrai_screenshots(PDF_PATH, OUTPUT_DIR, N_DOM, SCALA, MARGINE_SOPRA)
 
