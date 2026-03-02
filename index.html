@@ -238,11 +238,11 @@
 
             <div class="stats">
                 <div class="stat-item">
-                    <div class="stat-number">85</div>
-                    <div class="stat-label">Gare in Archivio</div>
+                    <div class="stat-number" id="stat-gare">...</div>
+                    <div class="stat-label">Gare Disponibili</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">2000+</div>
+                    <div class="stat-number" id="stat-domande">...</div>
                     <div class="stat-label">Domande Totali</div>
                 </div>
                 <div class="stat-item">
@@ -279,6 +279,21 @@
                 .then(reg => console.log('Service Worker registrato'))
                 .catch(err => console.log('Errore Service Worker:', err));
         }
+
+        // Aggiorna statistiche dinamicamente da index.json
+        fetch('index.json')
+            .then(r => r.json())
+            .then(idx => {
+                const gareDisp = idx.gare.filter(g => g.disponibile).length;
+                const domande  = idx.gare.filter(g => g.disponibile)
+                                   .reduce((s, g) => s + (g.totale_domande || 0), 0);
+                document.getElementById('stat-gare').textContent    = gareDisp;
+                document.getElementById('stat-domande').textContent = domande > 0 ? domande + '+' : '...';
+            })
+            .catch(() => {
+                document.getElementById('stat-gare').textContent    = '25';
+                document.getElementById('stat-domande').textContent  = '600+';
+            });
     </script>
 </body>
 </html>
