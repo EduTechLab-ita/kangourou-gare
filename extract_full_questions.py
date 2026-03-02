@@ -7,6 +7,37 @@ import fitz
 import re
 import os
 import json
+import urllib.request
+
+URL_PDF = {
+    "kangourou": "https://www.kangourou.it/images/TestiGare/{anno}/EcolierMarzo-{anno2}.pdf",
+    "koala":     "https://www.kangourou.it/images/TestiGare/{anno}/PreEcolierMarzo-{anno2}.pdf",
+    "benjamin":  "https://www.kangourou.it/images/TestiGare/{anno}/BenjaminMarzo-{anno2}.pdf",
+    "cadet":     "https://www.kangourou.it/images/TestiGare/{anno}/CadetMarzo-{anno2}.pdf",
+}
+
+
+def scarica_pdf(tipo, anno, pdf_path):
+    """Scarica il PDF da kangourou.it se non esiste già."""
+    if os.path.exists(pdf_path):
+        return True
+    if tipo not in URL_PDF:
+        return False
+    anno2 = str(anno)[-2:]
+    url = URL_PDF[tipo].format(anno=anno, anno2=anno2)
+    print(f"📥 Download PDF: {url}")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = resp.read()
+        os.makedirs(os.path.dirname(pdf_path), exist_ok=True)
+        with open(pdf_path, "wb") as f:
+            f.write(data)
+        print(f"   ✅ Scaricato ({len(data)//1024} KB)")
+        return True
+    except Exception as e:
+        print(f"   ❌ Download fallito: {e}")
+        return False
 
 # ── CONFIGURAZIONE ──────────────────────────────────────────────────────────
 TIPO  = "kangourou"   # kangourou | koala | benjamin
@@ -227,8 +258,10 @@ if __name__ == '__main__':
     print(f"=== Estrazione screenshot completi: {TIPO} {ANNO} ===\n")
 
     if not os.path.exists(PDF_PATH):
-        print(f"⏭️  PDF non trovato, skip: {PDF_PATH}")
-        exit(0)
+        print(f"📥 PDF non trovato — tento download automatico...")
+        if not scarica_pdf(TIPO, ANNO, PDF_PATH):
+            print(f"⏭️  PDF non disponibile, skip: {PDF_PATH}")
+            exit(0)
 
     if not os.path.exists(JSON_PATH):
         print(f"📋 JSON non trovato — estraggo risposte dall'ultima pagina del PDF...")
