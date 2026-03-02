@@ -162,10 +162,20 @@ if __name__ == '__main__':
     print(f"=== Estrazione screenshot completi: {TIPO} {ANNO} ===\n")
 
     if not os.path.exists(PDF_PATH):
-        print(f"❌ PDF non trovato: {PDF_PATH}")
-        exit(1)
+        print(f"⏭️  PDF non trovato, skip: {PDF_PATH}")
+        exit(0)
+
+    if not os.path.exists(JSON_PATH):
+        print(f"⏭️  JSON risposte non trovato, skip: {JSON_PATH}")
+        exit(0)
 
     salvati = estrai_screenshots(PDF_PATH, OUTPUT_DIR, N_DOM, SCALA, MARGINE_SOPRA)
+
+    trovate = sum(1 for s in salvati if s is not None)
+    if trovate == 0:
+        print(f"⏭️  Nessuna domanda trovata nel PDF (formato non supportato), skip.")
+        exit(0)
+
     aggiorna_json(JSON_PATH, OUTPUT_DIR, N_DOM, TIPO, ANNO, salvati)
     aggiorna_index(TIPO, ANNO)
 
