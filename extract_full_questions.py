@@ -50,7 +50,8 @@ def trova_coordinate_domande(doc, n_dom):
         return coords
 
     # Fallback: pattern permissivo con constraint y < 80% pagina (formato koala)
-    return _cerca(re.compile(r'^(\d{1,2})(?!\d)'), con_constraint=True)
+    # Esclude anche "/" dopo il numero (evita date tipo "15/5/2050" nelle opzioni)
+    return _cerca(re.compile(r'^(\d{1,2})(?![0-9/])'), con_constraint=True)
 
 
 def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):

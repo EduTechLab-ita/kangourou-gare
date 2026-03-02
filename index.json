@@ -297,7 +297,7 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/koala/2018.pdf",
       "json_url": "data/koala/2018.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "kangourou-2018",
@@ -1107,8 +1107,8 @@
     }
   ],
   "ultimo_aggiornamento": "2026-03-02",
-  "versione": "2.21.1",
+  "versione": "2.21.2",
   "totale_gare": 85,
   "gare_disponibili": 25,
-  "novita": "Statistiche homepage dinamiche (gare disponibili reali)"
+  "novita": "Koala 2015-2018 disponibili con screenshot completo"
 }
