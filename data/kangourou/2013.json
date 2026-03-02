@@ -4,703 +4,559 @@
   "anno": "2013",
   "categoria": "Kangourou (Classi 4a-5a primaria)",
   "durata_minuti": 75,
-  "screenshot_mode": false,
+  "screenshot_mode": true,
   "domande": [
     {
       "id": 1,
-      "testo": "Roberto ha una piccola calcolatrice che funziona nel modo indicato nella figura: inserendo un numero in ognuna delle quattro caselle della prima riga, la calcolatrice esegue le operazioni indicate e arriva a fornire il risultato nell'unica casella della terza riga (quella in cui c'è il punto di domanda). La figura ti indica i numeri inseriti da Roberto nella prima riga. Qual è il risultato fornito dalla calcolatrice?",
       "immagine": "images/kangourou-2013-screenshots/q01.png",
+      "risposta_corretta": "A",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "6"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "5"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "4"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "3"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "2"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 3
+      ]
     },
     {
       "id": 2,
-      "testo": "Osserva la figura. 4+5=104. L'addizione scritta da Gianna è corretta, ma suo fratello Luca, per dispetto, ha coperto con due foglietti non trasparenti due delle cifre scritte da Gianna. Le due cifre coperte sono uguali. Che cifra sono?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q02.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "2"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "4"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "5"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "7"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "8"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 3
+      ]
     },
     {
       "id": 3,
-      "testo": "Samuele ha invitato alcuni amici a casa sua per le 15:45. Giulia è arrivata con 25 minuti di ritardo, Gino è arrivato un quarto d'ora prima di Giulia. A che ora è arrivato Gino?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q03.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "15:05"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "15:30"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "15:55"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "16:05"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "16:20"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 3
+      ]
     },
     {
       "id": 4,
-      "testo": "Qual è il più grande numero di triangoli che si possono individuare nella figura?",
       "immagine": "images/kangourou-2013-screenshots/q04.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "9"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "10"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "11"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "13"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "12"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 3
+      ]
     },
     {
       "id": 5,
-      "testo": "Alle ultime olimpiadi, gli Stati Uniti d'America sono stati la nazione che ha vinto più medaglie: 46 ori, 29 argenti e 29 bronzi. La seconda nazione è stata la Cina con 38 ori, 27 argenti e 23 bronzi. Complessivamente, quante medaglie più della Cina hanno vinto gli Stati Uniti?",
       "immagine": "images/kangourou-2013-screenshots/q05.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "6"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "14"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "16"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "24"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "26"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 3
+      ]
     },
     {
       "id": 6,
-      "testo": "Daniele ha suddiviso 36 cioccolatini fra i suoi amici. È riuscito a darne la stessa quantità ad ogni amico, ma in questo modo non gli è rimasto neppure un cioccolatino. Quale fra i seguenti non può essere il numero degli amici di Daniele?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q06.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "2"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "3"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "4"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "5"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "6"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 3
+      ]
     },
     {
       "id": 7,
-      "testo": "Uno specchio rettangolare si è rotto: la figura ti indica come è fessurato e dove manca un pezzo. Qual è, fra i seguenti, il pezzo mancante?",
       "immagine": "images/kangourou-2013-screenshots/q07.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 3
+      ]
     },
     {
       "id": 8,
-      "testo": "Ciascuno di cinque amici ha voluto dire qualcosa circa il numero 325. Aldo ha detto: 'È un numero di tre cifre'. Bruno ha detto: 'Tutte le sue cifre sono distinte fra loro'. Carlo ha detto: 'La somma delle sue cifre vale 10'. Dario ha detto: 'La cifra delle unità è 5'. Ennio ha detto: 'Tutte le sue cifre sono dispari'. Uno solo degli amici si è sbagliato. Chi?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q08.png",
+      "risposta_corretta": "E",
+      "punteggio": 3,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Aldo"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Bruno"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Carlo"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Dario"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Ennio"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 3
+      ]
     },
     {
       "id": 9,
-      "testo": "Una vettura di un treno è occupata solo da tre famiglie, ciascuna composta da padre, madre e tre figli, maschi o femmine. In due famiglie vi sono figli gemelli e tutti i gemelli presenti in quella vettura sono maschi. Quante femmine al massimo, madri comprese, stanno viaggiando su quella vettura?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q09.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "5"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "6"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "7"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "8"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "9"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 10,
-      "testo": "Quando Pinocchio risponde ad una domanda con una bugia, il suo naso si allunga di 6 cm; quando risponde dicendo la verità, il suo naso si accorcia di 2 cm. Alle 8 di questa mattina il suo naso era lungo 9 cm; da quel momento ad ora Pinocchio ha detto tre volte una bugia e due volte la verità: quanto è lungo ora il suo naso?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q10.png",
+      "risposta_corretta": "A",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "14 cm"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "15 cm"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "19 cm"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "23 cm"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "31 cm"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 4
+      ]
     },
     {
       "id": 11,
-      "testo": "Un negozio di frutta vende arance solo a sacchetti: vi sono sacchetti da 5, da 9 e da 10 arance. Paolo deve comprare esattamente 48 arance. Qual è il minor numero di sacchetti che può comprare?",
       "immagine": "images/kangourou-2013-screenshots/q11.png",
+      "risposta_corretta": "E",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "5"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "7"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "6"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "8"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "4"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 4
+      ]
     },
     {
       "id": 12,
-      "testo": "La figura rappresenta la mappa della città di Anna. Anna incomincia a camminare nel punto e nella direzione indicati dalla freccia: ad ogni incrocio non va dritto, ma gira a destra o a sinistra. Precisamente, al primo incrocio che incontra gira a destra, al secondo e al terzo a sinistra, al quarto a destra, al quinto e al sesto a sinistra. Dove arriva Anna?",
       "immagine": "images/kangourou-2013-screenshots/q12.png",
+      "risposta_corretta": "A",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "A",
-      "punteggio": 4
+      ]
     },
     {
       "id": 13,
-      "testo": "Ada, Bruna, Cecilia e Dora sono nate nello stesso anno. I loro compleanni sono, in ordine di data ma non di nome, nei giorni 20 febbraio, 12 aprile, 12 maggio e 25 maggio. Bruna e Ada sono nate nello stesso mese. Ada e Cecilia sono nate nello stesso giorno di mesi diversi. Chi è la più vecchia?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q13.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Ada"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "Bruna"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "Cecilia"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "Dora"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Non è possibile stabilirlo."
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 14,
-      "testo": "Cinque canguri K, L, M, N, e O hanno davanti a sè cinque grandi piastrelle quadrate, allineate come ti indica la figura. Ogni canguro parte dalla posizione indicata con 'Partenza', salta nel verso della freccia e ad ogni salto atterra sulla prima piastrella libera che trova. Partono nell'ordine in cui te li abbiamo elencati: K per primo e fa tre salti, poi L per secondo e fa anche lui tre salti, poi M per terzo e fa due salti, poi N per quarto e fa anche lui due salti e infine O che fa solo un salto. Quando anche O è arrivato, in che ordine si trovano i cinque canguri?",
       "immagine": "images/kangourou-2013-screenshots/q14.png",
+      "risposta_corretta": "E",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "OKMLN"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "OKLMN"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "OMLKN"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "OMLNK"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "OMKLN"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 4
+      ]
     },
     {
       "id": 15,
-      "testo": "Accostando il pezzo qui a fianco ad uno di quelli elencati nelle risposte, senza sovrapporlo, puoi formare un rettangolo. Quale pezzo devi scegliere?",
       "immagine": "images/kangourou-2013-screenshots/q15.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "figura"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "figura"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "figura"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "figura"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "figura"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 4
+      ]
     },
     {
       "id": 16,
-      "testo": "Alla festa del suo compleanno Nadia ha invitato alcuni amici, ragazzi e ragazze. Non sa quanti accetteranno l'invito, ma sa che i ragazzi invitati sono più delle ragazze, che i ragazzi invitati che si chiamano Franco sono tre e che costituiscono più di un terzo dei ragazzi invitati. Quanti potranno essere al massimo gli amici di Nadia, ragazzi e ragazze, presenti alla festa?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q16.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "12"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "13"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "14"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "15"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "16"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "D",
-      "punteggio": 4
+      ]
     },
     {
       "id": 17,
-      "testo": "Disegna un quadrato e poi congiungi con tratti rettilinei i punti medi dei suoi lati: ottieni al centro un quadrato più piccolo. Ripeti l'operazione su questo quadrato più piccolo: ottieni al centro un quadrato ancora più piccolo. Vuoi ricoprire il quadrato che hai disegnato per primo con quadrati identici a quest'ultimo quadrato più piccolo: quanti te ne servono?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q17.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "5"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "16"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "10"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "8"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "32"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 5
+      ]
     },
     {
       "id": 18,
-      "testo": "Immagina che oggi sia il primo giorno del 2013 (cioè il capodanno scorso): fra quanti anni saremo per la prima volta in un anno tale che il prodotto delle sue cifre sia maggiore della somma delle sue cifre?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q18.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "87"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "102"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "98"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "1"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "103"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 5
+      ]
     },
     {
       "id": 19,
-      "testo": "Nello scorso mese di gennaio, il gatto Trippa ha dormito per esattamente tre settimane. Quanti minuti è stato sveglio in gennaio?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q19.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "24 × 3 × 24 × 60"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "10 × 24 × 60"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "9 × 24 × 60"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "24 × 24 × 60"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "10 × 24 × 60 × 60"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 5
+      ]
     },
     {
       "id": 20,
-      "testo": "Ennio ha le tessere di domino che ti mostra la figura. Vuole metterle in fila rispettando la regola del domino: il secondo quadrato di ogni tessera deve avere lo stesso numero di punti del primo quadrato della tessera successiva. Quante potrà metterne in fila, al massimo?",
       "immagine": "images/kangourou-2013-screenshots/q20.png",
+      "risposta_corretta": "E",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "3"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "4"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "5"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "6"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "7"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "E",
-      "punteggio": 5
+      ]
     },
     {
       "id": 21,
-      "testo": "In un negozo ci sono 10 campanelle di vetro di dimensione crescente: i loro prezzi crescono con la dimensione e sono 1, 2, 3,..., 10 euro. Tre amiche vogliono comprarle tutte, ma vogliono fare in modo che ciascuna spenda la stessa somma. In quanti diversi modi le tre amiche potranno ripartire fra di loro le campanelle?",
       "immagine": "images/kangourou-2013-screenshots/q21.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "Uno solo."
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "2"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "3"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "4"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Non potranno riuscire a fare quello che desiderano."
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 5
+      ]
     },
     {
       "id": 22,
-      "testo": "Pietro ha comprato un tappeto lungo 60 decimetri e largo 36. Il tappeto ha un disegno costituito da quadrati tutti della stessa misura che contengono o il sole o la luna, come ti indica la figura che però mostra solo una estremità del tappeto (immagina che la parte rimanente sia arrotolata). Quando il tappeto è completamente disteso, quante lune si possono vedere?",
       "immagine": "images/kangourou-2013-screenshots/q22.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "68"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "67"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "65"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "63"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "60"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 5
+      ]
     },
     {
       "id": 23,
-      "testo": "Simone ha scritto alcuni numeri usando per ciascuno di essi solo le cifre 0 e 1. La somma dei numeri che ha scritto è 2013 e non avrebbe potuto ottenere la stessa somma con un numero minore di addendi ognuno costituito solo dalle cifre 0 e 1. Quanti numeri ha scritto Simone?",
-      "immagine": null,
+      "immagine": "images/kangourou-2013-screenshots/q23.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "2"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "3"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "4"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "5"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "204"
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "B",
-      "punteggio": 5
+      ]
     },
     {
       "id": 24,
-      "testo": "Cristina ha molti pezzi identici a quello in figura e vuole accostarne alcuni, senza sovrapporli, in modo da ottenere un quadrato pieno. Qual è il più piccolo numeri di pezzi che le consente di raggiungere lo scopo?",
       "immagine": "images/kangourou-2013-screenshots/q24.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
       "opzioni": [
         {
-          "id": "A",
-          "testo": "5"
+          "id": "A"
         },
         {
-          "id": "B",
-          "testo": "9"
+          "id": "B"
         },
         {
-          "id": "C",
-          "testo": "4"
+          "id": "C"
         },
         {
-          "id": "D",
-          "testo": "16"
+          "id": "D"
         },
         {
-          "id": "E",
-          "testo": "Non è possibile realizzare ciò che Cristina desidera."
+          "id": "E"
         }
-      ],
-      "risposta_corretta": "C",
-      "punteggio": 5
+      ]
     }
   ]
 }
