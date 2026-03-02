@@ -843,7 +843,8 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2006.pdf",
       "json_url": "data/kangourou/2006.json",
-      "disponibile": false
+      "disponibile": false,
+      "formato_incompatibile": true
     },
     {
       "id": "benjamin-2006",
@@ -882,7 +883,8 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2005.pdf",
       "json_url": "data/kangourou/2005.json",
-      "disponibile": false
+      "disponibile": false,
+      "formato_incompatibile": true
     },
     {
       "id": "benjamin-2005",
@@ -921,7 +923,8 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2004.pdf",
       "json_url": "data/kangourou/2004.json",
-      "disponibile": false
+      "disponibile": false,
+      "formato_incompatibile": true
     },
     {
       "id": "benjamin-2004",
@@ -960,7 +963,8 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2003.pdf",
       "json_url": "data/kangourou/2003.json",
-      "disponibile": false
+      "disponibile": false,
+      "formato_incompatibile": true
     },
     {
       "id": "benjamin-2003",
@@ -999,7 +1003,8 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2002.pdf",
       "json_url": "data/kangourou/2002.json",
-      "disponibile": false
+      "disponibile": false,
+      "formato_incompatibile": true
     },
     {
       "id": "benjamin-2002",
@@ -1038,7 +1043,8 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2001.pdf",
       "json_url": "data/kangourou/2001.json",
-      "disponibile": false
+      "disponibile": false,
+      "formato_incompatibile": true
     },
     {
       "id": "benjamin-2001",
@@ -1077,7 +1083,8 @@
       "punteggio_massimo": 96,
       "pdf_url": "pdf/kangourou/2000.pdf",
       "json_url": "data/kangourou/2000.json",
-      "disponibile": false
+      "disponibile": false,
+      "formato_incompatibile": true
     },
     {
       "id": "benjamin-2000",

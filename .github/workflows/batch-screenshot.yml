@@ -1,24 +1,31 @@
 name: Batch Screenshot Gare
 
 on:
+  # Trigger automatico: ogni anno il 20 marzo e il 5 aprile (finestra uscita gare Kangourou)
+  schedule:
+    - cron: '0 8 20 3 *'   # 20 marzo alle 9:00 ora italiana
+    - cron: '0 8 5  4 *'   # 5 aprile alle 9:00 (secondo tentativo)
+  # Lancio manuale per anni/tipi specifici
   workflow_dispatch:
     inputs:
       anni:
-        description: 'Anni da processare (separati da spazio, es: 2000 2001 2002)'
-        required: true
-        default: '2000 2001 2002 2003 2004 2005 2006'
+        description: 'Anni da processare (separati da spazio). Lascia vuoto per anno corrente.'
+        required: false
+        default: ''
       tipo:
-        description: 'Tipo gara'
-        required: true
-        default: 'kangourou'
+        description: 'Tipo gara (vuoto = kangourou e koala)'
+        required: false
+        default: ''
         type: choice
         options:
+          - ''
           - kangourou
+          - koala
           - benjamin
           - cadet
       n_dom:
         description: 'Numero domande (24 per Kangourou/Koala, 30 per Benjamin/Cadet)'
-        required: true
+        required: false
         default: '24'
 
 jobs:
@@ -39,12 +46,53 @@ jobs:
       - name: Installa dipendenze
         run: pip install pymupdf
 
-      - name: Estrai screenshot per ogni anno
+      - name: Calcola anni e tipi da processare
+        id: params
         run: |
-          for anno in ${{ github.event.inputs.anni }}; do
-            echo "=== Processing ${{ github.event.inputs.tipo }} $anno ==="
-            python extract_full_questions.py $anno ${{ github.event.inputs.tipo }} ${{ github.event.inputs.n_dom }}
-          done
+          python - <<'EOF'
+          import os
+          from datetime import date
+
+          anno_input = "${{ github.event.inputs.anni }}".strip()
+          tipo_input = "${{ github.event.inputs.tipo }}".strip()
+          n_dom_input = "${{ github.event.inputs.n_dom }}".strip() or "24"
+
+          # Anno: usa input oppure anno corrente
+          anni = anno_input if anno_input else str(date.today().year)
+
+          # Tipo: usa input oppure processa kangourou e koala automaticamente
+          if tipo_input:
+              tipi = [(tipo_input, n_dom_input)]
+          else:
+              tipi = [("kangourou", "24"), ("koala", "24")]
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"anni={anni}\n")
+              # Serializza come stringa separata da | per passarla al prossimo step
+              tipi_str = "|".join(f"{t},{n}" for t, n in tipi)
+              f.write(f"tipi={tipi_str}\n")
+
+          print(f"Anni: {anni}")
+          print(f"Tipi: {tipi}")
+          EOF
+
+      - name: Estrai screenshot
+        run: |
+          python - <<'EOF'
+          import subprocess, sys, os
+
+          anni = "${{ steps.params.outputs.anni }}".split()
+          tipi_raw = "${{ steps.params.outputs.tipi }}".split("|")
+          tipi = [t.split(",") for t in tipi_raw]
+
+          for tipo, n_dom in tipi:
+              for anno in anni:
+                  print(f"\n=== Processing {tipo} {anno} ===")
+                  subprocess.run(
+                      [sys.executable, "extract_full_questions.py", anno, tipo, n_dom],
+                      check=False
+                  )
+          EOF
 
       - name: Aggiorna versione e sw.js
         run: |
@@ -55,21 +103,22 @@ jobs:
           with open('index.json', encoding='utf-8') as f:
               idx = json.load(f)
 
-          # Incrementa versione patch
+          # Incrementa versione solo se ci sono gare nuove
+          gare_disp = [g for g in idx['gare'] if g.get('disponibile')]
+          versione_prima = idx['versione']
+
           v = idx['versione'].split('.')
           v[2] = str(int(v[2]) + 1)
           nuova_versione = '.'.join(v)
 
-          anni = "${{ github.event.inputs.anni }}".split()
-          tipo = "${{ github.event.inputs.tipo }}"
+          anni = "${{ steps.params.outputs.anni }}".split()
           idx['versione'] = nuova_versione
           idx['ultimo_aggiornamento'] = str(date.today())
-          idx['novita'] = f"{tipo.capitalize()} {', '.join(anni)}: screenshot completo domande"
+          idx['novita'] = f"Nuove gare {', '.join(anni)}: screenshot completo domande"
 
           with open('index.json', 'w', encoding='utf-8') as f:
               json.dump(idx, f, ensure_ascii=False, indent=2)
 
-          # Aggiorna sw.js
           with open('sw.js', encoding='utf-8') as f:
               sw = f.read()
           sw = re.sub(r"kangourou-trainer-v[\d.]+", f"kangourou-trainer-v{nuova_versione}", sw)
@@ -85,5 +134,5 @@ jobs:
           git config user.name "GitHub Actions"
           git add .
           git diff --staged --quiet && echo "Nessuna modifica" || \
-            git commit -m "batch: screenshot ${{ github.event.inputs.tipo }} ${{ github.event.inputs.anni }}"
+            git commit -m "auto: screenshot gare ${{ steps.params.outputs.anni }}"
           git push

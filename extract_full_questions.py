@@ -257,6 +257,18 @@ if __name__ == '__main__':
 
     print(f"=== Estrazione screenshot completi: {TIPO} {ANNO} ===\n")
 
+    # Controlla se la gara è marcata come formato incompatibile in index.json
+    gara_id = f"{TIPO}-{ANNO}"
+    try:
+        with open('index.json', encoding='utf-8') as f:
+            _idx = json.load(f)
+        for _g in _idx.get('gare', []):
+            if _g['id'] == gara_id and _g.get('formato_incompatibile'):
+                print(f"⏭️  Formato PDF incompatibile (già verificato), skip: {gara_id}")
+                exit(0)
+    except Exception:
+        pass
+
     if not os.path.exists(PDF_PATH):
         print(f"📥 PDF non trovato — tento download automatico...")
         if not scarica_pdf(TIPO, ANNO, PDF_PATH):
