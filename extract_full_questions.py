@@ -166,7 +166,7 @@ def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):
         fname = f"q{num:02d}.png"
         fpath = os.path.join(output_dir, fname)
 
-        # Verifica se la domanda successiva è su una pagina diversa (domanda a cavallo di pagina)
+        # Verifica se la domanda successiva è su una pagina diversa (possibile cross-page)
         next_page_num = None
         next_y_start  = None
         for next_num in range(num + 1, n_dom + 2):
@@ -174,16 +174,24 @@ def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):
                 next_page_num, next_y_start = coords[next_num]
                 break
 
+        # Cross-page reale: la domanda tocca fine pagina E c'è contenuto orfano
+        # nella pagina successiva PRIMA della domanda successiva
+        is_cross_page = False
         if y_end >= page_h - 5 and next_page_num is not None and next_page_num > page_num:
-            # Domanda a cavallo di pagina: unisci parte bassa pagina corrente + parte alta pagina successiva
-            next_page = doc[next_page_num]
-            next_page_w = next_page.rect.width
-            y_end_next = next_y_start - 5  # fino all'inizio della domanda successiva
+            next_page_obj = doc[next_page_num]
+            for b in next_page_obj.get_text('blocks'):
+                if b[3] < next_y_start - 5 and len(b[4].strip()) > 2:
+                    is_cross_page = True
+                    break
+
+        if is_cross_page:
+            # Unisci parte bassa pagina corrente + parte alta pagina successiva
+            next_page_w = next_page_obj.rect.width
+            y_end_next = next_y_start - 5
 
             pix1 = page.get_pixmap(matrix=mat, clip=fitz.Rect(0, y_top, page_w, page_h), colorspace=fitz.csRGB)
-            pix2 = next_page.get_pixmap(matrix=mat, clip=fitz.Rect(0, 0, next_page_w, max(y_end_next, 5)), colorspace=fitz.csRGB)
+            pix2 = next_page_obj.get_pixmap(matrix=mat, clip=fitz.Rect(0, 0, next_page_w, max(y_end_next, 5)), colorspace=fitz.csRGB)
 
-            # Unisci verticalmente le due immagini
             import PIL.Image, io
             img1 = PIL.Image.open(io.BytesIO(pix1.tobytes("png")))
             img2 = PIL.Image.open(io.BytesIO(pix2.tobytes("png")))
