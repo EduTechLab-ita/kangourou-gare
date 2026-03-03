@@ -1,0 +1,700 @@
+{
+  "id": "benjamin-2023",
+  "titolo": "Benjamin 2023",
+  "anno": 2023,
+  "categoria": "Benjamin",
+  "durata_minuti": 75,
+  "domande": [
+    {
+      "id": 1,
+      "immagine": "images/benjamin-2023-screenshots/q01.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "immagine": "images/benjamin-2023-screenshots/q02.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "immagine": "images/benjamin-2023-screenshots/q03.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "immagine": "images/benjamin-2023-screenshots/q04.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "immagine": "images/benjamin-2023-screenshots/q05.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "immagine": "images/benjamin-2023-screenshots/q06.png",
+      "risposta_corretta": "D",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "immagine": "images/benjamin-2023-screenshots/q07.png",
+      "risposta_corretta": "B",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "immagine": "images/benjamin-2023-screenshots/q08.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "immagine": "images/benjamin-2023-screenshots/q09.png",
+      "risposta_corretta": "C",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "immagine": "images/benjamin-2023-screenshots/q10.png",
+      "risposta_corretta": "E",
+      "punteggio": 3,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "immagine": "images/benjamin-2023-screenshots/q11.png",
+      "risposta_corretta": "C",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "immagine": "images/benjamin-2023-screenshots/q12.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "immagine": null,
+      "risposta_corretta": "E",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "immagine": "images/benjamin-2023-screenshots/q14.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "immagine": "images/benjamin-2023-screenshots/q15.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "immagine": "images/benjamin-2023-screenshots/q16.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "immagine": "images/benjamin-2023-screenshots/q17.png",
+      "risposta_corretta": "A",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "immagine": "images/benjamin-2023-screenshots/q18.png",
+      "risposta_corretta": "B",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "immagine": "images/benjamin-2023-screenshots/q19.png",
+      "risposta_corretta": "E",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "immagine": "images/benjamin-2023-screenshots/q20.png",
+      "risposta_corretta": "D",
+      "punteggio": 4,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "immagine": "images/benjamin-2023-screenshots/q21.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "immagine": "images/benjamin-2023-screenshots/q22.png",
+      "risposta_corretta": "D",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "immagine": "images/benjamin-2023-screenshots/q23.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "immagine": "images/benjamin-2023-screenshots/q24.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "immagine": "images/benjamin-2023-screenshots/q25.png",
+      "risposta_corretta": "E",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "immagine": "images/benjamin-2023-screenshots/q26.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "immagine": "images/benjamin-2023-screenshots/q27.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "immagine": "images/benjamin-2023-screenshots/q28.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "immagine": "images/benjamin-2023-screenshots/q29.png",
+      "risposta_corretta": "C",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "immagine": "images/benjamin-2023-screenshots/q30.png",
+      "risposta_corretta": "B",
+      "punteggio": 5,
+      "opzioni": [
+        {
+          "id": "A"
+        },
+        {
+          "id": "B"
+        },
+        {
+          "id": "C"
+        },
+        {
+          "id": "D"
+        },
+        {
+          "id": "E"
+        }
+      ]
+    }
+  ],
+  "screenshot_mode": true
+}

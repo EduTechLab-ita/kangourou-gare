@@ -37,7 +37,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2024.pdf",
       "json_url": "data/cadet/2024.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "kangourou-2023",
@@ -63,7 +63,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2023.pdf",
       "json_url": "data/benjamin/2023.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2023",
@@ -76,7 +76,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2023.pdf",
       "json_url": "data/cadet/2023.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "koala-2022",
@@ -115,7 +115,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2022.pdf",
       "json_url": "data/benjamin/2022.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2022",
@@ -128,7 +128,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2022.pdf",
       "json_url": "data/cadet/2022.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "koala-2021",
@@ -167,7 +167,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2021.pdf",
       "json_url": "data/benjamin/2021.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2021",
@@ -180,7 +180,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2021.pdf",
       "json_url": "data/cadet/2021.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "koala-2020",
@@ -219,7 +219,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2020.pdf",
       "json_url": "data/benjamin/2020.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2020",
@@ -232,7 +232,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2020.pdf",
       "json_url": "data/cadet/2020.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "koala-2019",
@@ -271,7 +271,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2019.pdf",
       "json_url": "data/benjamin/2019.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2019",
@@ -284,7 +284,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2019.pdf",
       "json_url": "data/cadet/2019.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "koala-2018",
@@ -323,7 +323,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2018.pdf",
       "json_url": "data/benjamin/2018.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2018",
@@ -336,7 +336,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2018.pdf",
       "json_url": "data/cadet/2018.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "koala-2017",
@@ -375,7 +375,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2017.pdf",
       "json_url": "data/benjamin/2017.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2017",
@@ -388,7 +388,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2017.pdf",
       "json_url": "data/cadet/2017.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "koala-2016",
@@ -427,7 +427,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2016.pdf",
       "json_url": "data/benjamin/2016.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2016",
@@ -479,7 +479,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2015.pdf",
       "json_url": "data/benjamin/2015.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2015",
@@ -492,7 +492,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2015.pdf",
       "json_url": "data/cadet/2015.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "koala-2014",
@@ -531,7 +531,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2014.pdf",
       "json_url": "data/benjamin/2014.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2014",
@@ -544,7 +544,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2014.pdf",
       "json_url": "data/cadet/2014.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "koala-2013",
@@ -583,7 +583,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2013.pdf",
       "json_url": "data/benjamin/2013.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2013",
@@ -596,7 +596,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2013.pdf",
       "json_url": "data/cadet/2013.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "kangourou-2012",
@@ -622,7 +622,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2012.pdf",
       "json_url": "data/benjamin/2012.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2012",
@@ -635,7 +635,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/cadet/2012.pdf",
       "json_url": "data/cadet/2012.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "kangourou-2011",
@@ -857,7 +857,7 @@
       "punteggio_massimo": 120,
       "pdf_url": "pdf/benjamin/2006.pdf",
       "json_url": "data/benjamin/2006.json",
-      "disponibile": false
+      "disponibile": true
     },
     {
       "id": "cadet-2006",
@@ -1114,8 +1114,8 @@
     }
   ],
   "ultimo_aggiornamento": "2026-03-03",
-  "versione": "2.22.0",
+  "versione": "2.24.0",
   "totale_gare": 85,
   "gare_disponibili": 25,
-  "novita": "Benjamin 2024 completo (30 domande) + fix schema punti Benjamin/Cadet"
+  "novita": "Cadet disponibili"
 }

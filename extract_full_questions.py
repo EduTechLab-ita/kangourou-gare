@@ -14,35 +14,47 @@ import urllib.request
 if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
-URL_PDF = {
-    "kangourou": "https://www.kangourou.it/images/TestiGare/{anno}/EcolierMarzo-{anno2}.pdf",
-    "koala":     "https://www.kangourou.it/images/TestiGare/{anno}/PreEcolierMarzo-{anno2}.pdf",
-    "benjamin":  "https://www.kangourou.it/images/TestiGare/{anno}/BenjaminMarzo-{anno2}.pdf",
-    "cadet":     "https://www.kangourou.it/images/TestiGare/{anno}/CadetMarzo-{anno2}.pdf",
+# URL con fallback: lista di pattern in ordine di priorità
+URL_PDF_PATTERNS = {
+    "kangourou": ["https://www.kangourou.it/images/TestiGare/{anno}/EcolierMarzo-{anno2}.pdf"],
+    "koala":     ["https://www.kangourou.it/images/TestiGare/{anno}/PreEcolierMarzo-{anno2}.pdf"],
+    "benjamin":  [
+        "https://www.kangourou.it/images/TestiGare/{anno}/Benjamin{anno}REL.pdf",  # 2021+
+        "https://www.kangourou.it/images/TestiGare/{anno}/BMarzo-{anno2}.pdf",     # 2000-2020
+    ],
+    "cadet": [
+        "https://www.kangourou.it/images/TestiGare/{anno}/Cadet{anno}REL.pdf",     # 2021+
+        "https://www.kangourou.it/images/TestiGare/{anno}/CMarzo-{anno2}.pdf",     # 2000-2020
+    ],
 }
+# Compatibilità (usato solo per riferimento)
+URL_PDF = {k: v[0] for k, v in URL_PDF_PATTERNS.items()}
 
 
 def scarica_pdf(tipo, anno, pdf_path):
-    """Scarica il PDF da kangourou.it se non esiste già."""
+    """Scarica il PDF da kangourou.it se non esiste già. Prova più URL in sequenza."""
     if os.path.exists(pdf_path):
         return True
-    if tipo not in URL_PDF:
+    if tipo not in URL_PDF_PATTERNS:
         return False
     anno2 = str(anno)[-2:]
-    url = URL_PDF[tipo].format(anno=anno, anno2=anno2)
-    print(f"📥 Download PDF: {url}")
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = resp.read()
-        os.makedirs(os.path.dirname(pdf_path), exist_ok=True)
-        with open(pdf_path, "wb") as f:
-            f.write(data)
-        print(f"   ✅ Scaricato ({len(data)//1024} KB)")
-        return True
-    except Exception as e:
-        print(f"   ❌ Download fallito: {e}")
-        return False
+    patterns = URL_PDF_PATTERNS[tipo]
+    for pattern in patterns:
+        url = pattern.format(anno=anno, anno2=anno2)
+        print(f"   Download: {url.split('/')[-1]}")
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = resp.read()
+            os.makedirs(os.path.dirname(pdf_path), exist_ok=True)
+            with open(pdf_path, "wb") as f:
+                f.write(data)
+            print(f"   ✅ Scaricato ({len(data)//1024} KB)")
+            return True
+        except Exception:
+            continue
+    print(f"   ❌ Nessun URL disponibile per {tipo} {anno}")
+    return False
 
 # ── CONFIGURAZIONE ──────────────────────────────────────────────────────────
 TIPO  = "kangourou"   # kangourou | koala | benjamin | cadet

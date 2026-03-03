@@ -1,5 +1,5 @@
 // Service Worker per PWA Kangourou Trainer
-const CACHE_NAME = 'kangourou-trainer-v2.22.0';
+const CACHE_NAME = 'kangourou-trainer-v2.24.0';
 const urlsToCache = [
   './',
   './index.html',
