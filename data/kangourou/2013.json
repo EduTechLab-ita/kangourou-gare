@@ -216,7 +216,7 @@
     {
       "id": 10,
       "immagine": "images/kangourou-2013-screenshots/q10.png",
-      "risposta_corretta": "A",
+      "risposta_corretta": "D",
       "punteggio": 4,
       "opzioni": [
         {
@@ -239,7 +239,7 @@
     {
       "id": 11,
       "immagine": "images/kangourou-2013-screenshots/q11.png",
-      "risposta_corretta": "E",
+      "risposta_corretta": "A",
       "punteggio": 4,
       "opzioni": [
         {
@@ -423,7 +423,7 @@
     {
       "id": 19,
       "immagine": "images/kangourou-2013-screenshots/q19.png",
-      "risposta_corretta": "C",
+      "risposta_corretta": "B",
       "punteggio": 5,
       "opzioni": [
         {
@@ -446,7 +446,7 @@
     {
       "id": 20,
       "immagine": "images/kangourou-2013-screenshots/q20.png",
-      "risposta_corretta": "E",
+      "risposta_corretta": "C",
       "punteggio": 5,
       "opzioni": [
         {
@@ -469,7 +469,7 @@
     {
       "id": 21,
       "immagine": "images/kangourou-2013-screenshots/q21.png",
-      "risposta_corretta": "B",
+      "risposta_corretta": "E",
       "punteggio": 5,
       "opzioni": [
         {

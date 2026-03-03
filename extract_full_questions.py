@@ -301,7 +301,7 @@ def aggiorna_json(json_path, output_dir, n_dom, tipo, anno, salvati):
         nuove_domande.append({
             "id":               num,
             "immagine":         img_path,
-            "risposta_corretta": risposte.get(num, ""),
+            "risposta_corretta": risposte.get(num) or "",
             "punteggio":        punti(num),
             "opzioni":          opzioni_base
         })
@@ -316,31 +316,69 @@ def aggiorna_json(json_path, output_dir, n_dom, tipo, anno, salvati):
 
 
 def estrai_risposte_robusto(pdf_path, n_dom):
-    """Parser robusto: gestisce tabella compatta, griglia ABCDE, e formato spiegazioni."""
+    """
+    Parser robusto: gestisce tabella compatta, griglia ABCDE, riga singola,
+    quesiti annullati e formato spiegazioni.
+    CS prima (evita false match), CI fallback (gestisce lowercase 'e').
+    Restituisce lista con None per quesiti annullati/refusi.
+    """
     doc = fitz.open(pdf_path)
     testo_completo = "\n".join(p.get_text() for p in doc)
 
     for page in reversed(doc):
         testo = page.get_text()
-        lettere = re.findall(r'\b([A-E])\b', testo)
-        n = len(lettere)
-        if n == n_dom:
-            return lettere
-        if n == n_dom + 5 and lettere[:5] == ['A', 'B', 'C', 'D', 'E']:
-            return lettere[5:]
-        if n == n_dom * 2 + 5 and lettere[:5] == ['A', 'B', 'C', 'D', 'E']:
-            return lettere[5:5 + n_dom]
 
-    # Formato spiegazioni: "N. Risposta X)."
+        # Caso 0: riga singola con N lettere spaziate ("A B C D E B A ...")
+        for line in testo.split('\n'):
+            parts = line.strip().split()
+            if (len(parts) == n_dom
+                    and all(len(p) == 1 and p.upper() in 'ABCDE' for p in parts)):
+                return [p.upper() for p in parts]
+
+        # Case-SENSITIVE prima (evita false match con 'a','e' italiane)
+        cs = re.findall(r'\b([A-E])\b', testo)
+        n_cs = len(cs)
+        if n_cs == n_dom:
+            return cs
+        if n_cs == n_dom + 5 and cs[:5] == ['A', 'B', 'C', 'D', 'E']:
+            return cs[5:]
+        if n_cs == n_dom * 2 + 5 and cs[:5] == ['A', 'B', 'C', 'D', 'E']:
+            return cs[5:5 + n_dom]
+
+        # Fallback CI (solo se CS era vicino: diff <= 3)
+        ci = [l.upper() for l in re.findall(r'\b([A-Ea-e])\b', testo)]
+        n_ci = len(ci)
+        cs_vicino = (abs(n_cs - n_dom) <= 3
+                     or abs(n_cs - (n_dom + 5)) <= 3
+                     or abs(n_cs - (n_dom * 2 + 5)) <= 3)
+        if cs_vicino:
+            if n_ci == n_dom:
+                return ci
+            if n_ci == n_dom + 5 and ci[:5] == ['A', 'B', 'C', 'D', 'E']:
+                return ci[5:]
+            if n_ci == n_dom * 2 + 5 and ci[:5] == ['A', 'B', 'C', 'D', 'E']:
+                return ci[5:5 + n_dom]
+
+        # Caso 4b: N-1 lettere + quesito annullato (sempre controllato)
+        if n_ci == n_dom - 1 and 'annullat' in testo.lower():
+            match = re.search(r'[Ii]l quesito\s+(\d+)', testo)
+            if match:
+                q_ann = int(match.group(1))
+                if 1 <= q_ann <= n_dom:
+                    result = list(ci)
+                    result.insert(q_ann - 1, None)
+                    return result
+
+    # Formato spiegazioni: "N. Risposta X)." (accetta max 2 mancanti)
     matches = re.findall(r'(\d+)\.\s*Risposta\s+([A-E])\b', testo_completo, re.IGNORECASE)
     if matches:
         risposte = {}
         for num_str, lettera in matches:
             num = int(num_str)
             if 1 <= num <= n_dom:
-                risposte[num] = lettera
-        if len(risposte) == n_dom:
-            return [risposte[i] for i in range(1, n_dom + 1)]
+                risposte[num] = lettera.upper()
+        if len(risposte) >= n_dom - 2:
+            return [risposte.get(i, None) for i in range(1, n_dom + 1)]
 
     return None
 
@@ -365,7 +403,7 @@ def crea_json_da_pdf(pdf_path, json_path, n_dom, tipo, anno):
         'anno':          int(anno),
         'categoria':     CATEGORIA_PER_TIPO.get(tipo, tipo.capitalize()),
         'durata_minuti': DURATA_PER_TIPO.get(tipo, 75),
-        'domande':       [{'id': i+1, 'risposta_corretta': r, 'punteggio': punti(i+1)}
+        'domande':       [{'id': i+1, 'risposta_corretta': r if r is not None else '?', 'punteggio': punti(i+1)}
                           for i, r in enumerate(risposte)]
     }
     os.makedirs(os.path.dirname(json_path), exist_ok=True)

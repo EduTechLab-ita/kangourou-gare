@@ -8,7 +8,7 @@
     {
       "id": 1,
       "immagine": null,
-      "risposta_corretta": "A",
+      "risposta_corretta": "E",
       "punteggio": 3,
       "opzioni": [
         {
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "immagine": null,
-      "risposta_corretta": "B",
+      "risposta_corretta": "E",
       "punteggio": 3,
       "opzioni": [
         {
@@ -54,7 +54,7 @@
     {
       "id": 3,
       "immagine": "images/benjamin-2022-screenshots/q03.png",
-      "risposta_corretta": "C",
+      "risposta_corretta": "B",
       "punteggio": 3,
       "opzioni": [
         {
@@ -77,7 +77,7 @@
     {
       "id": 4,
       "immagine": "images/benjamin-2022-screenshots/q04.png",
-      "risposta_corretta": "D",
+      "risposta_corretta": "C",
       "punteggio": 3,
       "opzioni": [
         {
@@ -123,7 +123,7 @@
     {
       "id": 6,
       "immagine": null,
-      "risposta_corretta": "A",
+      "risposta_corretta": "C",
       "punteggio": 3,
       "opzioni": [
         {
@@ -146,7 +146,7 @@
     {
       "id": 7,
       "immagine": "images/benjamin-2022-screenshots/q07.png",
-      "risposta_corretta": "A",
+      "risposta_corretta": "C",
       "punteggio": 3,
       "opzioni": [
         {
@@ -169,7 +169,7 @@
     {
       "id": 8,
       "immagine": "images/benjamin-2022-screenshots/q08.png",
-      "risposta_corretta": "B",
+      "risposta_corretta": "C",
       "punteggio": 3,
       "opzioni": [
         {
@@ -215,7 +215,7 @@
     {
       "id": 10,
       "immagine": "images/benjamin-2022-screenshots/q10.png",
-      "risposta_corretta": "C",
+      "risposta_corretta": "E",
       "punteggio": 3,
       "opzioni": [
         {
@@ -261,7 +261,7 @@
     {
       "id": 12,
       "immagine": "images/benjamin-2022-screenshots/q12.png",
-      "risposta_corretta": "D",
+      "risposta_corretta": "B",
       "punteggio": 4,
       "opzioni": [
         {
@@ -353,7 +353,7 @@
     {
       "id": 16,
       "immagine": "images/benjamin-2022-screenshots/q16.png",
-      "risposta_corretta": "B",
+      "risposta_corretta": "E",
       "punteggio": 4,
       "opzioni": [
         {
@@ -376,7 +376,7 @@
     {
       "id": 17,
       "immagine": "images/benjamin-2022-screenshots/q17.png",
-      "risposta_corretta": "C",
+      "risposta_corretta": "D",
       "punteggio": 4,
       "opzioni": [
         {
@@ -399,7 +399,7 @@
     {
       "id": 18,
       "immagine": null,
-      "risposta_corretta": "D",
+      "risposta_corretta": "B",
       "punteggio": 4,
       "opzioni": [
         {
@@ -422,7 +422,7 @@
     {
       "id": 19,
       "immagine": "images/benjamin-2022-screenshots/q19.png",
-      "risposta_corretta": "E",
+      "risposta_corretta": "A",
       "punteggio": 4,
       "opzioni": [
         {
@@ -445,7 +445,7 @@
     {
       "id": 20,
       "immagine": "images/benjamin-2022-screenshots/q20.png",
-      "risposta_corretta": "A",
+      "risposta_corretta": "E",
       "punteggio": 4,
       "opzioni": [
         {
@@ -468,7 +468,7 @@
     {
       "id": 21,
       "immagine": "images/benjamin-2022-screenshots/q21.png",
-      "risposta_corretta": "B",
+      "risposta_corretta": "E",
       "punteggio": 5,
       "opzioni": [
         {
@@ -537,7 +537,7 @@
     {
       "id": 24,
       "immagine": "images/benjamin-2022-screenshots/q24.png",
-      "risposta_corretta": "E",
+      "risposta_corretta": "C",
       "punteggio": 5,
       "opzioni": [
         {
@@ -560,7 +560,7 @@
     {
       "id": 25,
       "immagine": "images/benjamin-2022-screenshots/q25.png",
-      "risposta_corretta": "A",
+      "risposta_corretta": "E",
       "punteggio": 5,
       "opzioni": [
         {
@@ -583,7 +583,7 @@
     {
       "id": 26,
       "immagine": "images/benjamin-2022-screenshots/q26.png",
-      "risposta_corretta": "B",
+      "risposta_corretta": "D",
       "punteggio": 5,
       "opzioni": [
         {
@@ -606,7 +606,7 @@
     {
       "id": 27,
       "immagine": "images/benjamin-2022-screenshots/q27.png",
-      "risposta_corretta": "C",
+      "risposta_corretta": "B",
       "punteggio": 5,
       "opzioni": [
         {
@@ -652,7 +652,7 @@
     {
       "id": 29,
       "immagine": "images/benjamin-2022-screenshots/q29.png",
-      "risposta_corretta": "E",
+      "risposta_corretta": "B",
       "punteggio": 5,
       "opzioni": [
         {
@@ -675,7 +675,7 @@
     {
       "id": 30,
       "immagine": "images/benjamin-2022-screenshots/q30.png",
-      "risposta_corretta": "E",
+      "risposta_corretta": "D",
       "punteggio": 5,
       "opzioni": [
         {
