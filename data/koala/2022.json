@@ -297,7 +297,7 @@
         {"id": "D", "testo": "16"},
         {"id": "E", "testo": "18"}
       ],
-      "risposta_corretta": "A",
+      "risposta_corretta": "C",
       "punteggio": 5
     },
     {
@@ -311,7 +311,7 @@
         {"id": "D", "testo": ""},
         {"id": "E", "testo": ""}
       ],
-      "risposta_corretta": "C",
+      "risposta_corretta": "A",
       "punteggio": 5
     },
     {
@@ -339,7 +339,7 @@
         {"id": "D", "testo": "4"},
         {"id": "E", "testo": "5"}
       ],
-      "risposta_corretta": "A",
+      "risposta_corretta": "C",
       "punteggio": 5
     }
   ]
