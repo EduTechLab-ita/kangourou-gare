@@ -1114,8 +1114,8 @@
     }
   ],
   "ultimo_aggiornamento": "2026-03-03",
-  "versione": "2.24.0",
+  "versione": "2.25.0",
   "totale_gare": 85,
   "gare_disponibili": 25,
-  "novita": "Cadet disponibili"
+  "novita": "Fix cross-page: domande a cavallo di pagina ora estratte correttamente"
 }

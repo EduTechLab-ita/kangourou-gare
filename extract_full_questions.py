@@ -162,15 +162,44 @@ def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):
             salvati.append(None)
             continue
 
-        clip = fitz.Rect(0, y_top, page_w, y_end)
-        mat  = fitz.Matrix(scala, scala)
-        pix  = page.get_pixmap(matrix=mat, clip=clip, colorspace=fitz.csRGB)
-
+        mat = fitz.Matrix(scala, scala)
         fname = f"q{num:02d}.png"
         fpath = os.path.join(output_dir, fname)
-        pix.save(fpath)
+
+        # Verifica se la domanda successiva è su una pagina diversa (domanda a cavallo di pagina)
+        next_page_num = None
+        next_y_start  = None
+        for next_num in range(num + 1, n_dom + 2):
+            if next_num in coords:
+                next_page_num, next_y_start = coords[next_num]
+                break
+
+        if y_end >= page_h - 5 and next_page_num is not None and next_page_num > page_num:
+            # Domanda a cavallo di pagina: unisci parte bassa pagina corrente + parte alta pagina successiva
+            next_page = doc[next_page_num]
+            next_page_w = next_page.rect.width
+            y_end_next = next_y_start - 5  # fino all'inizio della domanda successiva
+
+            pix1 = page.get_pixmap(matrix=mat, clip=fitz.Rect(0, y_top, page_w, page_h), colorspace=fitz.csRGB)
+            pix2 = next_page.get_pixmap(matrix=mat, clip=fitz.Rect(0, 0, next_page_w, max(y_end_next, 5)), colorspace=fitz.csRGB)
+
+            # Unisci verticalmente le due immagini
+            import PIL.Image, io
+            img1 = PIL.Image.open(io.BytesIO(pix1.tobytes("png")))
+            img2 = PIL.Image.open(io.BytesIO(pix2.tobytes("png")))
+            w = max(img1.width, img2.width)
+            combined = PIL.Image.new("RGB", (w, img1.height + img2.height), (255, 255, 255))
+            combined.paste(img1, (0, 0))
+            combined.paste(img2, (0, img1.height))
+            combined.save(fpath)
+            print(f"  ✅ q{num:02d}.png  (pag {page_num+1}→{next_page_num+1}, cross-page)")
+        else:
+            clip = fitz.Rect(0, y_top, page_w, y_end)
+            pix  = page.get_pixmap(matrix=mat, clip=clip, colorspace=fitz.csRGB)
+            pix.save(fpath)
+            print(f"  ✅ q{num:02d}.png  (pag {page_num+1}, y={y_start:.0f}–{y_end:.0f})")
+
         salvati.append(fname)
-        print(f"  ✅ q{num:02d}.png  (pag {page_num+1}, y={y_start:.0f}–{y_end:.0f})")
 
     doc.close()
     return salvati
