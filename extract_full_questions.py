@@ -3,11 +3,16 @@ extract_full_questions.py
 Estrae screenshot COMPLETI di ogni domanda (testo + immagini + opzioni) dal PDF.
 Nuovo approccio: una sola immagine per domanda, pulsanti solo lettere A-E.
 """
+import sys
 import fitz
 import re
 import os
 import json
 import urllib.request
+
+# Fix encoding emoji su terminale Windows
+if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 URL_PDF = {
     "kangourou": "https://www.kangourou.it/images/TestiGare/{anno}/EcolierMarzo-{anno2}.pdf",
@@ -40,11 +45,15 @@ def scarica_pdf(tipo, anno, pdf_path):
         return False
 
 # ── CONFIGURAZIONE ──────────────────────────────────────────────────────────
-TIPO  = "kangourou"   # kangourou | koala | benjamin
+TIPO  = "kangourou"   # kangourou | koala | benjamin | cadet
 ANNO  = "2013"
-N_DOM = 24
+N_DOM = None          # None = auto (30 per benjamin/cadet, 24 per kangourou/koala)
 SCALA = 2.5           # Risoluzione (2.5x ≈ 180 DPI, buona su schermo)
 MARGINE_SOPRA = 8     # pt da aggiungere sopra il numero della domanda
+
+N_DOM_PER_TIPO = {"kangourou": 24, "koala": 24, "benjamin": 30, "cadet": 30}
+CATEGORIA_PER_TIPO = {"kangourou": "Ecolier", "koala": "Pre-Ecolier", "benjamin": "Benjamin", "cadet": "Cadet"}
+DURATA_PER_TIPO = {"kangourou": 75, "koala": 75, "benjamin": 75, "cadet": 75}
 # ─────────────────────────────────────────────────────────────────────────────
 
 PDF_PATH   = f"pdf/{TIPO}/{ANNO}.pdf"
@@ -162,13 +171,33 @@ def aggiorna_json(json_path, output_dir, n_dom, tipo, anno, salvati):
     # Leggi le risposte corrette dal JSON esistente
     risposte = {}
     for q in dati.get('domande', []):
-        risposte[q['id']] = q.get('risposta_corretta', '')
+        r = q.get('risposta_corretta', '')
+        if r:
+            risposte[q['id']] = r
 
-    # Punti per fascia (standard Kangourou Ecolier 24 domande)
+    # Se mancano risposte, tenta di estrarle dall'ultima pagina del PDF
+    if len(risposte) < n_dom:
+        pdf_path = f"pdf/{tipo}/{anno}.pdf"
+        if os.path.exists(pdf_path):
+            try:
+                doc = fitz.open(pdf_path)
+                txt = doc[-1].get_text()
+                doc.close()
+                tutte = re.findall(r'\b([A-E])\b', txt)
+                if len(tutte) >= n_dom:
+                    for i, r in enumerate(tutte[:n_dom], 1):
+                        if i not in risposte:
+                            risposte[i] = r
+                    print(f"   Risposte integrate dall'ultima pagina PDF ({len(risposte)}/{n_dom})")
+            except Exception as e:
+                print(f"   ⚠️  Impossibile leggere risposte da PDF: {e}")
+
+    # Punti per fascia (proporzionale: n_dom/3 per ogni fascia — vale per 24 e 30 domande)
+    fascia = n_dom // 3
     def punti(num):
-        if   num <= 8:  return 3
-        elif num <= 16: return 4
-        else:           return 5
+        if   num <= fascia:     return 3
+        elif num <= fascia * 2: return 4
+        else:                   return 5
 
     opzioni_base = [{"id": "A"}, {"id": "B"}, {"id": "C"}, {"id": "D"}, {"id": "E"}]
 
@@ -205,17 +234,19 @@ def crea_json_da_pdf(pdf_path, json_path, n_dom, tipo, anno):
         return False
     risposte = risposte[:n_dom]
 
+    fascia = n_dom // 3
     def punti(num):
-        if   num <= 8:  return 3
-        elif num <= 16: return 4
-        else:           return 5
+        if   num <= fascia:     return 3
+        elif num <= fascia * 2: return 4
+        else:                   return 5
 
+    titoli = {"kangourou": "Kangourou", "koala": "Koala", "benjamin": "Benjamin", "cadet": "Cadet"}
     dati = {
         'id':            f'{tipo}-{anno}',
-        'titolo':        f'{tipo.capitalize()} {anno}',
+        'titolo':        f'{titoli.get(tipo, tipo.capitalize())} {anno}',
         'anno':          int(anno),
-        'categoria':     'Ecolier' if tipo == 'kangourou' else 'Pre-Ecolier',
-        'durata_minuti': 75,
+        'categoria':     CATEGORIA_PER_TIPO.get(tipo, tipo.capitalize()),
+        'durata_minuti': DURATA_PER_TIPO.get(tipo, 75),
         'domande':       [{'id': i+1, 'risposta_corretta': r, 'punteggio': punti(i+1)}
                           for i, r in enumerate(risposte)]
     }
@@ -250,6 +281,9 @@ if __name__ == '__main__':
         TIPO = sys.argv[2]
     if len(sys.argv) > 3:
         N_DOM = int(sys.argv[3])
+    # Auto N_DOM se non specificato
+    if N_DOM is None:
+        N_DOM = N_DOM_PER_TIPO.get(TIPO, 24)
 
     PDF_PATH   = f"pdf/{TIPO}/{ANNO}.pdf"
     OUTPUT_DIR = f"images/{TIPO}-{ANNO}-screenshots"
