@@ -269,20 +269,19 @@ def aggiorna_json(json_path, output_dir, n_dom, tipo, anno, salvati):
         if r:
             risposte[q['id']] = r
 
-    # Se mancano risposte, tenta di estrarle dall'ultima pagina del PDF
+    # Se mancano risposte, estraile dal PDF con parser robusto
     if len(risposte) < n_dom:
-        pdf_path = f"pdf/{tipo}/{anno}.pdf"
-        if os.path.exists(pdf_path):
+        pdf_path_local = f"pdf/{tipo}/{anno}.pdf"
+        if os.path.exists(pdf_path_local):
             try:
-                doc = fitz.open(pdf_path)
-                txt = doc[-1].get_text()
-                doc.close()
-                tutte = re.findall(r'\b([A-E])\b', txt)
-                if len(tutte) >= n_dom:
-                    for i, r in enumerate(tutte[:n_dom], 1):
+                estratte = estrai_risposte_robusto(pdf_path_local, n_dom)
+                if estratte:
+                    for i, r in enumerate(estratte, 1):
                         if i not in risposte:
                             risposte[i] = r
-                    print(f"   Risposte integrate dall'ultima pagina PDF ({len(risposte)}/{n_dom})")
+                    print(f"   Risposte estratte dal PDF ({len(risposte)}/{n_dom})")
+                else:
+                    print(f"   ⚠️  Risposte non trovate nel PDF — verificare manualmente")
             except Exception as e:
                 print(f"   ⚠️  Impossibile leggere risposte da PDF: {e}")
 
@@ -316,17 +315,42 @@ def aggiorna_json(json_path, output_dir, n_dom, tipo, anno, salvati):
     print(f"   screenshot_mode: true, {n_dom} domande, opzioni solo lettera")
 
 
-def crea_json_da_pdf(pdf_path, json_path, n_dom, tipo, anno):
-    """Crea il JSON base estraendo le risposte corrette dall'ultima pagina del PDF."""
+def estrai_risposte_robusto(pdf_path, n_dom):
+    """Parser robusto: gestisce tabella compatta, griglia ABCDE, e formato spiegazioni."""
     doc = fitz.open(pdf_path)
-    txt = doc[-1].get_text()
-    doc.close()
+    testo_completo = "\n".join(p.get_text() for p in doc)
 
-    risposte = re.findall(r'\b([A-E])\b', txt)
-    if len(risposte) < n_dom:
-        print(f"⚠️  Trovate solo {len(risposte)} risposte nell'ultima pagina (attese {n_dom}). Verificare manualmente.")
+    for page in reversed(doc):
+        testo = page.get_text()
+        lettere = re.findall(r'\b([A-E])\b', testo)
+        n = len(lettere)
+        if n == n_dom:
+            return lettere
+        if n == n_dom + 5 and lettere[:5] == ['A', 'B', 'C', 'D', 'E']:
+            return lettere[5:]
+        if n == n_dom * 2 + 5 and lettere[:5] == ['A', 'B', 'C', 'D', 'E']:
+            return lettere[5:5 + n_dom]
+
+    # Formato spiegazioni: "N. Risposta X)."
+    matches = re.findall(r'(\d+)\.\s*Risposta\s+([A-E])\b', testo_completo, re.IGNORECASE)
+    if matches:
+        risposte = {}
+        for num_str, lettera in matches:
+            num = int(num_str)
+            if 1 <= num <= n_dom:
+                risposte[num] = lettera
+        if len(risposte) == n_dom:
+            return [risposte[i] for i in range(1, n_dom + 1)]
+
+    return None
+
+
+def crea_json_da_pdf(pdf_path, json_path, n_dom, tipo, anno):
+    """Crea il JSON base estraendo le risposte corrette dal PDF con parser robusto."""
+    risposte = estrai_risposte_robusto(pdf_path, n_dom)
+    if risposte is None:
+        print(f"⚠️  Risposte non trovate nel PDF (attese {n_dom}). Verificare manualmente.")
         return False
-    risposte = risposte[:n_dom]
 
     fascia = n_dom // 3
     def punti(num):

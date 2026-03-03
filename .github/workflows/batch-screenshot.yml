@@ -95,6 +95,9 @@ jobs:
                   )
           EOF
 
+      - name: Verifica risposte (QA)
+        run: python verifica_risposte.py
+
       - name: Aggiorna versione e sw.js
         run: |
           python - <<'EOF'

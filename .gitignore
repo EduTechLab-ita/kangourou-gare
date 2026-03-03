@@ -4,6 +4,7 @@
 !extract_all_images.py
 !batch_publish.py
 !extract_full_questions.py
+!verifica_risposte.py
 __pycache__/
 *.pyc
 
