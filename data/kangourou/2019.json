@@ -409,7 +409,7 @@
           "testo": "Un numero diverso dai precedenti"
         }
       ],
-      "risposta_corretta": "C",
+      "risposta_corretta": "E",
       "punteggio": 4
     },
     {
@@ -467,7 +467,7 @@
           "testo": "9"
         }
       ],
-      "risposta_corretta": "B",
+      "risposta_corretta": "C",
       "punteggio": 4
     },
     {
@@ -496,7 +496,7 @@
           "testo": "6"
         }
       ],
-      "risposta_corretta": "C",
+      "risposta_corretta": "E",
       "punteggio": 5
     },
     {
@@ -554,7 +554,7 @@
           "testo": "80"
         }
       ],
-      "risposta_corretta": "E",
+      "risposta_corretta": "B",
       "punteggio": 5
     },
     {
@@ -583,7 +583,7 @@
           "testo": "83"
         }
       ],
-      "risposta_corretta": "B",
+      "risposta_corretta": "E",
       "punteggio": 5
     },
     {
@@ -641,7 +641,7 @@
           "testo": "1 e 3 sono entrambi gialli."
         }
       ],
-      "risposta_corretta": "B",
+      "risposta_corretta": "E",
       "punteggio": 5
     },
     {

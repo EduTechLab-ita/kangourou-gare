@@ -123,7 +123,7 @@
     {
       "id": 6,
       "immagine": null,
-      "risposta_corretta": "B",
+      "risposta_corretta": "A",
       "punteggio": 3,
       "opzioni": [
         {
@@ -146,7 +146,7 @@
     {
       "id": 7,
       "immagine": "images/benjamin-2022-screenshots/q07.png",
-      "risposta_corretta": "C",
+      "risposta_corretta": "A",
       "punteggio": 3,
       "opzioni": [
         {
@@ -169,7 +169,7 @@
     {
       "id": 8,
       "immagine": "images/benjamin-2022-screenshots/q08.png",
-      "risposta_corretta": "D",
+      "risposta_corretta": "B",
       "punteggio": 3,
       "opzioni": [
         {
@@ -192,7 +192,7 @@
     {
       "id": 9,
       "immagine": "images/benjamin-2022-screenshots/q09.png",
-      "risposta_corretta": "A",
+      "risposta_corretta": "B",
       "punteggio": 3,
       "opzioni": [
         {
@@ -215,7 +215,7 @@
     {
       "id": 10,
       "immagine": "images/benjamin-2022-screenshots/q10.png",
-      "risposta_corretta": "A",
+      "risposta_corretta": "C",
       "punteggio": 3,
       "opzioni": [
         {
@@ -238,7 +238,7 @@
     {
       "id": 11,
       "immagine": "images/benjamin-2022-screenshots/q11.png",
-      "risposta_corretta": "B",
+      "risposta_corretta": "C",
       "punteggio": 4,
       "opzioni": [
         {
@@ -261,7 +261,7 @@
     {
       "id": 12,
       "immagine": "images/benjamin-2022-screenshots/q12.png",
-      "risposta_corretta": "B",
+      "risposta_corretta": "D",
       "punteggio": 4,
       "opzioni": [
         {
@@ -284,7 +284,7 @@
     {
       "id": 13,
       "immagine": "images/benjamin-2022-screenshots/q13.png",
-      "risposta_corretta": "C",
+      "risposta_corretta": "D",
       "punteggio": 4,
       "opzioni": [
         {
@@ -307,7 +307,7 @@
     {
       "id": 14,
       "immagine": "images/benjamin-2022-screenshots/q14.png",
-      "risposta_corretta": "B",
+      "risposta_corretta": "E",
       "punteggio": 4,
       "opzioni": [
         {
@@ -330,7 +330,7 @@
     {
       "id": 15,
       "immagine": "images/benjamin-2022-screenshots/q15.png",
-      "risposta_corretta": "C",
+      "risposta_corretta": "A",
       "punteggio": 4,
       "opzioni": [
         {
@@ -353,7 +353,7 @@
     {
       "id": 16,
       "immagine": "images/benjamin-2022-screenshots/q16.png",
-      "risposta_corretta": "D",
+      "risposta_corretta": "B",
       "punteggio": 4,
       "opzioni": [
         {
@@ -399,7 +399,7 @@
     {
       "id": 18,
       "immagine": null,
-      "risposta_corretta": "E",
+      "risposta_corretta": "D",
       "punteggio": 4,
       "opzioni": [
         {
@@ -422,7 +422,7 @@
     {
       "id": 19,
       "immagine": "images/benjamin-2022-screenshots/q19.png",
-      "risposta_corretta": "D",
+      "risposta_corretta": "E",
       "punteggio": 4,
       "opzioni": [
         {

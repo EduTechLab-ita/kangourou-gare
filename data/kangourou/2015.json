@@ -583,7 +583,7 @@
           "testo": "15"
         }
       ],
-      "risposta_corretta": "C",
+      "risposta_corretta": "E",
       "punteggio": 5
     },
     {
@@ -612,7 +612,7 @@
           "testo": "figura"
         }
       ],
-      "risposta_corretta": "E",
+      "risposta_corretta": "C",
       "punteggio": 5
     },
     {
@@ -641,7 +641,7 @@
           "testo": "6"
         }
       ],
-      "risposta_corretta": "C",
+      "risposta_corretta": "D",
       "punteggio": 5
     },
     {
@@ -670,7 +670,7 @@
           "testo": "Le informazioni non sono sufficienti per rispondere"
         }
       ],
-      "risposta_corretta": "D",
+      "risposta_corretta": "E",
       "punteggio": 5
     },
     {
@@ -699,7 +699,7 @@
           "testo": "Elisa"
         }
       ],
-      "risposta_corretta": "E",
+      "risposta_corretta": "C",
       "punteggio": 5
     }
   ]

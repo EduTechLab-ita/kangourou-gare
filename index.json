@@ -1114,8 +1114,8 @@
     }
   ],
   "ultimo_aggiornamento": "2026-03-03",
-  "versione": "2.29.1",
+  "versione": "2.29.2",
   "totale_gare": 85,
   "gare_disponibili": 25,
-  "novita": "Benjamin 2012: Q11 e Q12 screenshot manuali corretti"
+  "novita": "Fix massiccio: 142 risposte corrette su 12 gare (verifica PDF ufficiali)"
 }

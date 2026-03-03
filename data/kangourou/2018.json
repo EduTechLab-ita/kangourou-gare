@@ -351,7 +351,7 @@
           "testo": "5"
         }
       ],
-      "risposta_corretta": "C",
+      "risposta_corretta": "D",
       "punteggio": 4
     },
     {
@@ -438,7 +438,7 @@
           "testo": "3"
         }
       ],
-      "risposta_corretta": "B",
+      "risposta_corretta": "A",
       "punteggio": 4
     },
     {
@@ -467,7 +467,7 @@
           "testo": "10"
         }
       ],
-      "risposta_corretta": "B",
+      "risposta_corretta": "C",
       "punteggio": 4
     },
     {
@@ -525,7 +525,7 @@
           "testo": "I dati non sono sufficienti per decidere."
         }
       ],
-      "risposta_corretta": "D",
+      "risposta_corretta": "C",
       "punteggio": 5
     },
     {
@@ -554,7 +554,7 @@
           "testo": "Solo la (5)"
         }
       ],
-      "risposta_corretta": "A",
+      "risposta_corretta": "D",
       "punteggio": 5
     },
     {
@@ -583,7 +583,7 @@
           "testo": "20"
         }
       ],
-      "risposta_corretta": "C",
+      "risposta_corretta": "B",
       "punteggio": 5
     },
     {
@@ -612,7 +612,7 @@
           "testo": "figura"
         }
       ],
-      "risposta_corretta": "D",
+      "risposta_corretta": "B",
       "punteggio": 5
     },
     {
@@ -641,7 +641,7 @@
           "testo": "200"
         }
       ],
-      "risposta_corretta": "B",
+      "risposta_corretta": "D",
       "punteggio": 5
     },
     {
