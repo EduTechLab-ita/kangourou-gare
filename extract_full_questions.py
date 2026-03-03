@@ -132,6 +132,32 @@ def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):
                 np, ny = coords[next_num]
                 if np == page_num:
                     y_end = ny - 5
+
+                    # Fix 1 (layout compatto): se il testo di questa domanda
+                    # supera ny-5 (blocchi sovrapposti in Y), estendi y_end al
+                    # vero fine del testo — cap a ny+5 per non sfondare troppo
+                    y_text_end = y_start
+                    for b in page.get_text('blocks'):
+                        if b[1] >= y_start - 2 and b[1] < ny and b[3] > y_text_end:
+                            y_text_end = b[3]
+                    if y_text_end > y_end:
+                        y_end = min(y_text_end, ny + 5)
+
+                    # Fix 2 (figura prima del testo della domanda successiva):
+                    # se un'immagine/disegno appare DOPO il testo di Q_i ma PRIMA
+                    # del testo di Q_{i+1} e si estende DENTRO la zona di Q_{i+1},
+                    # è probabilmente la figura di Q_{i+1} → riduci y_end per
+                    # non catturarla in Q_i
+                    for img in page.get_image_info():
+                        iy0, iy1 = img['bbox'][1], img['bbox'][3]
+                        if iy0 > y_text_end - 2 and iy0 < ny and iy1 > ny - 5:
+                            y_end = min(y_end, iy0 - 5)
+                    for path in page.get_drawings():
+                        r = path['rect']
+                        area = (r.x1 - r.x0) * (r.y1 - r.y0)
+                        if (area > 1000 and r.y0 > y_text_end - 2
+                                and r.y0 < ny and r.y1 > ny - 5):
+                            y_end = min(y_end, r.y0 - 5)
                 break
 
         # Se siamo a fine pagina (ultima domanda), taglia dopo l'ultimo contenuto visibile
@@ -155,6 +181,13 @@ def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):
                 y_end = min(page_h, ultimo_y + 20)
 
         y_top = max(0, y_start - margine)
+        # Fix 3 (figura prima del testo di Q_i): se un'immagine appare subito
+        # prima del testo di questa domanda e si estende nella sua zona,
+        # arretra y_top per includerla nel suo screenshot
+        for img in page.get_image_info():
+            iy0, iy1 = img['bbox'][1], img['bbox'][3]
+            if iy0 < y_start and iy0 > y_start - 60 and iy1 >= y_start:
+                y_top = min(y_top, max(0, iy0 - margine))
 
         # Salta se rettangolo non valido (formato PDF non supportato)
         if y_end <= y_top + 10:
