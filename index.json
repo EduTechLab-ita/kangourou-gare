@@ -1114,8 +1114,8 @@
     }
   ],
   "ultimo_aggiornamento": "2026-03-03",
-  "versione": "2.27.0",
+  "versione": "2.28.0",
   "totale_gare": 85,
   "gare_disponibili": 25,
-  "novita": "Fix screenshots Benjamin/Cadet: testo completo + figure corrette"
+  "novita": "Fix screenshot: nessun contenuto domanda precedente in cima"
 }

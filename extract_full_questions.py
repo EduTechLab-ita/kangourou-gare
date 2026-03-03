@@ -114,6 +114,9 @@ def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):
     print(f"Trovate {len(coords)}/{n_dom} domande nel PDF.")
 
     salvati = []
+    prev_y_end    = None   # y_end della domanda precedente (Fix 4)
+    prev_page_num = None   # pagina della domanda precedente
+
     for num in range(1, n_dom + 1):
         if num not in coords:
             print(f"  ⚠️  Domanda {num} non trovata nel PDF!")
@@ -189,6 +192,12 @@ def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):
             if iy0 < y_start and iy0 > y_start - 60 and iy1 >= y_start:
                 y_top = min(y_top, max(0, iy0 - margine))
 
+        # Fix 4 (layout compatto — evita contenuto domanda precedente in cima):
+        # se y_top risale nella zona della domanda precedente (stessa pagina),
+        # usala come limite inferiore; ma mai tagliare oltre y_start della domanda
+        if prev_y_end is not None and page_num == prev_page_num:
+            y_top = max(y_top, min(prev_y_end, y_start))
+
         # Salta se rettangolo non valido (formato PDF non supportato)
         if y_end <= y_top + 10:
             print(f"  ⚠️  q{num:02d}: rettangolo non valido (y_top={y_top:.0f}, y_end={y_end:.0f}), skip")
@@ -241,6 +250,9 @@ def estrai_screenshots(pdf_path, output_dir, n_dom, scala, margine):
             print(f"  ✅ q{num:02d}.png  (pag {page_num+1}, y={y_start:.0f}–{y_end:.0f})")
 
         salvati.append(fname)
+        # Aggiorna tracciamento per Fix 4 (domanda successiva)
+        prev_y_end    = y_end
+        prev_page_num = page_num
 
     doc.close()
     return salvati
