@@ -44,7 +44,7 @@ jobs:
           python-version: '3.12'
 
       - name: Installa dipendenze
-        run: pip install pymupdf
+        run: pip install pymupdf Pillow
 
       - name: Calcola anni e tipi da processare
         id: params
@@ -60,11 +60,12 @@ jobs:
           # Anno: usa input oppure anno corrente
           anni = anno_input if anno_input else str(date.today().year)
 
-          # Tipo: usa input oppure processa kangourou e koala automaticamente
+          # Tipo: usa input oppure processa tutte e 4 le categorie automaticamente
           if tipo_input:
               tipi = [(tipo_input, n_dom_input)]
           else:
-              tipi = [("kangourou", "24"), ("koala", "24")]
+              tipi = [("kangourou", "24"), ("koala", "24"),
+                      ("benjamin", "30"), ("cadet", "30")]
 
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write(f"anni={anni}\n")
