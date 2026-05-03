@@ -1,0 +1,24 @@
+name: Keep Alive
+
+on:
+  schedule:
+    # Ogni 1° del mese alle 7:00 UTC
+    - cron: '0 7 1 * *'
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Aggiorna timestamp keep-alive
+        run: |
+          echo "Ultimo keep-alive: $(date -u '+%Y-%m-%d %H:%M UTC')" > .github/keep-alive.txt
+
+      - name: Commit e push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/keep-alive.txt
+          git commit -m "chore: keep-alive $(date -u '+%Y-%m')"
+          git push
